@@ -1,0 +1,112 @@
+---
+# Task 2 — Configuration Management with Ansible
+# Configures the runtime for Clinical Copilot service:
+# installs packages, creates app user, manages files, installs service.
+- name: Configure Clinical Copilot runtime
+  hosts: clinical
+  become: true
+  vars:
+    app_user: clinical
+    app_dir: /opt/clinical-copilot
+    app_port: 8000
+    app_version: "1.0.0"
+    python_packages:
+      - fastapi
+      - uvicorn[standard]
+      - prometheus_client
+      - pydantic
+      - httpx
+
+  tasks:
+    - name: Update apt cache (Debian/Ubuntu)
+      ansible.builtin.apt:
+        update_cache: true
+        cache_valid_time: 3600
+      when: ansible_os_family == "Debian"
+
+    - name: Install runtime packages
+      ansible.builtin.package:
+        name:
+          - python3
+          - python3-pip
+          - python3-venv
+          - curl
+        state: present
+
+    - name: Create application user
+      ansible.builtin.user:
+        name: "{{ app_user }}"
+        shell: /usr/sbin/nologin
+        system: true
+        create_home: false
+
+    - name: Create application directory
+      ansible.builtin.file:
+        path: "{{ app_dir }}"
+        state: directory
+        owner: "{{ app_user }}"
+        group: "{{ app_user }}"
+        mode: "0755"
+
+    - name: Deploy service source (app.py)
+      ansible.builtin.copy:
+        src: ../app.py
+        dest: "{{ app_dir }}/app.py"
+        owner: "{{ app_user }}"
+        group: "{{ app_user }}"
+        mode: "0644"
+      notify: Restart clinical-copilot
+
+    - name: Deploy requirements file
+      ansible.builtin.copy:
+        src: ../requirements-service.txt
+        dest: "{{ app_dir }}/requirements-service.txt"
+        owner: "{{ app_user }}"
+        group: "{{ app_user }}"
+        mode: "0644"
+
+    - name: Install Python dependencies into venv
+      ansible.builtin.pip:
+        requirements: "{{ app_dir }}/requirements-service.txt"
+        virtualenv: "{{ app_dir }}/venv"
+        virtualenv_command: python3 -m venv
+      notify: Restart clinical-copilot
+
+    - name: Install systemd unit for Clinical Copilot
+      ansible.builtin.copy:
+        dest: /etc/systemd/system/clinical-copilot.service
+        mode: "0644"
+        content: |
+          [Unit]
+          Description=Clinical Copilot screening API
+          After=network.target
+          [Service]
+          User={{ app_user }}
+          WorkingDirectory={{ app_dir }}
+          Environment=APP_VERSION={{ app_version }}
+          ExecStart={{ app_dir }}/venv/bin/uvicorn app:app --host 0.0.0.0 --port {{ app_port }}
+          Restart=always
+      notify: Restart clinical-copilot
+
+    - name: Enable and start service
+      ansible.builtin.systemd:
+        name: clinical-copilot
+        enabled: true
+        state: started
+        daemon_reload: true
+
+    - name: Smoke test /health endpoint
+      ansible.builtin.uri:
+        url: "http://127.0.0.1:{{ app_port }}/health"
+        return_content: true
+      register: health
+      until: health.status == 200
+      retries: 12
+      delay: 5
+
+  handlers:
+    - name: Restart clinical-copilot
+      ansible.builtin.systemd:
+        name: clinical-copilot
+        state: restarted
+        daemon_reload: true

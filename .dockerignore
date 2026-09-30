@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.git/
+.github/
+cache/
+*.safetensors
+*.json.gz
+full_database.json
+data/
+outputs/
+.venv/
+k8s/
+ansible/
+monitoring/
+docs/
+devops/

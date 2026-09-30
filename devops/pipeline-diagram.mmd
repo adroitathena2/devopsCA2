@@ -1,0 +1,11 @@
+```mermaid
+flowchart LR
+  DEV[Developer push to main] --> GH[GitHub Actions: test job]
+  GH -->|pytest + kubectl dry-run| BUILD[Build & push Docker image<br/>docker.io/.../clinical-copilot:sha]
+  BUILD --> DEPLOY[Deploy: kubectl set image<br/>RollingUpdate maxSurge=1 maxUnavailable=0]
+  DEPLOY --> SMOKE[Smoke test /health + /analyze]
+  SMOKE -->|pass| STABLE[Stable vN serving]
+  SMOKE -->|fail| ROLLBACK[kubectl rollout undo]
+  STABLE --> PROM[Prometheus scrapes /metrics]
+  PROM --> GRAF[Grafana dashboard<br/>uptime / latency / error rate]
+```

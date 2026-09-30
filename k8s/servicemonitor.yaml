@@ -1,0 +1,14 @@
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: clinical-copilot
+  labels:
+    app: clinical-copilot
+spec:
+  selector:
+    matchLabels:
+      app: clinical-copilot
+  endpoints:
+    - port: http
+      path: /metrics
+      interval: 15s
