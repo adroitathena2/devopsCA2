@@ -1,0 +1,1 @@
+{"identified_medicines":["Aspirin","Clopidogrel"],"drug_interactions":[{"drug_a":"Aspirin","drug_b":"Clopidogrel","severity":"Severe","description":"Increased risk of bleeding when antiplatelets are combined.","detection_confidence":0.9}],"total_medicines":2,"total_interactions":1,"has_safety_concerns":true,"version":"1.0.0"}

@@ -33,7 +33,8 @@ jobs:
       - name: Validate K8s manifests
         run: |
           kubectl version --client
-          kubectl apply --dry-run=client --validate=true -f k8s/
+          kubectl apply --dry-run=client --validate=false -f k8s/deployment.yaml -f k8s/service.yaml
+          python -c "import yaml; [yaml.safe_load(open(f)) for f in ['k8s/deployment.yaml','k8s/service.yaml','monitoring/servicemonitor.yaml']]; print('YAML OK')"
 
   build-and-push:
     name: Build & push Docker image

@@ -1,0 +1,1 @@
+{"status":"success","data":{"resultType":"vector","result":[{"metric":{"__name__":"up","instance":"localhost:9090","job":"prometheus"},"value":[1790762777.716,"1"]},{"metric":{"__name__":"up","instance":"app:8000","job":"clinical-copilot"},"value":[1790762777.716,"1"]}]}}

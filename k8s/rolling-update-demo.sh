@@ -10,6 +10,7 @@ kubectl rollout status deployment/clinical-copilot -n "$NS" --timeout=180s
 echo "==> 2. Rolling update to v2.0.0 (maxSurge=1, maxUnavailable=0)"
 kubectl set image deployment/clinical-copilot \
   clinical-copilot=clinical-copilot:2.0.0 -n "$NS"
+kubectl set env deployment/clinical-copilot APP_VERSION=2.0.0 -n "$NS"
 kubectl rollout status deployment/clinical-copilot -n "$NS" --timeout=180s
 
 echo "==> 3. Verify new version serving traffic"

@@ -1,0 +1,4 @@
+NAME                                READY   STATUS    RESTARTS   AGE     IP            NODE                    NOMINATED NODE   READINESS GATES
+clinical-copilot-6f747bbdfc-742d5   1/1     Running   0          2m16s   10.244.0.22   desktop-control-plane   <none>           <none>
+clinical-copilot-6f747bbdfc-c7pdl   1/1     Running   0          2m5s    10.244.0.23   desktop-control-plane   <none>           <none>
+clinical-copilot-6f747bbdfc-d5s8t   1/1     Running   0          114s    10.244.0.24   desktop-control-plane   <none>           <none>

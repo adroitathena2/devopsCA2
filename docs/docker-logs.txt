@@ -1,0 +1,11 @@
+INFO:     172.17.0.1:38102 - "GET /metrics HTTP/1.1" 200 OK
+docker : INFO:     Started server process [1]
+At line:4 char:1
++ docker logs cc-test 2>&1 | Select-Object -Last 5 | Out-File -Encoding ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (INFO:     Started server process [1]:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
