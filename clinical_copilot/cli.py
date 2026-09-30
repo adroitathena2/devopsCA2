@@ -16,9 +16,9 @@ logger = logging.getLogger(__name__)
 
 def main() -> None:
     paths.OUTPUTS_DIR.mkdir(parents=True, exist_ok=True)
-    copilot = ClinicalCopilotPipeline(config_path="config.yaml")
-    
-    test_scenarios = load_test_scenarios("test_config.yaml")
+    copilot = ClinicalCopilotPipeline(config_path="configs/config.yaml")
+
+    test_scenarios = load_test_scenarios("configs/test_config.yaml")
     
     logger.info(f"\nRunning {len(test_scenarios)} test scenario(s)...")
     

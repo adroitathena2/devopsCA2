@@ -29,6 +29,9 @@ Output is merged into synonym_map by clinical_copilot.brands (used by
 build_cache.py and the runtime pipeline).
 """
 
+import os as _os, sys as _sys  # _REPO_ROOT_BOOTSTRAP
+_sys.path.insert(0, _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))))
+_sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
 import argparse
 import csv
 import json
@@ -37,7 +40,7 @@ import sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent
 CDCI_DIR = ROOT / 'data' / 'raw' / 'cdci'
 IMD_DIR = ROOT / 'data' / 'raw' / 'indian_medicine'
 OUT_FILE = ROOT / 'data' / 'indian_brands.json'

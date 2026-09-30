@@ -9,6 +9,9 @@ Outputs (outputs/learned_gate/):
   spot_check_50.csv, val_predictions.csv
 """
 
+import os as _os, sys as _sys  # _REPO_ROOT_BOOTSTRAP
+_sys.path.insert(0, _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))))
+_sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
 import csv
 import json
 import pickle
@@ -23,8 +26,8 @@ from sklearn.metrics import f1_score, recall_score
 from sklearn.model_selection import StratifiedKFold
 from xgboost import XGBClassifier
 
-from custom_severity_model import SeverityVocab, build_ensemble_model, ENSEMBLE_NAMES
-from learned_gate import FEATURE_NAMES, GATE_DIR, featurize
+from clinical_copilot.custom_severity_model import SeverityVocab, build_ensemble_model, ENSEMBLE_NAMES
+from clinical_copilot.learned_gate import FEATURE_NAMES, GATE_DIR, featurize
 
 VAL_PATH = Path("cache/severity_val_hq.json")
 SEV, MOD, MILD = 2, 1, 0

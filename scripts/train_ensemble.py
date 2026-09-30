@@ -1,9 +1,12 @@
+import os as _os, sys as _sys  # _REPO_ROOT_BOOTSTRAP
+_sys.path.insert(0, _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))))
+_sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
 from tqdm import tqdm
 import torch
 import torch.optim as optim
 import torch.nn.functional as F
 from torch.utils.data import DataLoader
-from custom_severity_model import SeverityVocab, SeverityDataset, build_ensemble_model, collate_fn
+from clinical_copilot.custom_severity_model import SeverityVocab, SeverityDataset, build_ensemble_model, collate_fn
 
 def train_ensemble(seed: int = 7):
     import random as _random

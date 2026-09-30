@@ -1,3 +1,6 @@
+import os as _os, sys as _sys  # _REPO_ROOT_BOOTSTRAP
+_sys.path.insert(0, _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))))
+_sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
 import json
 
 def load_data(path):
@@ -8,7 +11,7 @@ def save_data(data, path):
     with open(path, 'w') as f:
         json.dump(data, f, indent=2)
 
-data = load_data('test_prescriptions.json')
+data = load_data('configs/test_prescriptions.json')
 
 typo_map = {
     "Capecitabine": "Capcitabine",     # missing e
@@ -30,5 +33,5 @@ for rx in data:
             rx['prescription_text'] = text
             count += 1
             
-save_data(data, 'test_prescriptions.json')
+save_data(data, 'configs/test_prescriptions.json')
 print(f"Added {count} realistic typos back.")

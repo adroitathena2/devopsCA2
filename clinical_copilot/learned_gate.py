@@ -25,7 +25,7 @@ from pathlib import Path
 
 import numpy as np
 
-GATE_DIR = Path(__file__).resolve().parent / "outputs" / "learned_gate"
+GATE_DIR = Path(__file__).resolve().parent.parent / "outputs" / "learned_gate"
 GATE_PATH = GATE_DIR / "gate.pkl"
 GATE_META_PATH = GATE_DIR / "gate_meta.json"
 

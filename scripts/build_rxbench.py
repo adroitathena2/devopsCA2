@@ -52,6 +52,9 @@ Outputs (all under outputs/rxbench/):
   coverage.json           substituted / already-brand / no-verified-brand lists
 """
 
+import os as _os, sys as _sys  # _REPO_ROOT_BOOTSTRAP
+_sys.path.insert(0, _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))))
+_sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
 import argparse
 import csv
 import json
@@ -60,11 +63,11 @@ import re
 import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
-from build_indian_brands import normalize_ingredient  # noqa: E402 (read-only import)
+from scripts.build_indian_brands import normalize_ingredient  # noqa: E402 (read-only import)
 
-TEST_RX = ROOT / "test_prescriptions.json"
+TEST_RX = ROOT / "configs/test_prescriptions.json"
 BRANDS = ROOT / "data" / "indian_brands.json"
 MED_DATA = ROOT / "cache" / "medicine_data.json"
 OUT_DIR = ROOT / "outputs" / "rxbench"

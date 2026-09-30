@@ -33,6 +33,9 @@ Run with uv:
     uv run tune_severity_search.py --stage all --n-configs 96
 """
 
+import os as _os, sys as _sys  # _REPO_ROOT_BOOTSTRAP
+_sys.path.insert(0, _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))))
+_sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
 import argparse
 import json
 import random
@@ -52,7 +55,7 @@ from torch.utils.data import DataLoader, Subset
 from xgboost import XGBClassifier
 
 from clinical_copilot import paths, plots
-from custom_severity_model import (
+from clinical_copilot.custom_severity_model import (
     SeverityDataset,
     SeverityVocab,
     build_model_from_config,

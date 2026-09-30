@@ -14,3 +14,12 @@ ansible/
 monitoring/
 docs/
 devops/
+scripts/
+tests/
+configs/
+logs/
+research/
+clinical_copilot/
+severity_audit/
+*.md
+!README.md

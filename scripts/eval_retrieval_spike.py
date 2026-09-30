@@ -12,6 +12,9 @@ Usage:
     uv run python eval_retrieval_spike.py --ablation             # override-free 5
 """
 
+import os as _os, sys as _sys  # _REPO_ROOT_BOOTSTRAP
+_sys.path.insert(0, _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))))
+_sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
 import argparse
 import json
 import sys

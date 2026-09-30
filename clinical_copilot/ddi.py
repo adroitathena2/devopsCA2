@@ -20,7 +20,7 @@ from clinical_copilot.config import ConfigLoader
 
 try:
     import torch
-    from custom_severity_model import SeverityVocab, build_ensemble_model, ENSEMBLE_NAMES
+    from clinical_copilot.custom_severity_model import SeverityVocab, build_ensemble_model, ENSEMBLE_NAMES
     CUSTOM_MODEL_AVAILABLE = True
 except ImportError:
     CUSTOM_MODEL_AVAILABLE = False
@@ -522,7 +522,7 @@ class InteractionDetector:
             return None
         if self._learned_gate is None:
             try:
-                from learned_gate import extract_gate_features, load_gate
+                from clinical_copilot.learned_gate import extract_gate_features, load_gate
                 model, threshold, _meta = load_gate()
                 self._learned_gate = (model, extract_gate_features)
                 self._learned_gate_threshold = threshold

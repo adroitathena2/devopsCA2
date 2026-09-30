@@ -12,6 +12,9 @@ Run with uv:
     uv run fit_temps_val.py
 """
 
+import os as _os, sys as _sys  # _REPO_ROOT_BOOTSTRAP
+_sys.path.insert(0, _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))))
+_sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
 import json
 import shutil
 from pathlib import Path
@@ -22,7 +25,7 @@ import torch.nn.functional as F
 from scipy.optimize import minimize
 from torch.utils.data import DataLoader
 
-from custom_severity_model import SeverityDataset, SeverityVocab, build_ensemble_model, collate_fn, ENSEMBLE_NAMES
+from clinical_copilot.custom_severity_model import SeverityDataset, SeverityVocab, build_ensemble_model, collate_fn, ENSEMBLE_NAMES
 
 MODEL_NAMES = list(ENSEMBLE_NAMES)
 

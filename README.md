@@ -4,7 +4,25 @@
 
 The AI Clinical Copilot is a machine learning-based clinical decision support system designed to address the digitization gap in Indian healthcare. It processes unstructured prescription text (from OCR-scanned handwritten prescriptions or voice commands) to extract medication entities and detect potential drug-drug interactions (DDI). A hybrid approach combining deep learning models with traditional rule-based methods ensures robustness in real-world clinical settings.
 
-The system ships as a premium PyQt6 desktop application (`clinical_copilot_ui.py`) backed by an ML/NLP pipeline (`clinical_copilot_backend.py`), with a one-time cache build step (`build_cache.py`) for fast startup.
+The system ships as a premium PyQt6 desktop application (`clinical_copilot_ui.py`) backed by an ML/NLP pipeline (`clinical_copilot_backend.py`), with a one-time cache build step (`scripts/build_cache.py`) for fast startup.
+
+---
+
+## Repository layout
+
+```
+README.md, Dockerfile, pyproject.toml, uv.lock
+clinical_copilot_ui.py, clinical_copilot_backend.py  # ML entrypoints (root)
+clinical_copilot/      # ML/NLP package
+service/               # DevOps demo service (app.py, requirements-service.txt)
+scripts/               # ML experiments, training, eval
+tests/                 # pytest suites
+configs/               # config.yaml, test datasets
+data/, outputs/, severity_audit/
+logs/                  # compile*.log
+research/              # TODO, UPDATE_3, comparative notes
+ansible/, k8s/, monitoring/, devops/, docs/  # DevOps tasks
+```
 
 ---
 
@@ -91,7 +109,7 @@ The backend module containing the full ML/NLP pipeline. Key classes:
 
 | Class | Purpose |
 |---|---|
-| `ConfigLoader` | Loads and manages configuration from `config.yaml` with nested key access and default fallbacks. |
+| `ConfigLoader` | Loads and manages configuration from `configs/config.yaml` with nested key access and default fallbacks. |
 | `BioNERModule` | GLiNER-based medical NER, with regex fallback. |
 | `SemanticEmbeddingGenerator` | Sentence-transformer embeddings for semantic similarity search. Supports batch pre-computation, in-memory caching, and top-K retrieval. |
 | `ConfidenceEstimator` | Uncertainty quantification via ensemble statistics, confidence intervals, and temperature scaling. |
@@ -108,7 +126,7 @@ A premium PyQt6 desktop application providing a dark-themed interface for prescr
 
 - **Two-panel layout** — Left panel for prescription text input, right panel for analysis results.
 - **Asynchronous analysis** — The `AnalysisWorker` runs the backend pipeline in a `QThread` with real-time phase progress updates (4 phases: entity extraction → formatting → interaction detection → confidence scoring).
-- **Gemini-powered severity + rephrasing** — If a `GEMINI_API_KEY` environment variable is set, the keyword pipeline grades interaction severity with gemini-3.8-flash and can rephrase DrugBank descriptions into simple patient-friendly language (toggleable via `reasoning_enabled` in `config.yaml`).
+- **Gemini-powered severity + rephrasing** — If a `GEMINI_API_KEY` environment variable is set, the keyword pipeline grades interaction severity with gemini-3.8-flash and can rephrase DrugBank descriptions into simple patient-friendly language (toggleable via `reasoning_enabled` in `configs/config.yaml`).
 - **Rich result rendering** — Identified medicines shown as `MedicineTile` cards with generic name, composition, price, manufacturer, and Rx status. Interactions shown as `InteractionCard` widgets with reasoning and DrugBank references. Confidence gauges with animated progress bars.
 - **Safety alerts** — A prominent banner when interactions are detected, with colour-coded confidence indicators (green ≥ 80%, yellow ≥ 50%, red < 50%).
 
@@ -132,7 +150,7 @@ A one-time cache-building script that pre-computes heavy data so the UI loads in
 **Usage:**
 
 ```bash
-uv run python build_cache.py
+uv run python scripts/build_cache.py
 ```
 
 **Cache output files:**
@@ -170,7 +188,7 @@ uv sync
 
 ### Configuration
 
-All settings are in `config.yaml`. Key sections:
+All settings are in `configs/config.yaml`. Key sections:
 
 ```yaml
 models:
@@ -196,7 +214,7 @@ Create a `.env` file in the project root (optional):
 GEMINI_API_KEY=your_api_key_here
 ```
 
-When set, the keyword pipeline grades interaction severity with gemini-3.8-flash, and the UI can use it to rephrase interaction descriptions into patient-friendly language (toggleable via `reasoning_enabled` in `config.yaml`).
+When set, the keyword pipeline grades interaction severity with gemini-3.8-flash, and the UI can use it to rephrase interaction descriptions into patient-friendly language (toggleable via `reasoning_enabled` in `configs/config.yaml`).
 
 ---
 
@@ -209,7 +227,7 @@ When set, the keyword pipeline grades interaction severity with gemini-3.8-flash
 uv sync
 
 # 2. Build cache (one-time, takes a few minutes)
-uv run python build_cache.py
+uv run python scripts/build_cache.py
 
 # 3. Launch the desktop UI
 uv run python clinical_copilot_ui.py
@@ -220,7 +238,7 @@ uv run python clinical_copilot_ui.py
 ```python
 from clinical_copilot_backend import ClinicalCopilotPipeline
 
-pipeline = ClinicalCopilotPipeline(config_path="config.yaml")
+pipeline = ClinicalCopilotPipeline(config_path="configs/config.yaml")
 
 result = pipeline.process_input("Aspirin 75mg + Clopidogrel 75mg + Atorvastatin 10mg")
 report = pipeline.generate_clinical_report(result)
@@ -263,7 +281,7 @@ print(report)
 
 ## Performance and Validation
 
-The system is validated by end-to-end testing on a physician-audited prescription set plus cross-validated architecture search. Known limitations are recorded in UPDATE_3.md (simulated-OOF stacker, temperature at 1.5, label-prevalence gaps) rather than claimed away.
+The system is validated by end-to-end testing on a physician-audited prescription set plus cross-validated architecture search. Known limitations are recorded in research/UPDATE_3.md (simulated-OOF stacker, temperature at 1.5, label-prevalence gaps) rather than claimed away.
 
 ### End-to-End Pipeline Metrics
 On the final test set of 233 prescriptions with physician-audited ground truth (pairs: Moderate 172, Severe 66, Mild 5):
@@ -271,11 +289,11 @@ On the final test set of 233 prescriptions with physician-audited ground truth (
 * **Keyword (gemini-3.8-flash, severity-only, detailed codebook prompt, low thinking):** AUC-ROC 0.9712, Sensitivity 100.00%, Specificity 91.18%, binary F1 99.25%; accuracy 90.13%, macro F1 68.72% (Mild F1 0 — the DB-keyword floor is Moderate, so this path cannot predict Mild), Moderate 91.39% / Severe 85.07% — measured $0.42 per full refresh (250 calls, 0 errors; low thinking cut thinking tokens ~3× vs medium).
 
 ### Visualizing the Advantage
-The project includes a suite of presentation-ready visualizations that highlight the clinical and structural advantages of the local ML approach. Run `uv run generate_comparative_charts.py` to generate:
+The project includes a suite of presentation-ready visualizations that highlight the clinical and structural advantages of the local ML approach. Run `uv run python scripts/generate_comparative_charts.py` to generate:
 
 1. **Trade-off Radar Chart (`chart_6_tradeoff_radar.png`):** Proves that while Cloud LLMs match the Custom ML on F1-Score and AUC-ROC, our Local ML completely dominates on Speed, Privacy, and Cost-Efficiency.
 2. **Alert Fatigue vs. Missed Threats (`chart_7_alert_fatigue.png`):** Maps abstract ROC curves into real-world hospital metrics: Nuisance Alerts vs Missed Severe Threats per 100 prescriptions, identifying the tunable "Sweet Spot".
-3. **Reliability Calibration Diagram (`chart_8_calibration.png`):** Model predicted probability vs. observed severe-interaction fraction. Status note: temperatures sit at 1.5 evidence-backed and the stacker trains on simulated out-of-fold features (see UPDATE_3.md), so day-to-day reliability comes from the codebook decision policy; regenerate with `generate_comparative_charts.py`.
+3. **Reliability Calibration Diagram (`chart_8_calibration.png`):** Model predicted probability vs. observed severe-interaction fraction. Status note: temperatures sit at 1.5 evidence-backed and the stacker trains on simulated out-of-fold features (see research/UPDATE_3.md), so day-to-day reliability comes from the codebook decision policy; regenerate with `scripts/generate_comparative_charts.py`.
 
 ### Memory Requirements
 

@@ -18,6 +18,9 @@ Pass --aliases-only to skip the generic-embedding rebuild and only
 (re)build the alias files from the cached names + synonyms.
 """
 
+import os as _os, sys as _sys  # _REPO_ROOT_BOOTSTRAP
+_sys.path.insert(0, _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))))
+_sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
 import json
 import gzip
 import re
@@ -53,7 +56,7 @@ from clinical_copilot.brands import apply_brand_lexicon
 from clinical_copilot_backend import ConfigLoader, MedicineDataLoader, resolve_torch_dtype
 
 
-def build_cache(config_path: str = "config.yaml", aliases_only: bool = False,
+def build_cache(config_path: str = "configs/config.yaml", aliases_only: bool = False,
                 tfidf_only: bool = False):
     overall_start = time.time()
 

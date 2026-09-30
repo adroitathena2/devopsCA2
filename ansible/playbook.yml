@@ -50,7 +50,7 @@
 
     - name: Deploy service source (app.py)
       ansible.builtin.copy:
-        src: ../app.py
+        src: ../service/app.py
         dest: "{{ app_dir }}/app.py"
         owner: "{{ app_user }}"
         group: "{{ app_user }}"
@@ -59,7 +59,7 @@
 
     - name: Deploy requirements file
       ansible.builtin.copy:
-        src: ../requirements-service.txt
+        src: ../service/requirements-service.txt
         dest: "{{ app_dir }}/requirements-service.txt"
         owner: "{{ app_user }}"
         group: "{{ app_user }}"

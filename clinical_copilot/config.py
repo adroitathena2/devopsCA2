@@ -12,16 +12,28 @@ logger = logging.getLogger(__name__)
 
 class ConfigLoader:
     """Loads and manages configuration from YAML files."""
-    
-    def __init__(self, config_path: str = "config.yaml"):
+
+    def __init__(self, config_path: str = "configs/config.yaml"):
         """
         Initialize configuration loader.
-        
+
         Args:
             config_path: Path to YAML configuration file
         """
-        self.config_path = config_path
+        self.config_path = self._resolve(config_path)
         self.config = self._load_config()
+
+    @staticmethod
+    def _resolve(path: str) -> str:
+        """Prefer new configs/ location, fall back to legacy root location."""
+        import os
+
+        if os.path.exists(path):
+            return path
+        legacy = os.path.basename(path)
+        if os.path.exists(legacy):
+            return legacy
+        return path
     
     def _load_config(self) -> Dict[str, Any]:
         """Load configuration from YAML file."""

@@ -1,7 +1,10 @@
+import os as _os, sys as _sys  # _REPO_ROOT_BOOTSTRAP
+_sys.path.insert(0, _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))))
+_sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
 import torch
 import torch.nn.functional as F
 from torch.utils.data import DataLoader
-from custom_severity_model import SeverityVocab, SeverityDataset, build_ensemble_model, collate_fn, ENSEMBLE_NAMES
+from clinical_copilot.custom_severity_model import SeverityVocab, SeverityDataset, build_ensemble_model, collate_fn, ENSEMBLE_NAMES
 from sklearn.metrics import accuracy_score, f1_score, roc_auc_score, roc_curve
 from sklearn.calibration import calibration_curve
 from sklearn.linear_model import LogisticRegression

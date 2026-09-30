@@ -19,6 +19,9 @@ retries rows that had Gemini errors, and restores cost totals. All final
 metrics (accuracy, F1, AUC, cost) are written as usual on completion.
 """
 
+import os as _os, sys as _sys  # _REPO_ROOT_BOOTSTRAP
+_sys.path.insert(0, _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))))
+_sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
 import argparse
 import json
 from pathlib import Path
@@ -58,7 +61,7 @@ class DDIEvaluator:
         self.output_dir = paths.OUTPUTS_DIR / ("Keyword" if mode == "keyword" else "Ensemble")
         self.output_dir.mkdir(parents=True, exist_ok=True)
 
-        self.pipeline = ClinicalCopilotPipeline(config_path="config.yaml")
+        self.pipeline = ClinicalCopilotPipeline(config_path="configs/config.yaml")
         if mode == "keyword":
             self.pipeline.detector.custom_model = None
             self.pipeline.detector.config.config['models']['custom_severity']['enabled'] = False
@@ -633,7 +636,7 @@ class DDIEvaluator:
 def main() -> None:
     parser = argparse.ArgumentParser(description="Evaluate DDI system (keyword vs ensemble severity)")
     parser.add_argument("--mode", choices=["keyword", "ensemble"], required=True)
-    parser.add_argument("--dataset", default="test_prescriptions.json")
+    parser.add_argument("--dataset", default="configs/test_prescriptions.json")
     parser.add_argument("--tuned-config", default="", help="Path to outputs/tuning_results/best_config.json")
     parser.add_argument("--shuffle", action="store_true",
                         help="Deterministically shuffle prescriptions before running "

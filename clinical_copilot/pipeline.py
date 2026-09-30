@@ -13,7 +13,7 @@ from typing import Any, Dict, List
 import numpy as np
 import yaml
 
-import local_llm
+from clinical_copilot import local_llm
 from clinical_copilot.confidence import ConfidenceEstimator
 from clinical_copilot.config import ConfigLoader
 from clinical_copilot.data import MedicineDataLoader
@@ -37,7 +37,7 @@ class ClinicalCopilotPipeline:
     Combines multiple data sources, ML models, and inference pipelines.
     """
     
-    def __init__(self, config_path: str = "config.yaml"):
+    def __init__(self, config_path: str = "configs/config.yaml"):
         """
         Initialize the complete ML-enhanced pipeline.
         Loads from cache if available, otherwise falls back to raw CSV/JSON.
@@ -459,24 +459,31 @@ class ClinicalCopilotPipeline:
         return "\n".join(report)
 
 
-def load_test_scenarios(test_config_path: str = "test_config.yaml") -> List[Dict[str, Any]]:
+def load_test_scenarios(test_config_path: str = "configs/test_config.yaml") -> List[Dict[str, Any]]:
     """
     Load test scenarios from configuration file.
-    
+
     Args:
         test_config_path: Path to test configuration YAML
-        
+
     Returns:
         List of test scenario dictionaries
     """
-    try:
-        with open(test_config_path, 'r', encoding='utf-8') as f:
-            test_config = yaml.safe_load(f)
-        return test_config.get('test_scenarios', [])
-    except FileNotFoundError:
-        logger.warning(f"Test config {test_config_path} not found. Using default test.")
-        return [{
-            'id': 'default_test',
-            'name': 'Default Test',
-            'input_text': 'Patient prescribed Dolo 650 twice daily'
-        }]
+    import os
+
+    candidates = [test_config_path]
+    if test_config_path.startswith("configs/"):
+        candidates.append(os.path.basename(test_config_path))
+    for candidate in candidates:
+        try:
+            with open(candidate, 'r', encoding='utf-8') as f:
+                test_config = yaml.safe_load(f)
+            return test_config.get('test_scenarios', [])
+        except FileNotFoundError:
+            continue
+    logger.warning(f"Test config {test_config_path} not found. Using default test.")
+    return [{
+        'id': 'default_test',
+        'name': 'Default Test',
+        'input_text': 'Patient prescribed Dolo 650 twice daily'
+    }]

@@ -121,7 +121,7 @@ Layout reference: `docs/grafana-mock.png` (same 4 time-series + stats, real Prom
 ```
 .github/workflows/ci-cd.yml
 Dockerfile, .dockerignore
-app.py, requirements-service.txt, test_service.py
+service/{app.py,requirements-service.txt}, tests/test_service.py
 ansible/{inventory.ini,ansible.cfg,playbook.yml}
 k8s/{deployment.yaml,service.yaml,rolling-update-demo.sh}
 monitoring/{prometheus.yml,docker-compose.monitoring.yml,grafana-dashboard.json,servicemonitor.yaml}

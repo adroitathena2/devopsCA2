@@ -8,6 +8,9 @@ Run with uv:
     uv run tune_gemini_model.py
 """
 
+import os as _os, sys as _sys  # _REPO_ROOT_BOOTSTRAP
+_sys.path.insert(0, _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))))
+_sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
 import argparse
 import itertools
 import json
@@ -35,7 +38,7 @@ class GeminiTuner:
         self.output_dir = paths.OUTPUTS_DIR / "tuning_results"
         self.output_dir.mkdir(parents=True, exist_ok=True)
 
-        self.pipeline = ClinicalCopilotPipeline(config_path="config.yaml")
+        self.pipeline = ClinicalCopilotPipeline(config_path="configs/config.yaml")
 
     def load_validation_subset(self) -> List[Dict[str, Any]]:
         with open(self.dataset_path, "r", encoding="utf-8") as f:
@@ -155,7 +158,7 @@ class GeminiTuner:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Tune Gemini hyperparameters for DDI severity")
-    parser.add_argument("--dataset", default="test_prescriptions.json")
+    parser.add_argument("--dataset", default="configs/test_prescriptions.json")
     parser.add_argument("--validation-size", type=int, default=30)
     args = parser.parse_args()
 

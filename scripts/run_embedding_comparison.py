@@ -1,3 +1,6 @@
+import os as _os, sys as _sys  # _REPO_ROOT_BOOTSTRAP
+_sys.path.insert(0, _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))))
+_sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
 import argparse
 import json
 import os
@@ -54,17 +57,17 @@ MODELS = [
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
 
-def load_config(path="config.yaml"):
+def load_config(path="configs/config.yaml"):
     with open(path, "r", encoding="utf-8") as f:
         return yaml.safe_load(f)
 
 
-def save_config(config, path="config.yaml"):
+def save_config(config, path="configs/config.yaml"):
     with open(path, "w", encoding="utf-8") as f:
         yaml.dump(config, f, sort_keys=False)
 
 
-def apply_model_config(entry, path="config.yaml"):
+def apply_model_config(entry, path="configs/config.yaml"):
     config = load_config(path)
     embeddings = config["models"]["embeddings"]
     embeddings["model_name"] = entry["name"]
@@ -75,7 +78,7 @@ def apply_model_config(entry, path="config.yaml"):
     save_config(config, path)
 
 
-def restore_baseline(path="config.yaml"):
+def restore_baseline(path="configs/config.yaml"):
     config = load_config(path)
     config["models"]["embeddings"].update(BASELINE_EMBEDDINGS)
     save_config(config, path)

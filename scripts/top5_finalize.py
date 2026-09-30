@@ -13,6 +13,9 @@ Run with uv:
     uv run top5_finalize.py
 """
 
+import os as _os, sys as _sys  # _REPO_ROOT_BOOTSTRAP
+_sys.path.insert(0, _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__))))
+_sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__)))
 import json
 import time
 
@@ -35,7 +38,7 @@ from tune_severity_search import (
     read_jsonl,
     seed_everything,
 )
-from custom_severity_model import collate_fn
+from clinical_copilot.custom_severity_model import collate_fn
 
 TOP5 = {
     "FastClinicalCNN": [
@@ -68,7 +71,7 @@ def trial_cfg(model, tag):
 
 
 def main():
-    from custom_severity_model import SeverityDataset
+    from clinical_copilot.custom_severity_model import SeverityDataset
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     seed_everything(SEED)
