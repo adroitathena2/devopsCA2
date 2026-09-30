@@ -88,12 +88,22 @@
           Restart=always
       notify: Restart clinical-copilot
 
-    - name: Enable and start service
+    - name: Enable and start service (systemd only; skipped on WSL without systemd)
       ansible.builtin.systemd:
         name: clinical-copilot
         enabled: true
         state: started
         daemon_reload: true
+      when: ansible_service_mgr == "systemd"
+
+    - name: Launch API in background (non-systemd hosts like WSL)
+      ansible.builtin.shell: |
+        nohup {{ app_dir }}/venv/bin/uvicorn app:app --host 0.0.0.0 --port {{ app_port }} > /tmp/clinical-copilot.log 2>&1 &
+        sleep 5
+      args:
+        chdir: "{{ app_dir }}"
+      when: ansible_service_mgr != "systemd"
+      changed_when: true
 
     - name: Smoke test /health endpoint
       ansible.builtin.uri:
@@ -110,3 +120,4 @@
         name: clinical-copilot
         state: restarted
         daemon_reload: true
+      when: ansible_service_mgr == "systemd"
