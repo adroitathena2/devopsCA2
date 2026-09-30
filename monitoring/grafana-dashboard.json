@@ -1,1 +1,174 @@
-{"annotations": {"list": []}, "editable": true, "fiscalYearStartMonth": 0, "graphTooltip": 0, "links": [], "panels": [{"datasource": {"type": "prometheus", "uid": "prometheus"}, "description": "Process uptime reported by /metrics", "fieldConfig": {"defaults": {}, "overrides": []}, "gridPos": {"h": 8, "w": 8, "x": 0, "y": 0}, "id": 1, "options": {"orientation": "auto", "reduceOptions": {"calcs": ["lastNotNull"], "fields": "", "values": false}}, "targets": [{"expr": "app_uptime_seconds", "refId": "A"}], "title": "Uptime (seconds)", "type": "stat"}, {"datasource": {"type": "prometheus", "uid": "prometheus"}, "description": "Requests per second by endpoint", "fieldConfig": {"defaults": {}, "overrides": []}, "gridPos": {"h": 8, "w": 16, "x": 8, "y": 0}, "id": 2, "targets": [{"expr": "sum by (endpoint) (rate(http_requests_total[5m]))", "refId": "A"}], "title": "Request rate (req/s)", "type": "timeseries"}, {"datasource": {"type": "prometheus", "uid": "prometheus"}, "description": "p95 latency per endpoint", "fieldConfig": {"defaults": {"unit": "s"}, "overrides": []}, "gridPos": {"h": 8, "w": 12, "x": 0, "y": 8}, "id": 3, "targets": [{"expr": "histogram_quantile(0.95, sum by (le, endpoint) (rate(http_request_latency_seconds_bucket[5m])))", "refId": "A"}], "title": "p95 Latency (s)", "type": "timeseries"}, {"datasource": {"type": "prometheus", "uid": "prometheus"}, "description": "Share of 5xx responses", "fieldConfig": {"defaults": {"unit": "percentunit"}, "overrides": []}, "gridPos": {"h": 8, "w": 12, "x": 12, "y": 8}, "id": 4, "targets": [{"expr": "sum(rate(http_requests_total{status=~\"5..\"}[5m])) / sum(rate(http_requests_total[5m]))", "refId": "A"}], "title": "Error rate (5xx)", "type": "stat"}, {"datasource": {"type": "prometheus", "uid": "prometheus"}, "gridPos": {"h": 8, "w": 24, "x": 0, "y": 16}, "id": 5, "targets": [{"expr": "sum(rate(interactions_detected_total[5m]))", "refId": "A"}], "title": "Interactions flagged / sec", "type": "timeseries"}], "schemaVersion": 39, "tags": ["clinical-copilot", "devops"], "templating": {"list": []}, "time": {"from": "now-1h", "to": "now"}, "title": "Clinical Copilot - Service Health", "version": 1}
+{
+  "annotations": {
+    "list": []
+  },
+  "editable": true,
+  "fiscalYearStartMonth": 0,
+  "graphTooltip": 0,
+  "links": [],
+  "panels": [
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "description": "Process uptime reported by /metrics",
+      "fieldConfig": {
+        "defaults": {},
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 8,
+        "x": 0,
+        "y": 0
+      },
+      "id": 1,
+      "options": {
+        "orientation": "auto",
+        "reduceOptions": {
+          "calcs": [
+            "lastNotNull"
+          ],
+          "fields": "",
+          "values": false
+        }
+      },
+      "targets": [
+        {
+          "expr": "app_uptime_seconds",
+          "refId": "A"
+        }
+      ],
+      "title": "Uptime (seconds)",
+      "type": "stat"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "description": "Requests per second by endpoint",
+      "fieldConfig": {
+        "defaults": {},
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 16,
+        "x": 8,
+        "y": 0
+      },
+      "id": 2,
+      "targets": [
+        {
+          "expr": "sum by (endpoint) (rate(http_requests_total[5m]))",
+          "refId": "A"
+        }
+      ],
+      "title": "Request rate (req/s)",
+      "type": "timeseries"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "description": "p95 latency per endpoint",
+      "fieldConfig": {
+        "defaults": {
+          "unit": "s"
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 0,
+        "y": 8
+      },
+      "id": 3,
+      "targets": [
+        {
+          "expr": "histogram_quantile(0.95, sum by (le, endpoint) (rate(http_request_latency_seconds_bucket[5m])))",
+          "refId": "A"
+        }
+      ],
+      "title": "p95 Latency (s)",
+      "type": "timeseries"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "description": "Share of 5xx responses",
+      "fieldConfig": {
+        "defaults": {
+          "unit": "percentunit"
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 12,
+        "x": 12,
+        "y": 8
+      },
+      "id": 4,
+      "targets": [
+        {
+          "expr": "sum(rate(http_requests_total{status=~\"5..\"}[5m])) / sum(rate(http_requests_total[5m]))",
+          "refId": "A"
+        }
+      ],
+      "title": "Error rate (5xx)",
+      "type": "stat"
+    },
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "${DS_PROMETHEUS}"
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 24,
+        "x": 0,
+        "y": 16
+      },
+      "id": 5,
+      "targets": [
+        {
+          "expr": "sum(rate(interactions_detected_total[5m]))",
+          "refId": "A"
+        }
+      ],
+      "title": "Interactions flagged / sec",
+      "type": "timeseries"
+    }
+  ],
+  "schemaVersion": 39,
+  "tags": [
+    "clinical-copilot",
+    "devops"
+  ],
+  "templating": {
+    "list": []
+  },
+  "time": {
+    "from": "now-1h",
+    "to": "now"
+  },
+  "title": "Clinical Copilot - Service Health",
+  "version": 1,
+  "__inputs": [
+    {
+      "name": "DS_PROMETHEUS",
+      "label": "Prometheus",
+      "description": "Prometheus scraping clinical-copilot",
+      "type": "datasource",
+      "pluginId": "prometheus",
+      "pluginName": "Prometheus"
+    }
+  ]
+}
