@@ -1,0 +1,719 @@
+{
+ "substituted": [
+  "acetaminophen",
+  "acyclovir",
+  "alprazolam",
+  "amiodarone",
+  "amitriptyline",
+  "amlodipine",
+  "amoxicillin",
+  "aspirin",
+  "atenolol",
+  "atorvastatin",
+  "azithromycin",
+  "bisoprolol",
+  "budesonide",
+  "bupropion",
+  "carbamazepine",
+  "carboplatin",
+  "cetirizine",
+  "ciprofloxacin",
+  "clarithromycin",
+  "clomipramine",
+  "clonazepam",
+  "clopidogrel",
+  "clozapine",
+  "dapagliflozin",
+  "diclofenac",
+  "digoxin",
+  "diltiazem",
+  "diphenhydramine",
+  "doxycycline",
+  "duloxetine",
+  "efavirenz",
+  "empagliflozin",
+  "enalapril",
+  "erythromycin",
+  "fexofenadine",
+  "fluconazole",
+  "fluoxetine",
+  "fluvoxamine",
+  "folic acid",
+  "furosemide",
+  "gabapentin",
+  "haloperidol",
+  "ibuprofen",
+  "itraconazole",
+  "lamotrigine",
+  "levofloxacin",
+  "linezolid",
+  "lisinopril",
+  "lorazepam",
+  "losartan",
+  "mefenamic acid",
+  "metformin",
+  "methotrexate",
+  "metoprolol",
+  "metronidazole",
+  "midazolam",
+  "mirtazapine",
+  "montelukast",
+  "morphine",
+  "olanzapine",
+  "omeprazole",
+  "pantoprazole",
+  "paracetamol",
+  "paroxetine",
+  "phenytoin",
+  "piracetam",
+  "piroxicam",
+  "prednisolone",
+  "pregabalin",
+  "quetiapine",
+  "ramipril",
+  "rivaroxaban",
+  "rosuvastatin",
+  "salbutamol",
+  "simvastatin",
+  "spironolactone",
+  "sumatriptan",
+  "tacrolimus",
+  "tapentadol",
+  "theophylline",
+  "thioridazine",
+  "tramadol",
+  "valsartan",
+  "venlafaxine",
+  "verapamil",
+  "warfarin",
+  "ziprasidone",
+  "zolpidem"
+ ],
+ "already_brand": [
+  "acitrom",
+  "allegra",
+  "alprax",
+  "amaryl",
+  "augmentin",
+  "avil",
+  "azithral",
+  "benadryl",
+  "betnesol",
+  "brufen",
+  "calpol",
+  "cetzine",
+  "ciplox",
+  "clopilet",
+  "combiflam",
+  "crocin",
+  "deriphylline",
+  "dexona",
+  "dexorange",
+  "digene",
+  "dolo",
+  "domstal",
+  "dulcoflex",
+  "ecosprin",
+  "electral",
+  "eltroxin",
+  "eno",
+  "gelusil",
+  "glycomet",
+  "lasix",
+  "levocet",
+  "meftal",
+  "montair",
+  "mucaine",
+  "omez",
+  "omnacortil",
+  "ondem",
+  "pan",
+  "pudin hara",
+  "rantac",
+  "shelcal",
+  "strepsils",
+  "taxim",
+  "telma",
+  "telma-h",
+  "thyronorm",
+  "voveran",
+  "warf",
+  "wysolone",
+  "zerodol",
+  "zincovit"
+ ],
+ "no_verified_brand": [
+  "abacavir",
+  "abiraterone",
+  "adefovir dipivoxil",
+  "aluminum hydroxide",
+  "amiloride",
+  "amoxapine",
+  "anastrozole",
+  "apixaban",
+  "apomorphine",
+  "atazanavir",
+  "azelaic acid",
+  "bumetanide",
+  "buthiazide",
+  "calcium",
+  "calcium carbonate",
+  "candesartan",
+  "capecitabine",
+  "capreomycin",
+  "cefacetrile",
+  "cefatrizine",
+  "cefmetazole",
+  "cefotiam",
+  "cefpirome",
+  "cefpodoxime",
+  "cefroxadine",
+  "chlorthalidone",
+  "cidofovir",
+  "clofenamide",
+  "cobimetinib",
+  "codeine",
+  "cyclobenzaprine",
+  "desipramine",
+  "dextromethorphan",
+  "diazepam",
+  "dihydrostreptomycin",
+  "disulfiram",
+  "doxylamine",
+  "droperidol",
+  "efonidipine",
+  "emetonium iodide",
+  "ergotamine",
+  "erlotinib",
+  "escitalopram",
+  "ethinyl estradiol",
+  "ezetimibe",
+  "felbamate",
+  "felodipine",
+  "fenofibrate",
+  "fenoprofen",
+  "fentanyl",
+  "glipizide",
+  "guaifenesin",
+  "hydrochlorothiazide",
+  "hydrocodone",
+  "ibandronate",
+  "icosapent",
+  "ifosfamide",
+  "insulin glargine",
+  "isoniazid",
+  "ketoconazole",
+  "liraglutide",
+  "lithium",
+  "looz",
+  "loracarbef",
+  "loratadine",
+  "lumiracoxib",
+  "magnesium",
+  "mannitol",
+  "melatonin",
+  "memantine",
+  "meperidine",
+  "methadone",
+  "methylene blue",
+  "mitotane",
+  "mofebutazone",
+  "moxifloxacin",
+  "naproxen",
+  "oliceridine",
+  "olsalazine",
+  "oseltamivir",
+  "oxycodone",
+  "pamidronic acid",
+  "penfluridol",
+  "pertuzumab",
+  "phenelzine",
+  "phenobarbital",
+  "pidotimod",
+  "potassium chloride",
+  "pravastatin",
+  "prednisone",
+  "pyridoxine",
+  "rifampin",
+  "ritonavir",
+  "rizatriptan",
+  "seladelpar",
+  "selegiline",
+  "sertraline",
+  "sitagliptin",
+  "sotalol",
+  "stavudine",
+  "sucralfate",
+  "talniflumate",
+  "tenofovir",
+  "tenofovir disoproxil",
+  "tipranavir",
+  "tizanidine",
+  "tranylcypromine",
+  "trazodone",
+  "treprostinil",
+  "tridihexethyl",
+  "trimethoprim",
+  "upadacitinib",
+  "valganciclovir",
+  "valproate",
+  "vitamin b12",
+  "vitamin c",
+  "vitamin d",
+  "voriconazole",
+  "zaltoprofen",
+  "zinc"
+ ],
+ "counts_unique": {
+  "substituted": 88,
+  "already_brand": 51,
+  "no_verified_brand": 120
+ },
+ "counts_slots": {
+  "substituted": 230,
+  "total": 510
+ },
+ "text_slots_missing_verbatim": [],
+ "top_brand_per_substituted": {
+  "acetaminophen": {
+   "brand_key": "paracetamol",
+   "brand_text": "Paracetamol",
+   "n_rows": 18
+  },
+  "acyclovir": {
+   "brand_key": "acivir",
+   "brand_text": "Acivir",
+   "n_rows": 15
+  },
+  "alprazolam": {
+   "brand_key": "alzolam",
+   "brand_text": "Alzolam",
+   "n_rows": 13
+  },
+  "amiodarone": {
+   "brand_key": "eurythmic",
+   "brand_text": "Eurythmic",
+   "n_rows": 7
+  },
+  "amitriptyline": {
+   "brand_key": "aldep",
+   "brand_text": "Aldep",
+   "n_rows": 10
+  },
+  "amlodipine": {
+   "brand_key": "amlong",
+   "brand_text": "Amlong",
+   "n_rows": 9
+  },
+  "amoxicillin": {
+   "brand_key": "novamox",
+   "brand_text": "Novamox",
+   "n_rows": 13
+  },
+  "aspirin": {
+   "brand_key": "ecosprin",
+   "brand_text": "Ecosprin",
+   "n_rows": 9
+  },
+  "atenolol": {
+   "brand_key": "tenolol",
+   "brand_text": "Tenolol",
+   "n_rows": 8
+  },
+  "atorvastatin": {
+   "brand_key": "atorfit",
+   "brand_text": "Atorfit",
+   "n_rows": 16
+  },
+  "azithromycin": {
+   "brand_key": "azithral",
+   "brand_text": "Azithral",
+   "n_rows": 23
+  },
+  "bisoprolol": {
+   "brand_key": "corbis",
+   "brand_text": "Corbis",
+   "n_rows": 8
+  },
+  "budesonide": {
+   "brand_key": "budecort",
+   "brand_text": "Budecort",
+   "n_rows": 14
+  },
+  "bupropion": {
+   "brand_key": "bupron",
+   "brand_text": "Bupron",
+   "n_rows": 9
+  },
+  "carbamazepine": {
+   "brand_key": "zeptol",
+   "brand_text": "Zeptol",
+   "n_rows": 14
+  },
+  "carboplatin": {
+   "brand_key": "biocarb",
+   "brand_text": "Biocarb",
+   "n_rows": 8
+  },
+  "cetirizine": {
+   "brand_key": "alcet",
+   "brand_text": "Alcet",
+   "n_rows": 6
+  },
+  "ciprofloxacin": {
+   "brand_key": "ciprofloxacin",
+   "brand_text": "Ciprofloxacin",
+   "n_rows": 14
+  },
+  "clarithromycin": {
+   "brand_key": "crixan",
+   "brand_text": "Crixan",
+   "n_rows": 8
+  },
+  "clomipramine": {
+   "brand_key": "clonil",
+   "brand_text": "Clonil",
+   "n_rows": 8
+  },
+  "clonazepam": {
+   "brand_key": "clotrin",
+   "brand_text": "Clotrin",
+   "n_rows": 13
+  },
+  "clopidogrel": {
+   "brand_key": "clopilet",
+   "brand_text": "Clopilet",
+   "n_rows": 3
+  },
+  "clozapine": {
+   "brand_key": "cipin",
+   "brand_text": "Cipin",
+   "n_rows": 11
+  },
+  "dapagliflozin": {
+   "brand_key": "forxiga",
+   "brand_text": "Forxiga",
+   "n_rows": 2
+  },
+  "diclofenac": {
+   "brand_key": "dicloran",
+   "brand_text": "Dicloran",
+   "n_rows": 11
+  },
+  "digoxin": {
+   "brand_key": "dixin",
+   "brand_text": "Dixin",
+   "n_rows": 7
+  },
+  "diltiazem": {
+   "brand_key": "channel",
+   "brand_text": "Channel",
+   "n_rows": 9
+  },
+  "diphenhydramine": {
+   "brand_key": "benadryl",
+   "brand_text": "Benadryl",
+   "n_rows": 0
+  },
+  "doxycycline": {
+   "brand_key": "doxy",
+   "brand_text": "Doxy",
+   "n_rows": 7
+  },
+  "duloxetine": {
+   "brand_key": "symbal",
+   "brand_text": "Symbal",
+   "n_rows": 8
+  },
+  "efavirenz": {
+   "brand_key": "efavir",
+   "brand_text": "Efavir",
+   "n_rows": 7
+  },
+  "empagliflozin": {
+   "brand_key": "jardiance",
+   "brand_text": "Jardiance",
+   "n_rows": 4
+  },
+  "enalapril": {
+   "brand_key": "enapril",
+   "brand_text": "Enapril",
+   "n_rows": 8
+  },
+  "erythromycin": {
+   "brand_key": "althrocin",
+   "brand_text": "Althrocin",
+   "n_rows": 9
+  },
+  "fexofenadine": {
+   "brand_key": "allegra",
+   "brand_text": "Allegra",
+   "n_rows": 11
+  },
+  "fluconazole": {
+   "brand_key": "zocon",
+   "brand_text": "Zocon",
+   "n_rows": 15
+  },
+  "fluoxetine": {
+   "brand_key": "prodep",
+   "brand_text": "Prodep",
+   "n_rows": 12
+  },
+  "fluvoxamine": {
+   "brand_key": "fluvoxin",
+   "brand_text": "Fluvoxin",
+   "n_rows": 9
+  },
+  "folic acid": {
+   "brand_key": "folvite",
+   "brand_text": "Folvite",
+   "n_rows": 2
+  },
+  "furosemide": {
+   "brand_key": "lasix",
+   "brand_text": "Lasix",
+   "n_rows": 6
+  },
+  "gabapentin": {
+   "brand_key": "gabapin",
+   "brand_text": "Gabapin",
+   "n_rows": 14
+  },
+  "haloperidol": {
+   "brand_key": "serenace",
+   "brand_text": "Serenace",
+   "n_rows": 18
+  },
+  "ibuprofen": {
+   "brand_key": "ibuprofen",
+   "brand_text": "Ibuprofen",
+   "n_rows": 16
+  },
+  "itraconazole": {
+   "brand_key": "itratuf",
+   "brand_text": "Itratuf",
+   "n_rows": 9
+  },
+  "lamotrigine": {
+   "brand_key": "lamictal",
+   "brand_text": "Lamictal",
+   "n_rows": 13
+  },
+  "levofloxacin": {
+   "brand_key": "l-cin",
+   "brand_text": "L-Cin",
+   "n_rows": 13
+  },
+  "linezolid": {
+   "brand_key": "linospan",
+   "brand_text": "Linospan",
+   "n_rows": 7
+  },
+  "lisinopril": {
+   "brand_key": "lisir",
+   "brand_text": "Lisir",
+   "n_rows": 9
+  },
+  "lorazepam": {
+   "brand_key": "loxum",
+   "brand_text": "Loxum",
+   "n_rows": 9
+  },
+  "losartan": {
+   "brand_key": "lostar",
+   "brand_text": "Lostar",
+   "n_rows": 7
+  },
+  "mefenamic acid": {
+   "brand_key": "meftal",
+   "brand_text": "Meftal",
+   "n_rows": 5
+  },
+  "metformin": {
+   "brand_key": "glyciphage",
+   "brand_text": "Glyciphage",
+   "n_rows": 10
+  },
+  "methotrexate": {
+   "brand_key": "folitrax",
+   "brand_text": "Folitrax",
+   "n_rows": 22
+  },
+  "metoprolol": {
+   "brand_key": "embeta",
+   "brand_text": "Embeta",
+   "n_rows": 18
+  },
+  "metronidazole": {
+   "brand_key": "metrogyl",
+   "brand_text": "Metrogyl",
+   "n_rows": 10
+  },
+  "midazolam": {
+   "brand_key": "mezolam",
+   "brand_text": "Mezolam",
+   "n_rows": 8
+  },
+  "mirtazapine": {
+   "brand_key": "miraz",
+   "brand_text": "Miraz",
+   "n_rows": 9
+  },
+  "montelukast": {
+   "brand_key": "montair",
+   "brand_text": "Montair",
+   "n_rows": 8
+  },
+  "morphine": {
+   "brand_key": "vermor",
+   "brand_text": "Vermor",
+   "n_rows": 12
+  },
+  "olanzapine": {
+   "brand_key": "tolaz",
+   "brand_text": "Tolaz",
+   "n_rows": 18
+  },
+  "omeprazole": {
+   "brand_key": "omez",
+   "brand_text": "Omez",
+   "n_rows": 13
+  },
+  "pantoprazole": {
+   "brand_key": "pan",
+   "brand_text": "Pan",
+   "n_rows": 8
+  },
+  "paracetamol": {
+   "brand_key": "paracetamol",
+   "brand_text": "Paracetamol",
+   "n_rows": 18
+  },
+  "paroxetine": {
+   "brand_key": "pexep",
+   "brand_text": "Pexep",
+   "n_rows": 16
+  },
+  "phenytoin": {
+   "brand_key": "epsolin",
+   "brand_text": "Epsolin",
+   "n_rows": 11
+  },
+  "piracetam": {
+   "brand_key": "neurocetam",
+   "brand_text": "Neurocetam",
+   "n_rows": 10
+  },
+  "piroxicam": {
+   "brand_key": "dolonex",
+   "brand_text": "Dolonex",
+   "n_rows": 9
+  },
+  "prednisolone": {
+   "brand_key": "omnacortil",
+   "brand_text": "Omnacortil",
+   "n_rows": 17
+  },
+  "pregabalin": {
+   "brand_key": "pregalin",
+   "brand_text": "Pregalin",
+   "n_rows": 17
+  },
+  "quetiapine": {
+   "brand_key": "qutan",
+   "brand_text": "Qutan",
+   "n_rows": 17
+  },
+  "ramipril": {
+   "brand_key": "cardace",
+   "brand_text": "Cardace",
+   "n_rows": 9
+  },
+  "rivaroxaban": {
+   "brand_key": "xarelto",
+   "brand_text": "Xarelto",
+   "n_rows": 12
+  },
+  "rosuvastatin": {
+   "brand_key": "rozat",
+   "brand_text": "Rozat",
+   "n_rows": 13
+  },
+  "salbutamol": {
+   "brand_key": "asthalin",
+   "brand_text": "Asthalin",
+   "n_rows": 13
+  },
+  "simvastatin": {
+   "brand_key": "simvotin",
+   "brand_text": "Simvotin",
+   "n_rows": 8
+  },
+  "spironolactone": {
+   "brand_key": "aldactone",
+   "brand_text": "Aldactone",
+   "n_rows": 6
+  },
+  "sumatriptan": {
+   "brand_key": "sumitrex",
+   "brand_text": "Sumitrex",
+   "n_rows": 10
+  },
+  "tacrolimus": {
+   "brand_key": "pangraf",
+   "brand_text": "Pangraf",
+   "n_rows": 12
+  },
+  "tapentadol": {
+   "brand_key": "dol-proxyvon",
+   "brand_text": "Dol-Proxyvon",
+   "n_rows": 9
+  },
+  "theophylline": {
+   "brand_key": "theobid",
+   "brand_text": "Theobid",
+   "n_rows": 4
+  },
+  "thioridazine": {
+   "brand_key": "melozine",
+   "brand_text": "Melozine",
+   "n_rows": 8
+  },
+  "tramadol": {
+   "brand_key": "contramal",
+   "brand_text": "Contramal",
+   "n_rows": 10
+  },
+  "valsartan": {
+   "brand_key": "valzaar",
+   "brand_text": "Valzaar",
+   "n_rows": 8
+  },
+  "venlafaxine": {
+   "brand_key": "flavix",
+   "brand_text": "Flavix",
+   "n_rows": 10
+  },
+  "verapamil": {
+   "brand_key": "calaptin",
+   "brand_text": "Calaptin",
+   "n_rows": 9
+  },
+  "warfarin": {
+   "brand_key": "warf",
+   "brand_text": "Warf",
+   "n_rows": 0
+  },
+  "ziprasidone": {
+   "brand_key": "zipsydon",
+   "brand_text": "Zipsydon",
+   "n_rows": 8
+  },
+  "zolpidem": {
+   "brand_key": "dactive",
+   "brand_text": "Dactive",
+   "n_rows": 8
+  }
+ }
+}

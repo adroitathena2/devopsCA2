@@ -1,0 +1,6002 @@
+[
+ {
+  "text": "The therapeutic efficacy of Frangula purshiana bark can be decreased when used in combination with Fenoterol.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Mild",
+  "llm_label_audit": 0
+ },
+ {
+  "text": "The risk or severity of QTc prolongation can be increased when Mavorixafor is combined with Vorinostat.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The therapeutic efficacy of Thyrotropin alfa can be decreased when used in combination with Bevantolol.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Cefacetrile may decrease the excretion rate of Lenalidomide which could result in a higher serum level.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The serum concentration of Avanafil can be increased when it is combined with Vitamin D.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Safinamide may increase the anticholinergic activities of Cyproheptadine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of adverse effects can be increased when 2-Methoxyethanol is combined with Certolizumab pegol.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of QTc prolongation can be increased when Telavancin is combined with Toremifene.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of renal failure, hyperkalemia, and hypertension can be increased when Valsartan is combined with Tolmetin.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Severe",
+  "llm_label_audit": 2
+ },
+ {
+  "text": "The risk or severity of hypoglycemia can be increased when Saxagliptin is combined with Tofogliflozin.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of hypertension can be increased when Chlorphentermine is combined with Mefenorex.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of neuromuscular blockade can be increased when Clomocycline is combined with Colistimethate.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Bromocriptine may increase the hypertensive and vasoconstricting activities of Orciprenaline.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Ergometrine may decrease the antihypertensive activities of Mecamylamine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The therapeutic efficacy of Dipotassium phosphate can be decreased when used in combination with Meperidine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Mild",
+  "llm_label_audit": 0
+ },
+ {
+  "text": "Dexibuprofen may decrease the excretion rate of Oxacillin which could result in a higher serum level.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Cevimeline may decrease the excretion rate of Selenium which could result in a higher serum level.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Duloxetine may decrease the excretion rate of Bimatoprost which could result in a higher serum level.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Norgestrel can be increased when combined with Sulthiame.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The serum concentration of Dexamethasone can be increased when it is combined with Solithromycin.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Cyanocobalamin may decrease the excretion rate of Budesonide which could result in a higher serum level.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of CNS depression can be increased when Periciazine is combined with Viloxazine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The therapeutic efficacy of Thyroid, porcine can be decreased when used in combination with Glesatinib.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of nephrotoxicity can be increased when Naproxen is combined with Foscarnet.",
+  "hard_label": 3,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Nifedipine may decrease the excretion rate of Topiroxostat which could result in a higher serum level.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Potassium acetate may increase the hyperkalemic activities of Lonazolac.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of CNS depression can be increased when Cathinone is combined with Dexmethylphenidate.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of QTc prolongation can be increased when Dofetilide is combined with Cocaine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of adverse effects can be increased when Tubocurarine is combined with Thonzylamine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Atropine may decrease the antihypertensive activities of Dasiglucagon.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The therapeutic efficacy of Ertugliflozin can be increased when used in combination with Vemurafenib.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Robenacoxib may decrease the excretion rate of Ropivacaine which could result in a higher serum level.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Droperidol may increase the central nervous system depressant (CNS depressant) activities of Blonanserin.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The excretion of Glutaric Acid can be decreased when combined with Enalapril.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Mild",
+  "llm_label_audit": 0
+ },
+ {
+  "text": "Pivhydrazine may increase the hypotensive activities of Amlodipine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The therapeutic efficacy of SARS-CoV-2 virus recombinant spike (S) protein receptor binding domain (RBD) fusion heterodimer (B.1.351-B.1.1.7 strains) can be decreased when used in combination with Melengestrol.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The serum concentration of Tegaserod can be increased when it is combined with Umbralisib.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of bleeding can be increased when Tirofiban is combined with Danaparoid.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Severe",
+  "llm_label_audit": 2
+ },
+ {
+  "text": "The risk or severity of CNS depression can be increased when Valpromide is combined with Naronapride.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Timolol can be decreased when combined with Imipramine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of CNS depression can be increased when Quetiapine is combined with Oxaflozane.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Hexobendine may increase the vasodilatory activities of Isosorbide mononitrate.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of adverse effects can be increased when Ketoprofen is combined with Glycol salicylate.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Tucatinib can be decreased when combined with Estrone sulfate.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Acalabrutinib can be increased when combined with Oxcarbazepine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Nabumetone may decrease the excretion rate of Aurothioglucose which could result in a higher serum level.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The therapeutic efficacy of Metahexamide can be increased when used in combination with Phthalylsulfathiazole.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of bleeding and hemorrhage can be increased when Aminophenazone is combined with Ancrod.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Severe",
+  "llm_label_audit": 2
+ },
+ {
+  "text": "The metabolism of Diphenhydramine can be decreased when combined with Desipramine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Tienilic acid may increase the hypotensive activities of Rituximab.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Nevirapine can be decreased when combined with Sulfisoxazole.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Ximelagatran can be decreased when combined with Felbamate.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Furosemide may decrease the excretion rate of Dexpanthenol which could result in a higher serum level.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Dextromoramide may increase the central nervous system depressant (CNS depressant) activities of Hydrocodone.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Methyltestosterone may decrease the excretion rate of Formestane which could result in a higher serum level.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The therapeutic efficacy of Niguldipine can be decreased when used in combination with Meclofenamic acid.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The serum concentration of Pseudoephedrine can be increased when it is combined with Aluminium phosphate.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The serum concentration of Thiopental can be increased when it is combined with Luliconazole.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of renal failure, hypotension, and hyperkalemia can be increased when Captopril is combined with Candesartan cilexetil.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Severe",
+  "llm_label_audit": 2
+ },
+ {
+  "text": "The therapeutic efficacy of Etilefrine can be decreased when used in combination with Tolazoline.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The serum concentration of Montelukast can be increased when it is combined with Mifepristone.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Trimipramine can be decreased when combined with Clopidogrel.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The therapeutic efficacy of Indapamide can be increased when used in combination with Oxprenolol.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Phenoxypropazine may increase the hypertensive activities of Tenamfetamine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of CNS depression can be increased when Fentanyl is combined with Opipramol.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The therapeutic efficacy of Rusalatide acetate can be decreased when used in combination with Pentosan polysulfate.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The serum concentration of Darolutamide can be increased when it is combined with Darunavir.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Bevantolol can be decreased when combined with Cilostazol.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Metoclopramide may increase the bradycardic activities of Betaxolol.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of CNS depression can be increased when Acetazolamide is combined with Cyclopropane.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The serum concentration of Finerenone can be increased when it is combined with Triclabendazole.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Eszopiclone may decrease the excretion rate of Pegaptanib which could result in a higher serum level.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Ponatinib may decrease the excretion rate of Fimasartan which could result in a higher serum level.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of CNS depression can be increased when Topiramate is combined with Methoxyflurane.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of tendinopathy can be increased when Dexamethasone is combined with Pipemidic acid.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "4-Bromo-2,5-dimethoxyamphetamine may decrease the antihypertensive activities of Moexipril.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of (R)-warfarin can be decreased when combined with Medical Cannabis.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of adverse effects can be increased when Bevantolol is combined with Acefylline.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of QTc prolongation can be increased when Ricolinostat is combined with Givinostat.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of sedation, somnolence, and CNS depression can be increased when Clobazam is combined with Loprazolam.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Moclobemide may increase the hypertensive activities of 4-Bromo-2,5-dimethoxyamphetamine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of CNS depression can be increased when Lisuride is combined with Carbinoxamine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of QTc prolongation can be increased when Desflurane is combined with Zuclopenthixol.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of hypotension can be increased when Magnesium trisilicate is combined with Nicardipine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The therapeutic efficacy of Rubella virus vaccine can be decreased when used in combination with Atazanavir.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of methemoglobinemia can be increased when Cetuximab is combined with Tetracaine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Severe",
+  "llm_label_audit": 2
+ },
+ {
+  "text": "The metabolism of Estradiol can be decreased when combined with Nabilone.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of CNS depression can be increased when Chlorhexadol is combined with Iloperidone.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of hypertension can be increased when Dihydroergotamine is combined with Meloxicam.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Doxepin may decrease the antihypertensive activities of Polythiazide.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The therapeutic efficacy of Amikacin can be decreased when used in combination with Pentosan polysulfate.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The serum concentration of Bicalutamide can be increased when it is combined with Dimethyl sulfoxide.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Isoetharine may increase the hypokalemic activities of Epitizide.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The serum concentration of Nirmatrelvir can be increased when it is combined with Erythromycin.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of adverse effects can be increased when Mometasone furoate is combined with Zilucoplan.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of hypotension and orthostatic hypotension can be increased when Ethanol is combined with Quinethazone.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of CNS depression can be increased when Sulthiame is combined with JNJ-26489112.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The serum concentration of Polythiazide can be increased when it is combined with Benzquinamide.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Ergotamine can be decreased when combined with Zimelidine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of methemoglobinemia can be increased when Cefaclor is combined with Tetracaine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Severe",
+  "llm_label_audit": 2
+ },
+ {
+  "text": "The risk or severity of QTc prolongation can be increased when Mirtazapine is combined with Macimorelin.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Iproniazid may increase the hypoglycemic activities of Teneligliptin.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Xanthine can be decreased when combined with Medical Cannabis.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Cannabidiol can be decreased when combined with Efavirenz.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of Thrombosis can be increased when Darbepoetin alfa is combined with Exisulind.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of adverse effects can be increased when Doxorubicin is combined with Doxifluridine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Ethyl biscoumacetate can be decreased when combined with Elvitegravir.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Cefuroxime may decrease the excretion rate of Benserazide which could result in a higher serum level.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Daptomycin may decrease the excretion rate of Vortioxetine which could result in a higher serum level.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Trimebutine may decrease the excretion rate of Chromic citrate which could result in a higher serum level.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Clothiapine may increase the central nervous system depressant (CNS depressant) activities of Hydrocodone.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Diethylstilbestrol may increase the thrombogenic activities of Sirukumab.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The serum concentration of Terguride can be increased when it is combined with Epcoritamab.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of adverse effects can be increased when Lexatumumab is combined with Casirivimab.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Naxitamab may decrease the antihypertensive activities of Moexipril.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of bleeding can be increased when Chloramphenicol succinate is combined with Ethyl biscoumacetate.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Severe",
+  "llm_label_audit": 2
+ },
+ {
+  "text": "The metabolism of Esketamine can be decreased when combined with Linagliptin.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of CNS depression can be increased when Hexafluronium is combined with Thiocolchicoside.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of CNS depression can be increased when Rolipram is combined with Etifoxine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Benzatropine can be decreased when combined with Selegiline.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Magnesium aspartate can cause a decrease in the absorption of Calcium Phosphate resulting in a reduced serum concentration and potentially a decrease in efficacy.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The therapeutic efficacy of Atracurium can be increased when used in combination with Cloxacillin.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of adverse effects can be increased when Atezolizumab is combined with Tildrakizumab.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Larotrectinib can be decreased when combined with Fosnetupitant.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of serotonin syndrome can be increased when Amphetamine is combined with Indalpine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Severe",
+  "llm_label_audit": 2
+ },
+ {
+  "text": "The metabolism of Tamsulosin can be decreased when combined with Telithromycin.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The serum concentration of Tepotinib can be increased when it is combined with Glasdegib.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Cefpodoxime may decrease the excretion rate of Levocetirizine which could result in a higher serum level.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Tolmetin may decrease the excretion rate of Chromium which could result in a higher serum level.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of CNS depression can be increased when Cinolazepam is combined with Butriptyline.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Estrone sulfate can be decreased when combined with Difloxacin.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The serum concentration of Apomorphine can be increased when it is combined with Mifepristone.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk of a hypersensitivity reaction to Distichlis spicata pollen is increased when it is combined with Atenolol.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Istradefylline can be increased when combined with Modafinil.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Lofepramine may decrease the hypoglycemic activities of Insulin peglispro.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of methemoglobinemia can be increased when Exemestane is combined with Dyclonine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Severe",
+  "llm_label_audit": 2
+ },
+ {
+  "text": "The serum concentration of Lenacapavir can be increased when it is combined with Pacritinib.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Flupirtine may decrease the excretion rate of Antithrombin III human which could result in a higher serum level.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of CNS depression can be increased when Stiripentol is combined with Loprazolam.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of adverse effects can be increased when Dihydrocodeine is combined with Chlordiazepoxide.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Finerenone may increase the excretion rate of Promethazine which could result in a lower serum level and potentially a reduction in efficacy.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Cabozantinib can be decreased when combined with Arformoterol.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of gastrointestinal irritation can be increased when Trilostane is combined with Diclofenac.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Mild",
+  "llm_label_audit": 0
+ },
+ {
+  "text": "The risk or severity of CNS depression can be increased when Cetirizine is combined with 4-Methoxyamphetamine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The therapeutic efficacy of Rauwolfia serpentina root can be decreased when used in combination with Flunixin.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of CNS depression can be increased when Yohimbine is combined with Esreboxetine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of bleeding can be increased when Tyrothricin is combined with 4-hydroxycoumarin.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Severe",
+  "llm_label_audit": 2
+ },
+ {
+  "text": "The metabolism of Etoricoxib can be decreased when combined with Ziprasidone.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Amoxicillin may decrease the excretion rate of Ketamine which could result in a higher serum level.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of adverse effects can be increased when Rufinamide is combined with Melperone.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of hyperkalemia can be increased when Salicylic acid is combined with Eperisone.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "5beta-dihydrotestosterone may increase the anticoagulant activities of Defibrotide.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of adverse effects can be increased when Ibrutinib is combined with Anifrolumab.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of QTc prolongation can be increased when Rupatadine is combined with Tucidinostat.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The therapeutic efficacy of Anthrax vaccine can be decreased when used in combination with Pirarubicin.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Acefylline can be decreased when combined with Tegafur.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The therapeutic efficacy of Ambenonium can be decreased when used in combination with Triamcinolone.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Phensuximide may increase the central nervous system depressant (CNS depressant) activities of Sodium oxybate.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of adverse effects can be increased when Mephedrone is combined with Lisofylline.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Propacetamol may decrease the excretion rate of Lithium succinate which could result in a higher serum level.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Tropisetron may increase the arrhythmogenic activities of Otilonium.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Trifluoperazine can be decreased when combined with Pazufloxacin.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of hypoglycemia can be increased when Nilvadipine is combined with Acarbose.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The serum concentration of Cyclosporine can be increased when it is combined with Metronidazole.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The therapeutic efficacy of Dulaglutide can be increased when used in combination with Fleroxacin.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of CNS depression can be increased when Fencamfamin is combined with Rapacuronium.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Cryptenamine may increase the hypotensive activities of Tienilic acid.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of CNS depression can be increased when Desomorphine is combined with Levosulpiride.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Tramadol may decrease the excretion rate of Sitagliptin which could result in a higher serum level.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The serum concentration of Ribostamycin can be decreased when it is combined with Amdinocillin.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Quetiapine may decrease the excretion rate of Neomycin which could result in a higher serum level.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of adverse effects can be increased when Candesartan cilexetil is combined with Levobupivacaine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of CNS depression can be increased when Eletriptan is combined with Ketazolam.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Vorasidenib can be decreased when combined with Azathioprine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Alprazolam can be decreased when combined with Remdesivir.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of adverse effects can be increased when Etofenamate is combined with Benzydamine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Bimatoprost may increase the hypotensive activities of Niguldipine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Bekanamycin may increase the neuromuscular blocking activities of DaxibotulinumtoxinA.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of CNS depression can be increased when Valproic acid is combined with St. John's Wort.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Estradiol acetate may increase the thrombogenic activities of Ligelizumab.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The therapeutic efficacy of Modified vaccinia ankara can be decreased when used in combination with Trofosfamide.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The therapeutic efficacy of Fluperolone can be decreased when used in combination with Aminoglutethimide.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of adverse effects can be increased when Nelarabine is combined with Broxuridine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Raclopride may decrease the stimulatory activities of Phendimetrazine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Mild",
+  "llm_label_audit": 0
+ },
+ {
+  "text": "The metabolism of Tamoxifen can be decreased when combined with Tipranavir.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of CNS depression can be increased when Trimethobenzamide is combined with Diphenoxylate.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Escitalopram can be increased when combined with Siltuximab.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Diatrizoate may decrease the excretion rate of Dexrazoxane which could result in a higher serum level.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The therapeutic efficacy of Ethyl biscoumacetate can be increased when used in combination with Lomefloxacin.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of CNS depression can be increased when Fenfluramine is combined with Zolazepam.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Glycerol phenylbutyrate may decrease the excretion rate of Pentostatin which could result in a higher serum level.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of QTc prolongation can be increased when Formoterol is combined with Difloxacin.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Deuruxolitinib can be decreased when combined with Nabumetone.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Trimethoprim may decrease the excretion rate of Ioxilan which could result in a higher serum level.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of QTc prolongation can be increased when Mequitazine is combined with Piromidic acid.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of adverse effects can be increased when Eculizumab is combined with Odesivimab.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The serum concentration of Corticotropin can be increased when it is combined with Diethylstilbestrol.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of Thrombosis can be increased when Darbepoetin alfa is combined with Carboxyamidotriazole.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of adverse effects can be increased when Arbutamine is combined with Arformoterol.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Quinine can be decreased when combined with Methimazole.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The therapeutic efficacy of Influenza A virus A/California/7/2009 X-181 (H1N1) hemagglutinin antigen (propiolactone inactivated) can be decreased when used in combination with Satralizumab.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of CNS depression can be increased when Quetiapine is combined with Naluzotan.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of hyperkalemia can be increased when Tenoxicam is combined with Dotarizine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Estradiol dienanthate can be decreased when combined with Ethanol.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of hypertension can be increased when Diclofenac is combined with Norfenefrine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Perhexiline may increase the arrhythmogenic activities of Practolol.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of bleeding and hemorrhage can be increased when Morniflumate is combined with Phenprocoumon.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Severe",
+  "llm_label_audit": 2
+ },
+ {
+  "text": "The risk or severity of adverse effects can be increased when Palmidrol is combined with Metocurine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of hypertension can be increased when Ephedrine is combined with Tepoxalin.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The serum concentration of Osimertinib can be increased when it is combined with Sunvozertinib.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The serum concentration of Sparsentan can be increased when it is combined with Boceprevir.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Bortezomib can be decreased when combined with Mexiletine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Droxicam may decrease the excretion rate of Carmustine which could result in a higher serum level.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Pomalidomide can be decreased when combined with Sarafloxacin.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of adverse effects can be increased when PRO-542 is combined with MYO-029.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of CNS depression can be increased when Ethyl loflazepate is combined with Aripiprazole lauroxil.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of hypertension can be increased when Lysergic acid diethylamide is combined with Flunixin.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of hypertension can be increased when Romifidine is combined with Difenpiramide.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Azelastine can be decreased when combined with Atovaquone.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Tranilast can be decreased when combined with Cannabinol.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of Tachycardia can be increased when Diethylpropion is combined with Mebeverine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of QTc prolongation can be increased when Timolol is combined with Mequitazine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Clozapine may decrease the excretion rate of Pralidoxime which could result in a higher serum level.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The therapeutic efficacy of Tiratricol can be decreased when used in combination with Landiolol.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Everolimus can be increased when combined with Eslicarbazepine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Erlotinib can be decreased when combined with Methylprednisone.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Theophylline can be decreased when combined with Dihydroergocornine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Halofantrine can be decreased when combined with Clindamycin.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The therapeutic efficacy of Catridecacog can be decreased when used in combination with Reviparin.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of adverse effects can be increased when 4-Bromo-2,5-dimethoxyamphetamine is combined with Methimazole.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of methemoglobinemia can be increased when Ethosuximide is combined with Ropivacaine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Severe",
+  "llm_label_audit": 2
+ },
+ {
+  "text": "Dihydroergotamine may increase the hypertensive and vasoconstricting activities of Adrafinil.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The serum concentration of Fosnetupitant can be decreased when it is combined with Cenobamate.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of CNS depression can be increased when Carbinoxamine is combined with Alfaxalone.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Vorapaxar can be decreased when combined with Rilzabrutinib.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The therapeutic efficacy of Pentosan polysulfate can be decreased when used in combination with Cefoperazone.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The serum concentration of Pramipexole can be increased when it is combined with Ranitidine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of CNS depression can be increased when Barbital is combined with Perphenazine enanthate.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of CNS depression can be increased when Serotonin is combined with Salvinorin A.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Magnesium lactate can cause a decrease in the absorption of Enoxacin resulting in a reduced serum concentration and potentially a decrease in efficacy.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Formononetin may increase the thrombogenic activities of Bivatuzumab.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of adverse effects can be increased when Carfentanil is combined with Flurazepam.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Halothane may decrease the antihypertensive activities of Delapril.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Dextroamphetamine can be decreased when combined with Primaquine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of CNS depression can be increased when Primidone is combined with Felcisetrag.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of adverse effects can be increased when Palmidrol is combined with AZD-3043.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of hypertension can be increased when Propofol is combined with Mephedrone.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of adverse effects can be increased when Ixekizumab is combined with Asunercept.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Infigratinib can be increased when combined with Felbamate.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The therapeutic efficacy of Cilazapril can be increased when used in combination with Benzthiazide.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of QTc prolongation can be increased when Leuprolide is combined with Terodiline.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Testolactone may decrease the excretion rate of Colchicine which could result in a higher serum level.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Nabiximols can be decreased when combined with Bexarotene.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Ponatinib can be decreased when combined with Quinine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Brotizolam can be decreased when combined with Indinavir.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Opipramol may decrease the hypoglycemic activities of Carbutamide.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Trabectedin can be decreased when combined with Estradiol.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of adverse effects can be increased when Umeclidinium is combined with Dihydroetorphine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Etoperidone may decrease the excretion rate of Clove oil which could result in a higher serum level.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of adverse effects can be increased when PRO-542 is combined with Volagidemab.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The serum concentration of Methyclothiazide can be increased when it is combined with Rocuronium.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of adverse effects can be increased when Bevantolol is combined with Uric acid.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Bupranolol may decrease the bronchodilatory activities of Olodaterol.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of adverse effects can be increased when Methoxyphenamine is combined with Bamifylline.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Ferric sulfate can cause a decrease in the absorption of Dolutegravir resulting in a reduced serum concentration and potentially a decrease in efficacy.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Iron sucrose can cause a decrease in the absorption of Enoxacin resulting in a reduced serum concentration and potentially a decrease in efficacy.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of hypertension can be increased when Indoprofen is combined with PF-00610355.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of nephrotoxicity can be increased when Dihydrostreptomycin is combined with Mofebutazone.",
+  "hard_label": 3,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The therapeutic efficacy of Sulfamethoxazole can be increased when used in combination with Fenquizone.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of QTc prolongation can be increased when Salbutamol is combined with Orphenadrine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Clofibrate can be decreased when combined with Telaprevir.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Trimipramine can be decreased when combined with Revefenacin.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of neutropenia and thrombocytopenia can be increased when Cyclothiazide is combined with Mosunetuzumab.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Tasimelteon can be increased when combined with Cyproterone acetate.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of CNS depression can be increased when Naratriptan is combined with Cinolazepam.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Ketoprofen may decrease the excretion rate of Gadoteridol which could result in a higher serum level.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Lithium carbonate may decrease the excretion rate of Nedaplatin which could result in a higher serum level.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The therapeutic efficacy of Ertugliflozin can be increased when used in combination with Sulfaisodimidine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of nephrotoxicity and hypocalcemia can be increased when Cefonicid is combined with Alendronic acid.",
+  "hard_label": 3,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Bosentan may increase the hypotensive activities of Rauwolfia serpentina root.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Paclitaxel can be decreased when combined with Gemfibrozil.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of adverse effects can be increased when Oregovomab is combined with Glembatumumab vedotin.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The therapeutic efficacy of SARS-CoV-2 virus recombinant spike (S) protein receptor binding domain (RBD) fusion heterodimer (B.1.351-B.1.1.7 strains) can be decreased when used in combination with Desoximetasone.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Efavirenz can be decreased when combined with Leniolisib.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Sucralfate may decrease the excretion rate of Epoprostenol which could result in a higher serum level.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of adverse effects can be increased when Alphacetylmethadol is combined with Minaprine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of CNS depression can be increased when Dantrolene is combined with Nefiracetam.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of gastrointestinal bleeding can be increased when SR-123781A is combined with Deferasirox.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Severe",
+  "llm_label_audit": 2
+ },
+ {
+  "text": "The risk or severity of bleeding and hemorrhage can be increased when Zaltoprofen is combined with Ethyl biscoumacetate.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Severe",
+  "llm_label_audit": 2
+ },
+ {
+  "text": "Chlorthalidone may increase the excretion rate of Gadoteridol which could result in a lower serum level and potentially a reduction in efficacy.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Flecainide may increase the arrhythmogenic activities of Lorcainide.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The therapeutic efficacy of Mechlorethamine can be decreased when used in combination with Fludrocortisone.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of adverse effects can be increased when Capromab pendetide is combined with Mogamulizumab.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Cyclophosphamide can be decreased when combined with Sulfaphenazole.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of CNS depression can be increased when Temazepam is combined with Mazindol.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The therapeutic efficacy of Anthrax immune globulin human can be decreased when used in combination with Brequinar.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Ivabradine can be increased when combined with Somatrogon.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The therapeutic efficacy of Influenza A virus A/California/7/2009 (H1N1) live (attenuated) antigen can be decreased when used in combination with Bendamustine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Etamiphylline can be decreased when combined with Levobupivacaine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Tolfenamic acid may decrease the excretion rate of Palonosetron which could result in a higher serum level.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of adverse effects can be increased when Blinatumomab is combined with Mometasone furoate.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Levofloxacin may decrease the excretion rate of Arbekacin which could result in a higher serum level.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Lumiracoxib may decrease the excretion rate of Capreomycin which could result in a higher serum level.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "These drugs can be safely co-administered.",
+  "hard_label": 0,
+  "soft_label": [
+   0.97,
+   0.01,
+   0.01,
+   0.01
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Mild",
+  "llm_label_audit": 0
+ },
+ {
+  "text": "The therapeutic efficacy of Muzolimine can be decreased when used in combination with Salsalate.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Fexinidazole can be decreased when combined with Lysergic acid diethylamide.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Dasabuvir can be decreased when combined with Rucaparib.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of neutropenia and thrombocytopenia can be increased when Hydrochlorothiazide is combined with Interferon alfa-n1.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Chlorthalidone may increase the excretion rate of Meropenem which could result in a lower serum level and potentially a reduction in efficacy.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Tenidap may increase the neuroexcitatory activities of Enoxacin.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The serum concentration of Ascorbic acid can be decreased when it is combined with Hexestrol.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Roflumilast may increase the immunosuppressive activities of Trabectedin.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of CNS depression can be increased when Clomethiazole is combined with Medetomidine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The therapeutic efficacy of Pipecuronium can be increased when used in combination with Pregabalin.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Lazertinib may decrease the excretion rate of Ozanimod which could result in a higher serum level.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Urethane may increase the central nervous system depressant (CNS depressant) activities of Fluoxetine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The serum concentration of Acetaminophen can be decreased when it is combined with Mavacamten.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Ranitidine can be decreased when combined with Furafylline.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of adverse effects can be increased when Acyclovir is combined with Spermidine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The therapeutic efficacy of Insulin pork can be decreased when used in combination with Phenytoin.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of myopathy, rhabdomyolysis, and myoglobinuria can be increased when Carbimazole is combined with Saquinavir.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Severe",
+  "llm_label_audit": 2
+ },
+ {
+  "text": "The risk or severity of adverse effects can be increased when Isoxsuprine is combined with Hypoxanthine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Mirtazapine can be decreased when combined with Zileuton.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Valomaciclovir can be decreased when combined with Ofloxacin.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of adverse effects can be increased when Clobetasol propionate is combined with Tixocortol.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Erlotinib can be decreased when combined with Opium.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Apomorphine can be increased when combined with Difluocortolone.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of CNS depression can be increased when Carbinoxamine is combined with Tropisetron.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The serum concentration of Bendamustine can be increased when it is combined with Isavuconazole.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The serum concentration of Busulfan can be increased when it is combined with Midazolam.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The serum concentration of Corticotropin can be increased when it is combined with Mestranol.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of hypotension can be increased when Chlorthalidone is combined with Enalaprilat.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Fluvoxamine can be decreased when combined with Elvitegravir.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of hypoglycemia can be increased when Bisegliptin is combined with Gastric inhibitory polypeptide.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of bleeding and hemorrhage can be increased when Tenidap is combined with Bivalirudin.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Severe",
+  "llm_label_audit": 2
+ },
+ {
+  "text": "The metabolism of Codeine can be decreased when combined with Clarithromycin.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of adverse effects can be increased when Acetaminophen is combined with Lumiracoxib.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Dutasteride can be decreased when combined with Zaleplon.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Iobenguane sulfate I-123 may decrease the excretion rate of Gentamicin which could result in a higher serum level.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of hyperglycemia can be increased when Clobetasol is combined with Rivoglitazone.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Idebenone may decrease the excretion rate of Fludeoxyglucose (18F) which could result in a higher serum level.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of QTc prolongation can be increased when Moxifloxacin is combined with Chlorpromazine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Isotretinoin can be decreased when combined with Isavuconazonium.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of adverse effects can be increased when Hexamethonium is combined with Alphaprodine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of dehydration can be increased when Potassium is combined with Konjac mannan.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of CNS depression can be increased when Tiletamine is combined with Pyrithyldione.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of CNS depression can be increased when Zaleplon is combined with Molindone.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of hypertension can be increased when Esketamine is combined with Ebselen.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The serum concentration of Propranolol can be increased when it is combined with Isavuconazonium.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of methemoglobinemia can be increased when Aspoxicillin is combined with Benzocaine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Severe",
+  "llm_label_audit": 2
+ },
+ {
+  "text": "The metabolism of Nortriptyline can be increased when combined with Formestane.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Dexmedetomidine may decrease the excretion rate of Sofosbuvir which could result in a higher serum level.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Tubocurarine may increase the bradycardic activities of Bevantolol.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The therapeutic efficacy of Anagliptin can be increased when used in combination with Temafloxacin.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of neuromuscular blockade can be increased when Rolitetracycline is combined with Sisomicin.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Duloxetine may decrease the excretion rate of Carbamazepine which could result in a higher serum level.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of adverse effects can be increased when Doxepin is combined with Homatropine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Methazolamide may increase the excretion rate of Milnacipran which could result in a lower serum level and potentially a reduction in efficacy.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of hypertension can be increased when Frovatriptan is combined with Dopexamine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of QTc prolongation can be increased when Dosulepin is combined with Romidepsin.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Flunoxaprofen may increase the neuroexcitatory activities of Flumequine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of adverse effects can be increased when Imatinib is combined with Tetrandrine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Clorazepic acid can be decreased when combined with Lonafarnib.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of methemoglobinemia can be increased when Cefroxadine is combined with Butacaine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Severe",
+  "llm_label_audit": 2
+ },
+ {
+  "text": "Iprindole may decrease the antihypertensive activities of Indapamide.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Quinoline Yellow WS may decrease the antihypertensive activities of Guanoxabenz.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Peginesatide may decrease the excretion rate of Sisomicin which could result in a higher serum level.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of myopathy, rhabdomyolysis, and myoglobinuria can be increased when Ibandronate is combined with Isoniazid.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Severe",
+  "llm_label_audit": 2
+ },
+ {
+  "text": "The risk or severity of edema formation can be increased when Epitestosterone is combined with Fluocortolone.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Tibolone may increase the thrombogenic activities of Human varicella-zoster immune globulin.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of hypotension can be increased when Aripiprazole lauroxil is combined with Ambrisentan.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of CNS depression can be increased when Butabarbital is combined with Paramethadione.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Azathioprine may decrease the excretion rate of Delafloxacin which could result in a higher serum level.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The therapeutic efficacy of Lorazepam can be decreased when used in combination with Furafylline.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The serum concentration of Sunitinib can be increased when it is combined with Dirithromycin.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of hyperglycemia can be increased when Hydrocortisone is combined with Sunitinib.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Parecoxib may decrease the excretion rate of Pidotimod which could result in a higher serum level.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of CNS depression can be increased when Triazolam is combined with Asenapine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of adverse effects can be increased when Lorcaserin is combined with Acepromazine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Hydrolyzed Cephalothin may decrease the excretion rate of Gemfibrozil which could result in a higher serum level.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of adverse effects can be increased when Deoxyspergualin is combined with Mirikizumab.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Ioxilan may decrease the excretion rate of Etafedrine which could result in a higher serum level.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Arotinolol may increase the hypotensive activities of Guanoclor.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of CNS depression can be increased when Clorgiline is combined with Lanicemine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Amobarbital may increase the hypotensive activities of Epoprostenol.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of methemoglobinemia can be increased when Plevitrexed is combined with Cocaine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Severe",
+  "llm_label_audit": 2
+ },
+ {
+  "text": "The metabolism of Azimilide can be decreased when combined with Darunavir.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The metabolism of Metahexamide can be decreased when combined with Sulfapyridine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of CNS depression can be increased when Paliperidone is combined with Emepronium.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of CNS depression can be increased when Lysergic acid diethylamide is combined with Melperone.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The therapeutic efficacy of Sulfadiazine can be increased when used in combination with Piretanide.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of methemoglobinemia can be increased when Temsirolimus is combined with Pramocaine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Severe",
+  "llm_label_audit": 2
+ },
+ {
+  "text": "The risk or severity of CNS depression can be increased when YKP-1358 is combined with Oxaprotiline.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Technetium Tc-99m mebrofenin may decrease the excretion rate of Ipecac which could result in a higher serum level.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The therapeutic efficacy of Batefenterol can be decreased when used in combination with Bunazosin.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Moderate",
+  "llm_label": 1,
+  "label": 1,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Fasudil may increase the arrhythmogenic activities of Vinpocetine.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Isosorbide mononitrate may decrease the excretion rate of Indigotindisulfonic acid which could result in a higher serum level.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Nimesulide may decrease the excretion rate of Chromic nitrate which could result in a higher serum level.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "Ularitide may increase the excretion rate of Doxepin which could result in a lower serum level and potentially a reduction in efficacy.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Mild",
+  "llm_label": 0,
+  "label": 0,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ },
+ {
+  "text": "The risk or severity of QTc prolongation can be increased when Anisodamine is combined with Entrectinib.",
+  "hard_label": 2,
+  "soft_label": [
+   0.011363636363636364,
+   0.011363636363636364,
+   0.9659090909090908,
+   0.011363636363636364
+  ],
+  "llm_severity": "Severe",
+  "llm_label": 2,
+  "label": 2,
+  "llm_severity_audit": "Moderate",
+  "llm_label_audit": 1
+ }
+]

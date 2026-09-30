@@ -1,0 +1,166 @@
+{
+    "protocol": "CV-only selection on train1600; val400 used only for checkpointing and a caveated final report.",
+    "models": {
+        "MedSeverityNet": {
+            "winner_trial": "MedSeverityNet_r_MedSeverityNet_s013",
+            "config": {
+                "word_embed_dim": 128,
+                "char_embed_dim": 64,
+                "char_filters": 32,
+                "char_kernels": [
+                    2,
+                    3,
+                    4
+                ],
+                "classifier_hidden": 64,
+                "dropout": 0.3,
+                "lr": 0.001,
+                "weight_decay": 0.0,
+                "batch_size": 64,
+                "label_smoothing": 0.1,
+                "alpha": 0.75,
+                "hidden_dim": 128,
+                "num_layers": 1
+            },
+            "params_total": 1687076,
+            "params_core": 430692,
+            "oof_f1": 0.9567,
+            "oof_auc": 0.9964,
+            "fold_f1s": [
+                0.9585,
+                0.9505,
+                0.9609
+            ],
+            "val400_report_caveated": {
+                "f1": 0.9562,
+                "acc": 0.955,
+                "auc": 0.9973
+            }
+        },
+        "FastClinicalCNN": {
+            "winner_trial": "FastClinicalCNN_r_FastClinicalCNN_s013",
+            "config": {
+                "word_embed_dim": 64,
+                "char_embed_dim": 32,
+                "char_filters": 32,
+                "char_kernels": [
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "classifier_hidden": 256,
+                "dropout": 0.2,
+                "lr": 0.001,
+                "weight_decay": 0.0,
+                "batch_size": 128,
+                "label_smoothing": 0.1,
+                "alpha": 0.75,
+                "filters": 64,
+                "kernels": [
+                    2,
+                    3,
+                    4
+                ]
+            },
+            "params_total": 803619,
+            "params_core": 175427,
+            "oof_f1": 0.958,
+            "oof_auc": 0.9971,
+            "fold_f1s": [
+                0.96,
+                0.9555,
+                0.9584
+            ],
+            "val400_report_caveated": {
+                "f1": 0.9575,
+                "acc": 0.955,
+                "auc": 0.9916
+            }
+        },
+        "TinyClinicalFormer": {
+            "winner_trial": "TinyClinicalFormer_r_TinyClinicalFormer_s043",
+            "config": {
+                "word_embed_dim": 256,
+                "char_embed_dim": 32,
+                "char_filters": 32,
+                "char_kernels": [
+                    2,
+                    3,
+                    4
+                ],
+                "classifier_hidden": 128,
+                "dropout": 0.4,
+                "lr": 0.0003,
+                "weight_decay": 0.0,
+                "batch_size": 128,
+                "label_smoothing": 0.0,
+                "alpha": 0.75,
+                "num_layers": 4,
+                "nhead": 8,
+                "dim_ff": 128
+            },
+            "params_total": 4916547,
+            "params_core": 2410979,
+            "oof_f1": 0.944,
+            "oof_auc": 0.9907,
+            "fold_f1s": [
+                0.9434,
+                0.9478,
+                0.9406
+            ],
+            "val400_report_caveated": {
+                "f1": 0.945,
+                "acc": 0.94,
+                "auc": 0.9908
+            }
+        }
+    },
+    "bootstrap": {
+        "MedSeverityNet": {
+            "winner_f1_95ci": [
+                0.9468,
+                0.966
+            ],
+            "baseline_f1_95ci": [
+                0.8837,
+                0.9127
+            ],
+            "winner_minus_baseline_95ci": [
+                0.0409,
+                0.0761
+            ],
+            "p_winner_better": 1.0
+        },
+        "FastClinicalCNN": {
+            "winner_f1_95ci": [
+                0.9482,
+                0.967
+            ],
+            "baseline_f1_95ci": [
+                0.8736,
+                0.9022
+            ],
+            "winner_minus_baseline_95ci": [
+                0.0527,
+                0.0866
+            ],
+            "p_winner_better": 1.0
+        },
+        "TinyClinicalFormer": {
+            "winner_f1_95ci": [
+                0.933,
+                0.9547
+            ],
+            "baseline_f1_95ci": [
+                0.8587,
+                0.8892
+            ],
+            "winner_minus_baseline_95ci": [
+                0.0507,
+                0.0876
+            ],
+            "p_winner_better": 1.0
+        }
+    }
+}

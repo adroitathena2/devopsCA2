@@ -1,0 +1,206 @@
+[
+    {
+        "stacker": "logreg",
+        "params": {
+            "C": 1.0
+        },
+        "mean_f1": 0.9588,
+        "std_f1": 0.0084
+    },
+    {
+        "stacker": "logreg",
+        "params": {
+            "C": 10.0
+        },
+        "mean_f1": 0.9587,
+        "std_f1": 0.01
+    },
+    {
+        "stacker": "xgb",
+        "params": {
+            "n_estimators": 50,
+            "max_depth": 2,
+            "learning_rate": 0.1
+        },
+        "mean_f1": 0.9585,
+        "std_f1": 0.0111
+    },
+    {
+        "stacker": "logreg",
+        "params": {
+            "C": 0.1
+        },
+        "mean_f1": 0.9577,
+        "std_f1": 0.008
+    },
+    {
+        "stacker": "xgb",
+        "params": {
+            "n_estimators": 100,
+            "max_depth": 2,
+            "learning_rate": 0.05
+        },
+        "mean_f1": 0.9576,
+        "std_f1": 0.0094
+    },
+    {
+        "stacker": "xgb",
+        "params": {
+            "n_estimators": 50,
+            "max_depth": 3,
+            "learning_rate": 0.1
+        },
+        "mean_f1": 0.9571,
+        "std_f1": 0.0124
+    },
+    {
+        "stacker": "xgb",
+        "params": {
+            "n_estimators": 200,
+            "max_depth": 2,
+            "learning_rate": 0.05
+        },
+        "mean_f1": 0.9564,
+        "std_f1": 0.0098
+    },
+    {
+        "stacker": "xgb",
+        "params": {
+            "n_estimators": 50,
+            "max_depth": 2,
+            "learning_rate": 0.05
+        },
+        "mean_f1": 0.9562,
+        "std_f1": 0.0098
+    },
+    {
+        "stacker": "xgb",
+        "params": {
+            "n_estimators": 50,
+            "max_depth": 3,
+            "learning_rate": 0.05
+        },
+        "mean_f1": 0.9562,
+        "std_f1": 0.0122
+    },
+    {
+        "stacker": "xgb",
+        "params": {
+            "n_estimators": 100,
+            "max_depth": 3,
+            "learning_rate": 0.05
+        },
+        "mean_f1": 0.956,
+        "std_f1": 0.0115
+    },
+    {
+        "stacker": "xgb",
+        "params": {
+            "n_estimators": 50,
+            "max_depth": 4,
+            "learning_rate": 0.05
+        },
+        "mean_f1": 0.9551,
+        "std_f1": 0.0112
+    },
+    {
+        "stacker": "xgb",
+        "params": {
+            "n_estimators": 100,
+            "max_depth": 4,
+            "learning_rate": 0.05
+        },
+        "mean_f1": 0.955,
+        "std_f1": 0.0115
+    },
+    {
+        "stacker": "xgb",
+        "params": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05
+        },
+        "mean_f1": 0.955,
+        "std_f1": 0.01
+    },
+    {
+        "stacker": "xgb",
+        "params": {
+            "n_estimators": 200,
+            "max_depth": 3,
+            "learning_rate": 0.05
+        },
+        "mean_f1": 0.9544,
+        "std_f1": 0.0126
+    },
+    {
+        "stacker": "xgb",
+        "params": {
+            "n_estimators": 100,
+            "max_depth": 2,
+            "learning_rate": 0.1
+        },
+        "mean_f1": 0.9542,
+        "std_f1": 0.0134
+    },
+    {
+        "stacker": "xgb",
+        "params": {
+            "n_estimators": 100,
+            "max_depth": 3,
+            "learning_rate": 0.1
+        },
+        "mean_f1": 0.9539,
+        "std_f1": 0.0109
+    },
+    {
+        "stacker": "xgb",
+        "params": {
+            "n_estimators": 50,
+            "max_depth": 4,
+            "learning_rate": 0.1
+        },
+        "mean_f1": 0.9533,
+        "std_f1": 0.0105
+    },
+    {
+        "stacker": "xgb",
+        "params": {
+            "n_estimators": 100,
+            "max_depth": 4,
+            "learning_rate": 0.1
+        },
+        "mean_f1": 0.9524,
+        "std_f1": 0.0097
+    },
+    {
+        "stacker": "xgb",
+        "params": {
+            "n_estimators": 200,
+            "max_depth": 2,
+            "learning_rate": 0.1
+        },
+        "mean_f1": 0.9519,
+        "std_f1": 0.0112
+    },
+    {
+        "stacker": "xgb",
+        "params": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.1
+        },
+        "mean_f1": 0.9518,
+        "std_f1": 0.0101
+    },
+    {
+        "stacker": "xgb",
+        "params": {
+            "n_estimators": 200,
+            "max_depth": 3,
+            "learning_rate": 0.1
+        },
+        "mean_f1": 0.951,
+        "std_f1": 0.0093
+    }
+]

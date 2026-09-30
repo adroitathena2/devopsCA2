@@ -1,0 +1,507 @@
+prescription_id,prescription_index,prescription_text,gt_severity,pred_severity,gt_has_interaction,pred_has_interaction,pred_interactions_count,latency_seconds,missed_drugs,gt_drug_count,missed_drug_count,gemini_errors
+349,1,"Memantine 10mg OD
+Pregabalin 75mg twice daily",Moderate,Moderate,True,True,1,2.3342578411102295,[],2,0,0
+447,2,"Tab. Benadryl 25mg, to be taken orally, three times daily
+Tab. Diazepam 5mg, to be taken orally, once daily at bedtime",Severe,Severe,True,True,1,8.03866958618164,[],2,0,0
+347,3,"Valproate 500mg BD
+Phenobarbital 30mg once daily",Moderate,Moderate,True,True,1,3.2244515419006348,[],2,0,0
+212,4,"Tab. Doxycycline 750mg, to be taken orally, twice daily before meals
+Syp. Calcium carbonate 400mg, to be taken orally, once daily at bedtime",Moderate,Moderate,True,True,1,3.788267135620117,[],2,0,0
+413,5,"1. Brufen 400mg TDS
+2. Enalapril 5mg OD",Severe,Severe,True,True,1,3.2209768295288086,[],2,0,0
+62,6,"1. Felbamate 100mg BD
+2. Lorazepam 50mg BD",Moderate,Moderate,True,True,1,3.1817376613616943,[],2,0,0
+414,7,"Rx: Eltroxin - 100mcg od
+Rx: Mucaine - 10ml tds",Moderate,Moderate,True,True,1,3.1627399921417236,[],2,0,0
+120,8,"Simvastatin20mg OD
+Itraconazole 200mg once daily",Moderate,Moderate,True,True,1,5.158305406570435,[],2,0,0
+140,9,"Dapagliflozin 10mg once daily
+Sitagliptin 100mg OD",No Interaction,No Interaction,False,False,0,0.49054384231567383,[],2,0,0
+203,10,"Salbutamol 4mg BD
+Amoxicillin 500mg twice daily
+Loratadine 10mg OD",Moderate,Moderate,True,True,1,3.635817289352417,[],3,0,0
+72,11,"Upadacitinib 100mg twice daily
+Tipranavir 5mg BD
+V1tam1n C 50mg twice daily",Moderate,Moderate,True,True,1,3.6841909885406494,['Vitamin C'],3,1,0
+133,12,"1. Enalapril 10mg BD
+2. Potassium chloride 600mg BD",Moderate,Moderate,True,True,1,3.35217547416687,[],2,0,0
+91,13,"Desipramine 75mg three times daily
+Oliceridine 5mg once daily",Severe,Severe,True,True,1,3.809518814086914,[],2,0,0
+410,14,"Ciplox 500mgBD
+Gelusil 10ml TDS",Moderate,Moderate,True,True,1,3.560058355331421,[],2,0,0
+338,15,"Rx:Thioridazine-50mg od
+Rx:Fluoxetine-20mg od",Severe,Severe,True,True,1,3.6175034046173096,[],2,0,0
+422,16,"Tab. Thyronorm 100mcg, to be taken orally, once daily on empty stomach
+Tab. Shelcal 500mg, to be taken orally, twice daily after meals
+Tab. Allegra 120mg, to be taken orally, once daily at night",Moderate,Moderate,True,True,1,3.683307409286499,[],3,0,0
+10,17,"Loratadine 10mg once daily
+Amlodipine 5mg OD",No Interaction,No Interaction,False,False,0,0.41699695587158203,[],2,0,0
+403,18,"1. Voveran 50mg BD
+2. Telma 40mg OD
+3. Dolo 650mg SOS",Severe,Severe,True,True,1,6.220279932022095,[],3,0,0
+14,19,"1. Penfluridol 5mg BD
+2. Amoxapine 75mg OD",Moderate,Moderate,True,True,1,3.53942608833313,[],2,0,0
+337,20,"Rx: Mirtazapine - 15mg hs
+Rx: Vitamin D - od",No Interaction,No Interaction,False,False,0,0.5200023651123047,[],2,0,0
+450,21,"Ecosprin 75mg OD
+Ibuprofen 400mg TDS
+Telma-H 40mg OD",Severe,Severe,True,True,4,12.840309143066406,[],3,0,0
+236,22,"Rx: Amoxicillin 500mg BD
+Rx: Diphenhydramine - BD",Severe,Severe,True,True,1,6.410176038742065,[],2,0,0
+232,23,"Rifampin 200mg once daily
+Ethinyl estradiol once daily",Moderate,Moderate,True,True,1,3.7373225688934326,[],2,0,0
+444,24,"Rx: Mucaine - 10ml tds
+Rx: Crocin - 500mg sos
+Rx: Montair - 10mg hs",Severe,Moderate,True,True,2,8.00338339805603,[],3,0,0
+122,25,"Tab. Empagliflozin 10mg, to be taken orally, once daily before meals
+Tab. Metformin 500mg, to be taken orally, twice daily after meals",No Interaction,No Interaction,False,False,0,0.40830230712890625,[],2,0,0
+317,26,"Tab. Duloxetine 60mg, to be taken orally, once daily after meals
+Tab. Memantine 10mg, to be taken orally, once daily before meals",Moderate,Moderate,True,True,1,2.804645299911499,[],2,0,0
+226,27,"Levofloxacin200mg three times daily
+Amiodarone OD",Severe,Severe,True,True,1,5.592250347137451,[],2,0,0
+438,28,"1. Dulcoflex 5mg HS
+2. Lasix 40mg OD",Moderate,Moderate,True,True,1,3.4829928874969482,[],2,0,0
+223,29,"Rx: Ciprofloxacin - 500mg twice daily
+Rx: Theophylline - 75mg tds",Moderate,Moderate,True,True,1,7.712362051010132,[],2,0,0
+412,30,"Tab. Dexona 4mg, to be taken orally, twice daily after meals
+Tab. Amaryl 2mg, to be taken orally, once daily before breakfast",Moderate,Moderate,True,True,1,12.5896635055542,[],2,0,0
+443,31,"Digene 10ml TDS
+Cetzine 10mg OD",Moderate,Moderate,True,True,2,9.543115854263306,[],2,0,0
+116,32,"Amiodarone 200mg OD
+Warfarin 5mg once daily",Severe,Severe,True,True,1,4.444111108779907,[],2,0,0
+84,33,"Mefenamic acid 20mg TDS
+Mannitol 50mg BD",Severe,Severe,True,True,1,7.663140773773193,[],2,0,0
+234,34,"Ciprofloxacin 75mg three times daily
+Aluminum hydroxide 50mg TDS",Moderate,Moderate,True,True,1,6.487299203872681,[],2,0,0
+247,35,"Rx: Levofloxacin 25mg once daily
+Rx: Calcium carbonate - 250mg bd",Moderate,Moderate,True,True,1,3.3067688941955566,[],2,0,0
+348,36,"Ziprasidone 40mg twice daily
+Sotalol 80mg BD",Severe,Severe,True,True,1,3.396888017654419,[],2,0,0
+343,37,"Venlafaxine 75mg tw1ce daily
+Tramadol 50mg TDS
+Vitamin B12 50mg once daily",Severe,Severe,True,True,1,3.2449042797088623,[],3,0,0
+437,38,"Rx: Eno - 1sachet sos
+Rx: Ciplox - 500mg bd",Moderate,Moderate,True,True,1,4.1402060985565186,[],2,0,0
+202,39,"1. Isoniazid 100mg BD
+2. Acetaminophen 10mg TDS
+3. Zinc 500mg QID",Severe,Severe,True,True,1,4.119527339935303,[],3,0,0
+137,40,"Tab. Warfarin 5mg, to be taken orally, once daily after meals
+Tab. Simvastatin 20mg, to be taken orally, once daily after meals
+Tab. Metformin 500mg, to be taken orally, twice daily before meals",Moderate,Moderate,True,True,3,11.836328268051147,[],3,0,0
+77,41,"Rx: Mitotane - 500mg tds
+Rx: Abiraterone - 75mg od",Moderate,Moderate,True,True,1,5.423350095748901,[],2,0,0
+250,42,"Moxifloxacin 75mg QID
+Amiodarone 400mg QID
+Vitamin C 75mg OD",Severe,Severe,True,True,1,4.032007694244385,[],3,0,0
+127,43,"Tab. Insulin glargine 10units, to be taken subcutaneously, once daily before meals
+Tab. Glipizide 5mg, to be taken orally, once daily before meals",Moderate,Moderate,True,True,1,4.587883234024048,[],2,0,0
+411,44,"Allegra 120mg OD
+Digene 10ml TDS",Moderate,Moderate,True,True,2,6.332096338272095,[],2,0,0
+436,45,"Thyronorm 50mcg empty stomach, Allegra 120mg with breakfast, Crocin 500mg SOS for headache",No Interaction,No Interaction,False,False,0,0.5972967147827148,[],3,0,0
+322,46,"1. Morphine 10mg BD
+2. Lorazepam 1mg TDS",Moderate,Moderate,True,True,1,5.629711627960205,[],2,0,0
+243,47,"Syp. Erythromycin 20mg, to be taken orally, twice daily before meals
+Syp. Simvastatin 10mg, to be taken orally, twice daily after meals",Moderate,Moderate,True,True,1,6.131143093109131,[],2,0,0
+431,48,"Rx: Looz - 15ml hs
+Rx: Crocin - 500mg sos",No Interaction,No Interaction,False,False,0,0.22961211204528809,['Looz'],2,1,0
+417,49,"Rx: Rantac - 150mg bd
+Rx: Dolo - 650mg tds",Moderate,Moderate,True,True,1,3.7607526779174805,[],2,0,0
+401,50,"Omez 20mg OD
+Clopilet 75mg OD",Moderate,Moderate,True,True,1,3.627260208129883,[],2,0,0
+209,51,"Itraconazole 200mg bd
+Midazolam 7.5mg twice daliy",Moderate,Moderate,True,True,1,4.115516662597656,[],2,0,0
+235,52,"Doxycycline100mg twice daliy
+Fexofenadine 180mg OD",No Interaction,No Interaction,False,False,0,0.38460326194763184,[],2,0,0
+142,53,"Tab. Ramipril 5mg, to be taken orally, once daily after meals
+Tab. Amlodipine 5mg, to be taken orally, once daily before meals",Moderate,Moderate,True,True,1,3.7336695194244385,[],2,0,0
+52,54,"Cefpodoxime 100mg OD
+Adefovir dipivoxil 5mg twice daily",Severe,Severe,True,True,1,5.75621223449707,[],2,0,0
+27,55,"Cefpodoxime 100mg TDS
+Lumiracoxib 10mg TDS",Severe,Severe,True,True,1,2.9743921756744385,[],2,0,0
+7,56,"1. Capreomycin 10mg TDS
+2. Ibandronate 75mg TDS",Severe,Severe,True,True,1,5.69683837890625,[],2,0,0
+416,57,"Cetzine 10mg OD
+Pan 40mg OD",Moderate,Moderate,True,True,1,3.2599191665649414,[],2,0,0
+5,58,"Rx: Abacavir - 50mg od
+Rx: Tenofovir disoproxil - 75mg od",Moderate,Moderate,True,True,1,15.118075847625732,[],2,0,0
+304,59,"Sertraline 50mg OD
+Gabapentin 300mg TDS",Moderate,Moderate,True,True,1,3.012995481491089,[],2,0,0
+344,60,"Sertraline 50mg twice daily
+Vitamin D 20mg OD",No Interaction,No Interaction,False,False,0,0.31321048736572266,[],2,0,0
+331,61,"Rx: Paroxetine - 20mg od
+Rx: Selegiline - 5mg bd",Severe,Severe,True,True,1,5.493862628936768,[],2,0,0
+123,62,"1. Valsartan 80mg OD
+2. Spironolactone 25mg OD",Moderate,Moderate,True,True,1,2.9362761974334717,[],2,0,0
+44,63,"1. Ifosfamide 75mg BD
+2. Pertuzumab 50mg OD",Severe,Severe,True,True,1,6.076807737350464,[],2,0,0
+207,64,"Folic acid 100mg TDS
+Erythromycin 500mg QID
+Carbamazepine 20mg three times daily",Moderate,Moderate,True,True,3,13.800181865692139,[],3,0,0
+128,65,"1. Digoxin 0.25mg OD
+2. Amiodarone 200mg BD",Moderate,Moderate,True,True,1,3.337444543838501,[],2,0,0
+213,66,"Acyclovir 400mg twice daliy
+Cetirizine 10mg once daily",Moderate,Severe,True,True,1,6.988015651702881,[],2,0,0
+114,67,"Rx: Enalapril - 5mg bd
+Rx: Amiloride - 5mg od",Moderate,Moderate,True,True,1,3.667238235473633,[],2,0,0
+12,68,"Capecitabine 10mg OD
+Cefmetazole 100mg once daily",Severe,Severe,True,True,1,6.873767375946045,[],2,0,0
+121,69,"Clopidogrel 75mg OD
+Naproxen 250mg BD",Severe,Moderate,True,True,1,6.190403938293457,[],2,0,0
+334,70,"Rx: Duloxetine - 60mg od
+Rx: Pregabalin - 75mg bd",Moderate,Moderate,True,True,1,4.610114336013794,[],2,0,0
+81,71,"1. Chlorthalidone 500mg BD
+2. Treprostinil 50mg TDS",Moderate,Moderate,True,True,1,5.505501747131348,[],2,0,0
+103,72,"1. Metformin 500mg BD
+2. Sitagliptin 100mg OD",No Interaction,No Interaction,False,False,0,0.5102553367614746,[],2,0,0
+124,73,"Rx: Bisoprolol - 5mg od
+Rx: Atorvastatin - 20mg od",No Interaction,No Interaction,False,False,0,0.42798471450805664,[],2,0,0
+346,74,"Gabapentin 300mg three times daliy
+Vitamin B12 50mg OD",No Interaction,No Interaction,False,False,0,0.3307676315307617,[],2,0,0
+316,75,"Tab. Amitriptyline 25mg, to be taken orally, three times daily
+Tab. Tranylcypromine 10mg, to be taken orally, twice daily before meals",Severe,Severe,True,True,1,4.616070747375488,[],2,0,0
+2,76,"Tab. Droperidol 10mg, to be taken orally, twice daily before meals
+Tab. Apomorphine 500mg, to be taken orally, once daily after meals",Moderate,Moderate,True,True,1,6.364097595214844,[],2,0,0
+220,77,"1. Folic acid 25mg TDS
+2. Warfarin 20mg once daily
+3. Metronidazole 50mg BD",Moderate,Moderate,True,True,2,17.34976553916931,[],3,0,0
+66,78,"Liraglutide 75mg TDS
+Clofenamide 5mg TDS
+Vitamin D 50mg TDS",Moderate,Moderate,True,True,1,5.082989454269409,[],3,0,0
+248,79,"Tab. Trimethoprim 250mg, to be taken orally, three times daily after meals
+Cap. Methotrexate 400mg, to be taken orally, three times daily",Moderate,Moderate,True,True,1,4.409435749053955,[],2,0,0
+131,80,"Apixaban 5mg BD
+Naproxen 250mg twice daily",Severe,Severe,True,True,1,5.141970634460449,[],2,0,0
+325,81,"1. Rizatriptan 10mg OD
+2. Tranylcypromine 10mg BD",Moderate,Severe,True,True,1,6.68685245513916,[],2,0,0
+3,82,"1. Loratadine 10mg OD
+2. Omeprazole 20mg OD",No Interaction,No Interaction,False,False,0,0.46314525604248047,[],2,0,0
+139,83,"Rx: Candesartan - 8mg od
+Rx: Amiloride - 5mg od",Moderate,Moderate,True,True,1,3.573930263519287,[],2,0,0
+144,84,"Rx: Empagliflozin - 10mg od
+Rx: Lisinopril - 10mg od",Severe,Severe,True,True,1,3.231337308883667,[],2,0,0
+441,85,"Taxim 200mg BD
+Acitrom 2mg OD",Severe,Moderate,True,True,1,3.304438591003418,[],2,0,0
+435,86,"Strepsils 1tab TDS
+Crocin 500mg SOS",Moderate,Moderate,True,True,1,3.4472203254699707,[],2,0,0
+210,87,"Itraconazole 50mg TDS
+Simvastatin 20mg OD",Moderate,Severe,True,True,1,5.728101015090942,[],2,0,0
+342,88,"Codeine 30mg TDS
+Clonazepam 0.5mg twice daily",Moderate,Moderate,True,True,1,6.170604944229126,[],2,0,0
+53,89,"Rx: Felodipine - 100mg tds
+Rx: Doxylamine - 20mg bd",Severe,Moderate,True,True,1,4.316296815872192,[],2,0,0
+345,90,"Olanzapine 10mg 0D
+Diazepam 5mg twice daily",Moderate,Moderate,True,True,1,3.311389684677124,[],2,0,0
+407,91,"Tab. Azithral 500mg, to be taken orally, once daily for three days
+Tab. Ondem 4mg, to be taken orally, twice daily before meals",Severe,Severe,True,True,1,3.4803977012634277,[],2,0,0
+230,92,"Rx: Ciprofloxacin - 25mg twice daily
+Rx: Tizanidine-200mg OD
+Rx: Acetaminophen 25mg od",Moderate,Severe,True,True,2,11.191759824752808,[],3,0,0
+109,93,"Rx: Losartan - 50mg od
+Rx: Amlodipine - 5mg bd",Moderate,Moderate,True,True,1,5.2778403759002686,[],2,0,0
+146,94,"Hydrochlorothiazide 25mg OD
+Atorvastatin 20mg once daily",No Interaction,No Interaction,False,False,0,0.3168051242828369,[],2,0,0
+434,95,"Rx: Zincovit - 1cap od
+Rx: Dolo - 650mg sos",No Interaction,No Interaction,False,False,0,1.5597310066223145,['Zincovit'],2,1,0
+206,96,"Linezolid10mg OD
+Sertraline 25mg BD
+Vitamin D20mg twice daliy",Severe,Severe,True,True,1,1.8593552112579346,[],3,0,0
+111,97,"Atorvastatin 20mg OD
+Diltiazem 120mg BD
+Metformin 500mg twice daily",Moderate,Moderate,True,True,3,13.312368869781494,[],3,0,0
+321,98,"1. Sertraline 50mg OD
+2. Phenelzine 15mg BD",Severe,Severe,True,True,1,3.518359422683716,[],2,0,0
+69,99,"Rx: Tenofovir - 10mg od
+Rx: Cefacetrile - 10mg od",Severe,Severe,True,True,1,5.812052249908447,[],2,0,0
+126,100,"Warfarin 5mg OD
+Diclofenac 50mg TDS",Severe,Severe,True,True,1,4.918610572814941,[],2,0,0
+107,101,"Tab. Aspirin 75mg, to be taken orally, once daily after meals
+Tab. Clopidogrel 75mg, to be taken orally, once daily after meals
+Tab. Naproxen 250mg, to be taken orally, twice daily before meals",Severe,Moderate,True,True,2,14.481340169906616,[],3,0,0
+424,102,"Rx: Lasix - 40mg od
+Rx: Digoxin - 0.25mg od
+Rx: Pan - 40mg od",Moderate,Moderate,True,True,3,10.238481998443604,[],3,0,0
+229,103,"1. Metronidazole 75mg BD
+2. Disulfiram 200mg QID",Severe,Severe,True,True,1,4.183549404144287,[],2,0,0
+429,104,"Rx: Betnesol - 1mg bd
+Rx: Voveran - 50mg tds
+Rx: Omez - 20mg od",Mild,Moderate,True,True,1,4.217663049697876,[],3,0,0
+335,105,"Rx: Cyclobenzaprine - 10mg tds
+Rx: Phenelzine - 15mg bd",Severe,Severe,True,True,1,6.702963352203369,[],2,0,0
+214,106,"Erythromycin 100mg BD
+Amiodarone 75mg OD",Moderate,Moderate,True,True,1,4.417412519454956,[],2,0,0
+106,107,"Amlodipine 5mg OD
+Metformin 500mg BD",Moderate,Moderate,True,True,1,4.168424606323242,[],2,0,0
+425,108,"Ecosprin 75mg OD
+Warf 5mg once daily",Moderate,Moderate,True,True,1,5.72827672958374,[],2,0,0
+150,109,"Apixaban 5mg twice daily
+Aspirin 75mg 0D",Moderate,Moderate,True,True,1,5.866546630859375,[],2,0,0
+245,110,"Tab. Ketoconazole 500mg, to be taken orally, twice daily before meals
+Inj. Midazolam 200mg, to be taken orally, twice daily before meals",Moderate,Moderate,True,True,1,3.387556314468384,[],2,0,0
+320,111,"Tab. Quetiapine 100mg, to be taken orally, once daily at bedtime
+Cap. Gabapentin 300mg, to be taken orally, twice daily
+Tab. Vitamin D 20mg, to be taken orally, once daily after meals",Moderate,Moderate,True,True,1,5.9256627559661865,[],3,0,0
+204,112,"1. Azithromycin 500mg OD
+2. Acetaminophen 500mg TDS",Moderate,Moderate,True,True,1,5.16963529586792,[],2,0,0
+49,113,"Tacrolimus 5mg TDS
+Cefpirome 75mg once daily",Severe,Severe,True,True,1,3.727334976196289,[],2,0,0
+13,114,"Azelaic acid 75mg TDS
+Ifosfamide 10mg three times daily
+Calcium 20mg three times daily",Moderate,Moderate,True,True,1,9.23404860496521,[],3,0,0
+423,115,"1. Omez 20mg OD
+2. Warf 5mg OD",No Interaction,No Interaction,False,False,0,0.3498661518096924,[],2,0,0
+439,116,"Rx: Thyronorm - 100mcg od
+Rx: Omez - 20mg od",Moderate,Moderate,True,True,1,2.889702558517456,[],2,0,0
+404,117,"Rx: Wysolone - 10mg od
+Rx: Brufen - 400mg tds",Mild,Moderate,True,True,1,3.688840389251709,[],2,0,0
+39,118,"Tab. Efonidipine 500mg, to be taken orally, once daily after meals
+Tab. Pidotimod 5mg, to be taken orally, three times daily",Moderate,Moderate,True,True,1,3.104719877243042,[],2,0,0
+101,119,"Simvastatin 40mg OD
+Clarithromycin 500mg BD",Moderate,Moderate,True,True,1,4.310968399047852,[],2,0,0
+115,120,"Simvastatin 20mg once daiIy
+Diltiazem 120mg twice daily",Moderate,Moderate,True,True,1,4.792785167694092,[],2,0,0
+4,121,"Tab. Carbamazepine 100mg, to be taken orally, once daily after meals
+Tab. Oliceridine 100mg, to be taken orally, three times daily",Severe,Severe,True,True,1,4.152704238891602,[],2,0,0
+96,122,"Rx: Cefroxadine - 10mg od
+Rx: Fenoprofen - 100mg bd",Severe,Severe,True,True,1,5.987437009811401,[],2,0,0
+141,123,"Aspirin 75mg OD
+Clopidogrel 75mg OD
+Ibuprofen 400mg TDS
+Atorvastatin 20mg once daily",Severe,Moderate,True,True,4,21.92751455307007,[],4,0,0
+224,124,"Rx: Rifampin - 100mg BD
+Rx: Tacrolimus - 75mg od
+Rx: Vitamin D - 250mg tds",Moderate,Moderate,True,True,3,10.286405563354492,[],3,0,0
+105,125,"Atorvastatin 20mg twice daiIy
+Erythromycin 500mg 0D",Moderate,Moderate,True,True,1,4.800065994262695,[],2,0,0
+147,126,"Tab. Atorvastatin 20mg, to be taken orally, once daily after meals
+Tab. Fenofibrate 160mg, to be taken orally, once daily before meals",Severe,Severe,True,True,1,3.1045479774475098,[],2,0,0
+408,127,"1. Combiflam 400mg TDS
+2. Acitrom 2mg OD",Moderate,Moderate,True,True,2,11.796611785888672,[],2,0,0
+318,128,"Tab. Carbamazepine 200mg, to be taken orally, twice daily with food
+Tab. Warfarin 5mg, to be taken orally, once daily in the evening",Moderate,Moderate,True,True,1,3.3024308681488037,[],2,0,0
+135,129,"Simvastatin 40mg 0D
+Clarithromycin 500mg BD
+Amlodipine 5mg once daiIy",Moderate,Moderate,True,True,3,13.273535251617432,[],3,0,0
+339,130,"Rx: Tapentadol - 50mg bd
+Rx: Duloxetine - 30mg od",Moderate,Moderate,True,True,1,13.617684125900269,[],2,0,0
+341,131,"Fluoxetine 20mg twice daliy
+Tranylcypromine 10mg BD",Severe,Severe,True,True,1,5.54645848274231,[],2,0,0
+233,132,"Syp. Montelukast 25mg, to be taken orally, once daily after meals
+Tab. Ibuprofen 200mg, to be taken orally, twice daily before meals",Moderate,Moderate,True,True,1,3.721147060394287,[],2,0,0
+125,133,"Metoprolol 50mg twice daliy
+Diltiazem 120mg BD
+Atorvastatin 20mg 0D",Severe,Severe,True,True,2,12.255335569381714,[],3,0,0
+430,134,"Domstal 10mg TDS
+Azithral 500mg once daily",Severe,Severe,True,True,1,4.237959384918213,[],2,0,0
+432,135,"Tab. Pan 40mg, to be taken orally, once daily before breakfast
+Tab. Dexorange 10ml, to be taken orally, twice daily after meals",Moderate,Moderate,True,True,1,3.4117445945739746,[],2,0,0
+330,136,"1. Escitalopram 10mg OD
+2. Gabapentin 300mg TDS
+3. Vitamin D 20mg OD",Moderate,Moderate,True,True,1,4.131865739822388,[],3,0,0
+336,137,"Rx: Zolpidem - 10mg hs
+Rx: Oxycodone - 10mg bd",Moderate,Moderate,True,True,1,6.095850467681885,[],2,0,0
+145,138,"Rosuvastatin 10mg 0D
+Metformin 500mg twice daiIy",No Interaction,No Interaction,False,False,0,0.3216063976287842,[],2,0,0
+311,139,"Tab. Venlafaxine 75mg, to be taken orally, twice daily after meals
+Tab. Phenelzine 15mg, to be taken orally, twice daily before meals",Severe,Severe,True,True,1,2.883739948272705,[],2,0,0
+333,140,"Rx: Sertraline - 50mg od
+Rx: Sumatriptan - 50mg od
+Rx: Paracetamol - 500mg tds",Moderate,Moderate,True,True,3,10.849277019500732,[],3,0,0
+34,141,"Omeprazole 20mg once daily
+Azithromycin 500mg OD",No Interaction,No Interaction,False,False,0,0.26187825202941895,[],2,0,0
+19,142,"Rx: Olsalazine - 50mg od
+Rx: Carboplatin - 100mg tds",Severe,Severe,True,True,1,10.862395763397217,[],2,0,0
+323,143,"1. Tramadol 50mg TDS
+2. Fluoxetine 20mg OD
+3. Paracetamol 500mg TDS",Severe,Severe,True,True,2,6.675396680831909,[],3,0,0
+237,144,"Isoniazid 300mg od
+Pyridoxine 100mg BD",No Interaction,No Interaction,False,False,0,0.29984307289123535,[],2,0,0
+449,145,"Rx: Augmentin - 625mg bd
+Rx: Acitrom - 2mg od",Severe,Moderate,True,True,2,8.05463719367981,[],2,0,0
+319,146,"Cap. Bupropion 150mg, to be taken orally, once daily in the morning
+Tab. Tramadol 50mg, to be taken orally, three times daily after meals",Severe,Severe,True,True,1,4.234215497970581,[],2,0,0
+86,147,"Mofebutazone 10mg twice daily
+Loracarbef 50mg TDS",Severe,Severe,True,True,1,5.828714370727539,[],2,0,0
+409,148,"Rx: Glycomet - 500mg bd
+Rx: Omnacortil - 20mg od
+Rx: Crocin - 500mg tds",Moderate,Moderate,True,True,1,3.680898904800415,[],3,0,0
+246,149,"Rifampin 600mg once daily
+Prednisone 10mg OD",Moderate,Moderate,True,True,1,3.132905960083008,[],2,0,0
+406,150,"Thyronorm 75mcg OD
+Dexorange 10ml BD",No Interaction,No Interaction,False,False,0,0.3971996307373047,[],2,0,0
+445,151,"Levocet 5mg OD
+Alprax 0.5mg at HS",Moderate,Moderate,True,True,1,3.135732889175415,[],2,0,0
+129,152,"Rx: Losartan - 50mg od
+Rx: Potassium chloride - 600mg bd",Moderate,Moderate,True,True,1,3.4726943969726562,[],2,0,0
+225,153,"Linezolid 600mg, twice daily.
+Dextromethorphan30mg twice daliy",Severe,Severe,True,True,1,6.063915967941284,[],2,0,0
+143,154,"1. Digoxin 0.25mg OD
+2. Furosemide 40mg BD
+3. Apixaban 5mg BD",Moderate,Moderate,True,True,2,6.620929479598999,[],3,0,0
+240,155,"Rx: Ciprofloxacin - 400mg tds
+Rx: Sucralfate-750mg tds",Moderate,Moderate,True,True,1,3.180253267288208,[],2,0,0
+249,156,"1. Prednisolone 250mg OD
+2. Calcium 200mg twice daily",No Interaction,No Interaction,False,False,0,0.2911543846130371,[],2,0,0
+328,157,"1. Clomipramine 25mg TDS
+2. Selegiline 5mg BD",Severe,Severe,True,True,1,5.915790796279907,[],2,0,0
+419,158,"Rx: Allegra - 120mg od
+Rx: Glycomet - 500mg bd",No Interaction,No Interaction,False,False,0,0.42745351791381836,[],2,0,0
+36,159,"1. Pamidronic acid 10mg TDS
+2. Atazanavir 20mg BD",Severe,Severe,True,True,1,2.8447020053863525,[],2,0,0
+118,160,"1. Candesartan 8mg OD
+2. Chlorthalidone 25mg OD",Moderate,Moderate,True,True,1,3.5487091541290283,[],2,0,0
+350,161,"Trazodone 50mg hs
+Melatonin 2mg hs
+Vitamin C 100mg once daliy",Moderate,Moderate,True,True,1,4.6862547397613525,[],3,0,0
+119,162,"Rx: Ramipril - 5mg od
+Rx: Spironolactone - 25mg od
+Rx: Amlodipine - 5mg bd",Moderate,Moderate,True,True,3,13.795496940612793,[],3,0,0
+132,163,"Tab. Bisoprolol 5mg, to be taken orally, once daily after meals
+Tab. Verapamil 80mg, to be taken orally, three times daily",Moderate,Moderate,True,True,1,6.969719409942627,[],2,0,0
+148,164,"1. Bisoprolol 5mg OD
+2. Dapagliflozin 10mg OD",Moderate,Moderate,True,True,1,4.546741008758545,[],2,0,0
+228,165,"Rx: Budesonide - 750mg twice daily
+Rx: Loratadine - twcie daily",Moderate,Moderate,True,True,1,3.314145803451538,[],2,0,0
+418,166,"Montair 10mg OD
+Crocin 500mg SOS",Moderate,Moderate,True,True,1,3.625277042388916,[],2,0,0
+231,167,"Oseltamivir 100mg OD
+Diphenhydramine twice daliy",No Interaction,No Interaction,False,False,0,0.33966541290283203,[],2,0,0
+136,168,"Valsartan 80mg OD
+Amlodipine 5mg once daily",No Interaction,No Interaction,False,False,0,0.3217620849609375,[],2,0,0
+219,169,"Rx: Fluconazole 750mg twcie daily
+Rx: Simvastatin-10mg twice daily",Moderate,Moderate,True,True,1,6.3581767082214355,[],2,0,0
+301,170,"Fluoxetine 20mg OD
+Phenelzine 15mg BD",Severe,Severe,True,True,1,7.309457302093506,[],2,0,0
+241,171,"Azithromycin 500mg once daily
+Haloperidol 5mg twice daily",Severe,Severe,True,True,1,7.4601664543151855,[],2,0,0
+108,172,"1. Digoxin 0.25mg OD
+2. Furosemide 40mg BD",Moderate,Moderate,True,True,1,3.517019033432007,[],2,0,0
+324,173,"1. Venlafaxine 75mg BD
+2. Pregabalin 150mg BD",Moderate,Moderate,True,True,1,4.690617084503174,[],2,0,0
+420,174,"Electral 21.8g once daily
+Calpol 500mg SOS",Moderate,Moderate,True,True,3,12.888174057006836,[],2,0,0
+426,175,"Meftal 500mg TDS
+Lasix 40mg OD",Moderate,Moderate,True,True,1,3.284665584564209,[],2,0,0
+31,176,"Erlotinib 50mg twice daily
+Seladelpar 75mg TDS
+Calcium 75mg three times daily",Moderate,Moderate,True,True,1,3.9237239360809326,[],3,0,0
+306,177,"Tramadol 50mg TDS
+Paroxetine 20mg OD",Severe,Moderate,True,True,1,6.549772024154663,[],2,0,0
+442,178,Takes sugar pill Glycomet 500mg twice daily and Dolo 650mg when feverish,No Interaction,No Interaction,False,False,0,0.3175497055053711,[],2,0,0
+201,179,"Rx Ergotamine - 20mg bd
+Rx: Ketoconazole - 750mg twcie daily
+Rx: Calcium 100mg once daliy",Moderate,Severe,True,True,1,7.74140739440918,[],3,0,0
+104,180,"Rx: Lisinopril - 10mg od
+Rx: Spironolactone - 25mg od",Moderate,Moderate,True,True,1,3.97390079498291,[],2,0,0
+329,181,"a. Methadone 10mg OD
+b. Clonazepam 0.5mg BD",Moderate,Moderate,True,True,1,6.577590465545654,[],2,0,0
+405,182,"Avil 25mg twice-daily
+Alprax 0.5mg OD",No Interaction,Moderate,False,True,1,7.699344873428345,[],2,0,0
+314,183,"Tab. Mirtazapine 30mg, to be taken orally, once daily at bedtime
+Cap. Gabapentin 300mg, to be taken orally, three times daily",Moderate,Moderate,True,True,1,3.142428159713745,[],2,0,0
+45,184,"Icosapent 50mg OD
+Cefotiam 75mg three times daily",Severe,Severe,True,True,1,3.339416265487671,[],2,0,0
+102,185,"Tab. Warfarin 5mg, to be taken orally, once daily after meals
+Tab. Ibuprofen 400mg, to be taken orally, twice daily before meals",Moderate,Moderate,True,True,1,3.2977700233459473,[],2,0,0
+340,186,"Rx: Quetiapine - 100mg hs
+Rx: Amiodarone - 200mg od
+Rx: Magnesium - 200mg od",Moderate,Moderate,True,True,3,25.632800817489624,[],3,0,0
+309,187,"Clozapine 100mg BD
+Carbamazepine 200mg TDS",Moderate,Moderate,True,True,1,4.744381904602051,[],2,0,0
+134,188,"Rx: Rivaroxaban - 10mg od
+Rx: Ibuprofen - 400mg tds",Moderate,Moderate,True,True,1,3.507943868637085,[],2,0,0
+312,189,"Tab. Fentanyl 50mcg, to be taken orally, twice daily
+Tab. Midazolam 7.5mg, to be taken orally, once daily at bedtime",Severe,Severe,True,True,1,6.6807873249053955,[],2,0,0
+60,190,"Rx: Cobimetinib - 10mg tds
+Rx: Ritonavir - 500mg bd",Moderate,Moderate,True,True,1,3.7135872840881348,[],2,0,0
+303,191,"Carbamazepine 200mg BD
+Ethinyl estradiol 0.03mg OD
+Vitamin D 20mg OD",Moderate,Moderate,True,True,3,10.224259614944458,[],3,0,0
+70,192,"Meperidine 75mg TDS
+Bumetanide 5mg BD
+Vitamin D 20mg BD",Moderate,Moderate,True,True,2,12.902771472930908,[],3,0,0
+433,193,"Rantac 150mg BD
+Allegra 120mg OD",No Interaction,No Interaction,False,False,0,0.39986109733581543,[],2,0,0
+130,194,"Pravastatin 40mg once daily
+Ezetimibe 10mg OD",Moderate,Moderate,True,True,1,3.0830793380737305,[],2,0,0
+68,195,"Azithromycin 500mg twice daily
+Pantoprazole 50mg OD",No Interaction,No Interaction,False,False,0,0.3035717010498047,[],2,0,0
+308,196,"Haloperidol 5mg BD
+Thioridazine 50mg OD",Severe,Severe,True,True,1,6.208004713058472,[],2,0,0
+24,197,"Tab. Piroxicam 5mg, to be taken orally, three times daily
+Tab. Anastrozole 20mg, to be taken orally, three times daily",Moderate,Moderate,True,True,1,3.202641010284424,[],2,0,0
+112,198,"Tab. Metoprolol 50mg, to be taken orally, twice daily before meals
+Tab. Atorvastatin 20mg, to be taken orally, once daily after meals",No Interaction,No Interaction,False,False,0,0.3740980625152588,[],2,0,0
+446,199,"Amaryl 2mg OD
+Ecosprin 75mg OD",Moderate,Moderate,True,True,1,3.2310683727264404,[],2,0,0
+448,200,"1. Crocin 500mg SOS
+2. Rantac 150mg BD",Moderate,Moderate,True,True,1,3.3700568675994873,[],2,0,0
+421,201,"Zerodol 100mg BD
+Acitrom 3mg OD",Severe,Severe,True,True,1,3.81040358543396,[],2,0,0
+313,202,"Tab. Valproate 500mg, to be taken orally, twice daily after meals
+Tab. Lamotrigine 50mg, to be taken orally, twice daily
+Tab. Vitamin D 20mg, to be taken orally, once daily",Moderate,Severe,True,True,2,10.472440958023071,[],3,0,0
+427,203,Patient is taking Warf 5mg once daily and Dolo 650mg twice daily for bodyache,Moderate,Moderate,True,True,1,3.249569892883301,[],2,0,0
+440,204,"Pudin Hara 2cap BD
+Dolo 650mg SOS",No Interaction,No Interaction,False,False,0,0.48582935333251953,[],2,0,0
+326,205,"1) Lithium 300mg BD
+2) Hydrochlorothiazide 25mg OD",Moderate,Moderate,True,True,1,2.765244960784912,[],2,0,0
+327,206,"1. Bupropion 150mg OD
+2. Gabapentin 300mg BD",Moderate,Moderate,True,True,1,3.211294412612915,[],2,0,0
+113,207,"1. Warfarin 5mg OD
+2. Aspirin 75mg OD
+3. Atorvastatin 20mg OD
+4. Metformin 500mg BD",Moderate,Moderate,True,True,5,29.126065731048584,[],4,0,0
+61,208,"Azithromycin 500mg once daily
+Loratadine 10mg OD",Severe,Severe,True,True,1,3.670239210128784,[],2,0,0
+310,209,"Oxycodone 10mg twice daily
+Alprazolam 0.5mg BD
+Paracetamol 500mg TDS",Moderate,Moderate,True,True,2,16.171226263046265,[],3,0,0
+30,210,"Tab. Diclofenac 75mg, to be taken orally, twice daily before meals
+Tab. Cidofovir 5mg, to be taken orally, once daily after meals",Severe,Severe,True,True,1,4.118586301803589,[],2,0,0
+218,211,"Ritonavir 750mg OD
+Simvastatin 100mg QID",Moderate,Severe,True,True,1,3.752209186553955,[],2,0,0
+307,212,"Escitalopram 10mg OD
+Pregabalin 75mg BD",Moderate,Moderate,True,True,1,4.466396808624268,[],2,0,0
+42,213,"Tab. Omeprazole 20mg, to be taken orally, once daily before meals
+Tab. Cetirizine 10mg, to be taken orally, once daily after meals",No Interaction,No Interaction,False,False,0,0.3422887325286865,[],2,0,0
+117,214,"Tab. Digoxin 0.25mg, to be taken orally, once daily before meals
+Tab. Verapamil 80mg, to be taken orally, three times daily",Moderate,Severe,True,True,1,3.2813057899475098,[],2,0,0
+32,215,"Tab. Stavudine 100mg, to be taken orally, once daily after meals
+Tab. Methylene blue 10mg, to be taken orally, twice daily before meals",Severe,Severe,True,True,1,3.5824718475341797,[],2,0,0
+215,216,"Syp. Efavirenz 75mg, to be taken orally, once daily before meals
+Syp. Midazolam 25mg, to be taken orally, twice daily after meals",Moderate,Moderate,True,True,1,3.7623212337493896,[],2,0,0
+221,217,"Rx: Voriconazole - 10mg tds
+Rx Tacrolimus - 10mg once daliy",Moderate,Moderate,True,True,1,3.8887887001037598,[],2,0,0
+40,218,"Tab. Tenofovir disoproxil 5mg, to be taken orally, once daily after meals
+Tab. Talniflumate 75mg, to be taken orally, twice daily before meals",Severe,Severe,True,True,1,7.299146890640259,[],2,0,0
+17,219,"Tab. Cefatrizine 50mg, to be taken orally, three times daily
+Tab. Valganciclovir 50mg, to be taken orally, twice daily before meals",Moderate,Severe,True,True,1,5.7995445728302,[],2,0,0
+110,220,"Metoprolol 50mgBD
+Verapamil 80mg TDS",Moderate,Severe,True,True,1,5.451260089874268,[],2,0,0
+244,221,"Cap. Guaifenesin 20mg, to be taken orally, once daily after meals
+Tab. Cetirizine 75mg, to be taken orally, once daily after meals",No Interaction,No Interaction,False,False,0,0.4128453731536865,[],2,0,0
+28,222,"Tenofovir 75mg three times daily
+Zaltoprofen 500mg TDS",Severe,Severe,True,True,1,2.9866650104522705,[],2,0,0
+315,223,"Tab. Fluvoxamine 50mg, to be taken orally, twice daily after meals
+Tab. Tizanidine 2mg, to be taken orally, three times daily",Moderate,Severe,True,True,1,9.090746879577637,[],2,0,0
+149,224,"Rx: Enalapril - 10mg bd
+Rx: Spironolactone - 25mg od
+Rx: Bisoprolol - 5mg od",Moderate,Moderate,True,True,3,11.755977153778076,[],3,0,0
+43,225,"1. Omeprazole 20mg OD
+2. Amoxicillin 500mg TDS",No Interaction,No Interaction,False,False,0,0.3545212745666504,[],2,0,0
+302,226,"Oxycodone 10mg BD
+Diazepam 5mg TDS",Moderate,Moderate,True,True,1,10.328535556793213,[],2,0,0
+428,227,"1. Deriphylline 150mg BD
+2. Cetzine 10mg OD",Moderate,Moderate,True,True,1,3.5455756187438965,[],2,0,0
+33,228,"Tridihexethyl 100mg twice daily
+Emetonium iodide 75mg TDS",Moderate,Moderate,True,True,1,4.05946159362793,[],2,0,0
+26,229,"Tab. Piracetam 5mg, to be taken orally, three times daily
+Tab. Buthiazide 500mg, to be taken orally, three times daily",Moderate,Moderate,True,True,1,3.6282424926757812,[],2,0,0
+332,230,"Rx: Hydrocodone - 10mg tds
+Rx: Alprazolam - 0.5mg bd",Moderate,Moderate,True,True,1,6.356431245803833,[],2,0,0
+208,231,"Rx: Isoniazid - 100mg OD
+Rx: Phenytoin - 50mg bd",Moderate,Moderate,True,True,1,3.612694025039673,[],2,0,0
+76,232,"Cefmetazole 50mg once daily
+Dihydrostreptomycin 50mg once daily",Severe,Severe,True,True,1,7.051862955093384,[],2,0,0
+138,233,"1. Atenolol 50mg OD
+2. Verapamil 80mg TDS",Moderate,Severe,True,True,1,3.635721445083618,[],2,0,0

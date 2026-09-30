@@ -1,0 +1,28 @@
+{
+  "models": {
+    "severity": "gemini-3.8-flash",
+    "reasoning": "gemini-3.8-flash"
+  },
+  "pricing_per_1m_usd": {
+    "input": 1.5,
+    "output": 7.5
+  },
+  "contexts": {
+    "severity_classification": {
+      "calls": 250,
+      "errors": 0,
+      "input_tokens": 111144,
+      "output_tokens": 237,
+      "thinking_tokens": 34134,
+      "latency_seconds_total": 713.15,
+      "latency_seconds_avg": 2.85
+    }
+  },
+  "total_calls": 250,
+  "total_errors": 0,
+  "total_input_tokens": 111144,
+  "total_output_tokens": 237,
+  "total_thinking_tokens": 34134,
+  "total_latency_seconds": 713.15,
+  "est_cost_usd": 0.424499
+}

@@ -1,0 +1,58 @@
+{
+    "ibm-granite/granite-embedding-278m-multilingual": {
+        "Specificity (TNR)": 96.66666666666667,
+        "Sensitivity (Recall)": 85.71428571428571,
+        "F1-Score": 91.6030534351145,
+        "AUC-ROC": 88.35714285714285,
+        "Latency (s)": 0.23869886875152588,
+        "Drug Match %": 95.81395348837209
+    },
+    "Qwen/Qwen3-Embedding-0.6B": {
+        "Specificity (TNR)": 53.333333333333336,
+        "Sensitivity (Recall)": 85.71428571428571,
+        "F1-Score": 83.33333333333334,
+        "AUC-ROC": 73.66666666666666,
+        "Latency (s)": 0.3598484945297241,
+        "Drug Match %": 95.34883720930233
+    },
+    "google/embeddinggemma-300m": {
+        "Specificity (TNR)": 96.66666666666667,
+        "Sensitivity (Recall)": 82.85714285714286,
+        "F1-Score": 89.92248062015504,
+        "AUC-ROC": 86.88095238095238,
+        "Latency (s)": 0.3925901436805725,
+        "Drug Match %": 94.88372093023256
+    },
+    "tencent/WeMM-Embedding-2B": {
+        "Specificity (TNR)": 96.66666666666667,
+        "Sensitivity (Recall)": 85.71428571428571,
+        "F1-Score": 91.6030534351145,
+        "AUC-ROC": 88.35714285714285,
+        "Latency (s)": 0.9158949685096741,
+        "Drug Match %": 95.81395348837209
+    },
+    "Qwen/Qwen3-VL-Embedding-2B": {
+        "Specificity (TNR)": 96.66666666666667,
+        "Sensitivity (Recall)": 84.28571428571429,
+        "F1-Score": 90.76923076923077,
+        "AUC-ROC": 87.61904761904762,
+        "Latency (s)": 0.4592208623886108,
+        "Drug Match %": 95.34883720930233
+    },
+    "NeuML/pubmedbert-base-embeddings": {
+        "Specificity (TNR)": 96.66666666666667,
+        "Sensitivity (Recall)": 84.28571428571429,
+        "F1-Score": 90.76923076923077,
+        "AUC-ROC": 87.61904761904762,
+        "Latency (s)": 0.2702515983581543,
+        "Drug Match %": 95.34883720930233
+    },
+    "cambridgeltl/SapBERT-from-PubMedBERT-fulltext": {
+        "Specificity (TNR)": 96.66666666666667,
+        "Sensitivity (Recall)": 84.28571428571429,
+        "F1-Score": 90.76923076923077,
+        "AUC-ROC": 87.61904761904762,
+        "Latency (s)": 0.25245851278305054,
+        "Drug Match %": 95.34883720930233
+    }
+}

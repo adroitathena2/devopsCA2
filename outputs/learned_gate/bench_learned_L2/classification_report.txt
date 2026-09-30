@@ -1,0 +1,10 @@
+                precision    recall  f1-score   support
+
+No Interaction       0.97      0.97      0.97        32
+          Mild       1.00      1.00      1.00         2
+      Moderate       0.93      0.95      0.94       134
+        Severe       0.90      0.88      0.89        65
+
+      accuracy                           0.93       233
+     macro avg       0.95      0.95      0.95       233
+  weighted avg       0.93      0.93      0.93       233

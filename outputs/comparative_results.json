@@ -1,0 +1,20 @@
+{
+    "MedSeverityNet (Baseline)": {
+        "Accuracy": 1.0,
+        "Macro F1": 1.0,
+        "Latency (ms)": 4.297523856163025,
+        "Parameters": 4403525
+    },
+    "FastClinicalCNN (TextCNN)": {
+        "Accuracy": 1.0,
+        "Macro F1": 1.0,
+        "Latency (ms)": 2.48455810546875,
+        "Parameters": 2068804
+    },
+    "TinyClinicalFormer (Transformer)": {
+        "Accuracy": 0.9905,
+        "Macro F1": 0.6650725732024498,
+        "Latency (ms)": 3.7871103286743164,
+        "Parameters": 2944068
+    }
+}

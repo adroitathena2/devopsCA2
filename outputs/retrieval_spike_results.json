@@ -1,0 +1,1616 @@
+[
+  {
+    "label": "granite-278m",
+    "status": "ok",
+    "load_time": 8.128171920776367,
+    "encode_time": 13.654064416885376,
+    "dim": 768,
+    "category_accuracy": {
+      "brand": 0.8571428571428571,
+      "typo": 1.0,
+      "generic": 1.0,
+      "multiword": 1.0,
+      "negative": 0.75
+    },
+    "overall": 0.9166666666666666,
+    "results": {
+      "dolo": {
+        "expected": "acetaminophen",
+        "predicted": "acetaminophen",
+        "score": 0.999980628490448,
+        "correct": true,
+        "category": "brand"
+      },
+      "crocin": {
+        "expected": "acetaminophen",
+        "predicted": "crocin",
+        "score": 0.9999833106994629,
+        "correct": false,
+        "category": "brand"
+      },
+      "augmentin": {
+        "expected": "amoxicillin",
+        "predicted": "amoxicillin",
+        "score": 0.9999803304672241,
+        "correct": true,
+        "category": "brand"
+      },
+      "telma-h": {
+        "expected": "telmisartan",
+        "predicted": "telmisartan",
+        "score": 0.9999998807907104,
+        "correct": true,
+        "category": "brand"
+      },
+      "telmisartan h": {
+        "expected": "telmisartan",
+        "predicted": "telmisartan",
+        "score": 0.9128851890563965,
+        "correct": true,
+        "category": "brand"
+      },
+      "ramistar-am": {
+        "expected": "ramipril",
+        "predicted": "amlodipine",
+        "score": 1.0,
+        "correct": false,
+        "category": "brand"
+      },
+      "starpress xl": {
+        "expected": "metoprolol",
+        "predicted": "metoprolol",
+        "score": 0.9999775886535645,
+        "correct": true,
+        "category": "brand"
+      },
+      "ecosprin": {
+        "expected": "acetylsalicylic acid",
+        "predicted": "acetylsalicylic acid",
+        "score": 0.9999743700027466,
+        "correct": true,
+        "category": "brand"
+      },
+      "glycomet": {
+        "expected": "metformin",
+        "predicted": "metformin",
+        "score": 0.9999786615371704,
+        "correct": true,
+        "category": "brand"
+      },
+      "storvas": {
+        "expected": "atorvastatin",
+        "predicted": "atorvastatin",
+        "score": 0.9999997615814209,
+        "correct": true,
+        "category": "brand"
+      },
+      "azithral": {
+        "expected": "azithromycin",
+        "predicted": "azithromycin",
+        "score": 0.9999772906303406,
+        "correct": true,
+        "category": "brand"
+      },
+      "pan-d": {
+        "expected": "pantoprazole",
+        "predicted": "pantoprazole",
+        "score": 0.9999783039093018,
+        "correct": true,
+        "category": "brand"
+      },
+      "amoxil": {
+        "expected": "amoxicillin",
+        "predicted": "amoxicillin",
+        "score": 0.9999801516532898,
+        "correct": true,
+        "category": "brand"
+      },
+      "pcm": {
+        "expected": "acetaminophen",
+        "predicted": "acetaminophen",
+        "score": 0.9999815225601196,
+        "correct": true,
+        "category": "brand"
+      },
+      "paracetmol": {
+        "expected": "acetaminophen",
+        "predicted": "acetaminophen",
+        "score": 0.9724735021591187,
+        "correct": true,
+        "category": "typo"
+      },
+      "amoxcillin": {
+        "expected": "amoxicillin",
+        "predicted": "amoxicillin",
+        "score": 0.9930793046951294,
+        "correct": true,
+        "category": "typo"
+      },
+      "rantidine": {
+        "expected": "ranitidine",
+        "predicted": "ranitidine",
+        "score": 0.9431068897247314,
+        "correct": true,
+        "category": "typo"
+      },
+      "metforminn": {
+        "expected": "metformin",
+        "predicted": "metformin",
+        "score": 0.9658665060997009,
+        "correct": true,
+        "category": "typo"
+      },
+      "atorvastatn": {
+        "expected": "atorvastatin",
+        "predicted": "atorvastatin",
+        "score": 0.9299313426017761,
+        "correct": true,
+        "category": "typo"
+      },
+      "clopidegrel": {
+        "expected": "clopidogrel",
+        "predicted": "clopidogrel",
+        "score": 0.9882243871688843,
+        "correct": true,
+        "category": "typo"
+      },
+      "metformin": {
+        "expected": "metformin",
+        "predicted": "metformin",
+        "score": 0.9999793171882629,
+        "correct": true,
+        "category": "generic"
+      },
+      "atorvastatin": {
+        "expected": "atorvastatin",
+        "predicted": "atorvastatin",
+        "score": 0.9999828934669495,
+        "correct": true,
+        "category": "generic"
+      },
+      "warfarin": {
+        "expected": "warfarin",
+        "predicted": "warfarin",
+        "score": 0.9999998807907104,
+        "correct": true,
+        "category": "generic"
+      },
+      "amoxicillin": {
+        "expected": "amoxicillin",
+        "predicted": "amoxicillin",
+        "score": 0.9999805092811584,
+        "correct": true,
+        "category": "generic"
+      },
+      "paracetamol": {
+        "expected": "acetaminophen",
+        "predicted": "acetaminophen",
+        "score": 0.9999791383743286,
+        "correct": true,
+        "category": "generic"
+      },
+      "aspirin": {
+        "expected": "acetylsalicylic acid",
+        "predicted": "acetylsalicylic acid",
+        "score": 0.9999997615814209,
+        "correct": true,
+        "category": "generic"
+      },
+      "salbutamol": {
+        "expected": "albuterol",
+        "predicted": "albuterol",
+        "score": 0.9999793171882629,
+        "correct": true,
+        "category": "generic"
+      },
+      "hydrochlorothiazide": {
+        "expected": "hydrochlorothiazide",
+        "predicted": "hydrochlorothiazide",
+        "score": 0.9999810457229614,
+        "correct": true,
+        "category": "generic"
+      },
+      "amoxicillin clavulanate": {
+        "expected": "amoxicillin",
+        "predicted": "amoxicillin",
+        "score": 0.8837647438049316,
+        "correct": true,
+        "category": "multiword"
+      },
+      "acetylsalicylic acid": {
+        "expected": "acetylsalicylic acid",
+        "predicted": "acetylsalicylic acid",
+        "score": 0.9999791979789734,
+        "correct": true,
+        "category": "multiword"
+      },
+      "amlodipine besylate": {
+        "expected": "amlodipine",
+        "predicted": "amlodipine",
+        "score": 0.9118338227272034,
+        "correct": true,
+        "category": "multiword"
+      },
+      "metformin hcl": {
+        "expected": "metformin",
+        "predicted": "metformin",
+        "score": 0.8962496519088745,
+        "correct": true,
+        "category": "multiword"
+      },
+      "no known allergies": {
+        "expected": null,
+        "predicted": null,
+        "score": 0.7436632513999939,
+        "correct": true,
+        "category": "negative"
+      },
+      "xyzqqq": {
+        "expected": null,
+        "predicted": "benzquinamide",
+        "score": 0.8533303141593933,
+        "correct": false,
+        "category": "negative"
+      },
+      "take with food": {
+        "expected": null,
+        "predicted": null,
+        "score": 0.7439242005348206,
+        "correct": true,
+        "category": "negative"
+      },
+      "patient chart": {
+        "expected": null,
+        "predicted": null,
+        "score": 0.7383355498313904,
+        "correct": true,
+        "category": "negative"
+      }
+    }
+  },
+  {
+    "label": "BioLORD-2023-C",
+    "status": "ok",
+    "load_time": 3.9657909870147705,
+    "encode_time": 35.035107374191284,
+    "dim": 768,
+    "category_accuracy": {
+      "brand": 0.8571428571428571,
+      "typo": 0.6666666666666666,
+      "generic": 1.0,
+      "multiword": 1.0,
+      "negative": 1.0
+    },
+    "overall": 0.8888888888888888,
+    "results": {
+      "dolo": {
+        "expected": "acetaminophen",
+        "predicted": "acetaminophen",
+        "score": 1.0000001192092896,
+        "correct": true,
+        "category": "brand"
+      },
+      "crocin": {
+        "expected": "acetaminophen",
+        "predicted": "crocin",
+        "score": 1.0,
+        "correct": false,
+        "category": "brand"
+      },
+      "augmentin": {
+        "expected": "amoxicillin",
+        "predicted": "amoxicillin",
+        "score": 1.0,
+        "correct": true,
+        "category": "brand"
+      },
+      "telma-h": {
+        "expected": "telmisartan",
+        "predicted": "telmisartan",
+        "score": 1.0,
+        "correct": true,
+        "category": "brand"
+      },
+      "telmisartan h": {
+        "expected": "telmisartan",
+        "predicted": "telmisartan",
+        "score": 0.982597827911377,
+        "correct": true,
+        "category": "brand"
+      },
+      "ramistar-am": {
+        "expected": "ramipril",
+        "predicted": "amlodipine",
+        "score": 0.9999998807907104,
+        "correct": false,
+        "category": "brand"
+      },
+      "starpress xl": {
+        "expected": "metoprolol",
+        "predicted": "metoprolol",
+        "score": 0.9999998807907104,
+        "correct": true,
+        "category": "brand"
+      },
+      "ecosprin": {
+        "expected": "acetylsalicylic acid",
+        "predicted": "acetylsalicylic acid",
+        "score": 1.0,
+        "correct": true,
+        "category": "brand"
+      },
+      "glycomet": {
+        "expected": "metformin",
+        "predicted": "metformin",
+        "score": 1.0,
+        "correct": true,
+        "category": "brand"
+      },
+      "storvas": {
+        "expected": "atorvastatin",
+        "predicted": "atorvastatin",
+        "score": 0.9999999403953552,
+        "correct": true,
+        "category": "brand"
+      },
+      "azithral": {
+        "expected": "azithromycin",
+        "predicted": "azithromycin",
+        "score": 0.9999998807907104,
+        "correct": true,
+        "category": "brand"
+      },
+      "pan-d": {
+        "expected": "pantoprazole",
+        "predicted": "pantoprazole",
+        "score": 1.0,
+        "correct": true,
+        "category": "brand"
+      },
+      "amoxil": {
+        "expected": "amoxicillin",
+        "predicted": "amoxicillin",
+        "score": 0.9999999403953552,
+        "correct": true,
+        "category": "brand"
+      },
+      "pcm": {
+        "expected": "acetaminophen",
+        "predicted": "acetaminophen",
+        "score": 1.0000001192092896,
+        "correct": true,
+        "category": "brand"
+      },
+      "paracetmol": {
+        "expected": "acetaminophen",
+        "predicted": null,
+        "score": 0.7559617161750793,
+        "correct": false,
+        "category": "typo"
+      },
+      "amoxcillin": {
+        "expected": "amoxicillin",
+        "predicted": "amoxicillin",
+        "score": 0.9718129634857178,
+        "correct": true,
+        "category": "typo"
+      },
+      "rantidine": {
+        "expected": "ranitidine",
+        "predicted": null,
+        "score": 0.72568678855896,
+        "correct": false,
+        "category": "typo"
+      },
+      "metforminn": {
+        "expected": "metformin",
+        "predicted": "metformin",
+        "score": 0.8831799030303955,
+        "correct": true,
+        "category": "typo"
+      },
+      "atorvastatn": {
+        "expected": "atorvastatin",
+        "predicted": "atorvastatin",
+        "score": 0.9888423085212708,
+        "correct": true,
+        "category": "typo"
+      },
+      "clopidegrel": {
+        "expected": "clopidogrel",
+        "predicted": "clopidogrel",
+        "score": 0.9350146651268005,
+        "correct": true,
+        "category": "typo"
+      },
+      "metformin": {
+        "expected": "metformin",
+        "predicted": "metformin",
+        "score": 0.9999998807907104,
+        "correct": true,
+        "category": "generic"
+      },
+      "atorvastatin": {
+        "expected": "atorvastatin",
+        "predicted": "atorvastatin",
+        "score": 0.9999998807907104,
+        "correct": true,
+        "category": "generic"
+      },
+      "warfarin": {
+        "expected": "warfarin",
+        "predicted": "warfarin",
+        "score": 0.9999998807907104,
+        "correct": true,
+        "category": "generic"
+      },
+      "amoxicillin": {
+        "expected": "amoxicillin",
+        "predicted": "amoxicillin",
+        "score": 1.0,
+        "correct": true,
+        "category": "generic"
+      },
+      "paracetamol": {
+        "expected": "acetaminophen",
+        "predicted": "acetaminophen",
+        "score": 1.0,
+        "correct": true,
+        "category": "generic"
+      },
+      "aspirin": {
+        "expected": "acetylsalicylic acid",
+        "predicted": "acetylsalicylic acid",
+        "score": 0.9999998807907104,
+        "correct": true,
+        "category": "generic"
+      },
+      "salbutamol": {
+        "expected": "albuterol",
+        "predicted": "albuterol",
+        "score": 0.9999998807907104,
+        "correct": true,
+        "category": "generic"
+      },
+      "hydrochlorothiazide": {
+        "expected": "hydrochlorothiazide",
+        "predicted": "hydrochlorothiazide",
+        "score": 1.000000238418579,
+        "correct": true,
+        "category": "generic"
+      },
+      "amoxicillin clavulanate": {
+        "expected": "amoxicillin",
+        "predicted": "amoxicillin",
+        "score": 0.8599550127983093,
+        "correct": true,
+        "category": "multiword"
+      },
+      "acetylsalicylic acid": {
+        "expected": "acetylsalicylic acid",
+        "predicted": "acetylsalicylic acid",
+        "score": 1.0000001192092896,
+        "correct": true,
+        "category": "multiword"
+      },
+      "amlodipine besylate": {
+        "expected": "amlodipine",
+        "predicted": "amlodipine",
+        "score": 0.9142636656761169,
+        "correct": true,
+        "category": "multiword"
+      },
+      "metformin hcl": {
+        "expected": "metformin",
+        "predicted": "metformin",
+        "score": 0.922737181186676,
+        "correct": true,
+        "category": "multiword"
+      },
+      "no known allergies": {
+        "expected": null,
+        "predicted": null,
+        "score": 0.36091411113739014,
+        "correct": true,
+        "category": "negative"
+      },
+      "xyzqqq": {
+        "expected": null,
+        "predicted": null,
+        "score": 0.5637254118919373,
+        "correct": true,
+        "category": "negative"
+      },
+      "take with food": {
+        "expected": null,
+        "predicted": null,
+        "score": 0.45928293466567993,
+        "correct": true,
+        "category": "negative"
+      },
+      "patient chart": {
+        "expected": null,
+        "predicted": null,
+        "score": 0.3122650384902954,
+        "correct": true,
+        "category": "negative"
+      }
+    }
+  },
+  {
+    "label": "BioLORD-2023",
+    "status": "ok",
+    "load_time": 5.306379556655884,
+    "encode_time": 34.05182504653931,
+    "dim": 768,
+    "category_accuracy": {
+      "brand": 0.8571428571428571,
+      "typo": 0.8333333333333334,
+      "generic": 1.0,
+      "multiword": 0.75,
+      "negative": 1.0
+    },
+    "overall": 0.8888888888888888,
+    "results": {
+      "dolo": {
+        "expected": "acetaminophen",
+        "predicted": "acetaminophen",
+        "score": 1.0,
+        "correct": true,
+        "category": "brand"
+      },
+      "crocin": {
+        "expected": "acetaminophen",
+        "predicted": "crocin",
+        "score": 1.0000001192092896,
+        "correct": false,
+        "category": "brand"
+      },
+      "augmentin": {
+        "expected": "amoxicillin",
+        "predicted": "amoxicillin",
+        "score": 1.0,
+        "correct": true,
+        "category": "brand"
+      },
+      "telma-h": {
+        "expected": "telmisartan",
+        "predicted": "telmisartan",
+        "score": 1.0,
+        "correct": true,
+        "category": "brand"
+      },
+      "telmisartan h": {
+        "expected": "telmisartan",
+        "predicted": "telmisartan",
+        "score": 0.9600743651390076,
+        "correct": true,
+        "category": "brand"
+      },
+      "ramistar-am": {
+        "expected": "ramipril",
+        "predicted": "amlodipine",
+        "score": 0.9999998807907104,
+        "correct": false,
+        "category": "brand"
+      },
+      "starpress xl": {
+        "expected": "metoprolol",
+        "predicted": "metoprolol",
+        "score": 1.0,
+        "correct": true,
+        "category": "brand"
+      },
+      "ecosprin": {
+        "expected": "acetylsalicylic acid",
+        "predicted": "acetylsalicylic acid",
+        "score": 1.0,
+        "correct": true,
+        "category": "brand"
+      },
+      "glycomet": {
+        "expected": "metformin",
+        "predicted": "metformin",
+        "score": 0.9999999403953552,
+        "correct": true,
+        "category": "brand"
+      },
+      "storvas": {
+        "expected": "atorvastatin",
+        "predicted": "atorvastatin",
+        "score": 1.0,
+        "correct": true,
+        "category": "brand"
+      },
+      "azithral": {
+        "expected": "azithromycin",
+        "predicted": "azithromycin",
+        "score": 0.9999997615814209,
+        "correct": true,
+        "category": "brand"
+      },
+      "pan-d": {
+        "expected": "pantoprazole",
+        "predicted": "pantoprazole",
+        "score": 1.0000001192092896,
+        "correct": true,
+        "category": "brand"
+      },
+      "amoxil": {
+        "expected": "amoxicillin",
+        "predicted": "amoxicillin",
+        "score": 1.0000001192092896,
+        "correct": true,
+        "category": "brand"
+      },
+      "pcm": {
+        "expected": "acetaminophen",
+        "predicted": "acetaminophen",
+        "score": 1.0000001192092896,
+        "correct": true,
+        "category": "brand"
+      },
+      "paracetmol": {
+        "expected": "acetaminophen",
+        "predicted": "acetaminophen",
+        "score": 0.8894957900047302,
+        "correct": true,
+        "category": "typo"
+      },
+      "amoxcillin": {
+        "expected": "amoxicillin",
+        "predicted": "amoxicillin",
+        "score": 0.9879521131515503,
+        "correct": true,
+        "category": "typo"
+      },
+      "rantidine": {
+        "expected": "ranitidine",
+        "predicted": null,
+        "score": 0.7872090935707092,
+        "correct": false,
+        "category": "typo"
+      },
+      "metforminn": {
+        "expected": "metformin",
+        "predicted": "metformin",
+        "score": 0.8870220184326172,
+        "correct": true,
+        "category": "typo"
+      },
+      "atorvastatn": {
+        "expected": "atorvastatin",
+        "predicted": "atorvastatin",
+        "score": 0.9807785749435425,
+        "correct": true,
+        "category": "typo"
+      },
+      "clopidegrel": {
+        "expected": "clopidogrel",
+        "predicted": "clopidogrel",
+        "score": 0.9439672231674194,
+        "correct": true,
+        "category": "typo"
+      },
+      "metformin": {
+        "expected": "metformin",
+        "predicted": "metformin",
+        "score": 1.0,
+        "correct": true,
+        "category": "generic"
+      },
+      "atorvastatin": {
+        "expected": "atorvastatin",
+        "predicted": "atorvastatin",
+        "score": 0.9999999403953552,
+        "correct": true,
+        "category": "generic"
+      },
+      "warfarin": {
+        "expected": "warfarin",
+        "predicted": "warfarin",
+        "score": 1.0,
+        "correct": true,
+        "category": "generic"
+      },
+      "amoxicillin": {
+        "expected": "amoxicillin",
+        "predicted": "amoxicillin",
+        "score": 1.0,
+        "correct": true,
+        "category": "generic"
+      },
+      "paracetamol": {
+        "expected": "acetaminophen",
+        "predicted": "acetaminophen",
+        "score": 1.0000001192092896,
+        "correct": true,
+        "category": "generic"
+      },
+      "aspirin": {
+        "expected": "acetylsalicylic acid",
+        "predicted": "acetylsalicylic acid",
+        "score": 0.9999998807907104,
+        "correct": true,
+        "category": "generic"
+      },
+      "salbutamol": {
+        "expected": "albuterol",
+        "predicted": "albuterol",
+        "score": 1.0,
+        "correct": true,
+        "category": "generic"
+      },
+      "hydrochlorothiazide": {
+        "expected": "hydrochlorothiazide",
+        "predicted": "hydrochlorothiazide",
+        "score": 0.9999998211860657,
+        "correct": true,
+        "category": "generic"
+      },
+      "amoxicillin clavulanate": {
+        "expected": "amoxicillin",
+        "predicted": "clavulanic acid",
+        "score": 0.8645793795585632,
+        "correct": false,
+        "category": "multiword"
+      },
+      "acetylsalicylic acid": {
+        "expected": "acetylsalicylic acid",
+        "predicted": "acetylsalicylic acid",
+        "score": 1.0,
+        "correct": true,
+        "category": "multiword"
+      },
+      "amlodipine besylate": {
+        "expected": "amlodipine",
+        "predicted": "amlodipine",
+        "score": 0.9283468723297119,
+        "correct": true,
+        "category": "multiword"
+      },
+      "metformin hcl": {
+        "expected": "metformin",
+        "predicted": "metformin",
+        "score": 0.9298891425132751,
+        "correct": true,
+        "category": "multiword"
+      },
+      "no known allergies": {
+        "expected": null,
+        "predicted": null,
+        "score": 0.4114325940608978,
+        "correct": true,
+        "category": "negative"
+      },
+      "xyzqqq": {
+        "expected": null,
+        "predicted": null,
+        "score": 0.5518436431884766,
+        "correct": true,
+        "category": "negative"
+      },
+      "take with food": {
+        "expected": null,
+        "predicted": null,
+        "score": 0.509379506111145,
+        "correct": true,
+        "category": "negative"
+      },
+      "patient chart": {
+        "expected": null,
+        "predicted": null,
+        "score": 0.38029518723487854,
+        "correct": true,
+        "category": "negative"
+      }
+    }
+  },
+  {
+    "label": "BioLORD-2023-M",
+    "status": "ok",
+    "load_time": 7.531228542327881,
+    "encode_time": 27.566884517669678,
+    "dim": 768,
+    "category_accuracy": {
+      "brand": 0.8571428571428571,
+      "typo": 1.0,
+      "generic": 1.0,
+      "multiword": 1.0,
+      "negative": 1.0
+    },
+    "overall": 0.9444444444444444,
+    "results": {
+      "dolo": {
+        "expected": "acetaminophen",
+        "predicted": "acetaminophen",
+        "score": 1.0000001192092896,
+        "correct": true,
+        "category": "brand"
+      },
+      "crocin": {
+        "expected": "acetaminophen",
+        "predicted": "crocin",
+        "score": 1.0000001192092896,
+        "correct": false,
+        "category": "brand"
+      },
+      "augmentin": {
+        "expected": "amoxicillin",
+        "predicted": "amoxicillin",
+        "score": 1.0,
+        "correct": true,
+        "category": "brand"
+      },
+      "telma-h": {
+        "expected": "telmisartan",
+        "predicted": "telmisartan",
+        "score": 0.9999999403953552,
+        "correct": true,
+        "category": "brand"
+      },
+      "telmisartan h": {
+        "expected": "telmisartan",
+        "predicted": "telmisartan",
+        "score": 0.9632431864738464,
+        "correct": true,
+        "category": "brand"
+      },
+      "ramistar-am": {
+        "expected": "ramipril",
+        "predicted": "amlodipine",
+        "score": 1.0000001192092896,
+        "correct": false,
+        "category": "brand"
+      },
+      "starpress xl": {
+        "expected": "metoprolol",
+        "predicted": "metoprolol",
+        "score": 0.9999999403953552,
+        "correct": true,
+        "category": "brand"
+      },
+      "ecosprin": {
+        "expected": "acetylsalicylic acid",
+        "predicted": "acetylsalicylic acid",
+        "score": 1.0,
+        "correct": true,
+        "category": "brand"
+      },
+      "glycomet": {
+        "expected": "metformin",
+        "predicted": "metformin",
+        "score": 1.0,
+        "correct": true,
+        "category": "brand"
+      },
+      "storvas": {
+        "expected": "atorvastatin",
+        "predicted": "atorvastatin",
+        "score": 1.0,
+        "correct": true,
+        "category": "brand"
+      },
+      "azithral": {
+        "expected": "azithromycin",
+        "predicted": "azithromycin",
+        "score": 1.0,
+        "correct": true,
+        "category": "brand"
+      },
+      "pan-d": {
+        "expected": "pantoprazole",
+        "predicted": "pantoprazole",
+        "score": 0.9999999403953552,
+        "correct": true,
+        "category": "brand"
+      },
+      "amoxil": {
+        "expected": "amoxicillin",
+        "predicted": "amoxicillin",
+        "score": 1.0,
+        "correct": true,
+        "category": "brand"
+      },
+      "pcm": {
+        "expected": "acetaminophen",
+        "predicted": "acetaminophen",
+        "score": 1.0,
+        "correct": true,
+        "category": "brand"
+      },
+      "paracetmol": {
+        "expected": "acetaminophen",
+        "predicted": "acetaminophen",
+        "score": 0.982161819934845,
+        "correct": true,
+        "category": "typo"
+      },
+      "amoxcillin": {
+        "expected": "amoxicillin",
+        "predicted": "amoxicillin",
+        "score": 0.9984759092330933,
+        "correct": true,
+        "category": "typo"
+      },
+      "rantidine": {
+        "expected": "ranitidine",
+        "predicted": "ranitidine",
+        "score": 0.916046142578125,
+        "correct": true,
+        "category": "typo"
+      },
+      "metforminn": {
+        "expected": "metformin",
+        "predicted": "metformin",
+        "score": 0.9993695020675659,
+        "correct": true,
+        "category": "typo"
+      },
+      "atorvastatn": {
+        "expected": "atorvastatin",
+        "predicted": "atorvastatin",
+        "score": 0.9934984445571899,
+        "correct": true,
+        "category": "typo"
+      },
+      "clopidegrel": {
+        "expected": "clopidogrel",
+        "predicted": "clopidogrel",
+        "score": 0.9954462051391602,
+        "correct": true,
+        "category": "typo"
+      },
+      "metformin": {
+        "expected": "metformin",
+        "predicted": "metformin",
+        "score": 1.0,
+        "correct": true,
+        "category": "generic"
+      },
+      "atorvastatin": {
+        "expected": "atorvastatin",
+        "predicted": "atorvastatin",
+        "score": 1.0000001192092896,
+        "correct": true,
+        "category": "generic"
+      },
+      "warfarin": {
+        "expected": "warfarin",
+        "predicted": "warfarin",
+        "score": 1.0000001192092896,
+        "correct": true,
+        "category": "generic"
+      },
+      "amoxicillin": {
+        "expected": "amoxicillin",
+        "predicted": "amoxicillin",
+        "score": 1.0,
+        "correct": true,
+        "category": "generic"
+      },
+      "paracetamol": {
+        "expected": "acetaminophen",
+        "predicted": "acetaminophen",
+        "score": 1.0000001192092896,
+        "correct": true,
+        "category": "generic"
+      },
+      "aspirin": {
+        "expected": "acetylsalicylic acid",
+        "predicted": "acetylsalicylic acid",
+        "score": 0.9999998807907104,
+        "correct": true,
+        "category": "generic"
+      },
+      "salbutamol": {
+        "expected": "albuterol",
+        "predicted": "albuterol",
+        "score": 0.9999998807907104,
+        "correct": true,
+        "category": "generic"
+      },
+      "hydrochlorothiazide": {
+        "expected": "hydrochlorothiazide",
+        "predicted": "hydrochlorothiazide",
+        "score": 1.0,
+        "correct": true,
+        "category": "generic"
+      },
+      "amoxicillin clavulanate": {
+        "expected": "amoxicillin",
+        "predicted": "amoxicillin",
+        "score": 0.912449300289154,
+        "correct": true,
+        "category": "multiword"
+      },
+      "acetylsalicylic acid": {
+        "expected": "acetylsalicylic acid",
+        "predicted": "acetylsalicylic acid",
+        "score": 1.0000001192092896,
+        "correct": true,
+        "category": "multiword"
+      },
+      "amlodipine besylate": {
+        "expected": "amlodipine",
+        "predicted": "amlodipine",
+        "score": 0.966711699962616,
+        "correct": true,
+        "category": "multiword"
+      },
+      "metformin hcl": {
+        "expected": "metformin",
+        "predicted": "metformin",
+        "score": 0.9494277238845825,
+        "correct": true,
+        "category": "multiword"
+      },
+      "no known allergies": {
+        "expected": null,
+        "predicted": null,
+        "score": 0.4279893934726715,
+        "correct": true,
+        "category": "negative"
+      },
+      "xyzqqq": {
+        "expected": null,
+        "predicted": null,
+        "score": 0.7709783911705017,
+        "correct": true,
+        "category": "negative"
+      },
+      "take with food": {
+        "expected": null,
+        "predicted": null,
+        "score": 0.7839931845664978,
+        "correct": true,
+        "category": "negative"
+      },
+      "patient chart": {
+        "expected": null,
+        "predicted": null,
+        "score": 0.4978279173374176,
+        "correct": true,
+        "category": "negative"
+      }
+    }
+  },
+  {
+    "label": "SapBERT",
+    "status": "ok",
+    "load_time": 3.942638874053955,
+    "encode_time": 37.53391766548157,
+    "dim": 768,
+    "category_accuracy": {
+      "brand": 0.8571428571428571,
+      "typo": 0.5,
+      "generic": 1.0,
+      "multiword": 0.75,
+      "negative": 1.0
+    },
+    "overall": 0.8333333333333334,
+    "results": {
+      "dolo": {
+        "expected": "acetaminophen",
+        "predicted": "acetaminophen",
+        "score": 0.9999999403953552,
+        "correct": true,
+        "category": "brand"
+      },
+      "crocin": {
+        "expected": "acetaminophen",
+        "predicted": "crocin",
+        "score": 1.0000001192092896,
+        "correct": false,
+        "category": "brand"
+      },
+      "augmentin": {
+        "expected": "amoxicillin",
+        "predicted": "amoxicillin",
+        "score": 1.0,
+        "correct": true,
+        "category": "brand"
+      },
+      "telma-h": {
+        "expected": "telmisartan",
+        "predicted": "telmisartan",
+        "score": 1.0,
+        "correct": true,
+        "category": "brand"
+      },
+      "telmisartan h": {
+        "expected": "telmisartan",
+        "predicted": "telmisartan",
+        "score": 0.9568137526512146,
+        "correct": true,
+        "category": "brand"
+      },
+      "ramistar-am": {
+        "expected": "ramipril",
+        "predicted": "amlodipine",
+        "score": 1.0,
+        "correct": false,
+        "category": "brand"
+      },
+      "starpress xl": {
+        "expected": "metoprolol",
+        "predicted": "metoprolol",
+        "score": 1.0000001192092896,
+        "correct": true,
+        "category": "brand"
+      },
+      "ecosprin": {
+        "expected": "acetylsalicylic acid",
+        "predicted": "acetylsalicylic acid",
+        "score": 1.0000001192092896,
+        "correct": true,
+        "category": "brand"
+      },
+      "glycomet": {
+        "expected": "metformin",
+        "predicted": "metformin",
+        "score": 0.9999997615814209,
+        "correct": true,
+        "category": "brand"
+      },
+      "storvas": {
+        "expected": "atorvastatin",
+        "predicted": "atorvastatin",
+        "score": 0.9999998807907104,
+        "correct": true,
+        "category": "brand"
+      },
+      "azithral": {
+        "expected": "azithromycin",
+        "predicted": "azithromycin",
+        "score": 1.0,
+        "correct": true,
+        "category": "brand"
+      },
+      "pan-d": {
+        "expected": "pantoprazole",
+        "predicted": "pantoprazole",
+        "score": 1.0000001192092896,
+        "correct": true,
+        "category": "brand"
+      },
+      "amoxil": {
+        "expected": "amoxicillin",
+        "predicted": "amoxicillin",
+        "score": 0.9999999403953552,
+        "correct": true,
+        "category": "brand"
+      },
+      "pcm": {
+        "expected": "acetaminophen",
+        "predicted": "acetaminophen",
+        "score": 0.9999999403953552,
+        "correct": true,
+        "category": "brand"
+      },
+      "paracetmol": {
+        "expected": "acetaminophen",
+        "predicted": null,
+        "score": 0.6666012406349182,
+        "correct": false,
+        "category": "typo"
+      },
+      "amoxcillin": {
+        "expected": "amoxicillin",
+        "predicted": "amoxicillin",
+        "score": 0.9064004421234131,
+        "correct": true,
+        "category": "typo"
+      },
+      "rantidine": {
+        "expected": "ranitidine",
+        "predicted": null,
+        "score": 0.7972092628479004,
+        "correct": false,
+        "category": "typo"
+      },
+      "metforminn": {
+        "expected": "metformin",
+        "predicted": "metformin",
+        "score": 0.9768794178962708,
+        "correct": true,
+        "category": "typo"
+      },
+      "atorvastatn": {
+        "expected": "atorvastatin",
+        "predicted": "atorvastatin",
+        "score": 0.8737798929214478,
+        "correct": true,
+        "category": "typo"
+      },
+      "clopidegrel": {
+        "expected": "clopidogrel",
+        "predicted": null,
+        "score": 0.7729032635688782,
+        "correct": false,
+        "category": "typo"
+      },
+      "metformin": {
+        "expected": "metformin",
+        "predicted": "metformin",
+        "score": 1.0,
+        "correct": true,
+        "category": "generic"
+      },
+      "atorvastatin": {
+        "expected": "atorvastatin",
+        "predicted": "atorvastatin",
+        "score": 1.0000001192092896,
+        "correct": true,
+        "category": "generic"
+      },
+      "warfarin": {
+        "expected": "warfarin",
+        "predicted": "warfarin",
+        "score": 1.0000001192092896,
+        "correct": true,
+        "category": "generic"
+      },
+      "amoxicillin": {
+        "expected": "amoxicillin",
+        "predicted": "amoxicillin",
+        "score": 0.9999998807907104,
+        "correct": true,
+        "category": "generic"
+      },
+      "paracetamol": {
+        "expected": "acetaminophen",
+        "predicted": "acetaminophen",
+        "score": 0.9999999403953552,
+        "correct": true,
+        "category": "generic"
+      },
+      "aspirin": {
+        "expected": "acetylsalicylic acid",
+        "predicted": "acetylsalicylic acid",
+        "score": 1.0,
+        "correct": true,
+        "category": "generic"
+      },
+      "salbutamol": {
+        "expected": "albuterol",
+        "predicted": "albuterol",
+        "score": 1.0,
+        "correct": true,
+        "category": "generic"
+      },
+      "hydrochlorothiazide": {
+        "expected": "hydrochlorothiazide",
+        "predicted": "hydrochlorothiazide",
+        "score": 1.0000001192092896,
+        "correct": true,
+        "category": "generic"
+      },
+      "amoxicillin clavulanate": {
+        "expected": "amoxicillin",
+        "predicted": null,
+        "score": 0.797089695930481,
+        "correct": false,
+        "category": "multiword"
+      },
+      "acetylsalicylic acid": {
+        "expected": "acetylsalicylic acid",
+        "predicted": "acetylsalicylic acid",
+        "score": 1.0,
+        "correct": true,
+        "category": "multiword"
+      },
+      "amlodipine besylate": {
+        "expected": "amlodipine",
+        "predicted": "amlodipine",
+        "score": 0.8898223042488098,
+        "correct": true,
+        "category": "multiword"
+      },
+      "metformin hcl": {
+        "expected": "metformin",
+        "predicted": "metformin",
+        "score": 0.9046177864074707,
+        "correct": true,
+        "category": "multiword"
+      },
+      "no known allergies": {
+        "expected": null,
+        "predicted": null,
+        "score": 0.5343412756919861,
+        "correct": true,
+        "category": "negative"
+      },
+      "xyzqqq": {
+        "expected": null,
+        "predicted": null,
+        "score": 0.7441399097442627,
+        "correct": true,
+        "category": "negative"
+      },
+      "take with food": {
+        "expected": null,
+        "predicted": null,
+        "score": 0.5310822129249573,
+        "correct": true,
+        "category": "negative"
+      },
+      "patient chart": {
+        "expected": null,
+        "predicted": null,
+        "score": 0.5810903310775757,
+        "correct": true,
+        "category": "negative"
+      }
+    }
+  },
+  {
+    "label": "CODER-eng",
+    "status": "ok",
+    "load_time": 4.373260736465454,
+    "encode_time": 30.059757947921753,
+    "dim": 768,
+    "category_accuracy": {
+      "brand": 0.8571428571428571,
+      "typo": 0.6666666666666666,
+      "generic": 1.0,
+      "multiword": 0.75,
+      "negative": 1.0
+    },
+    "overall": 0.8611111111111112,
+    "results": {
+      "dolo": {
+        "expected": "acetaminophen",
+        "predicted": "acetaminophen",
+        "score": 1.0000003576278687,
+        "correct": true,
+        "category": "brand"
+      },
+      "crocin": {
+        "expected": "acetaminophen",
+        "predicted": "crocin",
+        "score": 0.9999999403953552,
+        "correct": false,
+        "category": "brand"
+      },
+      "augmentin": {
+        "expected": "amoxicillin",
+        "predicted": "amoxicillin",
+        "score": 1.0000001192092896,
+        "correct": true,
+        "category": "brand"
+      },
+      "telma-h": {
+        "expected": "telmisartan",
+        "predicted": "telmisartan",
+        "score": 0.9999998211860657,
+        "correct": true,
+        "category": "brand"
+      },
+      "telmisartan h": {
+        "expected": "telmisartan",
+        "predicted": "telmisartan",
+        "score": 0.9631127119064331,
+        "correct": true,
+        "category": "brand"
+      },
+      "ramistar-am": {
+        "expected": "ramipril",
+        "predicted": "amlodipine",
+        "score": 1.0000001192092896,
+        "correct": false,
+        "category": "brand"
+      },
+      "starpress xl": {
+        "expected": "metoprolol",
+        "predicted": "metoprolol",
+        "score": 1.0000001192092896,
+        "correct": true,
+        "category": "brand"
+      },
+      "ecosprin": {
+        "expected": "acetylsalicylic acid",
+        "predicted": "acetylsalicylic acid",
+        "score": 1.0000001192092896,
+        "correct": true,
+        "category": "brand"
+      },
+      "glycomet": {
+        "expected": "metformin",
+        "predicted": "metformin",
+        "score": 0.9999999403953552,
+        "correct": true,
+        "category": "brand"
+      },
+      "storvas": {
+        "expected": "atorvastatin",
+        "predicted": "atorvastatin",
+        "score": 0.9999997019767761,
+        "correct": true,
+        "category": "brand"
+      },
+      "azithral": {
+        "expected": "azithromycin",
+        "predicted": "azithromycin",
+        "score": 1.0,
+        "correct": true,
+        "category": "brand"
+      },
+      "pan-d": {
+        "expected": "pantoprazole",
+        "predicted": "pantoprazole",
+        "score": 0.9999998211860657,
+        "correct": true,
+        "category": "brand"
+      },
+      "amoxil": {
+        "expected": "amoxicillin",
+        "predicted": "amoxicillin",
+        "score": 0.9999998211860657,
+        "correct": true,
+        "category": "brand"
+      },
+      "pcm": {
+        "expected": "acetaminophen",
+        "predicted": "acetaminophen",
+        "score": 0.9999999403953552,
+        "correct": true,
+        "category": "brand"
+      },
+      "paracetmol": {
+        "expected": "acetaminophen",
+        "predicted": "acetaminophen",
+        "score": 0.9225325584411621,
+        "correct": true,
+        "category": "typo"
+      },
+      "amoxcillin": {
+        "expected": "amoxicillin",
+        "predicted": "amoxicillin",
+        "score": 0.9614267945289612,
+        "correct": true,
+        "category": "typo"
+      },
+      "rantidine": {
+        "expected": "ranitidine",
+        "predicted": "ranirestat",
+        "score": 0.8983794450759888,
+        "correct": false,
+        "category": "typo"
+      },
+      "metforminn": {
+        "expected": "metformin",
+        "predicted": "metformin",
+        "score": 0.9643220901489258,
+        "correct": true,
+        "category": "typo"
+      },
+      "atorvastatn": {
+        "expected": "atorvastatin",
+        "predicted": "ivaltinostat",
+        "score": 0.8634289503097534,
+        "correct": false,
+        "category": "typo"
+      },
+      "clopidegrel": {
+        "expected": "clopidogrel",
+        "predicted": "clopidogrel",
+        "score": 0.8730675578117371,
+        "correct": true,
+        "category": "typo"
+      },
+      "metformin": {
+        "expected": "metformin",
+        "predicted": "metformin",
+        "score": 1.0,
+        "correct": true,
+        "category": "generic"
+      },
+      "atorvastatin": {
+        "expected": "atorvastatin",
+        "predicted": "atorvastatin",
+        "score": 1.0,
+        "correct": true,
+        "category": "generic"
+      },
+      "warfarin": {
+        "expected": "warfarin",
+        "predicted": "warfarin",
+        "score": 1.0,
+        "correct": true,
+        "category": "generic"
+      },
+      "amoxicillin": {
+        "expected": "amoxicillin",
+        "predicted": "amoxicillin",
+        "score": 0.9999998807907104,
+        "correct": true,
+        "category": "generic"
+      },
+      "paracetamol": {
+        "expected": "acetaminophen",
+        "predicted": "acetaminophen",
+        "score": 1.0,
+        "correct": true,
+        "category": "generic"
+      },
+      "aspirin": {
+        "expected": "acetylsalicylic acid",
+        "predicted": "acetylsalicylic acid",
+        "score": 1.0,
+        "correct": true,
+        "category": "generic"
+      },
+      "salbutamol": {
+        "expected": "albuterol",
+        "predicted": "albuterol",
+        "score": 0.9999998807907104,
+        "correct": true,
+        "category": "generic"
+      },
+      "hydrochlorothiazide": {
+        "expected": "hydrochlorothiazide",
+        "predicted": "hydrochlorothiazide",
+        "score": 1.0,
+        "correct": true,
+        "category": "generic"
+      },
+      "amoxicillin clavulanate": {
+        "expected": "amoxicillin",
+        "predicted": "clavulanic acid",
+        "score": 0.9384386539459229,
+        "correct": false,
+        "category": "multiword"
+      },
+      "acetylsalicylic acid": {
+        "expected": "acetylsalicylic acid",
+        "predicted": "acetylsalicylic acid",
+        "score": 0.9999998807907104,
+        "correct": true,
+        "category": "multiword"
+      },
+      "amlodipine besylate": {
+        "expected": "amlodipine",
+        "predicted": "amlodipine",
+        "score": 0.9143509268760681,
+        "correct": true,
+        "category": "multiword"
+      },
+      "metformin hcl": {
+        "expected": "metformin",
+        "predicted": "metformin",
+        "score": 0.9300798773765564,
+        "correct": true,
+        "category": "multiword"
+      },
+      "no known allergies": {
+        "expected": null,
+        "predicted": null,
+        "score": 0.7755908370018005,
+        "correct": true,
+        "category": "negative"
+      },
+      "xyzqqq": {
+        "expected": null,
+        "predicted": null,
+        "score": 0.8432334661483765,
+        "correct": true,
+        "category": "negative"
+      },
+      "take with food": {
+        "expected": null,
+        "predicted": null,
+        "score": 0.828051745891571,
+        "correct": true,
+        "category": "negative"
+      },
+      "patient chart": {
+        "expected": null,
+        "predicted": null,
+        "score": 0.7849269509315491,
+        "correct": true,
+        "category": "negative"
+      }
+    }
+  }
+]

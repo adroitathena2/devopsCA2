@@ -323,6 +323,50 @@ This system is designed as a Clinical Decision Support Tool (CDST):
 
 ---
 
+## DevOps Evidence (Tasks 1–4)
+
+Full DevOps walkthrough (tools, commands, logs) is in `docs/REPORT.md`. Screenshots below are live runs from this machine (2026-09-30).
+
+### Task 1 — CI/CD with GitHub Actions + pytest
+
+Workflow `.github/workflows/ci-cd.yml`: `test` (pytest + manifest validation) → `build-and-push` → `deploy-staging`.
+
+![GitHub Actions — all 3 jobs green](docs/screenshots/github-actions-success.png)
+
+![pytest — 6 passed](docs/screenshots/pytest-6-passed.png)
+
+### Task 2 — Configuration Management with Ansible
+
+Playbook `ansible/playbook.yml` configures the service host (user, venv, systemd unit, smoke test).
+
+![Ansible run — top](docs/screenshots/ansible-run-top.png)
+
+![Ansible recap — ok=11/12 failed=0](docs/screenshots/ansible-recap.png)
+
+### Task 3 — Docker + Kubernetes + Service verification
+
+`Dockerfile` → `docker build/run`; `k8s/deployment.yaml` + `service.yaml` → `kubectl apply`, rolling update + rollback. Service verified via `/health` and Swagger `/analyze`.
+
+![K8s pods + rollout history](docs/screenshots/k8s-pods-rollout-history.png)
+
+![Docker health check](docs/screenshots/curl-health-up.png)
+
+![Swagger analyze request](docs/screenshots/swagger-analyze-request.png)
+
+![Swagger analyze response](docs/screenshots/swagger-analyze-empty-response.png)
+
+![Swagger schema](docs/screenshots/swagger-schema.png)
+
+### Task 4 — Monitoring with Prometheus + Grafana
+
+`app.py` exposes `/metrics`; `monitoring/prometheus.yml` scrapes `app:8000`; dashboard in `monitoring/grafana-dashboard.json`.
+
+![Prometheus targets UP](docs/screenshots/prometheus-targets-up.png)
+
+![Grafana live dashboard](docs/screenshots/grafana-dashboard-live.png)
+
+---
+
 ## License and Citation
 
 **Citation:**

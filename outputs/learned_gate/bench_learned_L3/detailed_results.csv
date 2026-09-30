@@ -1,0 +1,507 @@
+prescription_id,prescription_index,prescription_text,gt_severity,pred_severity,gt_has_interaction,pred_has_interaction,pred_interactions_count,latency_seconds,missed_drugs,gt_drug_count,missed_drug_count,gemini_errors
+2,1,"doctor ne likha hai: Tab. Droperidol, to be taken orally, twice daily before meals
+Tab. Apomorphine, to be taken orally, once daily after meals",Moderate,Moderate,True,True,1,0.3991372585296631,[],2,0,0
+3,2,"dard ke liye 1. Loratadine OD
+2. Omez OD",No Interaction,No Interaction,False,False,0,0.25728654861450195,[],2,0,0
+4,3,"doctor ne likha hai: Tab. Zeptol, to be taken orally, once daily after meals
+Tab. Oliceridine, to be taken orally, three times daily",Severe,Severe,True,True,1,0.43750929832458496,[],2,0,0
+5,4,"doctor ne likha hai: Rx: Abacavir - od
+Rx: Tenofovir disoproxil - od",Moderate,Moderate,True,True,1,0.34177732467651367,[],2,0,0
+7,5,"bukhar aur dard ke liye 1. Capreomycin TDS
+2. Ibandronate TDS",Severe,Severe,True,True,1,0.250324010848999,[],2,0,0
+10,6,"doctor ne likha hai: Loratadine once daily
+Amlong OD",No Interaction,No Interaction,False,False,0,0.3601646423339844,[],2,0,0
+12,7,"doctor ne likha hai: Capecitabine OD
+Cefmetazole once daily",Severe,Severe,True,True,1,0.3373434543609619,[],2,0,0
+13,8,"dard ke liye Azelaic acid TDS
+Ifosfamide three times daily
+Calcium three times daily",Moderate,Moderate,True,True,1,0.36441707611083984,[],3,0,0
+14,9,"bukhar aur dard ke liye 1. Penfluridol BD
+2. Amoxapine OD",Moderate,Moderate,True,True,1,0.2651100158691406,[],2,0,0
+17,10,"doctor ne likha hai: Tab. Cefatrizine, to be taken orally, three times daily
+Tab. Valganciclovir, to be taken orally, twice daily before meals",Moderate,Severe,True,True,1,0.3439502716064453,[],2,0,0
+19,11,"bukhar ke liye Rx: Olsalazine - od
+Rx: Biocarb - tds",Severe,Severe,True,True,1,0.2660999298095703,[],2,0,0
+24,12,"doctor ne likha hai: Tab. Dolonex, to be taken orally, three times daily
+Tab. Anastrozole, to be taken orally, three times daily",Moderate,Moderate,True,True,1,0.39709973335266113,[],2,0,0
+26,13,"doctor ne likha hai: Tab. Neurocetam, to be taken orally, three times daily
+Tab. Buthiazide, to be taken orally, three times daily",Moderate,Moderate,True,True,1,0.3745090961456299,[],2,0,0
+27,14,"doctor ne likha hai: Cefpodoxime TDS
+Lumiracoxib TDS",Severe,Severe,True,True,1,0.3191530704498291,[],2,0,0
+28,15,"dard ke liye Tenofovir three times daily
+Zaltoprofen TDS",Severe,Severe,True,True,1,0.27833056449890137,[],2,0,0
+30,16,"dard ke liye Tab. Dicloran, to be taken orally, twice daily before meals
+Tab. Cidofovir, to be taken orally, once daily after meals",Severe,Severe,True,True,1,0.28466248512268066,[],2,0,0
+31,17,"dard ke liye Erlotinib twice daily
+Seladelpar TDS
+Calcium three times daily",Moderate,Moderate,True,True,1,0.3815474510192871,[],3,0,0
+32,18,"bukhar aur dard ke liye Tab. Stavudine, to be taken orally, once daily after meals
+Tab. Methylene blue, to be taken orally, twice daily before meals",Severe,Moderate,True,True,1,0.32875657081604004,[],2,0,0
+33,19,"bukhar aur dard ke liye Tridihexethyl twice daily
+Emetonium iodide TDS",Moderate,Moderate,True,True,1,0.24986553192138672,[],2,0,0
+34,20,"dard ke liye Omez once daily
+Azithral OD",No Interaction,No Interaction,False,False,0,0.25513291358947754,[],2,0,0
+36,21,"bukhar ke liye 1. Pamidronic acid TDS
+2. Atazanavir BD",Severe,Severe,True,True,1,0.24443435668945312,[],2,0,0
+39,22,"doctor ne likha hai: Tab. Efonidipine, to be taken orally, once daily after meals
+Tab. Pidotimod, to be taken orally, three times daily",Moderate,Moderate,True,True,1,0.3853437900543213,[],2,0,0
+40,23,"bukhar aur dard ke liye Tab. Tenofovir disoproxil, to be taken orally, once daily after meals
+Tab. Talniflumate, to be taken orally, twice daily before meals",Severe,Severe,True,True,1,0.3350489139556885,[],2,0,0
+42,24,"bukhar ke liye Tab. Omez, to be taken orally, once daily before meals
+Tab. Alcet, to be taken orally, once daily after meals",No Interaction,No Interaction,False,False,0,0.30252718925476074,[],2,0,0
+43,25,"dard ke liye 1. Omez OD
+2. Novamox TDS",No Interaction,No Interaction,False,False,0,0.3229691982269287,[],2,0,0
+44,26,"bukhar ke liye 1. Ifosfamide BD
+2. Pertuzumab OD",Severe,Moderate,True,True,1,0.25658369064331055,[],2,0,0
+45,27,"bukhar ke liye Icosapent OD
+Cefotiam three times daily",Severe,Severe,True,True,1,0.24596190452575684,[],2,0,0
+49,28,"dard ke liye Pangraf TDS
+Cefpirome once daily",Severe,Severe,True,True,1,0.26254963874816895,[],2,0,0
+52,29,"dard ke liye Cefpodoxime OD
+Adefovir dipivoxil twice daily",Severe,Severe,True,True,1,0.2995738983154297,[],2,0,0
+53,30,"bukhar aur dard ke liye Rx: Felodipine - tds
+Rx: Doxylamine - bd",Severe,Severe,True,True,1,0.44634199142456055,[],2,0,0
+60,31,"bukhar aur dard ke liye Rx: Cobimetinib - tds
+Rx: Ritonavir - bd",Moderate,Moderate,True,True,1,0.447218656539917,[],2,0,0
+61,32,"bukhar aur dard ke liye Azithral once daily
+Loratadine OD",Severe,Severe,True,True,1,0.2643008232116699,[],2,0,0
+62,33,"bukhar aur dard ke liye 1. Felbamate BD
+2. Loxum BD",Moderate,Moderate,True,True,1,0.3157308101654053,[],2,0,0
+66,34,"bukhar ke liye Liraglutide TDS
+Clofenamide TDS
+Vitamin D TDS",Moderate,Moderate,True,True,1,0.40048813819885254,[],3,0,0
+68,35,"bukhar aur dard ke liye Azithral twice daily
+Pan OD",No Interaction,No Interaction,False,False,0,0.28182101249694824,[],2,0,0
+69,36,"bukhar aur dard ke liye Rx: Tenofovir - od
+Rx: Cefacetrile - od",Severe,Severe,True,True,1,0.25161290168762207,[],2,0,0
+70,37,"doctor ne likha hai: Meperidine TDS
+Bumetanide BD
+Vitamin D BD",Moderate,Moderate,True,True,2,0.5035173892974854,[],3,0,0
+72,38,"doctor ne likha hai: Upadacitinib twice daily
+Tipranavir BD
+V1tam1n C twice daily",Moderate,Moderate,True,True,1,0.3948531150817871,['Vitamin C'],3,1,0
+76,39,"dard ke liye Cefmetazole once daily
+Dihydrostreptomycin once daily",Severe,Severe,True,True,1,0.25296568870544434,[],2,0,0
+77,40,"bukhar aur dard ke liye Rx: Mitotane - tds
+Rx: Abiraterone - od",Moderate,Moderate,True,True,1,0.2637021541595459,[],2,0,0
+81,41,"dard ke liye 1. Chlorthalidone BD
+2. Treprostinil TDS",Moderate,Moderate,True,True,1,0.2552173137664795,[],2,0,0
+84,42,"dard ke liye Meftal TDS
+Mannitol BD",Severe,Severe,True,True,1,0.25139355659484863,[],2,0,0
+86,43,"doctor ne likha hai: Mofebutazone twice daily
+Loracarbef TDS",Severe,Severe,True,True,1,0.34668612480163574,[],2,0,0
+91,44,"doctor ne likha hai: Desipramine three times daily
+Oliceridine once daily",Severe,Severe,True,True,1,0.45710253715515137,[],2,0,0
+96,45,"doctor ne likha hai: Rx: Cefroxadine - od
+Rx: Fenoprofen - bd",Severe,Severe,True,True,1,0.45648980140686035,[],2,0,0
+101,46,"bukhar aur dard ke liye Simvotin OD
+Crixan BD",Moderate,Moderate,True,True,1,0.25434446334838867,[],2,0,0
+102,47,"bukhar aur dard ke liye Tab. Warf, to be taken orally, once daily after meals
+Tab. Ibuprofen, to be taken orally, twice daily before meals",Moderate,Moderate,True,True,1,0.3187134265899658,[],2,0,0
+103,48,"bukhar ke liye 1. Glyciphage BD
+2. Sitagliptin OD",No Interaction,No Interaction,False,False,0,0.2815995216369629,[],2,0,0
+104,49,"bukhar ke liye Rx: Lisir - od
+Rx: Aldactone - od",Moderate,Moderate,True,True,1,0.2736625671386719,[],2,0,0
+105,50,"bukhar ke liye Atorfit twice daiIy
+Althrocin 0D",Moderate,Moderate,True,True,1,0.26004552841186523,[],2,0,0
+106,51,"dard ke liye Amlong OD
+Glyciphage BD",Moderate,Moderate,True,True,1,0.2663137912750244,[],2,0,0
+107,52,"dard ke liye Tab. Ecosprin, to be taken orally, once daily after meals
+Tab. Clopilet, to be taken orally, once daily after meals
+Tab. Naproxen, to be taken orally, twice daily before meals",Severe,Severe,True,True,2,0.4882524013519287,[],3,0,0
+108,53,"bukhar aur dard ke liye 1. Dixin OD
+2. Lasix BD",Moderate,Moderate,True,True,1,0.2703690528869629,[],2,0,0
+109,54,"dard ke liye Rx: Lostar - od
+Rx: Amlong - bd",Moderate,Moderate,True,True,1,0.40766191482543945,[],2,0,0
+110,55,"bukhar ke liye Embeta 50mgBD
+Calaptin TDS",Moderate,Severe,True,True,1,0.2643299102783203,[],2,0,0
+111,56,"doctor ne likha hai: Atorfit OD
+Channel BD
+Glyciphage twice daily",Moderate,Moderate,True,True,3,0.5003433227539062,[],3,0,0
+112,57,"doctor ne likha hai: Tab. Embeta, to be taken orally, twice daily before meals
+Tab. Atorfit, to be taken orally, once daily after meals",No Interaction,No Interaction,False,False,0,0.3725621700286865,[],2,0,0
+113,58,"bukhar ke liye 1. Warf OD
+2. Ecosprin OD
+3. Atorfit OD
+4. Glyciphage BD",Moderate,Moderate,True,True,5,0.6586692333221436,[],4,0,0
+114,59,"bukhar aur dard ke liye Rx: Enapril - bd
+Rx: Amiloride - od",Moderate,Moderate,True,True,1,0.38544726371765137,[],2,0,0
+115,60,"bukhar ke liye Simvotin once daiIy
+Channel twice daily",Moderate,Moderate,True,True,1,0.2572643756866455,[],2,0,0
+116,61,"bukhar aur dard ke liye Eurythmic OD
+Warf once daily",Severe,Severe,True,True,1,0.28152918815612793,[],2,0,0
+117,62,"doctor ne likha hai: Tab. Dixin, to be taken orally, once daily before meals
+Tab. Calaptin, to be taken orally, three times daily",Moderate,Severe,True,True,1,0.38108134269714355,[],2,0,0
+118,63,"doctor ne likha hai: 1. Candesartan OD
+2. Chlorthalidone OD",Moderate,Moderate,True,True,1,0.34739112854003906,[],2,0,0
+119,64,"bukhar aur dard ke liye Rx: Cardace - od
+Rx: Aldactone - od
+Rx: Amlong - bd",Moderate,Moderate,True,True,3,0.5403263568878174,[],3,0,0
+120,65,"dard ke liye Simvotin20mg OD
+Itratuf once daily",Moderate,Moderate,True,True,1,0.2634694576263428,[],2,0,0
+121,66,"bukhar aur dard ke liye Clopilet OD
+Naproxen BD",Severe,Severe,True,True,1,0.26184892654418945,[],2,0,0
+122,67,"dard ke liye Tab. Jardiance, to be taken orally, once daily before meals
+Tab. Glyciphage, to be taken orally, twice daily after meals",No Interaction,No Interaction,False,False,0,0.31901097297668457,[],2,0,0
+123,68,"bukhar aur dard ke liye 1. Valzaar OD
+2. Aldactone OD",Moderate,Moderate,True,True,1,0.2738528251647949,[],2,0,0
+124,69,"dard ke liye Rx: Corbis - od
+Rx: Atorfit - od",No Interaction,No Interaction,False,False,0,0.2967369556427002,[],2,0,0
+125,70,"bukhar ke liye Embeta twice daliy
+Channel BD
+Atorfit 0D",Severe,Severe,True,True,2,0.4090743064880371,[],3,0,0
+126,71,"dard ke liye Warf OD
+Dicloran TDS",Severe,Severe,True,True,1,0.27699732780456543,[],2,0,0
+127,72,"doctor ne likha hai: Tab. Insulin glargine, to be taken subcutaneously, once daily before meals
+Tab. Glipizide, to be taken orally, once daily before meals",Moderate,Moderate,True,True,1,0.37332916259765625,[],2,0,0
+128,73,"bukhar aur dard ke liye 1. Dixin OD
+2. Eurythmic BD",Moderate,Moderate,True,True,1,0.27219605445861816,[],2,0,0
+129,74,"bukhar aur dard ke liye Rx: Lostar - od
+Rx: Potassium chloride - bd",Moderate,Moderate,True,True,1,0.38321971893310547,[],2,0,0
+130,75,"doctor ne likha hai: Pravastatin once daily
+Ezetimibe OD",Moderate,Moderate,True,True,1,0.305070161819458,[],2,0,0
+131,76,"bukhar aur dard ke liye Apixaban BD
+Naproxen twice daily",Severe,Severe,True,True,1,0.25588154792785645,[],2,0,0
+132,77,"bukhar aur dard ke liye Tab. Corbis, to be taken orally, once daily after meals
+Tab. Calaptin, to be taken orally, three times daily",Moderate,Moderate,True,True,1,0.3554997444152832,[],2,0,0
+133,78,"bukhar aur dard ke liye 1. Enapril BD
+2. Potassium chloride BD",Moderate,Moderate,True,True,1,0.26450014114379883,[],2,0,0
+134,79,"doctor ne likha hai: Rx: Xarelto - od
+Rx: Ibuprofen - tds",Moderate,Moderate,True,True,1,0.36278605461120605,[],2,0,0
+135,80,"doctor ne likha hai: Simvotin 0D
+Crixan BD
+Amlong once daiIy",Moderate,Moderate,True,True,3,0.5132343769073486,[],3,0,0
+136,81,"doctor ne likha hai: Valzaar OD
+Amlong once daily",No Interaction,No Interaction,False,False,0,0.35614943504333496,[],2,0,0
+137,82,"doctor ne likha hai: Tab. Warf, to be taken orally, once daily after meals
+Tab. Simvotin, to be taken orally, once daily after meals
+Tab. Glyciphage, to be taken orally, twice daily before meals",Moderate,Moderate,True,True,3,0.5981299877166748,[],3,0,0
+138,83,"bukhar ke liye 1. Tenolol OD
+2. Calaptin TDS",Moderate,Severe,True,True,1,0.2539093494415283,[],2,0,0
+139,84,"bukhar aur dard ke liye Rx: Candesartan - od
+Rx: Amiloride - od",Moderate,Moderate,True,True,1,0.3061511516571045,[],2,0,0
+140,85,"bukhar aur dard ke liye Forxiga once daily
+Sitagliptin OD",No Interaction,No Interaction,False,False,0,0.28687286376953125,[],2,0,0
+141,86,"dard ke liye Ecosprin OD
+Clopilet OD
+Ibuprofen TDS
+Atorfit once daily",Severe,Severe,True,True,4,0.7005457878112793,[],4,0,0
+142,87,"bukhar aur dard ke liye Tab. Cardace, to be taken orally, once daily after meals
+Tab. Amlong, to be taken orally, once daily before meals",Moderate,Moderate,True,True,1,0.29418087005615234,[],2,0,0
+143,88,"dard ke liye 1. Dixin OD
+2. Lasix BD
+3. Apixaban BD",Moderate,Moderate,True,True,2,0.48536014556884766,[],3,0,0
+144,89,"bukhar ke liye Rx: Jardiance - od
+Rx: Lisir - od",Severe,Severe,True,True,1,0.2658112049102783,[],2,0,0
+145,90,"bukhar ke liye Rozat 0D
+Glyciphage twice daiIy",No Interaction,No Interaction,False,False,0,0.2821078300476074,[],2,0,0
+146,91,"bukhar ke liye Hydrochlorothiazide OD
+Atorfit once daily",No Interaction,No Interaction,False,False,0,0.3041105270385742,[],2,0,0
+147,92,"doctor ne likha hai: Tab. Atorfit, to be taken orally, once daily after meals
+Tab. Fenofibrate, to be taken orally, once daily before meals",Severe,Severe,True,True,1,0.3769345283508301,[],2,0,0
+148,93,"bukhar aur dard ke liye 1. Corbis OD
+2. Forxiga OD",Moderate,Moderate,True,True,1,0.27848124504089355,[],2,0,0
+149,94,"bukhar aur dard ke liye Rx: Enapril - bd
+Rx: Aldactone - od
+Rx: Corbis - od",Moderate,Moderate,True,True,3,0.6202361583709717,[],3,0,0
+150,95,"doctor ne likha hai: Apixaban twice daily
+Ecosprin 0D",Moderate,Moderate,True,True,1,0.34569430351257324,[],2,0,0
+201,96,"bukhar aur dard ke liye Rx Ergotamine - bd
+Rx: Ketoconazole - twcie daily
+Rx: Calcium once daliy",Moderate,Moderate,True,True,1,0.5416254997253418,[],3,0,0
+202,97,"doctor ne likha hai: 1. Isoniazid BD
+2. Paracetamol TDS
+3. Zinc QID",Severe,Severe,True,True,1,0.4600217342376709,[],3,0,0
+203,98,"bukhar aur dard ke liye Asthalin BD
+Novamox twice daily
+Loratadine OD",Moderate,Moderate,True,True,1,0.49800753593444824,[],3,0,0
+204,99,"dard ke liye 1. Azithral OD
+2. Paracetamol TDS",Moderate,Moderate,True,True,1,0.27156901359558105,[],2,0,0
+206,100,"bukhar ke liye Linospan10mg OD
+Sertraline BD
+Vitamin D20mg twice daliy",Severe,Severe,True,True,1,0.38080334663391113,[],3,0,0
+207,101,"bukhar aur dard ke liye Folvite TDS
+Althrocin QID
+Zeptol three times daily",Moderate,Moderate,True,True,3,0.38842225074768066,[],3,0,0
+208,102,"bukhar aur dard ke liye Rx: Isoniazid - OD
+Rx: Epsolin - bd",Moderate,Moderate,True,True,1,0.39684391021728516,[],2,0,0
+209,103,"bukhar aur dard ke liye Itratuf bd
+Mezolam twice daliy",Moderate,Moderate,True,True,1,0.40347790718078613,[],2,0,0
+210,104,"dard ke liye Itratuf TDS
+Simvotin OD",Moderate,Moderate,True,True,1,0.26053762435913086,[],2,0,0
+212,105,"bukhar aur dard ke liye Tab. Doxy, to be taken orally, twice daily before meals
+Syp. Calcium carbonate, to be taken orally, once daily at bedtime",Moderate,Moderate,True,True,1,0.27551937103271484,[],2,0,0
+213,106,"bukhar aur dard ke liye Acivir twice daliy
+Alcet once daily",Moderate,Severe,True,True,1,0.26857662200927734,[],2,0,0
+214,107,"dard ke liye Althrocin BD
+Eurythmic OD",Moderate,Moderate,True,True,1,0.28786253929138184,[],2,0,0
+215,108,"dard ke liye Syp. Efavir, to be taken orally, once daily before meals
+Syp. Mezolam, to be taken orally, twice daily after meals",Moderate,Moderate,True,True,1,0.293637752532959,[],2,0,0
+218,109,"bukhar aur dard ke liye Ritonavir OD
+Simvotin QID",Moderate,Moderate,True,True,1,0.2561309337615967,[],2,0,0
+219,110,"bukhar aur dard ke liye Rx: Zocon twcie daily
+Rx: Simvotin- twice daily",Moderate,Moderate,True,True,1,0.2647078037261963,[],2,0,0
+220,111,"doctor ne likha hai: 1. Folvite TDS
+2. Warf once daily
+3. Metrogyl BD",Moderate,Moderate,True,True,2,0.6294083595275879,[],3,0,0
+221,112,"doctor ne likha hai: Rx: Voriconazole - tds
+Rx Pangraf - once daliy",Moderate,Moderate,True,True,1,0.37770867347717285,[],2,0,0
+223,113,"bukhar ke liye Rx: Ciprofloxacin - twice daily
+Rx: Theobid - tds",Moderate,Moderate,True,True,1,0.28603529930114746,[],2,0,0
+224,114,"doctor ne likha hai: Rx: Rifampin - BD
+Rx: Pangraf - od
+Rx: Vitamin D - tds",Moderate,Moderate,True,True,3,0.5761404037475586,[],3,0,0
+225,115,"bukhar ke liye Linospan, twice daily.
+Dextromethorphan30mg twice daliy",Severe,Severe,True,True,1,0.2784843444824219,[],2,0,0
+226,116,"dard ke liye L-Cin200mg three times daily
+Eurythmic OD",Severe,Severe,True,True,1,0.2588155269622803,[],2,0,0
+228,117,"doctor ne likha hai: Rx: Budecort - twice daily
+Rx: Loratadine - twcie daily",Moderate,Moderate,True,True,1,0.344036340713501,[],2,0,0
+229,118,"doctor ne likha hai: 1. Metrogyl BD
+2. Disulfiram QID",Severe,Severe,True,True,1,0.33618640899658203,[],2,0,0
+230,119,"bukhar ke liye Rx: Ciprofloxacin - twice daily
+Rx: Tizanidine- OD
+Rx: Paracetamol od",Moderate,Moderate,True,True,2,0.4575083255767822,[],3,0,0
+231,120,"doctor ne likha hai: Oseltamivir OD
+Benadryl twice daliy",No Interaction,No Interaction,False,False,0,0.40079474449157715,[],2,0,0
+232,121,"doctor ne likha hai: Rifampin once daily
+Ethinyl estradiol once daily",Moderate,Moderate,True,True,1,0.453843355178833,[],2,0,0
+233,122,"dard ke liye Syp. Montair, to be taken orally, once daily after meals
+Tab. Ibuprofen, to be taken orally, twice daily before meals",Moderate,Moderate,True,True,1,0.2811405658721924,[],2,0,0
+234,123,"doctor ne likha hai: Ciprofloxacin three times daily
+Aluminum hydroxide TDS",Moderate,Moderate,True,True,1,0.3758974075317383,[],2,0,0
+235,124,"doctor ne likha hai: Doxy100mg twice daliy
+Allegra OD",No Interaction,No Interaction,False,False,0,0.42506957054138184,[],2,0,0
+236,125,"dard ke liye Rx: Novamox BD
+Rx: Benadryl - BD",Severe,Severe,True,True,1,0.2879054546356201,[],2,0,0
+237,126,"bukhar ke liye Isoniazid od
+Pyridoxine BD",No Interaction,No Interaction,False,False,0,0.2735168933868408,[],2,0,0
+240,127,"dard ke liye Rx: Ciprofloxacin - tds
+Rx: Sucralfate- tds",Moderate,Moderate,True,True,1,0.24399447441101074,[],2,0,0
+241,128,"doctor ne likha hai: Azithral once daily
+Serenace twice daily",Severe,Severe,True,True,1,0.3637351989746094,[],2,0,0
+243,129,"doctor ne likha hai: Syp. Althrocin, to be taken orally, twice daily before meals
+Syp. Simvotin, to be taken orally, twice daily after meals",Moderate,Moderate,True,True,1,0.36727166175842285,[],2,0,0
+244,130,"doctor ne likha hai: Cap. Guaifenesin, to be taken orally, once daily after meals
+Tab. Alcet, to be taken orally, once daily after meals",No Interaction,No Interaction,False,False,0,0.386608362197876,[],2,0,0
+245,131,"bukhar ke liye Tab. Ketoconazole, to be taken orally, twice daily before meals
+Inj. Mezolam, to be taken orally, twice daily before meals",Moderate,Moderate,True,True,1,0.2728290557861328,[],2,0,0
+246,132,"dard ke liye Rifampin once daily
+Prednisone OD",Moderate,Moderate,True,True,1,0.263702392578125,[],2,0,0
+247,133,"bukhar aur dard ke liye Rx: L-Cin once daily
+Rx: Calcium carbonate - bd",Moderate,Moderate,True,True,1,0.41561317443847656,[],2,0,0
+248,134,"doctor ne likha hai: Tab. Trimethoprim, to be taken orally, three times daily after meals
+Cap. Folitrax, to be taken orally, three times daily",Moderate,Moderate,True,True,1,0.3806953430175781,[],2,0,0
+249,135,"bukhar ke liye 1. Omnacortil OD
+2. Calcium twice daily",No Interaction,No Interaction,False,False,0,0.26146554946899414,[],2,0,0
+250,136,"doctor ne likha hai: Moxifloxacin QID
+Eurythmic QID
+Vitamin C OD",Severe,Severe,True,True,1,0.504765510559082,[],3,0,0
+301,137,"bukhar ke liye Prodep OD
+Phenelzine BD",Severe,Severe,True,True,1,0.2593119144439697,[],2,0,0
+302,138,"bukhar aur dard ke liye Oxycodone BD
+Diazepam TDS",Moderate,Moderate,True,True,1,0.3197519779205322,[],2,0,0
+303,139,"bukhar aur dard ke liye Zeptol BD
+Ethinyl estradiol OD
+Vitamin D OD",Moderate,Moderate,True,True,3,0.37212610244750977,[],3,0,0
+304,140,"bukhar aur dard ke liye Sertraline OD
+Gabapin TDS",Moderate,Moderate,True,True,1,0.26502060890197754,[],2,0,0
+306,141,"dard ke liye Contramal TDS
+Pexep OD",Severe,Moderate,True,True,1,0.26850247383117676,[],2,0,0
+307,142,"dard ke liye Escitalopram OD
+Pregalin BD",Moderate,Moderate,True,True,1,0.32672762870788574,[],2,0,0
+308,143,"bukhar ke liye Serenace BD
+Melozine OD",Severe,Severe,True,True,1,0.285891056060791,[],2,0,0
+309,144,"dard ke liye Cipin BD
+Zeptol TDS",Moderate,Moderate,True,True,1,0.269606351852417,[],2,0,0
+310,145,"bukhar aur dard ke liye Oxycodone twice daily
+Alzolam BD
+Paracetamol TDS",Moderate,Moderate,True,True,2,0.44373512268066406,[],3,0,0
+311,146,"bukhar ke liye Tab. Flavix, to be taken orally, twice daily after meals
+Tab. Phenelzine, to be taken orally, twice daily before meals",Severe,Severe,True,True,1,0.2974085807800293,[],2,0,0
+312,147,"bukhar aur dard ke liye Tab. Fentanyl, to be taken orally, twice daily
+Tab. Mezolam, to be taken orally, once daily at bedtime",Severe,Severe,True,True,1,0.28273749351501465,[],2,0,0
+313,148,"dard ke liye Tab. Valproate, to be taken orally, twice daily after meals
+Tab. Lamictal, to be taken orally, twice daily
+Tab. Vitamin D, to be taken orally, once daily",Moderate,Moderate,True,True,2,0.4963498115539551,[],3,0,0
+314,149,"bukhar aur dard ke liye Tab. Miraz, to be taken orally, once daily at bedtime
+Cap. Gabapin, to be taken orally, three times daily",Moderate,Moderate,True,True,1,0.345350980758667,[],2,0,0
+315,150,"dard ke liye Tab. Fluvoxin, to be taken orally, twice daily after meals
+Tab. Tizanidine, to be taken orally, three times daily",Moderate,Moderate,True,True,1,0.3108241558074951,[],2,0,0
+316,151,"dard ke liye Tab. Aldep, to be taken orally, three times daily
+Tab. Tranylcypromine, to be taken orally, twice daily before meals",Severe,Moderate,True,True,1,0.3168008327484131,[],2,0,0
+317,152,"bukhar aur dard ke liye Tab. Symbal, to be taken orally, once daily after meals
+Tab. Memantine, to be taken orally, once daily before meals",Moderate,Moderate,True,True,1,0.31298232078552246,[],2,0,0
+318,153,"dard ke liye Tab. Zeptol, to be taken orally, twice daily with food
+Tab. Warf, to be taken orally, once daily in the evening",Moderate,Moderate,True,True,1,0.2841353416442871,[],2,0,0
+319,154,"bukhar ke liye Cap. Bupron, to be taken orally, once daily in the morning
+Tab. Contramal, to be taken orally, three times daily after meals",Severe,Severe,True,True,1,0.31333446502685547,[],2,0,0
+320,155,"bukhar ke liye Tab. Qutan, to be taken orally, once daily at bedtime
+Cap. Gabapin, to be taken orally, twice daily
+Tab. Vitamin D, to be taken orally, once daily after meals",Moderate,Moderate,True,True,1,0.5136764049530029,[],3,0,0
+321,156,"doctor ne likha hai: 1. Sertraline OD
+2. Phenelzine BD",Severe,Severe,True,True,1,0.37673354148864746,[],2,0,0
+322,157,"bukhar aur dard ke liye 1. Vermor BD
+2. Loxum TDS",Moderate,Moderate,True,True,1,0.3528177738189697,[],2,0,0
+323,158,"bukhar aur dard ke liye 1. Contramal TDS
+2. Prodep OD
+3. Paracetamol TDS",Severe,Severe,True,True,2,0.5457921028137207,[],3,0,0
+324,159,"bukhar ke liye 1. Flavix BD
+2. Pregalin BD",Moderate,Moderate,True,True,1,0.33936262130737305,[],2,0,0
+325,160,"bukhar ke liye 1. Rizatriptan OD
+2. Tranylcypromine BD",Moderate,Moderate,True,True,1,0.3180515766143799,[],2,0,0
+326,161,"dard ke liye 1) Lithium BD
+2) Hydrochlorothiazide OD",Moderate,Moderate,True,True,1,0.258558988571167,[],2,0,0
+327,162,"doctor ne likha hai: 1. Bupron OD
+2. Gabapin BD",Moderate,Moderate,True,True,1,0.41388940811157227,[],2,0,0
+328,163,"bukhar ke liye 1. Clonil TDS
+2. Selegiline BD",Severe,Moderate,True,True,1,0.25376367568969727,[],2,0,0
+329,164,"bukhar ke liye a. Methadone OD
+b. Clotrin BD",Moderate,Moderate,True,True,1,0.2541365623474121,[],2,0,0
+330,165,"bukhar aur dard ke liye 1. Escitalopram OD
+2. Gabapin TDS
+3. Vitamin D OD",Moderate,Moderate,True,True,1,0.44974541664123535,[],3,0,0
+331,166,"bukhar ke liye Rx: Pexep - od
+Rx: Selegiline - bd",Severe,Moderate,True,True,1,0.39466404914855957,[],2,0,0
+332,167,"bukhar aur dard ke liye Rx: Hydrocodone - tds
+Rx: Alzolam - bd",Moderate,Moderate,True,True,1,0.38472580909729004,[],2,0,0
+333,168,"doctor ne likha hai: Rx: Sertraline - od
+Rx: Sumitrex - od
+Rx: Paracetamol - tds",Moderate,Moderate,True,True,3,0.5458865165710449,[],3,0,0
+334,169,"bukhar aur dard ke liye Rx: Symbal - od
+Rx: Pregalin - bd",Moderate,Moderate,True,True,1,0.4316904544830322,[],2,0,0
+335,170,"dard ke liye Rx: Cyclobenzaprine - tds
+Rx: Phenelzine - bd",Severe,Moderate,True,True,1,0.4355440139770508,[],2,0,0
+336,171,"doctor ne likha hai: Rx: Dactive - hs
+Rx: Oxycodone - bd",Moderate,Moderate,True,True,1,0.47225117683410645,[],2,0,0
+337,172,"bukhar aur dard ke liye Rx: Miraz - hs
+Rx: Vitamin D - od",No Interaction,No Interaction,False,False,0,0.27405261993408203,[],2,0,0
+338,173,"dard ke liye Rx:Melozine- od
+Rx:Prodep- od",Severe,Severe,True,True,1,0.29009032249450684,[],2,0,0
+339,174,"doctor ne likha hai: Rx: Dol-Proxyvon - bd
+Rx: Symbal - od",Moderate,Moderate,True,True,1,0.48586010932922363,[],2,0,0
+340,175,"dard ke liye Rx: Qutan - hs
+Rx: Eurythmic - od
+Rx: Magnesium - od",Moderate,Moderate,True,True,3,0.4366936683654785,[],3,0,0
+341,176,"bukhar ke liye Prodep twice daliy
+Tranylcypromine BD",Severe,Severe,True,True,1,0.3009958267211914,[],2,0,0
+342,177,"bukhar ke liye Codeine TDS
+Clotrin twice daily",Moderate,Moderate,True,True,1,0.24696803092956543,[],2,0,0
+343,178,"doctor ne likha hai: Flavix tw1ce daily
+Contramal TDS
+Vitamin B12 once daily",Severe,Severe,True,True,1,0.534184455871582,[],3,0,0
+344,179,"dard ke liye Sertraline twice daily
+Vitamin D OD",No Interaction,No Interaction,False,False,0,0.31513381004333496,[],2,0,0
+345,180,"bukhar aur dard ke liye Tolaz 0D
+Diazepam twice daily",Moderate,Moderate,True,True,1,0.22960400581359863,[],2,0,0
+346,181,"doctor ne likha hai: Gabapin three times daliy
+Vitamin B12 OD",No Interaction,No Interaction,False,False,0,0.322068452835083,[],2,0,0
+347,182,"dard ke liye Valproate BD
+Phenobarbital once daily",Moderate,Moderate,True,True,1,0.2639017105102539,[],2,0,0
+348,183,"bukhar ke liye Zipsydon twice daily
+Sotalol BD",Severe,Severe,True,True,1,0.27150869369506836,[],2,0,0
+349,184,"bukhar ke liye Memantine OD
+Pregalin twice daily",Moderate,Moderate,True,True,1,0.261199951171875,[],2,0,0
+350,185,"dard ke liye Trazodone hs
+Melatonin hs
+Vitamin C once daliy",Moderate,Moderate,True,True,1,0.47275638580322266,[],3,0,0
+401,186,"bukhar aur dard ke liye Omez OD
+Clopilet OD",Moderate,Moderate,True,True,1,0.24332094192504883,[],2,0,0
+403,187,"bukhar aur dard ke liye 1. Voveran BD
+2. Telma OD
+3. Dolo SOS",Severe,Severe,True,True,1,0.5875246524810791,[],3,0,0
+404,188,"bukhar ke liye Rx: Wysolone - od
+Rx: Brufen - tds",Mild,Mild,True,True,1,0.2620983123779297,[],2,0,0
+405,189,"bukhar aur dard ke liye Avil twice-daily
+Alprax OD",No Interaction,Moderate,False,True,1,0.27941131591796875,[],2,0,0
+406,190,"bukhar ke liye Thyronorm OD
+Dexorange BD",No Interaction,No Interaction,False,False,0,0.3800055980682373,[],2,0,0
+407,191,"doctor ne likha hai: Tab. Azithral, to be taken orally, once daily for three days
+Tab. Ondem, to be taken orally, twice daily before meals",Severe,Severe,True,True,1,0.37467384338378906,[],2,0,0
+408,192,"doctor ne likha hai: 1. Combiflam TDS
+2. Acitrom OD",Moderate,Moderate,True,True,2,0.5422172546386719,[],2,0,0
+409,193,"bukhar aur dard ke liye Rx: Glycomet - bd
+Rx: Omnacortil - od
+Rx: Crocin - tds",Moderate,Moderate,True,True,1,0.6098792552947998,[],3,0,0
+410,194,"bukhar aur dard ke liye Ciplox 500mgBD
+Gelusil TDS",Moderate,Moderate,True,True,1,0.42797255516052246,[],2,0,0
+411,195,"bukhar ke liye Allegra OD
+Digene TDS",Moderate,Moderate,True,True,2,0.49173784255981445,[],2,0,0
+412,196,"doctor ne likha hai: Tab. Dexona, to be taken orally, twice daily after meals
+Tab. Amaryl, to be taken orally, once daily before breakfast",Moderate,Moderate,True,True,1,0.4110903739929199,[],2,0,0
+413,197,"dard ke liye 1. Brufen TDS
+2. Enapril OD",Severe,Severe,True,True,1,0.3138308525085449,[],2,0,0
+414,198,"doctor ne likha hai: Rx: Eltroxin - od
+Rx: Mucaine - tds",Moderate,Moderate,True,True,1,0.463259220123291,[],2,0,0
+416,199,"doctor ne likha hai: Cetzine OD
+Pan OD",Moderate,Moderate,True,True,1,0.4654548168182373,[],2,0,0
+417,200,"bukhar ke liye Rx: Rantac - bd
+Rx: Dolo - tds",Moderate,Moderate,True,True,1,0.43758296966552734,[],2,0,0
+418,201,"bukhar ke liye Montair OD
+Crocin SOS",Moderate,Moderate,True,True,1,0.2452099323272705,[],2,0,0
+419,202,"dard ke liye Rx: Allegra - od
+Rx: Glycomet - bd",No Interaction,No Interaction,False,False,0,0.41004443168640137,[],2,0,0
+420,203,"dard ke liye Electral once daily
+Calpol SOS",Moderate,Moderate,True,True,3,0.4610142707824707,[],2,0,0
+421,204,"doctor ne likha hai: Zerodol BD
+Acitrom OD",Severe,Severe,True,True,1,0.361328125,[],2,0,0
+422,205,"doctor ne likha hai: Tab. Thyronorm, to be taken orally, once daily on empty stomach
+Tab. Shelcal, to be taken orally, twice daily after meals
+Tab. Allegra, to be taken orally, once daily at night",Moderate,Moderate,True,True,1,0.6307852268218994,[],3,0,0
+423,206,"dard ke liye 1. Omez OD
+2. Warf OD",No Interaction,No Interaction,False,False,0,0.2847778797149658,[],2,0,0
+424,207,"doctor ne likha hai: Rx: Lasix - od
+Rx: Dixin - od
+Rx: Pan - od",Moderate,Moderate,True,True,3,0.5266084671020508,[],3,0,0
+425,208,"bukhar ke liye Ecosprin OD
+Warf once daily",Moderate,Moderate,True,True,1,0.28074026107788086,[],2,0,0
+426,209,"bukhar ke liye Meftal TDS
+Lasix OD",Moderate,Moderate,True,True,1,0.26187777519226074,[],2,0,0
+427,210,dard ke liye Patient is taking Warf once daily and Dolo twice daily for bodyache,Moderate,Moderate,True,True,1,0.2941601276397705,[],2,0,0
+428,211,"dard ke liye 1. Deriphylline BD
+2. Cetzine OD",Moderate,Moderate,True,True,1,0.3623077869415283,[],2,0,0
+429,212,"doctor ne likha hai: Rx: Betnesol - bd
+Rx: Voveran - tds
+Rx: Omez - od",Mild,Mild,True,True,1,0.6423025131225586,[],3,0,0
+430,213,"bukhar aur dard ke liye Domstal TDS
+Azithral once daily",Severe,Severe,True,True,1,0.2609443664550781,[],2,0,0
+431,214,"dard ke liye Rx: Looz - hs
+Rx: Crocin - sos",No Interaction,No Interaction,False,False,0,0.18626809120178223,['Looz'],2,1,0
+432,215,"doctor ne likha hai: Tab. Pan, to be taken orally, once daily before breakfast
+Tab. Dexorange, to be taken orally, twice daily after meals",Moderate,Severe,True,True,1,0.48065876960754395,[],2,0,0
+433,216,"doctor ne likha hai: Rantac BD
+Allegra OD",No Interaction,No Interaction,False,False,0,0.42087435722351074,[],2,0,0
+434,217,"bukhar ke liye Rx: Zincovit - 1cap od
+Rx: Dolo - sos",No Interaction,No Interaction,False,False,0,0.3594841957092285,['Zincovit'],2,1,0
+435,218,"dard ke liye Strepsils 1tab TDS
+Crocin SOS",Moderate,Moderate,True,True,1,0.39554452896118164,[],2,0,0
+436,219,"dard ke liye Thyronorm empty stomach, Allegra with breakfast, Crocin SOS for headache",No Interaction,No Interaction,False,False,0,0.4771842956542969,[],3,0,0
+437,220,"dard ke liye Rx: Eno - 1sachet sos
+Rx: Ciplox - bd",Moderate,Moderate,True,True,1,0.4915492534637451,[],2,0,0
+438,221,"doctor ne likha hai: 1. Dulcoflex HS
+2. Lasix OD",Moderate,Moderate,True,True,1,0.3631114959716797,[],2,0,0
+439,222,"dard ke liye Rx: Thyronorm - od
+Rx: Omez - od",Moderate,Moderate,True,True,1,0.25356388092041016,[],2,0,0
+440,223,"doctor ne likha hai: Pudin Hara 2cap BD
+Dolo SOS",No Interaction,No Interaction,False,False,0,0.5163397789001465,[],2,0,0
+441,224,"dard ke liye Taxim BD
+Acitrom OD",Severe,Severe,True,True,1,0.26066112518310547,[],2,0,0
+442,225,bukhar aur dard ke liye Takes sugar pill Glycomet twice daily and Dolo when feverish,No Interaction,No Interaction,False,False,0,0.30059814453125,[],2,0,0
+443,226,"doctor ne likha hai: Digene TDS
+Cetzine OD",Moderate,Moderate,True,True,2,0.7248232364654541,[],2,0,0
+444,227,"dard ke liye Rx: Mucaine - tds
+Rx: Crocin - sos
+Rx: Montair - hs",Severe,Moderate,True,True,2,0.5513157844543457,[],3,0,0
+445,228,"doctor ne likha hai: Levocet OD
+Alprax at HS",Moderate,Moderate,True,True,1,0.4412834644317627,[],2,0,0
+446,229,"bukhar aur dard ke liye Amaryl OD
+Ecosprin OD",Moderate,Moderate,True,True,1,0.2692594528198242,[],2,0,0
+447,230,"doctor ne likha hai: Tab. Benadryl, to be taken orally, three times daily
+Tab. Diazepam, to be taken orally, once daily at bedtime",Severe,Severe,True,True,1,0.41971802711486816,[],2,0,0
+448,231,"doctor ne likha hai: 1. Crocin SOS
+2. Rantac BD",Moderate,Moderate,True,True,1,0.44048500061035156,[],2,0,0
+449,232,"bukhar ke liye Rx: Augmentin - bd
+Rx: Acitrom - od",Severe,Severe,True,True,2,0.554567813873291,[],2,0,0
+450,233,"doctor ne likha hai: Ecosprin OD
+Ibuprofen TDS
+Telma-H OD",Severe,Severe,True,True,4,0.7745380401611328,[],3,0,0

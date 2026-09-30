@@ -1,0 +1,180 @@
+{
+  "mode": "keyword",
+  "samples": 233,
+  "average_latency_seconds": 5.194451558231796,
+  "metrics_required": {
+    "auc_roc": 0.9711794265444871,
+    "sensitivity_recall": 1.0,
+    "specificity_tnr": 0.9117647058823529,
+    "f1_score": 0.9925187032418953,
+    "net_benefit": {
+      "0.1": 0.8526466380543635,
+      "0.2": 0.8508583690987125,
+      "0.3": 0.8485591661557327,
+      "0.4": 0.8454935622317598,
+      "0.5": 0.8412017167381974,
+      "0.6": 0.8347639484978542,
+      "0.7": 0.8240343347639485,
+      "0.8": 0.296137339055794,
+      "0.9": 0.296137339055794
+    },
+    "accuracy": 0.9012875536480687,
+    "macro_f1": 0.6871827326715806,
+    "weighted_f1": 0.8980579390287612,
+    "per_class_f1": {
+      "No Interaction": 0.9841269841269841,
+      "Mild": 0.0,
+      "Moderate": 0.9138576779026217,
+      "Severe": 0.8507462686567164
+    }
+  },
+  "classification_report": {
+    "No Interaction": {
+      "precision": 1.0,
+      "recall": 0.96875,
+      "f1-score": 0.9841269841269841,
+      "support": 32.0
+    },
+    "Mild": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 2.0
+    },
+    "Moderate": {
+      "precision": 0.9172932330827067,
+      "recall": 0.9104477611940298,
+      "f1-score": 0.9138576779026217,
+      "support": 134.0
+    },
+    "Severe": {
+      "precision": 0.8260869565217391,
+      "recall": 0.8769230769230769,
+      "f1-score": 0.8507462686567164,
+      "support": 65.0
+    },
+    "accuracy": 0.9012875536480687,
+    "macro avg": {
+      "precision": 0.6858450474011115,
+      "recall": 0.6890302095292766,
+      "f1-score": 0.6871827326715806,
+      "support": 233.0
+    },
+    "weighted avg": {
+      "precision": 0.8953345296437587,
+      "recall": 0.9012875536480687,
+      "f1-score": 0.8980579390287612,
+      "support": 233.0
+    }
+  },
+  "classification_report_text": "                precision    recall  f1-score   support\n\nNo Interaction       1.00      0.97      0.98        32\n          Mild       0.00      0.00      0.00         2\n      Moderate       0.92      0.91      0.91       134\n        Severe       0.83      0.88      0.85        65\n\n      accuracy                           0.90       233\n     macro avg       0.69      0.69      0.69       233\n  weighted avg       0.90      0.90      0.90       233\n",
+  "confusion_matrix": {
+    "labels": [
+      "No Interaction",
+      "Mild",
+      "Moderate",
+      "Severe"
+    ],
+    "matrix": [
+      [
+        31,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        122,
+        12
+      ],
+      [
+        0,
+        0,
+        8,
+        57
+      ]
+    ]
+  },
+  "per_class_metrics": {
+    "No Interaction": {
+      "precision": 1.0,
+      "recall": 0.96875,
+      "f1": 0.9841269841269841,
+      "support": 32
+    },
+    "Mild": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 2
+    },
+    "Moderate": {
+      "precision": 0.9172932330827067,
+      "recall": 0.9104477611940298,
+      "f1": 0.9138576779026217,
+      "support": 134
+    },
+    "Severe": {
+      "precision": 0.8260869565217391,
+      "recall": 0.8769230769230769,
+      "f1": 0.8507462686567164,
+      "support": 65
+    }
+  },
+  "binary_details": {
+    "auc_roc": 0.9711794265444871,
+    "sensitivity_recall": 1.0,
+    "specificity_tnr": 0.9117647058823529,
+    "f1_score": 0.9925187032418953,
+    "confusion_binary": {
+      "tn": 31,
+      "fp": 3,
+      "fn": 0,
+      "tp": 199
+    },
+    "roc": {
+      "fpr": [
+        0.0,
+        0.0,
+        0.08823529411764706,
+        1.0
+      ],
+      "tpr": [
+        0.0,
+        0.34673366834170855,
+        1.0,
+        1.0
+      ],
+      "thresholds": [
+        Infinity,
+        0.95,
+        0.75,
+        0.05
+      ]
+    },
+    "net_benefit": {
+      "0.1": 0.8526466380543635,
+      "0.2": 0.8508583690987125,
+      "0.3": 0.8485591661557327,
+      "0.4": 0.8454935622317598,
+      "0.5": 0.8412017167381974,
+      "0.6": 0.8347639484978542,
+      "0.7": 0.8240343347639485,
+      "0.8": 0.296137339055794,
+      "0.9": 0.296137339055794
+    }
+  },
+  "drug_name_matching": {
+    "gt_total": 510,
+    "matched": 507,
+    "missed": 3,
+    "match_rate": 0.9941176470588236
+  }
+}

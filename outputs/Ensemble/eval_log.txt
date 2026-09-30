@@ -1,0 +1,271 @@
+[SUCCESS] Loaded 19830 medicines from cache
+[SUCCESS] Loaded embeddings (19830, 768) from cache
+[SUCCESS] Loaded 44880 drug index entries from cache
+[SUCCESS] Loaded 37943 synonyms from cache
+[SUCCESS] Merged 2963 Indian brand aliases
+[SUCCESS] Loaded 37936 alias embeddings (37936, 768) from cache
+[SUCCESS] Loaded TF-IDF index (57766, 16611) from cache
+[SUCCESS] All cache loaded in 15.3s
+
+=== Prescription 1/100 (id=1) ===
+
+=== Prescription 2/100 (id=2) ===
+
+=== Prescription 3/100 (id=3) ===
+
+=== Prescription 4/100 (id=4) ===
+
+=== Prescription 5/100 (id=5) ===
+
+=== Prescription 6/100 (id=6) ===
+
+=== Prescription 7/100 (id=7) ===
+
+=== Prescription 8/100 (id=8) ===
+
+=== Prescription 9/100 (id=9) ===
+
+=== Prescription 10/100 (id=10) ===
+
+=== Prescription 11/100 (id=11) ===
+
+=== Prescription 12/100 (id=12) ===
+
+=== Prescription 13/100 (id=13) ===
+
+=== Prescription 14/100 (id=14) ===
+
+=== Prescription 15/100 (id=15) ===
+
+=== Prescription 16/100 (id=16) ===
+
+=== Prescription 17/100 (id=17) ===
+
+=== Prescription 18/100 (id=18) ===
+
+=== Prescription 19/100 (id=19) ===
+
+=== Prescription 20/100 (id=20) ===
+
+=== Prescription 21/100 (id=21) ===
+
+=== Prescription 22/100 (id=22) ===
+
+=== Prescription 23/100 (id=23) ===
+
+=== Prescription 24/100 (id=24) ===
+
+=== Prescription 25/100 (id=25) ===
+
+=== Prescription 26/100 (id=26) ===
+
+=== Prescription 27/100 (id=27) ===
+
+=== Prescription 28/100 (id=28) ===
+
+=== Prescription 29/100 (id=29) ===
+
+=== Prescription 30/100 (id=30) ===
+
+=== Prescription 31/100 (id=31) ===
+
+=== Prescription 32/100 (id=32) ===
+
+=== Prescription 33/100 (id=33) ===
+
+=== Prescription 34/100 (id=34) ===
+
+=== Prescription 35/100 (id=35) ===
+
+=== Prescription 36/100 (id=36) ===
+
+=== Prescription 37/100 (id=37) ===
+
+=== Prescription 38/100 (id=38) ===
+
+=== Prescription 39/100 (id=39) ===
+
+=== Prescription 40/100 (id=40) ===
+
+=== Prescription 41/100 (id=41) ===
+
+=== Prescription 42/100 (id=42) ===
+
+=== Prescription 43/100 (id=43) ===
+
+=== Prescription 44/100 (id=44) ===
+
+=== Prescription 45/100 (id=45) ===
+
+=== Prescription 46/100 (id=46) ===
+
+=== Prescription 47/100 (id=47) ===
+
+=== Prescription 48/100 (id=48) ===
+
+=== Prescription 49/100 (id=49) ===
+
+=== Prescription 50/100 (id=50) ===
+
+=== Prescription 51/100 (id=51) ===
+
+=== Prescription 52/100 (id=52) ===
+
+=== Prescription 53/100 (id=53) ===
+
+=== Prescription 54/100 (id=54) ===
+
+=== Prescription 55/100 (id=55) ===
+
+=== Prescription 56/100 (id=56) ===
+
+=== Prescription 57/100 (id=57) ===
+
+=== Prescription 58/100 (id=58) ===
+
+=== Prescription 59/100 (id=59) ===
+
+=== Prescription 60/100 (id=60) ===
+
+=== Prescription 61/100 (id=61) ===
+
+=== Prescription 62/100 (id=62) ===
+
+=== Prescription 63/100 (id=63) ===
+
+=== Prescription 64/100 (id=64) ===
+
+=== Prescription 65/100 (id=65) ===
+
+=== Prescription 66/100 (id=66) ===
+
+=== Prescription 67/100 (id=67) ===
+
+=== Prescription 68/100 (id=68) ===
+
+=== Prescription 69/100 (id=69) ===
+
+=== Prescription 70/100 (id=70) ===
+
+=== Prescription 71/100 (id=71) ===
+
+=== Prescription 72/100 (id=72) ===
+
+=== Prescription 73/100 (id=73) ===
+
+=== Prescription 74/100 (id=74) ===
+
+=== Prescription 75/100 (id=75) ===
+
+=== Prescription 76/100 (id=76) ===
+
+=== Prescription 77/100 (id=77) ===
+
+=== Prescription 78/100 (id=78) ===
+
+=== Prescription 79/100 (id=79) ===
+
+=== Prescription 80/100 (id=80) ===
+
+=== Prescription 81/100 (id=81) ===
+
+=== Prescription 82/100 (id=82) ===
+
+=== Prescription 83/100 (id=83) ===
+
+=== Prescription 84/100 (id=84) ===
+
+=== Prescription 85/100 (id=85) ===
+
+=== Prescription 86/100 (id=86) ===
+
+=== Prescription 87/100 (id=87) ===
+
+=== Prescription 88/100 (id=88) ===
+
+=== Prescription 89/100 (id=89) ===
+
+=== Prescription 90/100 (id=90) ===
+
+=== Prescription 91/100 (id=91) ===
+
+=== Prescription 92/100 (id=92) ===
+
+=== Prescription 93/100 (id=93) ===
+
+=== Prescription 94/100 (id=94) ===
+
+=== Prescription 95/100 (id=95) ===
+
+=== Prescription 96/100 (id=96) ===
+
+=== Prescription 97/100 (id=97) ===
+
+=== Prescription 98/100 (id=98) ===
+
+=== Prescription 99/100 (id=99) ===
+
+=== Prescription 100/100 (id=100) ===
+Saved evaluation outputs to outputs\Ensemble
+======================================================================
+Mode: ensemble
+AUC-ROC: 0.5055
+Sensitivity (Recall): 0.8000
+Specificity (TNR): 0.4667
+F1-Score: 0.7887
+Drug Name Match Rate: 0.9535
+======================================================================
+
+--- Missed Named Entities (NER Failures) ---
+
+[Prescription 1 | 1/100]
+Text: Cefroxadine 75mg OD
+Cefotetan 20mg BD
+Missed Entities: Cefotetan
+
+[Prescription 12 | 12/100]
+Text: Capcitabine 10mg OD
+Cefmetazole 100mg once daily
+Missed Entities: Capecitabine
+
+[Prescription 14 | 14/100]
+Text: 1. Penfluridol 5mg BD
+2. Amoxapine 75mg OD
+Missed Entities: Amoxapine
+
+[Prescription 33 | 33/100]
+Text: Tridihexethil 100mg twice daily
+Emetonium iodide 75mg TDS
+Missed Entities: Tridihexethyl
+
+[Prescription 45 | 45/100]
+Text: Icosopent 50mg OD
+Cefotiam 75mg three times daily
+Missed Entities: Icosapent
+
+[Prescription 51 | 51/100]
+Text: Oxymetholone 50mg twice daily
+AMG-222 20mg BD
+Missed Entities: Oxymetholone, AMG-222
+
+[Prescription 52 | 52/100]
+Text: Cefpodoxim 100mg OD
+Adefovir dipivoxil 5mg twice daily
+Missed Entities: Cefpodoxime
+
+[Prescription 72 | 72/100]
+Text: Upadacitinib 100mg twice daily
+Tipranavir 5mg BD
+V1tam1n C 50mg twice daily
+Missed Entities: Vitamin C
+
+[Prescription 74 | 74/100]
+Text: Mephentermine 20mg BD
+Angiotensin 1-7 10mg BD
+Missed Entities: Angiotensin 1-7
+
+Total missed entities across dataset: 10
+
+--- Gemini API Usage ---
+  0 calls (custom model mode, no Gemini used)
+  Stats saved to outputs\Ensemble\gemini_stats.json

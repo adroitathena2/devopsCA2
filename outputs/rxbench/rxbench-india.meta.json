@@ -1,0 +1,3636 @@
+{
+ "seed": 20260924,
+ "n_rx": 233,
+ "brands_total": 1820,
+ "brands_verified": 1737,
+ "rx_texts_changed": 138,
+ "linking": [
+  {
+   "rx_id": 2,
+   "brand_text": [
+    "Droperidol",
+    "Apomorphine"
+   ],
+   "ingredients": [
+    "droperidol",
+    "apomorphine"
+   ],
+   "original_generics": [
+    "Droperidol",
+    "Apomorphine"
+   ]
+  },
+  {
+   "rx_id": 3,
+   "brand_text": [
+    "Loratadine",
+    "Omez"
+   ],
+   "ingredients": [
+    "loratadine",
+    "omeprazole"
+   ],
+   "original_generics": [
+    "Loratadine",
+    "Omeprazole"
+   ]
+  },
+  {
+   "rx_id": 4,
+   "brand_text": [
+    "Zeptol",
+    "Oliceridine"
+   ],
+   "ingredients": [
+    "carbamazepine",
+    "oliceridine"
+   ],
+   "original_generics": [
+    "Carbamazepine",
+    "Oliceridine"
+   ]
+  },
+  {
+   "rx_id": 5,
+   "brand_text": [
+    "Abacavir",
+    "Tenofovir disoproxil"
+   ],
+   "ingredients": [
+    "abacavir",
+    "tenofovir disoproxil"
+   ],
+   "original_generics": [
+    "Abacavir",
+    "Tenofovir disoproxil"
+   ]
+  },
+  {
+   "rx_id": 7,
+   "brand_text": [
+    "Capreomycin",
+    "Ibandronate"
+   ],
+   "ingredients": [
+    "capreomycin",
+    "ibandronate"
+   ],
+   "original_generics": [
+    "Capreomycin",
+    "Ibandronate"
+   ]
+  },
+  {
+   "rx_id": 10,
+   "brand_text": [
+    "Loratadine",
+    "Amlong"
+   ],
+   "ingredients": [
+    "loratadine",
+    "amlodipine"
+   ],
+   "original_generics": [
+    "Loratadine",
+    "Amlodipine"
+   ]
+  },
+  {
+   "rx_id": 12,
+   "brand_text": [
+    "Capecitabine",
+    "Cefmetazole"
+   ],
+   "ingredients": [
+    "capecitabine",
+    "cefmetazole"
+   ],
+   "original_generics": [
+    "Capecitabine",
+    "Cefmetazole"
+   ]
+  },
+  {
+   "rx_id": 13,
+   "brand_text": [
+    "Azelaic acid",
+    "Ifosfamide",
+    "Calcium"
+   ],
+   "ingredients": [
+    "azelaic acid",
+    "ifosfamide",
+    "calcium"
+   ],
+   "original_generics": [
+    "Azelaic acid",
+    "Ifosfamide",
+    "Calcium"
+   ]
+  },
+  {
+   "rx_id": 14,
+   "brand_text": [
+    "Penfluridol",
+    "Amoxapine"
+   ],
+   "ingredients": [
+    "penfluridol",
+    "amoxapine"
+   ],
+   "original_generics": [
+    "Penfluridol",
+    "Amoxapine"
+   ]
+  },
+  {
+   "rx_id": 17,
+   "brand_text": [
+    "Cefatrizine",
+    "Valganciclovir"
+   ],
+   "ingredients": [
+    "cefatrizine",
+    "valganciclovir"
+   ],
+   "original_generics": [
+    "Cefatrizine",
+    "Valganciclovir"
+   ]
+  },
+  {
+   "rx_id": 19,
+   "brand_text": [
+    "Olsalazine",
+    "Biocarb"
+   ],
+   "ingredients": [
+    "olsalazine",
+    "carboplatin"
+   ],
+   "original_generics": [
+    "Olsalazine",
+    "Carboplatin"
+   ]
+  },
+  {
+   "rx_id": 24,
+   "brand_text": [
+    "Dolonex",
+    "Anastrozole"
+   ],
+   "ingredients": [
+    "piroxicam",
+    "anastrozole"
+   ],
+   "original_generics": [
+    "Piroxicam",
+    "Anastrozole"
+   ]
+  },
+  {
+   "rx_id": 26,
+   "brand_text": [
+    "Neurocetam",
+    "Buthiazide"
+   ],
+   "ingredients": [
+    "piracetam",
+    "buthiazide"
+   ],
+   "original_generics": [
+    "Piracetam",
+    "Buthiazide"
+   ]
+  },
+  {
+   "rx_id": 27,
+   "brand_text": [
+    "Cefpodoxime",
+    "Lumiracoxib"
+   ],
+   "ingredients": [
+    "cefpodoxime",
+    "lumiracoxib"
+   ],
+   "original_generics": [
+    "Cefpodoxime",
+    "Lumiracoxib"
+   ]
+  },
+  {
+   "rx_id": 28,
+   "brand_text": [
+    "Tenofovir",
+    "Zaltoprofen"
+   ],
+   "ingredients": [
+    "tenofovir",
+    "zaltoprofen"
+   ],
+   "original_generics": [
+    "Tenofovir",
+    "Zaltoprofen"
+   ]
+  },
+  {
+   "rx_id": 30,
+   "brand_text": [
+    "Dicloran",
+    "Cidofovir"
+   ],
+   "ingredients": [
+    "diclofenac",
+    "cidofovir"
+   ],
+   "original_generics": [
+    "Diclofenac",
+    "Cidofovir"
+   ]
+  },
+  {
+   "rx_id": 31,
+   "brand_text": [
+    "Erlotinib",
+    "Seladelpar",
+    "Calcium"
+   ],
+   "ingredients": [
+    "erlotinib",
+    "seladelpar",
+    "calcium"
+   ],
+   "original_generics": [
+    "Erlotinib",
+    "Seladelpar",
+    "Calcium"
+   ]
+  },
+  {
+   "rx_id": 32,
+   "brand_text": [
+    "Stavudine",
+    "Methylene blue"
+   ],
+   "ingredients": [
+    "stavudine",
+    "methylene blue"
+   ],
+   "original_generics": [
+    "Stavudine",
+    "Methylene blue"
+   ]
+  },
+  {
+   "rx_id": 33,
+   "brand_text": [
+    "Tridihexethyl",
+    "Emetonium iodide"
+   ],
+   "ingredients": [
+    "tridihexethyl",
+    "emetonium iodide"
+   ],
+   "original_generics": [
+    "Tridihexethyl",
+    "Emetonium iodide"
+   ]
+  },
+  {
+   "rx_id": 34,
+   "brand_text": [
+    "Omez",
+    "Azithral"
+   ],
+   "ingredients": [
+    "omeprazole",
+    "azithromycin"
+   ],
+   "original_generics": [
+    "Omeprazole",
+    "Azithromycin"
+   ]
+  },
+  {
+   "rx_id": 36,
+   "brand_text": [
+    "Pamidronic acid",
+    "Atazanavir"
+   ],
+   "ingredients": [
+    "pamidronic acid",
+    "atazanavir"
+   ],
+   "original_generics": [
+    "Pamidronic acid",
+    "Atazanavir"
+   ]
+  },
+  {
+   "rx_id": 39,
+   "brand_text": [
+    "Efonidipine",
+    "Pidotimod"
+   ],
+   "ingredients": [
+    "efonidipine",
+    "pidotimod"
+   ],
+   "original_generics": [
+    "Efonidipine",
+    "Pidotimod"
+   ]
+  },
+  {
+   "rx_id": 40,
+   "brand_text": [
+    "Tenofovir disoproxil",
+    "Talniflumate"
+   ],
+   "ingredients": [
+    "tenofovir disoproxil",
+    "talniflumate"
+   ],
+   "original_generics": [
+    "Tenofovir disoproxil",
+    "Talniflumate"
+   ]
+  },
+  {
+   "rx_id": 42,
+   "brand_text": [
+    "Omez",
+    "Alcet"
+   ],
+   "ingredients": [
+    "omeprazole",
+    "cetirizine"
+   ],
+   "original_generics": [
+    "Omeprazole",
+    "Cetirizine"
+   ]
+  },
+  {
+   "rx_id": 43,
+   "brand_text": [
+    "Omez",
+    "Novamox"
+   ],
+   "ingredients": [
+    "omeprazole",
+    "amoxicillin"
+   ],
+   "original_generics": [
+    "Omeprazole",
+    "Amoxicillin"
+   ]
+  },
+  {
+   "rx_id": 44,
+   "brand_text": [
+    "Ifosfamide",
+    "Pertuzumab"
+   ],
+   "ingredients": [
+    "ifosfamide",
+    "pertuzumab"
+   ],
+   "original_generics": [
+    "Ifosfamide",
+    "Pertuzumab"
+   ]
+  },
+  {
+   "rx_id": 45,
+   "brand_text": [
+    "Icosapent",
+    "Cefotiam"
+   ],
+   "ingredients": [
+    "icosapent",
+    "cefotiam"
+   ],
+   "original_generics": [
+    "Icosapent",
+    "Cefotiam"
+   ]
+  },
+  {
+   "rx_id": 49,
+   "brand_text": [
+    "Pangraf",
+    "Cefpirome"
+   ],
+   "ingredients": [
+    "tacrolimus",
+    "cefpirome"
+   ],
+   "original_generics": [
+    "Tacrolimus",
+    "Cefpirome"
+   ]
+  },
+  {
+   "rx_id": 52,
+   "brand_text": [
+    "Cefpodoxime",
+    "Adefovir dipivoxil"
+   ],
+   "ingredients": [
+    "cefpodoxime",
+    "adefovir dipivoxil"
+   ],
+   "original_generics": [
+    "Cefpodoxime",
+    "Adefovir dipivoxil"
+   ]
+  },
+  {
+   "rx_id": 53,
+   "brand_text": [
+    "Felodipine",
+    "Doxylamine"
+   ],
+   "ingredients": [
+    "felodipine",
+    "doxylamine"
+   ],
+   "original_generics": [
+    "Felodipine",
+    "Doxylamine"
+   ]
+  },
+  {
+   "rx_id": 60,
+   "brand_text": [
+    "Cobimetinib",
+    "Ritonavir"
+   ],
+   "ingredients": [
+    "cobimetinib",
+    "ritonavir"
+   ],
+   "original_generics": [
+    "Cobimetinib",
+    "Ritonavir"
+   ]
+  },
+  {
+   "rx_id": 61,
+   "brand_text": [
+    "Azithral",
+    "Loratadine"
+   ],
+   "ingredients": [
+    "azithromycin",
+    "loratadine"
+   ],
+   "original_generics": [
+    "Azithromycin",
+    "Loratadine"
+   ]
+  },
+  {
+   "rx_id": 62,
+   "brand_text": [
+    "Felbamate",
+    "Loxum"
+   ],
+   "ingredients": [
+    "felbamate",
+    "lorazepam"
+   ],
+   "original_generics": [
+    "Felbamate",
+    "Lorazepam"
+   ]
+  },
+  {
+   "rx_id": 66,
+   "brand_text": [
+    "Liraglutide",
+    "Clofenamide",
+    "Vitamin D"
+   ],
+   "ingredients": [
+    "liraglutide",
+    "clofenamide",
+    "cholecalciferol"
+   ],
+   "original_generics": [
+    "Liraglutide",
+    "Clofenamide",
+    "Vitamin D"
+   ]
+  },
+  {
+   "rx_id": 68,
+   "brand_text": [
+    "Azithral",
+    "Pan"
+   ],
+   "ingredients": [
+    "azithromycin",
+    "pantoprazole"
+   ],
+   "original_generics": [
+    "Azithromycin",
+    "Pantoprazole"
+   ]
+  },
+  {
+   "rx_id": 69,
+   "brand_text": [
+    "Tenofovir",
+    "Cefacetrile"
+   ],
+   "ingredients": [
+    "tenofovir",
+    "cefacetrile"
+   ],
+   "original_generics": [
+    "Tenofovir",
+    "Cefacetrile"
+   ]
+  },
+  {
+   "rx_id": 70,
+   "brand_text": [
+    "Meperidine",
+    "Bumetanide",
+    "Vitamin D"
+   ],
+   "ingredients": [
+    "meperidine",
+    "bumetanide",
+    "cholecalciferol"
+   ],
+   "original_generics": [
+    "Meperidine",
+    "Bumetanide",
+    "Vitamin D"
+   ]
+  },
+  {
+   "rx_id": 72,
+   "brand_text": [
+    "Upadacitinib",
+    "Tipranavir",
+    "Vitamin C"
+   ],
+   "ingredients": [
+    "upadacitinib",
+    "tipranavir",
+    "ascorbic acid"
+   ],
+   "original_generics": [
+    "Upadacitinib",
+    "Tipranavir",
+    "Vitamin C"
+   ]
+  },
+  {
+   "rx_id": 76,
+   "brand_text": [
+    "Cefmetazole",
+    "Dihydrostreptomycin"
+   ],
+   "ingredients": [
+    "cefmetazole",
+    "dihydrostreptomycin"
+   ],
+   "original_generics": [
+    "Cefmetazole",
+    "Dihydrostreptomycin"
+   ]
+  },
+  {
+   "rx_id": 77,
+   "brand_text": [
+    "Mitotane",
+    "Abiraterone"
+   ],
+   "ingredients": [
+    "mitotane",
+    "abiraterone"
+   ],
+   "original_generics": [
+    "Mitotane",
+    "Abiraterone"
+   ]
+  },
+  {
+   "rx_id": 81,
+   "brand_text": [
+    "Chlorthalidone",
+    "Treprostinil"
+   ],
+   "ingredients": [
+    "chlorthalidone",
+    "treprostinil"
+   ],
+   "original_generics": [
+    "Chlorthalidone",
+    "Treprostinil"
+   ]
+  },
+  {
+   "rx_id": 84,
+   "brand_text": [
+    "Meftal",
+    "Mannitol"
+   ],
+   "ingredients": [
+    "mefenamic acid",
+    "mannitol"
+   ],
+   "original_generics": [
+    "Mefenamic acid",
+    "Mannitol"
+   ]
+  },
+  {
+   "rx_id": 86,
+   "brand_text": [
+    "Mofebutazone",
+    "Loracarbef"
+   ],
+   "ingredients": [
+    "mofebutazone",
+    "loracarbef"
+   ],
+   "original_generics": [
+    "Mofebutazone",
+    "Loracarbef"
+   ]
+  },
+  {
+   "rx_id": 91,
+   "brand_text": [
+    "Desipramine",
+    "Oliceridine"
+   ],
+   "ingredients": [
+    "desipramine",
+    "oliceridine"
+   ],
+   "original_generics": [
+    "Desipramine",
+    "Oliceridine"
+   ]
+  },
+  {
+   "rx_id": 96,
+   "brand_text": [
+    "Cefroxadine",
+    "Fenoprofen"
+   ],
+   "ingredients": [
+    "cefroxadine",
+    "fenoprofen"
+   ],
+   "original_generics": [
+    "Cefroxadine",
+    "Fenoprofen"
+   ]
+  },
+  {
+   "rx_id": 101,
+   "brand_text": [
+    "Simvotin",
+    "Crixan"
+   ],
+   "ingredients": [
+    "simvastatin",
+    "clarithromycin"
+   ],
+   "original_generics": [
+    "Simvastatin",
+    "Clarithromycin"
+   ]
+  },
+  {
+   "rx_id": 102,
+   "brand_text": [
+    "Warf",
+    "Ibuprofen"
+   ],
+   "ingredients": [
+    "warfarin",
+    "ibuprofen"
+   ],
+   "original_generics": [
+    "Warfarin",
+    "Ibuprofen"
+   ]
+  },
+  {
+   "rx_id": 103,
+   "brand_text": [
+    "Glyciphage",
+    "Sitagliptin"
+   ],
+   "ingredients": [
+    "metformin",
+    "sitagliptin"
+   ],
+   "original_generics": [
+    "Metformin",
+    "Sitagliptin"
+   ]
+  },
+  {
+   "rx_id": 104,
+   "brand_text": [
+    "Lisir",
+    "Aldactone"
+   ],
+   "ingredients": [
+    "lisinopril",
+    "spironolactone"
+   ],
+   "original_generics": [
+    "Lisinopril",
+    "Spironolactone"
+   ]
+  },
+  {
+   "rx_id": 105,
+   "brand_text": [
+    "Atorfit",
+    "Althrocin"
+   ],
+   "ingredients": [
+    "atorvastatin",
+    "erythromycin"
+   ],
+   "original_generics": [
+    "Atorvastatin",
+    "Erythromycin"
+   ]
+  },
+  {
+   "rx_id": 106,
+   "brand_text": [
+    "Amlong",
+    "Glyciphage"
+   ],
+   "ingredients": [
+    "amlodipine",
+    "metformin"
+   ],
+   "original_generics": [
+    "Amlodipine",
+    "Metformin"
+   ]
+  },
+  {
+   "rx_id": 107,
+   "brand_text": [
+    "Ecosprin",
+    "Clopilet",
+    "Naproxen"
+   ],
+   "ingredients": [
+    "acetylsalicylic acid",
+    "clopidogrel",
+    "naproxen"
+   ],
+   "original_generics": [
+    "Aspirin",
+    "Clopidogrel",
+    "Naproxen"
+   ]
+  },
+  {
+   "rx_id": 108,
+   "brand_text": [
+    "Dixin",
+    "Lasix"
+   ],
+   "ingredients": [
+    "digoxin",
+    "furosemide"
+   ],
+   "original_generics": [
+    "Digoxin",
+    "Furosemide"
+   ]
+  },
+  {
+   "rx_id": 109,
+   "brand_text": [
+    "Lostar",
+    "Amlong"
+   ],
+   "ingredients": [
+    "losartan",
+    "amlodipine"
+   ],
+   "original_generics": [
+    "Losartan",
+    "Amlodipine"
+   ]
+  },
+  {
+   "rx_id": 110,
+   "brand_text": [
+    "Embeta",
+    "Calaptin"
+   ],
+   "ingredients": [
+    "metoprolol",
+    "verapamil"
+   ],
+   "original_generics": [
+    "Metoprolol",
+    "Verapamil"
+   ]
+  },
+  {
+   "rx_id": 111,
+   "brand_text": [
+    "Atorfit",
+    "Channel",
+    "Glyciphage"
+   ],
+   "ingredients": [
+    "atorvastatin",
+    "diltiazem",
+    "metformin"
+   ],
+   "original_generics": [
+    "Atorvastatin",
+    "Diltiazem",
+    "Metformin"
+   ]
+  },
+  {
+   "rx_id": 112,
+   "brand_text": [
+    "Embeta",
+    "Atorfit"
+   ],
+   "ingredients": [
+    "metoprolol",
+    "atorvastatin"
+   ],
+   "original_generics": [
+    "Metoprolol",
+    "Atorvastatin"
+   ]
+  },
+  {
+   "rx_id": 113,
+   "brand_text": [
+    "Warf",
+    "Ecosprin",
+    "Atorfit",
+    "Glyciphage"
+   ],
+   "ingredients": [
+    "warfarin",
+    "acetylsalicylic acid",
+    "atorvastatin",
+    "metformin"
+   ],
+   "original_generics": [
+    "Warfarin",
+    "Aspirin",
+    "Atorvastatin",
+    "Metformin"
+   ]
+  },
+  {
+   "rx_id": 114,
+   "brand_text": [
+    "Enapril",
+    "Amiloride"
+   ],
+   "ingredients": [
+    "enalapril",
+    "amiloride"
+   ],
+   "original_generics": [
+    "Enalapril",
+    "Amiloride"
+   ]
+  },
+  {
+   "rx_id": 115,
+   "brand_text": [
+    "Simvotin",
+    "Channel"
+   ],
+   "ingredients": [
+    "simvastatin",
+    "diltiazem"
+   ],
+   "original_generics": [
+    "Simvastatin",
+    "Diltiazem"
+   ]
+  },
+  {
+   "rx_id": 116,
+   "brand_text": [
+    "Eurythmic",
+    "Warf"
+   ],
+   "ingredients": [
+    "amiodarone",
+    "warfarin"
+   ],
+   "original_generics": [
+    "Amiodarone",
+    "Warfarin"
+   ]
+  },
+  {
+   "rx_id": 117,
+   "brand_text": [
+    "Dixin",
+    "Calaptin"
+   ],
+   "ingredients": [
+    "digoxin",
+    "verapamil"
+   ],
+   "original_generics": [
+    "Digoxin",
+    "Verapamil"
+   ]
+  },
+  {
+   "rx_id": 118,
+   "brand_text": [
+    "Candesartan",
+    "Chlorthalidone"
+   ],
+   "ingredients": [
+    "candesartan",
+    "chlorthalidone"
+   ],
+   "original_generics": [
+    "Candesartan",
+    "Chlorthalidone"
+   ]
+  },
+  {
+   "rx_id": 119,
+   "brand_text": [
+    "Cardace",
+    "Aldactone",
+    "Amlong"
+   ],
+   "ingredients": [
+    "ramipril",
+    "spironolactone",
+    "amlodipine"
+   ],
+   "original_generics": [
+    "Ramipril",
+    "Spironolactone",
+    "Amlodipine"
+   ]
+  },
+  {
+   "rx_id": 120,
+   "brand_text": [
+    "Simvotin",
+    "Itratuf"
+   ],
+   "ingredients": [
+    "simvastatin",
+    "itraconazole"
+   ],
+   "original_generics": [
+    "Simvastatin",
+    "Itraconazole"
+   ]
+  },
+  {
+   "rx_id": 121,
+   "brand_text": [
+    "Clopilet",
+    "Naproxen"
+   ],
+   "ingredients": [
+    "clopidogrel",
+    "naproxen"
+   ],
+   "original_generics": [
+    "Clopidogrel",
+    "Naproxen"
+   ]
+  },
+  {
+   "rx_id": 122,
+   "brand_text": [
+    "Jardiance",
+    "Glyciphage"
+   ],
+   "ingredients": [
+    "empagliflozin",
+    "metformin"
+   ],
+   "original_generics": [
+    "Empagliflozin",
+    "Metformin"
+   ]
+  },
+  {
+   "rx_id": 123,
+   "brand_text": [
+    "Valzaar",
+    "Aldactone"
+   ],
+   "ingredients": [
+    "valsartan",
+    "spironolactone"
+   ],
+   "original_generics": [
+    "Valsartan",
+    "Spironolactone"
+   ]
+  },
+  {
+   "rx_id": 124,
+   "brand_text": [
+    "Corbis",
+    "Atorfit"
+   ],
+   "ingredients": [
+    "bisoprolol",
+    "atorvastatin"
+   ],
+   "original_generics": [
+    "Bisoprolol",
+    "Atorvastatin"
+   ]
+  },
+  {
+   "rx_id": 125,
+   "brand_text": [
+    "Embeta",
+    "Channel",
+    "Atorfit"
+   ],
+   "ingredients": [
+    "metoprolol",
+    "diltiazem",
+    "atorvastatin"
+   ],
+   "original_generics": [
+    "Metoprolol",
+    "Diltiazem",
+    "Atorvastatin"
+   ]
+  },
+  {
+   "rx_id": 126,
+   "brand_text": [
+    "Warf",
+    "Dicloran"
+   ],
+   "ingredients": [
+    "warfarin",
+    "diclofenac"
+   ],
+   "original_generics": [
+    "Warfarin",
+    "Diclofenac"
+   ]
+  },
+  {
+   "rx_id": 127,
+   "brand_text": [
+    "Insulin glargine",
+    "Glipizide"
+   ],
+   "ingredients": [
+    "insulin glargine",
+    "glipizide"
+   ],
+   "original_generics": [
+    "Insulin glargine",
+    "Glipizide"
+   ]
+  },
+  {
+   "rx_id": 128,
+   "brand_text": [
+    "Dixin",
+    "Eurythmic"
+   ],
+   "ingredients": [
+    "digoxin",
+    "amiodarone"
+   ],
+   "original_generics": [
+    "Digoxin",
+    "Amiodarone"
+   ]
+  },
+  {
+   "rx_id": 129,
+   "brand_text": [
+    "Lostar",
+    "Potassium chloride"
+   ],
+   "ingredients": [
+    "losartan",
+    "potassium chloride"
+   ],
+   "original_generics": [
+    "Losartan",
+    "Potassium chloride"
+   ]
+  },
+  {
+   "rx_id": 130,
+   "brand_text": [
+    "Pravastatin",
+    "Ezetimibe"
+   ],
+   "ingredients": [
+    "pravastatin",
+    "ezetimibe"
+   ],
+   "original_generics": [
+    "Pravastatin",
+    "Ezetimibe"
+   ]
+  },
+  {
+   "rx_id": 131,
+   "brand_text": [
+    "Apixaban",
+    "Naproxen"
+   ],
+   "ingredients": [
+    "apixaban",
+    "naproxen"
+   ],
+   "original_generics": [
+    "Apixaban",
+    "Naproxen"
+   ]
+  },
+  {
+   "rx_id": 132,
+   "brand_text": [
+    "Corbis",
+    "Calaptin"
+   ],
+   "ingredients": [
+    "bisoprolol",
+    "verapamil"
+   ],
+   "original_generics": [
+    "Bisoprolol",
+    "Verapamil"
+   ]
+  },
+  {
+   "rx_id": 133,
+   "brand_text": [
+    "Enapril",
+    "Potassium chloride"
+   ],
+   "ingredients": [
+    "enalapril",
+    "potassium chloride"
+   ],
+   "original_generics": [
+    "Enalapril",
+    "Potassium chloride"
+   ]
+  },
+  {
+   "rx_id": 134,
+   "brand_text": [
+    "Xarelto",
+    "Ibuprofen"
+   ],
+   "ingredients": [
+    "rivaroxaban",
+    "ibuprofen"
+   ],
+   "original_generics": [
+    "Rivaroxaban",
+    "Ibuprofen"
+   ]
+  },
+  {
+   "rx_id": 135,
+   "brand_text": [
+    "Simvotin",
+    "Crixan",
+    "Amlong"
+   ],
+   "ingredients": [
+    "simvastatin",
+    "clarithromycin",
+    "amlodipine"
+   ],
+   "original_generics": [
+    "Simvastatin",
+    "Clarithromycin",
+    "Amlodipine"
+   ]
+  },
+  {
+   "rx_id": 136,
+   "brand_text": [
+    "Valzaar",
+    "Amlong"
+   ],
+   "ingredients": [
+    "valsartan",
+    "amlodipine"
+   ],
+   "original_generics": [
+    "Valsartan",
+    "Amlodipine"
+   ]
+  },
+  {
+   "rx_id": 137,
+   "brand_text": [
+    "Warf",
+    "Simvotin",
+    "Glyciphage"
+   ],
+   "ingredients": [
+    "warfarin",
+    "simvastatin",
+    "metformin"
+   ],
+   "original_generics": [
+    "Warfarin",
+    "Simvastatin",
+    "Metformin"
+   ]
+  },
+  {
+   "rx_id": 138,
+   "brand_text": [
+    "Tenolol",
+    "Calaptin"
+   ],
+   "ingredients": [
+    "atenolol",
+    "verapamil"
+   ],
+   "original_generics": [
+    "Atenolol",
+    "Verapamil"
+   ]
+  },
+  {
+   "rx_id": 139,
+   "brand_text": [
+    "Candesartan",
+    "Amiloride"
+   ],
+   "ingredients": [
+    "candesartan",
+    "amiloride"
+   ],
+   "original_generics": [
+    "Candesartan",
+    "Amiloride"
+   ]
+  },
+  {
+   "rx_id": 140,
+   "brand_text": [
+    "Forxiga",
+    "Sitagliptin"
+   ],
+   "ingredients": [
+    "dapagliflozin",
+    "sitagliptin"
+   ],
+   "original_generics": [
+    "Dapagliflozin",
+    "Sitagliptin"
+   ]
+  },
+  {
+   "rx_id": 141,
+   "brand_text": [
+    "Ecosprin",
+    "Clopilet",
+    "Ibuprofen",
+    "Atorfit"
+   ],
+   "ingredients": [
+    "acetylsalicylic acid",
+    "clopidogrel",
+    "ibuprofen",
+    "atorvastatin"
+   ],
+   "original_generics": [
+    "Aspirin",
+    "Clopidogrel",
+    "Ibuprofen",
+    "Atorvastatin"
+   ]
+  },
+  {
+   "rx_id": 142,
+   "brand_text": [
+    "Cardace",
+    "Amlong"
+   ],
+   "ingredients": [
+    "ramipril",
+    "amlodipine"
+   ],
+   "original_generics": [
+    "Ramipril",
+    "Amlodipine"
+   ]
+  },
+  {
+   "rx_id": 143,
+   "brand_text": [
+    "Dixin",
+    "Lasix",
+    "Apixaban"
+   ],
+   "ingredients": [
+    "digoxin",
+    "furosemide",
+    "apixaban"
+   ],
+   "original_generics": [
+    "Digoxin",
+    "Furosemide",
+    "Apixaban"
+   ]
+  },
+  {
+   "rx_id": 144,
+   "brand_text": [
+    "Jardiance",
+    "Lisir"
+   ],
+   "ingredients": [
+    "empagliflozin",
+    "lisinopril"
+   ],
+   "original_generics": [
+    "Empagliflozin",
+    "Lisinopril"
+   ]
+  },
+  {
+   "rx_id": 145,
+   "brand_text": [
+    "Rozat",
+    "Glyciphage"
+   ],
+   "ingredients": [
+    "rosuvastatin",
+    "metformin"
+   ],
+   "original_generics": [
+    "Rosuvastatin",
+    "Metformin"
+   ]
+  },
+  {
+   "rx_id": 146,
+   "brand_text": [
+    "Hydrochlorothiazide",
+    "Atorfit"
+   ],
+   "ingredients": [
+    "hydrochlorothiazide",
+    "atorvastatin"
+   ],
+   "original_generics": [
+    "Hydrochlorothiazide",
+    "Atorvastatin"
+   ]
+  },
+  {
+   "rx_id": 147,
+   "brand_text": [
+    "Atorfit",
+    "Fenofibrate"
+   ],
+   "ingredients": [
+    "atorvastatin",
+    "fenofibrate"
+   ],
+   "original_generics": [
+    "Atorvastatin",
+    "Fenofibrate"
+   ]
+  },
+  {
+   "rx_id": 148,
+   "brand_text": [
+    "Corbis",
+    "Forxiga"
+   ],
+   "ingredients": [
+    "bisoprolol",
+    "dapagliflozin"
+   ],
+   "original_generics": [
+    "Bisoprolol",
+    "Dapagliflozin"
+   ]
+  },
+  {
+   "rx_id": 149,
+   "brand_text": [
+    "Enapril",
+    "Aldactone",
+    "Corbis"
+   ],
+   "ingredients": [
+    "enalapril",
+    "spironolactone",
+    "bisoprolol"
+   ],
+   "original_generics": [
+    "Enalapril",
+    "Spironolactone",
+    "Bisoprolol"
+   ]
+  },
+  {
+   "rx_id": 150,
+   "brand_text": [
+    "Apixaban",
+    "Ecosprin"
+   ],
+   "ingredients": [
+    "apixaban",
+    "acetylsalicylic acid"
+   ],
+   "original_generics": [
+    "Apixaban",
+    "Aspirin"
+   ]
+  },
+  {
+   "rx_id": 201,
+   "brand_text": [
+    "Ergotamine",
+    "Ketoconazole",
+    "Calcium"
+   ],
+   "ingredients": [
+    "ergotamine",
+    "ketoconazole",
+    "calcium"
+   ],
+   "original_generics": [
+    "Ergotamine",
+    "Ketoconazole",
+    "Calcium"
+   ]
+  },
+  {
+   "rx_id": 202,
+   "brand_text": [
+    "Isoniazid",
+    "Paracetamol",
+    "Zinc"
+   ],
+   "ingredients": [
+    "isoniazid",
+    "acetaminophen",
+    "zinc"
+   ],
+   "original_generics": [
+    "Isoniazid",
+    "Acetaminophen",
+    "Zinc"
+   ]
+  },
+  {
+   "rx_id": 203,
+   "brand_text": [
+    "Asthalin",
+    "Novamox",
+    "Loratadine"
+   ],
+   "ingredients": [
+    "albuterol",
+    "amoxicillin",
+    "loratadine"
+   ],
+   "original_generics": [
+    "Salbutamol",
+    "Amoxicillin",
+    "Loratadine"
+   ]
+  },
+  {
+   "rx_id": 204,
+   "brand_text": [
+    "Azithral",
+    "Paracetamol"
+   ],
+   "ingredients": [
+    "azithromycin",
+    "acetaminophen"
+   ],
+   "original_generics": [
+    "Azithromycin",
+    "Acetaminophen"
+   ]
+  },
+  {
+   "rx_id": 206,
+   "brand_text": [
+    "Linospan",
+    "Sertraline",
+    "Vitamin D"
+   ],
+   "ingredients": [
+    "linezolid",
+    "sertraline",
+    "cholecalciferol"
+   ],
+   "original_generics": [
+    "Linezolid",
+    "Sertraline",
+    "Vitamin D"
+   ]
+  },
+  {
+   "rx_id": 207,
+   "brand_text": [
+    "Folvite",
+    "Althrocin",
+    "Zeptol"
+   ],
+   "ingredients": [
+    "folic acid",
+    "erythromycin",
+    "carbamazepine"
+   ],
+   "original_generics": [
+    "Folic acid",
+    "Erythromycin",
+    "Carbamazepine"
+   ]
+  },
+  {
+   "rx_id": 208,
+   "brand_text": [
+    "Isoniazid",
+    "Epsolin"
+   ],
+   "ingredients": [
+    "isoniazid",
+    "phenytoin"
+   ],
+   "original_generics": [
+    "Isoniazid",
+    "Phenytoin"
+   ]
+  },
+  {
+   "rx_id": 209,
+   "brand_text": [
+    "Itratuf",
+    "Mezolam"
+   ],
+   "ingredients": [
+    "itraconazole",
+    "midazolam"
+   ],
+   "original_generics": [
+    "Itraconazole",
+    "Midazolam"
+   ]
+  },
+  {
+   "rx_id": 210,
+   "brand_text": [
+    "Itratuf",
+    "Simvotin"
+   ],
+   "ingredients": [
+    "itraconazole",
+    "simvastatin"
+   ],
+   "original_generics": [
+    "Itraconazole",
+    "Simvastatin"
+   ]
+  },
+  {
+   "rx_id": 212,
+   "brand_text": [
+    "Doxy",
+    "Calcium carbonate"
+   ],
+   "ingredients": [
+    "doxycycline",
+    "calcium carbonate"
+   ],
+   "original_generics": [
+    "Doxycycline",
+    "Calcium carbonate"
+   ]
+  },
+  {
+   "rx_id": 213,
+   "brand_text": [
+    "Acivir",
+    "Alcet"
+   ],
+   "ingredients": [
+    "acyclovir",
+    "cetirizine"
+   ],
+   "original_generics": [
+    "Acyclovir",
+    "Cetirizine"
+   ]
+  },
+  {
+   "rx_id": 214,
+   "brand_text": [
+    "Althrocin",
+    "Eurythmic"
+   ],
+   "ingredients": [
+    "erythromycin",
+    "amiodarone"
+   ],
+   "original_generics": [
+    "Erythromycin",
+    "Amiodarone"
+   ]
+  },
+  {
+   "rx_id": 215,
+   "brand_text": [
+    "Efavir",
+    "Mezolam"
+   ],
+   "ingredients": [
+    "efavirenz",
+    "midazolam"
+   ],
+   "original_generics": [
+    "Efavirenz",
+    "Midazolam"
+   ]
+  },
+  {
+   "rx_id": 218,
+   "brand_text": [
+    "Ritonavir",
+    "Simvotin"
+   ],
+   "ingredients": [
+    "ritonavir",
+    "simvastatin"
+   ],
+   "original_generics": [
+    "Ritonavir",
+    "Simvastatin"
+   ]
+  },
+  {
+   "rx_id": 219,
+   "brand_text": [
+    "Zocon",
+    "Simvotin"
+   ],
+   "ingredients": [
+    "fluconazole",
+    "simvastatin"
+   ],
+   "original_generics": [
+    "Fluconazole",
+    "Simvastatin"
+   ]
+  },
+  {
+   "rx_id": 220,
+   "brand_text": [
+    "Folvite",
+    "Warf",
+    "Metrogyl"
+   ],
+   "ingredients": [
+    "folic acid",
+    "warfarin",
+    "metronidazole"
+   ],
+   "original_generics": [
+    "Folic acid",
+    "Warfarin",
+    "Metronidazole"
+   ]
+  },
+  {
+   "rx_id": 221,
+   "brand_text": [
+    "Voriconazole",
+    "Pangraf"
+   ],
+   "ingredients": [
+    "voriconazole",
+    "tacrolimus"
+   ],
+   "original_generics": [
+    "Voriconazole",
+    "Tacrolimus"
+   ]
+  },
+  {
+   "rx_id": 223,
+   "brand_text": [
+    "Ciprofloxacin",
+    "Theobid"
+   ],
+   "ingredients": [
+    "ciprofloxacin",
+    "theophylline"
+   ],
+   "original_generics": [
+    "Ciprofloxacin",
+    "Theophylline"
+   ]
+  },
+  {
+   "rx_id": 224,
+   "brand_text": [
+    "Rifampin",
+    "Pangraf",
+    "Vitamin D"
+   ],
+   "ingredients": [
+    "rifampin",
+    "tacrolimus",
+    "cholecalciferol"
+   ],
+   "original_generics": [
+    "Rifampin",
+    "Tacrolimus",
+    "Vitamin D"
+   ]
+  },
+  {
+   "rx_id": 225,
+   "brand_text": [
+    "Linospan",
+    "Dextromethorphan"
+   ],
+   "ingredients": [
+    "linezolid",
+    "dextromethorphan"
+   ],
+   "original_generics": [
+    "Linezolid",
+    "Dextromethorphan"
+   ]
+  },
+  {
+   "rx_id": 226,
+   "brand_text": [
+    "L-Cin",
+    "Eurythmic"
+   ],
+   "ingredients": [
+    "levofloxacin",
+    "amiodarone"
+   ],
+   "original_generics": [
+    "Levofloxacin",
+    "Amiodarone"
+   ]
+  },
+  {
+   "rx_id": 228,
+   "brand_text": [
+    "Budecort",
+    "Loratadine"
+   ],
+   "ingredients": [
+    "budesonide",
+    "loratadine"
+   ],
+   "original_generics": [
+    "Budesonide",
+    "Loratadine"
+   ]
+  },
+  {
+   "rx_id": 229,
+   "brand_text": [
+    "Metrogyl",
+    "Disulfiram"
+   ],
+   "ingredients": [
+    "metronidazole",
+    "disulfiram"
+   ],
+   "original_generics": [
+    "Metronidazole",
+    "Disulfiram"
+   ]
+  },
+  {
+   "rx_id": 230,
+   "brand_text": [
+    "Ciprofloxacin",
+    "Tizanidine",
+    "Paracetamol"
+   ],
+   "ingredients": [
+    "ciprofloxacin",
+    "tizanidine",
+    "acetaminophen"
+   ],
+   "original_generics": [
+    "Ciprofloxacin",
+    "Tizanidine",
+    "Acetaminophen"
+   ]
+  },
+  {
+   "rx_id": 231,
+   "brand_text": [
+    "Oseltamivir",
+    "Benadryl"
+   ],
+   "ingredients": [
+    "oseltamivir",
+    "diphenhydramine"
+   ],
+   "original_generics": [
+    "Oseltamivir",
+    "Diphenhydramine"
+   ]
+  },
+  {
+   "rx_id": 232,
+   "brand_text": [
+    "Rifampin",
+    "Ethinyl estradiol"
+   ],
+   "ingredients": [
+    "rifampin",
+    "ethinyl estradiol"
+   ],
+   "original_generics": [
+    "Rifampin",
+    "Ethinyl estradiol"
+   ]
+  },
+  {
+   "rx_id": 233,
+   "brand_text": [
+    "Montair",
+    "Ibuprofen"
+   ],
+   "ingredients": [
+    "montelukast",
+    "ibuprofen"
+   ],
+   "original_generics": [
+    "Montelukast",
+    "Ibuprofen"
+   ]
+  },
+  {
+   "rx_id": 234,
+   "brand_text": [
+    "Ciprofloxacin",
+    "Aluminum hydroxide"
+   ],
+   "ingredients": [
+    "ciprofloxacin",
+    "aluminum hydroxide"
+   ],
+   "original_generics": [
+    "Ciprofloxacin",
+    "Aluminum hydroxide"
+   ]
+  },
+  {
+   "rx_id": 235,
+   "brand_text": [
+    "Doxy",
+    "Allegra"
+   ],
+   "ingredients": [
+    "doxycycline",
+    "fexofenadine"
+   ],
+   "original_generics": [
+    "Doxycycline",
+    "Fexofenadine"
+   ]
+  },
+  {
+   "rx_id": 236,
+   "brand_text": [
+    "Novamox",
+    "Benadryl"
+   ],
+   "ingredients": [
+    "amoxicillin",
+    "diphenhydramine"
+   ],
+   "original_generics": [
+    "Amoxicillin",
+    "Diphenhydramine"
+   ]
+  },
+  {
+   "rx_id": 237,
+   "brand_text": [
+    "Isoniazid",
+    "Pyridoxine"
+   ],
+   "ingredients": [
+    "isoniazid",
+    "pyridoxine"
+   ],
+   "original_generics": [
+    "Isoniazid",
+    "Pyridoxine"
+   ]
+  },
+  {
+   "rx_id": 240,
+   "brand_text": [
+    "Ciprofloxacin",
+    "Sucralfate"
+   ],
+   "ingredients": [
+    "ciprofloxacin",
+    "sucralfate"
+   ],
+   "original_generics": [
+    "Ciprofloxacin",
+    "Sucralfate"
+   ]
+  },
+  {
+   "rx_id": 241,
+   "brand_text": [
+    "Azithral",
+    "Serenace"
+   ],
+   "ingredients": [
+    "azithromycin",
+    "haloperidol"
+   ],
+   "original_generics": [
+    "Azithromycin",
+    "Haloperidol"
+   ]
+  },
+  {
+   "rx_id": 243,
+   "brand_text": [
+    "Althrocin",
+    "Simvotin"
+   ],
+   "ingredients": [
+    "erythromycin",
+    "simvastatin"
+   ],
+   "original_generics": [
+    "Erythromycin",
+    "Simvastatin"
+   ]
+  },
+  {
+   "rx_id": 244,
+   "brand_text": [
+    "Guaifenesin",
+    "Alcet"
+   ],
+   "ingredients": [
+    "guaifenesin",
+    "cetirizine"
+   ],
+   "original_generics": [
+    "Guaifenesin",
+    "Cetirizine"
+   ]
+  },
+  {
+   "rx_id": 245,
+   "brand_text": [
+    "Ketoconazole",
+    "Mezolam"
+   ],
+   "ingredients": [
+    "ketoconazole",
+    "midazolam"
+   ],
+   "original_generics": [
+    "Ketoconazole",
+    "Midazolam"
+   ]
+  },
+  {
+   "rx_id": 246,
+   "brand_text": [
+    "Rifampin",
+    "Prednisone"
+   ],
+   "ingredients": [
+    "rifampin",
+    "prednisone"
+   ],
+   "original_generics": [
+    "Rifampin",
+    "Prednisone"
+   ]
+  },
+  {
+   "rx_id": 247,
+   "brand_text": [
+    "L-Cin",
+    "Calcium carbonate"
+   ],
+   "ingredients": [
+    "levofloxacin",
+    "calcium carbonate"
+   ],
+   "original_generics": [
+    "Levofloxacin",
+    "Calcium carbonate"
+   ]
+  },
+  {
+   "rx_id": 248,
+   "brand_text": [
+    "Trimethoprim",
+    "Folitrax"
+   ],
+   "ingredients": [
+    "trimethoprim",
+    "methotrexate"
+   ],
+   "original_generics": [
+    "Trimethoprim",
+    "Methotrexate"
+   ]
+  },
+  {
+   "rx_id": 249,
+   "brand_text": [
+    "Omnacortil",
+    "Calcium"
+   ],
+   "ingredients": [
+    "prednisolone",
+    "calcium"
+   ],
+   "original_generics": [
+    "Prednisolone",
+    "Calcium"
+   ]
+  },
+  {
+   "rx_id": 250,
+   "brand_text": [
+    "Moxifloxacin",
+    "Eurythmic",
+    "Vitamin C"
+   ],
+   "ingredients": [
+    "moxifloxacin",
+    "amiodarone",
+    "ascorbic acid"
+   ],
+   "original_generics": [
+    "Moxifloxacin",
+    "Amiodarone",
+    "Vitamin C"
+   ]
+  },
+  {
+   "rx_id": 301,
+   "brand_text": [
+    "Prodep",
+    "Phenelzine"
+   ],
+   "ingredients": [
+    "fluoxetine",
+    "phenelzine"
+   ],
+   "original_generics": [
+    "Fluoxetine",
+    "Phenelzine"
+   ]
+  },
+  {
+   "rx_id": 302,
+   "brand_text": [
+    "Oxycodone",
+    "Diazepam"
+   ],
+   "ingredients": [
+    "oxycodone",
+    "diazepam"
+   ],
+   "original_generics": [
+    "Oxycodone",
+    "Diazepam"
+   ]
+  },
+  {
+   "rx_id": 303,
+   "brand_text": [
+    "Zeptol",
+    "Ethinyl estradiol",
+    "Vitamin D"
+   ],
+   "ingredients": [
+    "carbamazepine",
+    "ethinyl estradiol",
+    "cholecalciferol"
+   ],
+   "original_generics": [
+    "Carbamazepine",
+    "Ethinyl estradiol",
+    "Vitamin D"
+   ]
+  },
+  {
+   "rx_id": 304,
+   "brand_text": [
+    "Sertraline",
+    "Gabapin"
+   ],
+   "ingredients": [
+    "sertraline",
+    "gabapentin"
+   ],
+   "original_generics": [
+    "Sertraline",
+    "Gabapentin"
+   ]
+  },
+  {
+   "rx_id": 306,
+   "brand_text": [
+    "Contramal",
+    "Pexep"
+   ],
+   "ingredients": [
+    "tramadol",
+    "paroxetine"
+   ],
+   "original_generics": [
+    "Tramadol",
+    "Paroxetine"
+   ]
+  },
+  {
+   "rx_id": 307,
+   "brand_text": [
+    "Escitalopram",
+    "Pregalin"
+   ],
+   "ingredients": [
+    "escitalopram",
+    "pregabalin"
+   ],
+   "original_generics": [
+    "Escitalopram",
+    "Pregabalin"
+   ]
+  },
+  {
+   "rx_id": 308,
+   "brand_text": [
+    "Serenace",
+    "Melozine"
+   ],
+   "ingredients": [
+    "haloperidol",
+    "thioridazine"
+   ],
+   "original_generics": [
+    "Haloperidol",
+    "Thioridazine"
+   ]
+  },
+  {
+   "rx_id": 309,
+   "brand_text": [
+    "Cipin",
+    "Zeptol"
+   ],
+   "ingredients": [
+    "clozapine",
+    "carbamazepine"
+   ],
+   "original_generics": [
+    "Clozapine",
+    "Carbamazepine"
+   ]
+  },
+  {
+   "rx_id": 310,
+   "brand_text": [
+    "Oxycodone",
+    "Alzolam",
+    "Paracetamol"
+   ],
+   "ingredients": [
+    "oxycodone",
+    "alprazolam",
+    "acetaminophen"
+   ],
+   "original_generics": [
+    "Oxycodone",
+    "Alprazolam",
+    "Paracetamol"
+   ]
+  },
+  {
+   "rx_id": 311,
+   "brand_text": [
+    "Flavix",
+    "Phenelzine"
+   ],
+   "ingredients": [
+    "venlafaxine",
+    "phenelzine"
+   ],
+   "original_generics": [
+    "Venlafaxine",
+    "Phenelzine"
+   ]
+  },
+  {
+   "rx_id": 312,
+   "brand_text": [
+    "Fentanyl",
+    "Mezolam"
+   ],
+   "ingredients": [
+    "fentanyl",
+    "midazolam"
+   ],
+   "original_generics": [
+    "Fentanyl",
+    "Midazolam"
+   ]
+  },
+  {
+   "rx_id": 313,
+   "brand_text": [
+    "Valproate",
+    "Lamictal",
+    "Vitamin D"
+   ],
+   "ingredients": [
+    "valproate",
+    "lamotrigine",
+    "cholecalciferol"
+   ],
+   "original_generics": [
+    "Valproate",
+    "Lamotrigine",
+    "Vitamin D"
+   ]
+  },
+  {
+   "rx_id": 314,
+   "brand_text": [
+    "Miraz",
+    "Gabapin"
+   ],
+   "ingredients": [
+    "mirtazapine",
+    "gabapentin"
+   ],
+   "original_generics": [
+    "Mirtazapine",
+    "Gabapentin"
+   ]
+  },
+  {
+   "rx_id": 315,
+   "brand_text": [
+    "Fluvoxin",
+    "Tizanidine"
+   ],
+   "ingredients": [
+    "fluvoxamine",
+    "tizanidine"
+   ],
+   "original_generics": [
+    "Fluvoxamine",
+    "Tizanidine"
+   ]
+  },
+  {
+   "rx_id": 316,
+   "brand_text": [
+    "Aldep",
+    "Tranylcypromine"
+   ],
+   "ingredients": [
+    "amitriptyline",
+    "tranylcypromine"
+   ],
+   "original_generics": [
+    "Amitriptyline",
+    "Tranylcypromine"
+   ]
+  },
+  {
+   "rx_id": 317,
+   "brand_text": [
+    "Symbal",
+    "Memantine"
+   ],
+   "ingredients": [
+    "duloxetine",
+    "memantine"
+   ],
+   "original_generics": [
+    "Duloxetine",
+    "Memantine"
+   ]
+  },
+  {
+   "rx_id": 318,
+   "brand_text": [
+    "Zeptol",
+    "Warf"
+   ],
+   "ingredients": [
+    "carbamazepine",
+    "warfarin"
+   ],
+   "original_generics": [
+    "Carbamazepine",
+    "Warfarin"
+   ]
+  },
+  {
+   "rx_id": 319,
+   "brand_text": [
+    "Bupron",
+    "Contramal"
+   ],
+   "ingredients": [
+    "bupropion",
+    "tramadol"
+   ],
+   "original_generics": [
+    "Bupropion",
+    "Tramadol"
+   ]
+  },
+  {
+   "rx_id": 320,
+   "brand_text": [
+    "Qutan",
+    "Gabapin",
+    "Vitamin D"
+   ],
+   "ingredients": [
+    "quetiapine",
+    "gabapentin",
+    "cholecalciferol"
+   ],
+   "original_generics": [
+    "Quetiapine",
+    "Gabapentin",
+    "Vitamin D"
+   ]
+  },
+  {
+   "rx_id": 321,
+   "brand_text": [
+    "Sertraline",
+    "Phenelzine"
+   ],
+   "ingredients": [
+    "sertraline",
+    "phenelzine"
+   ],
+   "original_generics": [
+    "Sertraline",
+    "Phenelzine"
+   ]
+  },
+  {
+   "rx_id": 322,
+   "brand_text": [
+    "Vermor",
+    "Loxum"
+   ],
+   "ingredients": [
+    "morphine",
+    "lorazepam"
+   ],
+   "original_generics": [
+    "Morphine",
+    "Lorazepam"
+   ]
+  },
+  {
+   "rx_id": 323,
+   "brand_text": [
+    "Contramal",
+    "Prodep",
+    "Paracetamol"
+   ],
+   "ingredients": [
+    "tramadol",
+    "fluoxetine",
+    "acetaminophen"
+   ],
+   "original_generics": [
+    "Tramadol",
+    "Fluoxetine",
+    "Paracetamol"
+   ]
+  },
+  {
+   "rx_id": 324,
+   "brand_text": [
+    "Flavix",
+    "Pregalin"
+   ],
+   "ingredients": [
+    "venlafaxine",
+    "pregabalin"
+   ],
+   "original_generics": [
+    "Venlafaxine",
+    "Pregabalin"
+   ]
+  },
+  {
+   "rx_id": 325,
+   "brand_text": [
+    "Rizatriptan",
+    "Tranylcypromine"
+   ],
+   "ingredients": [
+    "rizatriptan",
+    "tranylcypromine"
+   ],
+   "original_generics": [
+    "Rizatriptan",
+    "Tranylcypromine"
+   ]
+  },
+  {
+   "rx_id": 326,
+   "brand_text": [
+    "Lithium",
+    "Hydrochlorothiazide"
+   ],
+   "ingredients": [
+    "lithium",
+    "hydrochlorothiazide"
+   ],
+   "original_generics": [
+    "Lithium",
+    "Hydrochlorothiazide"
+   ]
+  },
+  {
+   "rx_id": 327,
+   "brand_text": [
+    "Bupron",
+    "Gabapin"
+   ],
+   "ingredients": [
+    "bupropion",
+    "gabapentin"
+   ],
+   "original_generics": [
+    "Bupropion",
+    "Gabapentin"
+   ]
+  },
+  {
+   "rx_id": 328,
+   "brand_text": [
+    "Clonil",
+    "Selegiline"
+   ],
+   "ingredients": [
+    "clomipramine",
+    "selegiline"
+   ],
+   "original_generics": [
+    "Clomipramine",
+    "Selegiline"
+   ]
+  },
+  {
+   "rx_id": 329,
+   "brand_text": [
+    "Methadone",
+    "Clotrin"
+   ],
+   "ingredients": [
+    "methadone",
+    "clonazepam"
+   ],
+   "original_generics": [
+    "Methadone",
+    "Clonazepam"
+   ]
+  },
+  {
+   "rx_id": 330,
+   "brand_text": [
+    "Escitalopram",
+    "Gabapin",
+    "Vitamin D"
+   ],
+   "ingredients": [
+    "escitalopram",
+    "gabapentin",
+    "cholecalciferol"
+   ],
+   "original_generics": [
+    "Escitalopram",
+    "Gabapentin",
+    "Vitamin D"
+   ]
+  },
+  {
+   "rx_id": 331,
+   "brand_text": [
+    "Pexep",
+    "Selegiline"
+   ],
+   "ingredients": [
+    "paroxetine",
+    "selegiline"
+   ],
+   "original_generics": [
+    "Paroxetine",
+    "Selegiline"
+   ]
+  },
+  {
+   "rx_id": 332,
+   "brand_text": [
+    "Hydrocodone",
+    "Alzolam"
+   ],
+   "ingredients": [
+    "hydrocodone",
+    "alprazolam"
+   ],
+   "original_generics": [
+    "Hydrocodone",
+    "Alprazolam"
+   ]
+  },
+  {
+   "rx_id": 333,
+   "brand_text": [
+    "Sertraline",
+    "Sumitrex",
+    "Paracetamol"
+   ],
+   "ingredients": [
+    "sertraline",
+    "sumatriptan",
+    "acetaminophen"
+   ],
+   "original_generics": [
+    "Sertraline",
+    "Sumatriptan",
+    "Paracetamol"
+   ]
+  },
+  {
+   "rx_id": 334,
+   "brand_text": [
+    "Symbal",
+    "Pregalin"
+   ],
+   "ingredients": [
+    "duloxetine",
+    "pregabalin"
+   ],
+   "original_generics": [
+    "Duloxetine",
+    "Pregabalin"
+   ]
+  },
+  {
+   "rx_id": 335,
+   "brand_text": [
+    "Cyclobenzaprine",
+    "Phenelzine"
+   ],
+   "ingredients": [
+    "cyclobenzaprine",
+    "phenelzine"
+   ],
+   "original_generics": [
+    "Cyclobenzaprine",
+    "Phenelzine"
+   ]
+  },
+  {
+   "rx_id": 336,
+   "brand_text": [
+    "Dactive",
+    "Oxycodone"
+   ],
+   "ingredients": [
+    "zolpidem",
+    "oxycodone"
+   ],
+   "original_generics": [
+    "Zolpidem",
+    "Oxycodone"
+   ]
+  },
+  {
+   "rx_id": 337,
+   "brand_text": [
+    "Miraz",
+    "Vitamin D"
+   ],
+   "ingredients": [
+    "mirtazapine",
+    "cholecalciferol"
+   ],
+   "original_generics": [
+    "Mirtazapine",
+    "Vitamin D"
+   ]
+  },
+  {
+   "rx_id": 338,
+   "brand_text": [
+    "Melozine",
+    "Prodep"
+   ],
+   "ingredients": [
+    "thioridazine",
+    "fluoxetine"
+   ],
+   "original_generics": [
+    "Thioridazine",
+    "Fluoxetine"
+   ]
+  },
+  {
+   "rx_id": 339,
+   "brand_text": [
+    "Dol-Proxyvon",
+    "Symbal"
+   ],
+   "ingredients": [
+    "tapentadol",
+    "duloxetine"
+   ],
+   "original_generics": [
+    "Tapentadol",
+    "Duloxetine"
+   ]
+  },
+  {
+   "rx_id": 340,
+   "brand_text": [
+    "Qutan",
+    "Eurythmic",
+    "Magnesium"
+   ],
+   "ingredients": [
+    "quetiapine",
+    "amiodarone",
+    "magnesium"
+   ],
+   "original_generics": [
+    "Quetiapine",
+    "Amiodarone",
+    "Magnesium"
+   ]
+  },
+  {
+   "rx_id": 341,
+   "brand_text": [
+    "Prodep",
+    "Tranylcypromine"
+   ],
+   "ingredients": [
+    "fluoxetine",
+    "tranylcypromine"
+   ],
+   "original_generics": [
+    "Fluoxetine",
+    "Tranylcypromine"
+   ]
+  },
+  {
+   "rx_id": 342,
+   "brand_text": [
+    "Codeine",
+    "Clotrin"
+   ],
+   "ingredients": [
+    "codeine",
+    "clonazepam"
+   ],
+   "original_generics": [
+    "Codeine",
+    "Clonazepam"
+   ]
+  },
+  {
+   "rx_id": 343,
+   "brand_text": [
+    "Flavix",
+    "Contramal",
+    "Vitamin B12"
+   ],
+   "ingredients": [
+    "venlafaxine",
+    "tramadol",
+    "cyanocobalamin"
+   ],
+   "original_generics": [
+    "Venlafaxine",
+    "Tramadol",
+    "Vitamin B12"
+   ]
+  },
+  {
+   "rx_id": 344,
+   "brand_text": [
+    "Sertraline",
+    "Vitamin D"
+   ],
+   "ingredients": [
+    "sertraline",
+    "cholecalciferol"
+   ],
+   "original_generics": [
+    "Sertraline",
+    "Vitamin D"
+   ]
+  },
+  {
+   "rx_id": 345,
+   "brand_text": [
+    "Tolaz",
+    "Diazepam"
+   ],
+   "ingredients": [
+    "olanzapine",
+    "diazepam"
+   ],
+   "original_generics": [
+    "Olanzapine",
+    "Diazepam"
+   ]
+  },
+  {
+   "rx_id": 346,
+   "brand_text": [
+    "Gabapin",
+    "Vitamin B12"
+   ],
+   "ingredients": [
+    "gabapentin",
+    "cyanocobalamin"
+   ],
+   "original_generics": [
+    "Gabapentin",
+    "Vitamin B12"
+   ]
+  },
+  {
+   "rx_id": 347,
+   "brand_text": [
+    "Valproate",
+    "Phenobarbital"
+   ],
+   "ingredients": [
+    "valproate",
+    "phenobarbital"
+   ],
+   "original_generics": [
+    "Valproate",
+    "Phenobarbital"
+   ]
+  },
+  {
+   "rx_id": 348,
+   "brand_text": [
+    "Zipsydon",
+    "Sotalol"
+   ],
+   "ingredients": [
+    "ziprasidone",
+    "sotalol"
+   ],
+   "original_generics": [
+    "Ziprasidone",
+    "Sotalol"
+   ]
+  },
+  {
+   "rx_id": 349,
+   "brand_text": [
+    "Memantine",
+    "Pregalin"
+   ],
+   "ingredients": [
+    "memantine",
+    "pregabalin"
+   ],
+   "original_generics": [
+    "Memantine",
+    "Pregabalin"
+   ]
+  },
+  {
+   "rx_id": 350,
+   "brand_text": [
+    "Trazodone",
+    "Melatonin",
+    "Vitamin C"
+   ],
+   "ingredients": [
+    "trazodone",
+    "melatonin",
+    "ascorbic acid"
+   ],
+   "original_generics": [
+    "Trazodone",
+    "Melatonin",
+    "Vitamin C"
+   ]
+  },
+  {
+   "rx_id": 401,
+   "brand_text": [
+    "Omez",
+    "Clopilet"
+   ],
+   "ingredients": [
+    "omez",
+    "clopilet"
+   ],
+   "original_generics": [
+    "Omez",
+    "Clopilet"
+   ]
+  },
+  {
+   "rx_id": 403,
+   "brand_text": [
+    "Voveran",
+    "Telma",
+    "Dolo"
+   ],
+   "ingredients": [
+    "voveran",
+    "telma",
+    "dolo"
+   ],
+   "original_generics": [
+    "Voveran",
+    "Telma",
+    "Dolo"
+   ]
+  },
+  {
+   "rx_id": 404,
+   "brand_text": [
+    "Wysolone",
+    "Brufen"
+   ],
+   "ingredients": [
+    "wysolone",
+    "brufen"
+   ],
+   "original_generics": [
+    "Wysolone",
+    "Brufen"
+   ]
+  },
+  {
+   "rx_id": 405,
+   "brand_text": [
+    "Avil",
+    "Alprax"
+   ],
+   "ingredients": [
+    "avil",
+    "alprax"
+   ],
+   "original_generics": [
+    "Avil",
+    "Alprax"
+   ]
+  },
+  {
+   "rx_id": 406,
+   "brand_text": [
+    "Thyronorm",
+    "Dexorange"
+   ],
+   "ingredients": [
+    "thyronorm",
+    "dexorange"
+   ],
+   "original_generics": [
+    "Thyronorm",
+    "Dexorange"
+   ]
+  },
+  {
+   "rx_id": 407,
+   "brand_text": [
+    "Azithral",
+    "Ondem"
+   ],
+   "ingredients": [
+    "azithral",
+    "ondem"
+   ],
+   "original_generics": [
+    "Azithral",
+    "Ondem"
+   ]
+  },
+  {
+   "rx_id": 408,
+   "brand_text": [
+    "Combiflam",
+    "Acitrom"
+   ],
+   "ingredients": [
+    "combiflam",
+    "acitrom"
+   ],
+   "original_generics": [
+    "Combiflam",
+    "Acitrom"
+   ]
+  },
+  {
+   "rx_id": 409,
+   "brand_text": [
+    "Glycomet",
+    "Omnacortil",
+    "Crocin"
+   ],
+   "ingredients": [
+    "glycomet",
+    "omnacortil",
+    "crocin"
+   ],
+   "original_generics": [
+    "Glycomet",
+    "Omnacortil",
+    "Crocin"
+   ]
+  },
+  {
+   "rx_id": 410,
+   "brand_text": [
+    "Ciplox",
+    "Gelusil"
+   ],
+   "ingredients": [
+    "ciplox",
+    "gelusil"
+   ],
+   "original_generics": [
+    "Ciplox",
+    "Gelusil"
+   ]
+  },
+  {
+   "rx_id": 411,
+   "brand_text": [
+    "Allegra",
+    "Digene"
+   ],
+   "ingredients": [
+    "allegra",
+    "digene"
+   ],
+   "original_generics": [
+    "Allegra",
+    "Digene"
+   ]
+  },
+  {
+   "rx_id": 412,
+   "brand_text": [
+    "Dexona",
+    "Amaryl"
+   ],
+   "ingredients": [
+    "dexona",
+    "amaryl"
+   ],
+   "original_generics": [
+    "Dexona",
+    "Amaryl"
+   ]
+  },
+  {
+   "rx_id": 413,
+   "brand_text": [
+    "Brufen",
+    "Enapril"
+   ],
+   "ingredients": [
+    "brufen",
+    "enalapril"
+   ],
+   "original_generics": [
+    "Brufen",
+    "Enalapril"
+   ]
+  },
+  {
+   "rx_id": 414,
+   "brand_text": [
+    "Eltroxin",
+    "Mucaine"
+   ],
+   "ingredients": [
+    "eltroxin",
+    "mucaine"
+   ],
+   "original_generics": [
+    "Eltroxin",
+    "Mucaine"
+   ]
+  },
+  {
+   "rx_id": 416,
+   "brand_text": [
+    "Cetzine",
+    "Pan"
+   ],
+   "ingredients": [
+    "cetzine",
+    "pan"
+   ],
+   "original_generics": [
+    "Cetzine",
+    "Pan"
+   ]
+  },
+  {
+   "rx_id": 417,
+   "brand_text": [
+    "Rantac",
+    "Dolo"
+   ],
+   "ingredients": [
+    "rantac",
+    "dolo"
+   ],
+   "original_generics": [
+    "Rantac",
+    "Dolo"
+   ]
+  },
+  {
+   "rx_id": 418,
+   "brand_text": [
+    "Montair",
+    "Crocin"
+   ],
+   "ingredients": [
+    "montair",
+    "crocin"
+   ],
+   "original_generics": [
+    "Montair",
+    "Crocin"
+   ]
+  },
+  {
+   "rx_id": 419,
+   "brand_text": [
+    "Allegra",
+    "Glycomet"
+   ],
+   "ingredients": [
+    "allegra",
+    "glycomet"
+   ],
+   "original_generics": [
+    "Allegra",
+    "Glycomet"
+   ]
+  },
+  {
+   "rx_id": 420,
+   "brand_text": [
+    "Electral",
+    "Calpol"
+   ],
+   "ingredients": [
+    "electral",
+    "calpol"
+   ],
+   "original_generics": [
+    "Electral",
+    "Calpol"
+   ]
+  },
+  {
+   "rx_id": 421,
+   "brand_text": [
+    "Zerodol",
+    "Acitrom"
+   ],
+   "ingredients": [
+    "zerodol",
+    "acitrom"
+   ],
+   "original_generics": [
+    "Zerodol",
+    "Acitrom"
+   ]
+  },
+  {
+   "rx_id": 422,
+   "brand_text": [
+    "Thyronorm",
+    "Shelcal",
+    "Allegra"
+   ],
+   "ingredients": [
+    "thyronorm",
+    "shelcal",
+    "allegra"
+   ],
+   "original_generics": [
+    "Thyronorm",
+    "Shelcal",
+    "Allegra"
+   ]
+  },
+  {
+   "rx_id": 423,
+   "brand_text": [
+    "Omez",
+    "Warf"
+   ],
+   "ingredients": [
+    "omez",
+    "warf"
+   ],
+   "original_generics": [
+    "Omez",
+    "Warf"
+   ]
+  },
+  {
+   "rx_id": 424,
+   "brand_text": [
+    "Lasix",
+    "Dixin",
+    "Pan"
+   ],
+   "ingredients": [
+    "lasix",
+    "digoxin",
+    "pan"
+   ],
+   "original_generics": [
+    "Lasix",
+    "Digoxin",
+    "Pan"
+   ]
+  },
+  {
+   "rx_id": 425,
+   "brand_text": [
+    "Ecosprin",
+    "Warf"
+   ],
+   "ingredients": [
+    "ecosprin",
+    "warf"
+   ],
+   "original_generics": [
+    "Ecosprin",
+    "Warf"
+   ]
+  },
+  {
+   "rx_id": 426,
+   "brand_text": [
+    "Meftal",
+    "Lasix"
+   ],
+   "ingredients": [
+    "meftal",
+    "lasix"
+   ],
+   "original_generics": [
+    "Meftal",
+    "Lasix"
+   ]
+  },
+  {
+   "rx_id": 427,
+   "brand_text": [
+    "Warf",
+    "Dolo"
+   ],
+   "ingredients": [
+    "warf",
+    "dolo"
+   ],
+   "original_generics": [
+    "Warf",
+    "Dolo"
+   ]
+  },
+  {
+   "rx_id": 428,
+   "brand_text": [
+    "Deriphylline",
+    "Cetzine"
+   ],
+   "ingredients": [
+    "deriphylline",
+    "cetzine"
+   ],
+   "original_generics": [
+    "Deriphylline",
+    "Cetzine"
+   ]
+  },
+  {
+   "rx_id": 429,
+   "brand_text": [
+    "Betnesol",
+    "Voveran",
+    "Omez"
+   ],
+   "ingredients": [
+    "betnesol",
+    "voveran",
+    "omez"
+   ],
+   "original_generics": [
+    "Betnesol",
+    "Voveran",
+    "Omez"
+   ]
+  },
+  {
+   "rx_id": 430,
+   "brand_text": [
+    "Domstal",
+    "Azithral"
+   ],
+   "ingredients": [
+    "domstal",
+    "azithral"
+   ],
+   "original_generics": [
+    "Domstal",
+    "Azithral"
+   ]
+  },
+  {
+   "rx_id": 431,
+   "brand_text": [
+    "Looz",
+    "Crocin"
+   ],
+   "ingredients": [
+    "looz",
+    "crocin"
+   ],
+   "original_generics": [
+    "Looz",
+    "Crocin"
+   ]
+  },
+  {
+   "rx_id": 432,
+   "brand_text": [
+    "Pan",
+    "Dexorange"
+   ],
+   "ingredients": [
+    "pan",
+    "dexorange"
+   ],
+   "original_generics": [
+    "Pan",
+    "Dexorange"
+   ]
+  },
+  {
+   "rx_id": 433,
+   "brand_text": [
+    "Rantac",
+    "Allegra"
+   ],
+   "ingredients": [
+    "rantac",
+    "allegra"
+   ],
+   "original_generics": [
+    "Rantac",
+    "Allegra"
+   ]
+  },
+  {
+   "rx_id": 434,
+   "brand_text": [
+    "Zincovit",
+    "Dolo"
+   ],
+   "ingredients": [
+    "zincovit",
+    "dolo"
+   ],
+   "original_generics": [
+    "Zincovit",
+    "Dolo"
+   ]
+  },
+  {
+   "rx_id": 435,
+   "brand_text": [
+    "Strepsils",
+    "Crocin"
+   ],
+   "ingredients": [
+    "strepsils",
+    "crocin"
+   ],
+   "original_generics": [
+    "Strepsils",
+    "Crocin"
+   ]
+  },
+  {
+   "rx_id": 436,
+   "brand_text": [
+    "Thyronorm",
+    "Allegra",
+    "Crocin"
+   ],
+   "ingredients": [
+    "thyronorm",
+    "allegra",
+    "crocin"
+   ],
+   "original_generics": [
+    "Thyronorm",
+    "Allegra",
+    "Crocin"
+   ]
+  },
+  {
+   "rx_id": 437,
+   "brand_text": [
+    "Eno",
+    "Ciplox"
+   ],
+   "ingredients": [
+    "eno",
+    "ciplox"
+   ],
+   "original_generics": [
+    "Eno",
+    "Ciplox"
+   ]
+  },
+  {
+   "rx_id": 438,
+   "brand_text": [
+    "Dulcoflex",
+    "Lasix"
+   ],
+   "ingredients": [
+    "dulcoflex",
+    "lasix"
+   ],
+   "original_generics": [
+    "Dulcoflex",
+    "Lasix"
+   ]
+  },
+  {
+   "rx_id": 439,
+   "brand_text": [
+    "Thyronorm",
+    "Omez"
+   ],
+   "ingredients": [
+    "thyronorm",
+    "omez"
+   ],
+   "original_generics": [
+    "Thyronorm",
+    "Omez"
+   ]
+  },
+  {
+   "rx_id": 440,
+   "brand_text": [
+    "Pudin Hara",
+    "Dolo"
+   ],
+   "ingredients": [
+    "pudin hara",
+    "dolo"
+   ],
+   "original_generics": [
+    "Pudin Hara",
+    "Dolo"
+   ]
+  },
+  {
+   "rx_id": 441,
+   "brand_text": [
+    "Taxim",
+    "Acitrom"
+   ],
+   "ingredients": [
+    "taxim",
+    "acitrom"
+   ],
+   "original_generics": [
+    "Taxim",
+    "Acitrom"
+   ]
+  },
+  {
+   "rx_id": 442,
+   "brand_text": [
+    "Glycomet",
+    "Dolo"
+   ],
+   "ingredients": [
+    "glycomet",
+    "dolo"
+   ],
+   "original_generics": [
+    "Glycomet",
+    "Dolo"
+   ]
+  },
+  {
+   "rx_id": 443,
+   "brand_text": [
+    "Digene",
+    "Cetzine"
+   ],
+   "ingredients": [
+    "digene",
+    "cetzine"
+   ],
+   "original_generics": [
+    "Digene",
+    "Cetzine"
+   ]
+  },
+  {
+   "rx_id": 444,
+   "brand_text": [
+    "Mucaine",
+    "Crocin",
+    "Montair"
+   ],
+   "ingredients": [
+    "mucaine",
+    "crocin",
+    "montair"
+   ],
+   "original_generics": [
+    "Mucaine",
+    "Crocin",
+    "Montair"
+   ]
+  },
+  {
+   "rx_id": 445,
+   "brand_text": [
+    "Levocet",
+    "Alprax"
+   ],
+   "ingredients": [
+    "levocet",
+    "alprax"
+   ],
+   "original_generics": [
+    "Levocet",
+    "Alprax"
+   ]
+  },
+  {
+   "rx_id": 446,
+   "brand_text": [
+    "Amaryl",
+    "Ecosprin"
+   ],
+   "ingredients": [
+    "amaryl",
+    "ecosprin"
+   ],
+   "original_generics": [
+    "Amaryl",
+    "Ecosprin"
+   ]
+  },
+  {
+   "rx_id": 447,
+   "brand_text": [
+    "Benadryl",
+    "Diazepam"
+   ],
+   "ingredients": [
+    "benadryl",
+    "diazepam"
+   ],
+   "original_generics": [
+    "Benadryl",
+    "Diazepam"
+   ]
+  },
+  {
+   "rx_id": 448,
+   "brand_text": [
+    "Crocin",
+    "Rantac"
+   ],
+   "ingredients": [
+    "crocin",
+    "rantac"
+   ],
+   "original_generics": [
+    "Crocin",
+    "Rantac"
+   ]
+  },
+  {
+   "rx_id": 449,
+   "brand_text": [
+    "Augmentin",
+    "Acitrom"
+   ],
+   "ingredients": [
+    "augmentin",
+    "acitrom"
+   ],
+   "original_generics": [
+    "Augmentin",
+    "Acitrom"
+   ]
+  },
+  {
+   "rx_id": 450,
+   "brand_text": [
+    "Ecosprin",
+    "Ibuprofen",
+    "Telma-H"
+   ],
+   "ingredients": [
+    "ecosprin",
+    "ibuprofen",
+    "telma-h"
+   ],
+   "original_generics": [
+    "Ecosprin",
+    "Ibuprofen",
+    "Telma-H"
+   ]
+  }
+ ]
+}

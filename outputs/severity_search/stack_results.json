@@ -1,0 +1,274 @@
+[
+    {
+        "stacker": "logreg",
+        "params": {
+            "C": 10.0
+        },
+        "mean_f1": 0.9022,
+        "std_f1": 0.0635
+    },
+    {
+        "stacker": "logreg",
+        "params": {
+            "C": 0.1
+        },
+        "mean_f1": 0.9008,
+        "std_f1": 0.0432
+    },
+    {
+        "stacker": "logreg",
+        "params": {
+            "C": 1.0
+        },
+        "mean_f1": 0.8948,
+        "std_f1": 0.0577
+    },
+    {
+        "stacker": "xgb",
+        "params": {
+            "n_estimators": 100,
+            "max_depth": 2,
+            "learning_rate": 0.1
+        },
+        "mean_f1": 0.8944,
+        "std_f1": 0.063
+    },
+    {
+        "stacker": "xgb",
+        "params": {
+            "n_estimators": 50,
+            "max_depth": 2,
+            "learning_rate": 0.05
+        },
+        "mean_f1": 0.893,
+        "std_f1": 0.0616
+    },
+    {
+        "stacker": "xgb",
+        "params": {
+            "n_estimators": 50,
+            "max_depth": 3,
+            "learning_rate": 0.05
+        },
+        "mean_f1": 0.8916,
+        "std_f1": 0.0564
+    },
+    {
+        "stacker": "xgb",
+        "params": {
+            "n_estimators": 200,
+            "max_depth": 3,
+            "learning_rate": 0.05
+        },
+        "mean_f1": 0.8882,
+        "std_f1": 0.0609
+    },
+    {
+        "stacker": "xgb",
+        "params": {
+            "n_estimators": 100,
+            "max_depth": 2,
+            "learning_rate": 0.05
+        },
+        "mean_f1": 0.8878,
+        "std_f1": 0.0566
+    },
+    {
+        "stacker": "xgb",
+        "params": {
+            "n_estimators": 50,
+            "max_depth": 4,
+            "learning_rate": 0.05
+        },
+        "mean_f1": 0.8868,
+        "std_f1": 0.0468
+    },
+    {
+        "stacker": "xgb",
+        "params": {
+            "n_estimators": 200,
+            "max_depth": 2,
+            "learning_rate": 0.05
+        },
+        "mean_f1": 0.8864,
+        "std_f1": 0.0599
+    },
+    {
+        "stacker": "xgb",
+        "params": {
+            "n_estimators": 100,
+            "max_depth": 4,
+            "learning_rate": 0.1
+        },
+        "mean_f1": 0.8861,
+        "std_f1": 0.0492
+    },
+    {
+        "stacker": "xgb",
+        "params": {
+            "n_estimators": 100,
+            "max_depth": 4,
+            "learning_rate": 0.05
+        },
+        "mean_f1": 0.883,
+        "std_f1": 0.0556
+    },
+    {
+        "stacker": "xgb",
+        "params": {
+            "n_estimators": 200,
+            "max_depth": 2,
+            "learning_rate": 0.1
+        },
+        "mean_f1": 0.883,
+        "std_f1": 0.0549
+    },
+    {
+        "stacker": "xgb",
+        "params": {
+            "n_estimators": 200,
+            "max_depth": 3,
+            "learning_rate": 0.1
+        },
+        "mean_f1": 0.883,
+        "std_f1": 0.0549
+    },
+    {
+        "stacker": "xgb",
+        "params": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.05
+        },
+        "mean_f1": 0.883,
+        "std_f1": 0.0549
+    },
+    {
+        "stacker": "xgb",
+        "params": {
+            "n_estimators": 300,
+            "max_depth": 3,
+            "learning_rate": 0.05
+        },
+        "mean_f1": 0.883,
+        "std_f1": 0.0549
+    },
+    {
+        "stacker": "xgb",
+        "params": {
+            "n_estimators": 300,
+            "max_depth": 3,
+            "learning_rate": 0.1
+        },
+        "mean_f1": 0.883,
+        "std_f1": 0.0549
+    },
+    {
+        "stacker": "xgb",
+        "params": {
+            "n_estimators": 300,
+            "max_depth": 4,
+            "learning_rate": 0.05
+        },
+        "mean_f1": 0.883,
+        "std_f1": 0.0549
+    },
+    {
+        "stacker": "xgb",
+        "params": {
+            "n_estimators": 300,
+            "max_depth": 4,
+            "learning_rate": 0.1
+        },
+        "mean_f1": 0.883,
+        "std_f1": 0.0549
+    },
+    {
+        "stacker": "xgb",
+        "params": {
+            "n_estimators": 50,
+            "max_depth": 4,
+            "learning_rate": 0.1
+        },
+        "mean_f1": 0.8829,
+        "std_f1": 0.047
+    },
+    {
+        "stacker": "xgb",
+        "params": {
+            "n_estimators": 50,
+            "max_depth": 2,
+            "learning_rate": 0.1
+        },
+        "mean_f1": 0.8828,
+        "std_f1": 0.0547
+    },
+    {
+        "stacker": "xgb",
+        "params": {
+            "n_estimators": 300,
+            "max_depth": 2,
+            "learning_rate": 0.05
+        },
+        "mean_f1": 0.8824,
+        "std_f1": 0.0543
+    },
+    {
+        "stacker": "xgb",
+        "params": {
+            "n_estimators": 300,
+            "max_depth": 2,
+            "learning_rate": 0.1
+        },
+        "mean_f1": 0.8824,
+        "std_f1": 0.0543
+    },
+    {
+        "stacker": "xgb",
+        "params": {
+            "n_estimators": 100,
+            "max_depth": 3,
+            "learning_rate": 0.05
+        },
+        "mean_f1": 0.8821,
+        "std_f1": 0.055
+    },
+    {
+        "stacker": "xgb",
+        "params": {
+            "n_estimators": 100,
+            "max_depth": 3,
+            "learning_rate": 0.1
+        },
+        "mean_f1": 0.8821,
+        "std_f1": 0.055
+    },
+    {
+        "stacker": "xgb",
+        "params": {
+            "n_estimators": 50,
+            "max_depth": 3,
+            "learning_rate": 0.1
+        },
+        "mean_f1": 0.882,
+        "std_f1": 0.0543
+    },
+    {
+        "stacker": "xgb",
+        "params": {
+            "n_estimators": 200,
+            "max_depth": 4,
+            "learning_rate": 0.1
+        },
+        "mean_f1": 0.8789,
+        "std_f1": 0.0536
+    },
+    {
+        "stacker": "logreg",
+        "params": {
+            "C": 0.01
+        },
+        "mean_f1": 0.6507,
+        "std_f1": 0.0085
+    }
+]

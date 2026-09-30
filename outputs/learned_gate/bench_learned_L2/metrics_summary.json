@@ -1,0 +1,12 @@
+{
+  "gate": "learned",
+  "split": "L2",
+  "n": 233,
+  "drug_match_rate": 0.9627,
+  "binary_f1": 0.995,
+  "auc_roc": 0.9717,
+  "accuracy_4class": 0.9313,
+  "macro_f1_4class": 0.95,
+  "severe_recall": 0.8769,
+  "severe_f1": 0.8906
+}

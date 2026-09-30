@@ -1,0 +1,245 @@
+## Bugs
+
+- `extraction.py:551-552` — phantom filtering prunes `valid_entities` but not `confidence_map`; `results['confidence_scores']=list(confidence_map.values())` is longer/index-shifted vs `entities`, so `pipeline.py:264,288,309,413-415` and UI attribute wrong confidence to wrong drug; UI silently falls back to `0.5` (`clinical_copilot_ui.py:962-965`).
+- `local_llm.py:54-55` — URLError returns error message as result; `pipeline.py:374-387` treats any non-empty string as `success: True`, so "Error communicating with local LLM…" becomes prescription text into NER/DDI.
+- `clinical_copilot_ui.py:465,487` — `finished = pyqtSignal(...)` overrides `QThread.finished` on both workers (destroyed-while-running / signal collision).
+- `clinical_copilot_ui.py:469-477,473,849` — `use_gemini` stored and never read; "Enable Local LLM Summaries" checkbox is no-op. `local_llm.py` uncalled anywhere.
+- `clinical_copilot_ui.py:863,882,901` — workers set to `None` without `wait()/deleteLater`; no `closeEvent` → QThread teardown race. Re-`_analyze` overwrites `self._worker` leaking old thread. `detector` mutates Gemini stats/rate-limit timestamps with no mutex/cancel across workers.
+- `clinical_copilot_ui.py:844-845,823-845` — analysis does not disable `upload_btn`, so OCR + analysis run concurrently on one shared pipeline. Heavy `QTimer.singleShot(200)` init blocks GUI thread; `finally` re-enables buttons even on failure.
+- `clinical_copilot_ui.py:791-802,876-877,905-906` — `_is_temporary_service_delay` matches generic `quota/temporarily` strings and downgrades real failures to `WARNING`; `os.chdir(script_dir):731` breaks relative paths/tests.
+- `clinical_copilot_ui.py:289,358` — `InteractionCard.get(...,"Severe")` defaults missing severity to Severe; `None` severity renders badge "None" with mild styling.
+- `tfidf_index.py:135-140` — `fuse_scores._norm` returns all-zeros when `hi==lo`, unanimous single-concept match fuses to `0.0` and rejected.
+- `tfidf_index.py:163` + `extraction.py:452,481` — with <2 live signals fused ceiling is `0.55/0.45/0.30`, below `_ACCEPT_THRESHOLD=0.62` → fusion accepts nothing when embeddings off/broken.
+- `tfidf_index.py:165` — `ranked[0][0] != ranked[1][0]` always true (dict keys unique); lead-margin guard never filters.
+- `tfidf_index.py:136` — absent concepts fold `0.0` fillers into min/max; present-but-negative cosine can normalize below absent concept.
+- `tfidf_index.py:195-205,193` — glued-token segmentation is first-fit: spurious valid 2-piece split preempts correct 3-piece parse; 2-char fragments qualify; `range(2,min(n-1,n-2+1))` when `range(2,n-1)` is meant.
+- `embeddings.py:270-272` — `find_most_similar` no-model fallback returns `candidates[:top_k]` (first k) with difflib scores, not most similar.
+- `embeddings.py:139` — `difflib.ratio()` returned on same channel as cosine; thresholds change meaning.
+- `embeddings.py:225-234` — `alias_concepts` length not validated vs `alias_texts/embeddings`; mismatch → `IndexError` → blanket `except` → `[]` silent total failure.
+- `embeddings.py:245` — `set(alias_texts)` rebuilt every query. Unbounded `embedding_cache` leak, no LRU/TTL, not thread-safe. `SentenceTransformer(...,dtype)` vs `torch_dtype` version skew disables model silently. `_POOL_MARGIN=0.03:174` bypassed on exact alias hit (`:245-246`) → trusts alias list absolutely.
+- `embeddings.py:295-296` — raw-path fallback encodes all candidate names per query; catastrophic if `precomputed_embeddings` is `None` (cache miss + precompute failure).
+- `severity.py:47-49` — both branches return `None if strict else NO_INTERACTION`; `if` has no effect. Unknowns ("Major","Contraindicated","Unknown") collapse to No Interaction (under-classification); `class_index` → `ValueError`, `risk_score` → `KeyError` on garbage.
+- `merge_labels.py:30` — `severity_to_int.get(sev,0)` maps unknown LLM severities ("No Interaction" not in map) to Mild(0) training labels.
+- `build_indian_brands.py:69-81` — duplicate dict key 2-cycle: `aspirin→acetylsalicylic acid` but `acetylsalicylic acid→aspirin` (last wins, flips DrugBank canonical).
+- `build_indian_brands.py:355,364` — `return c if (c in known or not c) else c` returns `c` both branches; unverified synonyms emitted. `verified` computed but never gating (`:597`). Duplicate `SEED_TARGETS` keys (`thyronorm 266-267`, `wysolone 267+269`, `combiflam 172+276`, `181/279`). Seed-only `n_rows=0,verified=False` entries ship as `priority=True` with no downstream confidence penalty (`:630-646`).
+- `generate_comparative_charts.py:188-190` — reads `input_tokens/output_tokens/calls` but `get_gemini_stats` emits `total_*` (`ddi.py:360-364`, `evaluate_ddi_system.py:368-379`) → token panel always empty.
+- `generate_comparative_charts.py:327-336` — multiplies already-percent default by 100 (missing keys → 9481); opposite convention to Chart 2. Hardcoded fallbacks (`:17,57-63,115-119,195,344`) still save charts — misleading. Chart7 hospital load `20/80` hardcoded (`:379-380,403,406`).
+- `ddi.py:601` — scrub regex `\b(Mild|Severe|VERY\s+SEVERE)\b` omits Moderate → inconsistent rewrites.
+- `ddi.py:658` — `self.drugbank_json.clear()` empties caller's dict inside `_build_drug_index`. Index only lowercased `name`+`drugbank-id` (`:648,655`), no synonyms/salts/brands, collision overwrites silently.
+- `ddi.py:650-655` + `:819` — DrugBank IDs inserted as name keys; fuzzy lookup matches names against `db00001`-style strings.
+- `ddi.py:726-778` — only first matching interaction per ordered direction returned (first `ratio>=0.85` wins, not argmax); more severe second description never seen. Dual `0.85` difflib gates, no length guard; swapped lookup doubles FP surface. `_fuzzy_drug_lookup:819-822` has no runner-up margin (look-alikes silently win); lookup is `O(index)` per pair and `check_interactions:674-683` is `O(n²)`.
+- `ddi.py:480-508` — keyword severity extractor biased upward (severe list `major,significant,substantially,marked increase`; moderate list `important,may increase,may decrease,caution`; default `Moderate`); fused by `max()` in both paths (`:744-749`, `:797-802`) → overcall / alert fatigue.
+- `ddi.py:775,735-776,438-478,384-430` — `risk_score` unbound in `else` branch (saved by ternary); `_custom_classify` returns `("Moderate",0.75)` on missing model/vocab/exception; hardcoded `['MedSeverityNet',...]` indices shift if one `.pt` fails; `lengths` left on CPU.
+- `ddi.py:797-802` — tie logged as "Severity mismatch… Using DB (more severe)" when no mismatch.
+- `ddi.py:555` — local `severity` shadows imported `severity` module (`UnboundLocalError` trap).
+- `ddi.py:117-119` — missing `GEMINI_API_KEY` with `enabled:true` logs nothing; silently falls back to keywords.
+- `ddi.py:302-303` — unreachable cleanup after retry loop.
+- `pipeline.py:226-228` vs `:144-154` — `_load_from_raw` loads only brand lexicon and discards return; cache vs raw paths diverge. `mappings:271` placeholder identity, no real brand resolution. `TRANSFORMERS_AVAILABLE` (from `ner.py`) wrongly gates embeddings; cache hard-requires both even if `use_embeddings=False`.
+- `pipeline.py:127,133,135,165` — `medicine_cache['medicine_names']/tensors['embeddings']` unvalidated; `.numpy()` fails on GPU/bfloat16, no device/dtype handling.
+- `pipeline.py:299-301` — `np.mean` yields `np.float64` not JSON-safe; same `np.mean(...)` computed twice; averaged fuzzy `detection_confidence` into `overall_confidence` misrepresents lookup similarity as clinical certainty. `ddi.py:774` `detection_confidence=min(match_score1,match_score2)` conflates drug-identity vs counterpart-name fuzzy scores; `generate_clinical_report:435-438` direct `['drug_a'/'drug_b'/'description'/'drugbank-id']` risks `KeyError`.
+- `pipeline.py:355-365,344-365` — OCR retry swallows exceptions with zero logging; no image-type/size/timeout validation; `response.strip:374` assumes `str`.
+- `pipeline.py:239-316` — `process_input` never fails; callers can't distinguish "no drugs" from "degraded pipeline". Phase labels contradict: announces "Phase 3/4 interactions" while logging `[PHASE 2]` (`:269-286`); formatting phase no-op.
+- `ner.py:68,89,154,233-239,178-224,241-249` — GLiNER `E3-JSI/...` hardcoded ignoring `config.yaml:13-14`; `device=-1/0` no cuda/mps; labels fixed `medication,drug,medicine,vitamin,supplement` miss vaccine/herbal/antibiotic; regex requires `[A-Z][a-z]+` misses lowercase `dolo`, over-matches `Patient`; fallback dict lacks `all_entities/active_model`, omits `start/end`; no max-length truncation OOM risk.
+- `confidence.py:58,88-91,110-115` — `1-min(std,1)` always `≥0.5`, `=1.0` single sample, ignores mean; `calibrate_confidence` not temperature scaling, div-by-zero all-zero, `nan` on negatives, can emit `>1`; `1-mean(var)` always `≥0.75`.
+- `pipeline.py:288` — `estimate_confidence` fed per-entity confidences, so std measures heterogeneity across drugs, not reliability.
+- `evaluate_ddi_system.py:168-169` — `s>=1` marks Mild binary-positive while Mild risk `0.25` never clears `0.5` → guaranteed FNs once Mild in GT. Comment says Moderate/Severe. Masked because test set has no Mild GT rows.
+- `evaluate_ddi_system.py:171-183,174-183` — ROC mixes continuous `P(Mod)+P(Sev)` (ensemble) with 4-value `RISK_SCORES` ladder (keyword); cross-mode AUC not comparable. Missing `serious_risk_score` falls back to `risk_score("")→0.05` silent low-risk.
+- `evaluate_ddi_system.py:152,146-162` — bidirectional-substring match runs before synonym resolution and short-circuits; inflates rate (`pan/pcm/hctz`). Reaches into private `extractor._resolve_names`. `detailed_results.csv:334` drops `pred/gt_interactions` loses auditability.
+- `evaluate_ddi_system.py:102-109` — prescription-level max-severity only; wrong pair + right severity scores correct.
+- `evaluate_ensemble.py:88-92,26,30,51-61,73-84,91,102,117-201` — naive weights fit on `val_labels` then scored on same `val`; `val batch_size=1` slow; temp fit on train (already seen), weight=`acc**2` fit on val then reported same val double-dip; naive/LogReg/XGB selected+evaluated same val, no held-out/nested CV; "simulated OOF" uses leaked full-train logits; stacker+temps saved to `cache/` ships leakage; bare `except:` hides roc/calibration; `XGB(...50,depth2)` "searched optimum" with no search; `OUTPUTS_DIR` relative.
+- `evaluate_ensemble.py:82,197-201` — `cache/ensemble_temps.json` is exactly the `[1.5]` init → temperature calibration never ran; production `ensemble_xgb_stacker.pkl`/temps overwritten as an eval side effect, so a partial failure leaves a new stacker with stale temps.
+- `evaluate_ensemble.py:26,30,51-61` — train_loader `shuffle=False` + sorting `collate_fn` misaligns `train_labels/logits` for stacker features (`val batch=1` dodges only by luck); `:95,120,177,203` `calibration_curve(n_bins=10)` on ~400 samples unstable, no empty-bin handling.
+- `tune_severity_search.py:236-239` — bare `except` silently substitutes AUC 0.5; `evaluate_ddi_system.py:161-162` `_gt_drug_found` `except→False` turns resolver errors into false misses.
+- `evaluate_ddi_system.py:104-106,250` — no CIs/bootstrap, no seed; latency includes variable Gemini API time.
+- `evaluate_ensemble.py:52-59` — labels collected only if `name=='MedSeverityNet'`; logits/labels silently misalign if renamed.
+- `tune_gemini_model.py:44-47,93-98,49-65,24-28,158` + `evaluate_ddi_system.py:386` — first-N=30 interaction-only rows, 18-config grid, tiny, no held-out, `f1_weighted` 4 labels No absent `zero_division=0` overfit; mutates shared detector without reset; `max_severity_label` collapses multi-pair hiding per-pair; tuned on `test_prescriptions.json` evaluated same file.
+- `tune_severity_search.py:522-526,278-279,341-342,395-396,415-450,479-535,61-70,400-412` — "paired" bootstrap draws unpaired indices; screen single `1300/300`, refine 3-fold, winner tie `0.002→fewer params` sound but `stage_stack` reuses winner-selection OOF optimistic; `stage_finalize` retrains full `1600` with `val400` checkpoint leaks; `val400_report_caveated` will be ignored; bootstrap resamples predictions not retraining understates variance.
+- `train_ensemble.py:28-33,62,83,90-92,43,67` — zero seeding (no torch/numpy/random/DataLoader generator); class weights from LLM distribution; `alpha=0.5` hard+soft + `label_smoothing=0.1` double-smooths; checkpoint on combined LLM-weighted val loss selects distillation fidelity. Severity targets near-constant: 1581/1600 rows identical soft `[.011,.011,.966,.011]` merged to Moderate (`custom_severity_model.py:79-86`), half of every loss contradicts hard label.
+- `custom_severity_model.py:65,81,95-117,17-25,10,120-359` — `random.seed(42)` inside `Dataset.__init__` mutates global RNG; default `soft_label=[0]*3` yields `soft_loss=0` while `alpha=0.5` halves effective loss; `collate_fn:97` sorts by length, predictions permute vs external labels; `build_vocab` counts raw-case chars while `encode_*` lowercases bloat+UNK, zero callers → `severity_vocab.json` provenance unverifiable; `hard_label` unmapped if 4-class input (`hard 3` OOB).
+- `add_typos.py:11-34,13-20` — mutates `test_prescriptions.json` at import, in place, no main guard, no backup, non-idempotent, 6 hardcoded pairs with zero occurrences (silent no-op rewrite, destroys clean set); should emit a separate split instead.
+- `relabel_chunks_gemini.py:59-60,13-15,24-26,42,57` — non-atomic write + skip-if-exists → truncated `_labeled.json` trusted forever; heuristic `may increase→Moderate` oversimplifies; hardcoded `gemini-2.5-flash` vs `config.yaml:38-39` `gemini-3.8-flash` drift; no id/count validation, no retry on `json.loads`.
+- `run_embedding_comparison.py:67-81,231,136-147` — rewrites `config.yaml` per model with no `try/finally`; crash leaves global config on last trial; stale-metric attribution risk.
+- `build_cache.py:235,329,365-368,394-398,413-418,426-429,86-87,214-217,219-233,37-45,307-313` — `list(set(...))` hash-randomized order, not reproducible, must `sorted()`; no seed/hash/version, non-atomic writes crash corrupts, no `--force`; `--tfidf-only` hardcodes filenames; final `getsize` summary raises if any file missing; `ramistar-am->[list]` vs rest `str` type inconsistency; `reuse_existing_cache` still recomputes embeddings/aliases/TFIDF but skips DrugBank write, brand-merge overwrites `medicine_synonyms.json` partial-update risk; junk filter `len>60` vs brand `>40`, `<=1` vs `<=2` inconsistent; batch heuristic `('...','2b',...)` fragile.
+- `build_indian_brands.py:284,592-594,591-593,615-627,378,668-669` — `AMBIGUOUS_BRANDS={'alcet','gemcal'}` vote winner wrong for other makers; CDCI weighted 3x vs junioralive 1x truncation risk remains; QA only notes `MISMATCH/INCOMPLETE/AMBIGUOUS` without blocking; `collapse_token` numeric strip `d3-60k→d3` collision; circular dep needs `cache/medicine_data.json` which `build_cache.py` produces using brands (first-build deadlock).
+- `brands.py:20,25-33,50-76` — `^ns(-|%| )?` matches any "ns*" (optional group, no anchor) over-broad; "500mg","12.5mg" pass `_ok_surface` concentration artifacts not blocked; brand-wins overwrites curated maps silently; `str` vs `list` type instability drops combo ingredients in fast path.
+- `brands.py`/`build_indian_brands.py` — lexicon resolves to ingredients absent from the index (`becosules→vitamin b complex`, `supradyn→multivitamin`, `econorm→saccharomyces boulardii` not in 19,830 `medicine_names`) → those prescriptions silently skip DDI or risk fuzzy mismatch (`ddi.py:819-822`).
+- `extraction.py:107-115,107-109,369-396` — FlashText uses only `canon[0]` (e.g. `augmentin→amoxicillin`) drops 2nd agent → missed DDI; `_resolve_names` uses all ingredients, so combo behavior differs per path.
+- `extraction.py:414-426` — `extract_keywords` duplicates counted; canonical `keyword` is re-resolved via raw mention → double-resolve edge.
+- `extraction.py:194-212,402-403,456,498,517,143-160,479-494` — `_clean_mention` order-dependent, empty falls back to raw `500mg` passes `_is_valid_entity` (only rejects pure digits/stopwords); semantic loop `break` first `>=thresh`, sub-threshold iterations useless, `confidence_map` keeps first not max.
+- `extraction.py:556-596,638-712,742-782,794-797` — grounding scans full `synonym_map` per entity `O(E*35k)`, word regex `[a-z][a-z\-]+` excludes `B12/D3`; fuzzy `weak=threshold*100 (0.75→75)`, `STRONG=92,MARGIN=3`, weak needs SymSpell agreement but SymSpell skips `term==cleaned` recall loss; `_ensure_symspell` uniform freq1 `max_dist2/prefix7` hardcoded, `_ensure_english_words` failure `words=set()` disables filter silent FP increase; `_normalize_text` strips `/-+&` then `_NET_CONNECTORS` skip means whole-text net never finds combos.
+- `eval_retrieval_spike.py:37-79,124-159,168,204-206,244,263,289-295,32-33,82-89` — only 37 queries imbalanced brand-dominated; lenient correctness inflates multiword; duplicated `POOL_MARGIN=0.03/ACCEPT=0.85` drift vs `config.yaml:23`; `find_most_similar_concepts` claims mirrors `embeddings.py` but dead line `:155` + missing exact-alias bypass/TF-IDF/FlashText; `mean_pool` only SapBERT unfair; incremental reuse drops `load_failed`, excludes `done` stale/survivorship; `run_ablation` uses only `MODELS[0]`; prints "5/5 PASS" for 6 cases; `ABLATION_QUERIES` unused.
+- `eval_retrieval_spike.py:155` — `query_lower = " ".join(str(query_emb.shape))` dummy leftover. Duplicate `out_path/mkdir/dump`.
+- `cli.py:27,37-48` — `scenario['name']` outside `try`; one malformed scenario crashes whole run. Nested `convert_types` redefined per scenario inside `with` inside loop.
+- `local_llm.py:10,23,36-37,50-55` — hardcoded `localhost:11434/ministral-3:8b` no `config.yaml`; no socket timeout hangs; `JSONDecodeError` propagates while `URLError` swallowed inconsistent; unchecked image load; dead code, uncalled.
+- `plots.py:78-83` — `save_metric_comparison` formats `"%.1f%%"` and `ylim(0,115)`; silently wrong for 0–1 fractions.
+- `test_backend.py:4-211` — shared global `_pipeline` state leakage, no fixtures; stopword 9 words vs prod weak; substring oracle fragile (`Aspirin` not in `acetylsalicylic acid` `test_scenario_2:56` may false-fail); no positive asserts OCR/unknown/interaction-focus only stopwords; missing scenario 8 numbering jumps `7→9`; no severity/confidence/latency/negative/edge; failure path dummy `metadata:186,191` masking.
+- `test_backend_severity.py:1-146` — print-only no `assert` (only `[ERROR]`), ambiguous oracle `Moderate # or Severe:44`, only 3 cases no Mild/TN/combo, `os.chdir:15` side-effect, `ClinicalCopilotPipeline()` without `config_path:28`, refs non-existent `generate_prescriptions.py:136`. `test_config.yaml` never consumed.
+- `data.py:40,48-63` — `getsize` for log, whole-file `json.load` (100s MB) OOM no streaming/`ijson`, brittle `'{http://www.drugbank.ca}drugbank/drug'` yields 0 but returns data → empty vocab silently; returns `{}` on failure (`FileNotFound→{}`, generic→{} with `print` not `logger`), caller `pipeline.py:220-237` doesn't check initializes empty extractor/detector silently. `_load_from_raw:222-224` hardcodes `{http://www.drugbank.ca}drugbank/drug/name` + `.lower()`; `{}` from data.py yields a silent empty `medicine_names` pipeline.
+- `config.py:84-103,26-38` — `get:99-100` collapses explicit `None` to default; `get()` no keys returns live mutable `self.config` leak; empty YAML `safe_load=None:30` → `self.config=None` → all `get` defaults silently. Defaults lack `cache.*`, diverge NER/embeddings/gemini vs `config.yaml`; no schema/type validation, no env override. `load_test_scenarios:474` calls `.get` on `None` yaml → uncaught `AttributeError` (`yaml.safe_load` can return `None`).
+- `tfidf_index.py:38,50,67,95,98-99,102-117` — `min_df=2` drops singleton trigrams rare drugs near-zero dense-only downgrade; `pickle.load:104` RCE if tampered; `_content_hash:113-117` written `:85` never checked; no `n_docs/order` validation `extraction.py:314-324` assumes first rows generics stale misattributes; `query` no guard assumes fitted; load ignores config filenames hardcodes `pkl/npz`.
+- `evaluate_ddi_system.py:53-55,57-62` — keyword mode disables custom model by mutating live config after loading (global side effect, won't trigger reload); dual tuning paths precedence unclear.
+
+## Incorrect assumptions
+
+- That error strings from `local_llm` are model output (`pipeline.py:374`).
+- That `confidence_scores` stays parallel to `entities` after filtering (`extraction.py:552`).
+- That UI `use_gemini` flag is honored (`clinical_copilot_ui.py:473`).
+- That `finished` is free to reuse as signal name on `QThread` subclass.
+- That min-max normalization always yields usable scores (`tfidf_index.py:135`); that one live signal can reach `0.62` accept (`:163`).
+- That `ranked[0][0]!=ranked[1][0]` can be false (`:165`).
+- That folding unknown severities into "No Interaction" is fail-safe (`severity.py:49`, `merge_labels.py:30`).
+- That `s>=1` means "Moderate/Severe" (`evaluate_ddi_system.py:168-169` comment says so, code counts Mild).
+- That `RISK_SCORES` ladder is continuous probability for ROC/AUC (`severity.py:22-27`, `evaluate_ddi_system.py:177-180`).
+- That `RISK_SCORES` constants and `P(Mod)+P(Sev)` are same scale (`ddi.py:746` takes `max()` across them; `ddi.py:473` `P(Mod)+P(Sev)` vs discrete).
+- That prescription-level max severity captures pair correctness (`evaluate_ddi_system.py:102-109`).
+- That bidirectional substring is "synonym-aware drug matching" (`:146-162`, `eval_retrieval_spike.py:204-206`).
+- That tuning Gemini on test set yields unbiased test metrics (`tune_gemini_model.py:44-46,158` first-30 rows `test_prescriptions.json`, docstring `:10` recommends tuned config for eval same file).
+- That ensemble weights fit on val can be scored on val (`evaluate_ensemble.py:88-92`).
+- That bootstrap is paired (`tune_severity_search.py:522`).
+- That `train_ensemble.py` runs are reproducible; that `random.seed` inside Dataset is harmless (`custom_severity_model.py:65`).
+- That zero vector is valid soft label (`:81`); that `label_counts.get(i,1)` is sane class weight (`train_ensemble.py:30`).
+- That `collate_fn` output order matches external labels (`:95-97` sorts in place; `tune_severity_search.py:61-70` documents collapse to chance).
+- That difflib ratio is calibrated against cosine (`embeddings.py:139` `0-1` vs `0.5-1.0` under same `0.85`); that fallback returns most similar (`:270`).
+- That `calibrate_confidence` is temperature scaling and `ci_95_*` are confidence intervals (`confidence.py:77-91,60-65` needs logits+softmax, breaks all-zero, can emit `>1`).
+- That `1-std` is confidence and entity-spread measures reliability (`confidence.py:58`, `pipeline.py:288` std across drugs, typical `std<0.3` → always `0.7-1.0`).
+- That MC Dropout / ensemble / `method` / `n_iterations` are implemented (`confidence.py:17-32`).
+- That TF-IDF `content_hash` detects staleness (`tfidf_index.py:85,113-117` — never read).
+- That fusion is active (`extraction.py:83` hardcodes `_use_tfidf=False`, yet `pipeline.py:182-188` loads index; 7.6MB matrix shipped).
+- That first valid 2-piece glued-token split is correct (`:195`); that `max_pieces` generalizes past 3 (`:200`, `:174` only 2/3 exist).
+- That `^ns(-|%| )?` only matches NS artifacts (`brands.py:20`); that concentration surfaces blocked (`:25-33`).
+- That `normalize_ingredient` is idempotent/canonical (`build_indian_brands.py:69-81` cycle).
+- That validation `return c if (c in known or not c) else c` filters anything (`:355`).
+- That `gemini_stats` keys are `input_tokens/calls` (`generate_comparative_charts.py:188-190` vs `total_*`).
+- That `QTimer.singleShot(200,…)` makes loading async (`clinical_copilot_ui.py:720-734` — defers then blocks).
+- That button disabling is mutual exclusion (`:823-845`).
+- That worker ref can be dropped when result slot fires (`:863`).
+- That `config.yaml` always restored after `run_embedding_comparison.py` (no `try/finally` `:67-81,231`).
+- That importing `add_typos` is side-effect-free (`:11-34` top-level rewrite).
+- That skip-if-exists implies valid labeled chunk (`relabel_chunks_gemini.py:13-15`).
+- That `drugbank_json` may be safely cleared (`ddi.py:658` mutates caller).
+- That cache-path and raw-path startup equivalent (`pipeline.py:144-228`); missing-file defaults equivalent (`config.py:42-82` vs `config.yaml:13-23,37-47` NER `biobert/0.7` vs `blaze999/0.6`, embeddings `MiniLM/0.75` vs `granite/0.85`, `gemini.enabled:false` vs `true`, `reasoning_enabled:true` vs `false`).
+- That `RAW_RANKS["VERY SEVERE"]` reachable (`severity.py:19` — normalize maps to "Severe" first).
+- That regex-NER `0.5` confidence is measurement (`ner.py:243`).
+- That `urlopen` needs no timeout and `URLError` only failure (`local_llm.py:50-55`).
+- That `abs/hasattr/getattr` guards needed on `__init__`-guaranteed attrs (`extraction.py:414,600,614,725`, `ddi.py:439,465` — hides real errors; `ddi.py:106,430` half-init `None→True`).
+- That `if self.config:` is meaningful guard (`pipeline.py:63` — `ConfigLoader` no `__bool__`, always truthy).
+- That first DrugBank match per direction is right one (`ddi.py:726`).
+- That `.title()` recovers case-sensitive names (`extraction.py:799-809` destroys true casing).
+- That Phase 2 "Formatting" does real work (`pipeline.py:269-271` identity only).
+- That `print` and `logger` interchangeable (pipeline/data/ner mix both).
+- That `test_prescriptions.json` still has 100 rows (`generate_comparative_charts.py:106` says so; file has 233; `README:269` says 233).
+- That positional chunk IDs stay stable (`split_data.py:10,20` `len//40` uneven last chunk strips to `{id,text}` losing labels, no checksum; `merge_labels.py` no checksum).
+- That `generic_scores` and `max_pieces` params have effect (`tfidf_index.py:156,174`).
+- That `custom_severity_model.py:79-86` 4-class `soft_label` index 0=No Interaction is meaningful and per-row soft labels meaningful; data near-constant Moderate, `severity.py:8-12` declares 0=Mild No Interaction not classifier class.
+- That temperature optimization on train "prevents leakage" (`evaluate_ensemble.py:73`); NLL on in-sample logits doesn't calibrate, doesn't address checkpoint/stacker leakage.
+- That non-OOF stacker impact is "modest" (`:140-149` unverified).
+- That `val_labels>0` is serious vs no-interaction (`:65`) while 0 is merged low-risk bucket and all val texts known interactions — ≈0.99 AUC not deployed task.
+- That `cache/severity_val_hq.json` is validation set though also reporting+stacker+search finalize set.
+- That detection metrics measure system though GT carries same `drugbank_id/description` detector returns — measures lookup agreement.
+- That `build_indian_brands.py:19` ingredients "self-verified against cache/medicine_data.json".
+- That `eval_retrieval_spike.py:5-7` parity with production max-pool+margin though omits exact-alias bypass, `_clean_mention`, grounding; SapBERT pooling ignores mask.
+- That `split_hq.py:11` non-stratified shuffle acceptable for 400-row val; `llm_label` always present (raises otherwise); in-place `label` overwrite with no backup; `merge_labels.py:34-35` in-place non-idempotent.
+- That `TRANSFORMERS_AVAILABLE` gates embeddings correctly; `yaml.safe_load` never returns `None`; OCR throttle params sufficient without image validation.
+- That max-only severity fusion is safe ("never downgrade" + "if uncertain, Severe" `ddi.py:535`) — guarantees overcall/alert fatigue.
+- That single-model `gemini-2.5-flash` labels are ground truth — no human adjudication/inter-rater data; keyword baseline graded by the same model the ensemble distills (`evaluate_ddi_system.py:61`, `relabel_chunks_gemini.py`) → correlated oracles inflate agreement.
+- That severity chunks and `test_prescriptions.json` are decontaminated — no drug-level split across them.
+- That relative `Path("outputs")` + `config_path="config.yaml"` resolve same under pytest/CLI/UI.
+- That `pyproject.toml:7-45` lower-bounds only + `cu128` index gives reproducible CPU/GPU; embedding/GLiNER versions unpinned ok.
+
+## Dead code
+
+- `severity.py:47-48` — branch both returns identical to `:49`.
+- `severity.py:19` — `RAW_RANKS["VERY SEVERE"]` unreachable via `normalize`.
+- `tfidf_index.py:165` — `ranked[0][0]!=ranked[1][0]` always true.
+- `tfidf_index.py:156` — `generic_scores` never read.
+- `tfidf_index.py:85,113-117` — `content_hash` written "for staleness", never verified.
+- `tfidf_index.py:193` — `min(n-1,n-2+1)` tautology.
+- `extraction.py:83` + `:273-277,310-358` — `_use_tfidf=False` makes `_fuse_retrieval`, `_get_tfidf_concept_scores`, `_FUSION_*` unreachable (yet `pipeline.py:182-188` still loads cache; `build_cache.py --tfidf-only` unreachable at runtime).
+- `extraction.py:406` — `results['ml_entities']` initialized, never populated/read.
+- `extraction.py` + `ddi.py:826-838` — `_is_similar_drug` never called.
+- `confidence.py:77` `calibrate_confidence`, `:93` `ensemble_confidence`, `:31-32` `method/n_iterations` — defined/configured, never used.
+- `clinical_copilot_ui.py:473` — `AnalysisWorker.use_gemini` stored, never read.
+- `ddi.py:302-303` — unreachable cleanup after retry loop.
+- `pipeline.py:63` — `if self.config:` always truthy.
+- `eval_retrieval_spike.py:155` — `query_lower = " ".join(str(query_emb.shape))` dummy leftover. Duplicate `out_path/mkdir/dump (:286,334)`, unused ablation queries.
+- `build_indian_brands.py:266/267,267/269,172/276,181/279` — duplicate `SEED_TARGETS` keys; earlier entries unreachable.
+- `ddi.py:385-407` + `:424,428,455` — model-name triple copy-pasted 4+ times; three near-identical `try` blocks.
+- `ddi.py:440,445,478` — hardcoded `("Moderate",0.75)` duplicates `RISK_SCORES["Moderate"]`.
+- `merge_labels.py:21` — `VERY SEVERE→2` unreachable (prompt only allows 3 labels); `ddi.py:186-202` `update_gemini_config` ignores thinking-level/interval/pricing keys.
+- `pipeline.py:299,301` — same `np.mean(...)` computed twice in one dict.
+- `pipeline.py:271` + `:295` — `brand_generic_mappings` always identity; vestigial Phase 2.
+- `ddi.py:55-57` — `_is_gemini_zero_quota` "limit: 0" sniff fragile.
+- `embeddings.py:240` — `ranked = lambda scores: ...` (E731).
+- `ner.py:249` vs `:183` — fallback omits `active_model`; `:243-246` omits `start/end` (schema drift, half-dead contract; DOSAGE/FREQ/DURATION produced but only `MEDICATION` consumed `extraction.py:434`).
+- `plot_search_charts.py:32-34,90` — `lr` missing from `NUMERIC_HINTS` so `if name=="lr"` branch unreachable.
+- `test_config.yaml:1-75` never consumed; `test_backend_severity.py:136` refs non-existent `generate_prescriptions.py`.
+- `custom_severity_model.py:build_vocab:17-25` zero callers; `build_cache.py:121-137` `extract_list` redefined per loop; `clinical_copilot_backend.py:1-48` thin re-export shim.
+- `evaluate_ddi_system.py:55` — mutates `config['models']['custom_severity']['enabled']` after loading already happened (line 54 alone controls).
+- `custom_severity_model.py:379-394` — `build_model_from_config` no unknown-name error path (silently TinyClinicalFormer).
+
+## Overcomplicated code
+
+- `extraction.py` (809 ln) — fuses stopwords, dose/form regex, combo splitting, dense retrieval, TF-IDF retrieval, RapidFuzz/SymSpell fuzzy, whole-text n-gram net, name resolution, phantom grounding. 5+ responsibilities, hardcoded thresholds (`0.85,.62/.03,92/3`) duplicated, disabled fusion branch.
+- `ddi.py` (838 ln) — mixes DrugBank indexing, Gemini transport/retry/quota/cost, PyTorch ensemble loading+inference, keyword heuristics, fuzzy lookup, pair scanning. 4 severity sources (DB keywords, custom ensemble, Gemini, max-rule) fused in one long method; same namespace dict/list shapes re-parsed in `_build_drug_index` and `_find_interaction`.
+- `clinical_copilot_ui.py` (1063 ln) — styles + widgets + threads in one file; QSS, cards, workers, pipeline lifecycle co-located.
+- Custom severity loading is 3× copy-paste `try` blocks (`ddi.py:385-407`) for `for name in [...]` loop.
+- Backoff/rate-limiting twice with different jitter (`pipeline.py:344-365` vs `ddi.py:204-303`).
+- Fusion constants (`0.55/0.30/0.15/0.62/0.03`) duplicated in 4 places (`tfidf_index.py:24-28`, `extraction.py:273-277`, `embeddings.py:174`, `eval_retrieval_spike.py:32`) with split-brain accept (`0.85` vs `0.62`).
+- Alias-pool max-pool reimplemented by hand (`extraction.py:279-304` hand-rolled cosine `1e-8`) instead of `embeddings.find_most_similar_concepts` (`util.cos_sim`).
+- Junk-alias regexes duplicated (`build_cache.py:31-34` vs `build_indian_brands.py:556-558`) mirrored in `brands.py:17-33` (three homes, divergent caps 60 vs 40); two `max_severity` helpers with reversed field priority.
+- Severity→int mapping duplicated 3× (`severity.py:14-27`, `merge_labels.py:17-22`, prose `relabel_chunks_gemini.py:23-26`) — diverged into bug.
+- Training loop + distillation loss copy-pasted 3× (`train_ensemble.py:55-86`, `tune_severity_search.py:204-216,479-492`).
+- `collate_fn` forked 2× (`custom_severity_model.py:95-117` vs `tune_severity_search.py:61-86`) to dodge sorting bug instead of fixing original.
+- Retrieval accept/match loop duplicated inside `eval_retrieval_spike.py` (`:192-214` vs `:249-261`); re-implements production retrieval instead of importing it.
+- Metrics-loading `try/except` boilerplate ×7 with per-site fallbacks (`generate_comparative_charts.py:66-86,121-135,277-300,327-336`).
+- Two risk definitions unified by `max()` (RISK ladder vs `P(Mod)+P(Sev)`, `ddi.py:746`).
+- Over-defensive `getattr/hasattr` on `__init__`-guaranteed attrs (`extraction.py:414,600,614,725`, `ddi.py:439,465`) — ad-hoc half-init state machine (`ddi.py:106,430` `custom_model` flips `None→True`).
+- Glued-token regex applied twice per request (`extraction.py:402-403` + `_clean_mention:202-204`).
+- `_get_rf_scores` wraps `extractOne` around 1-element list per candidate (`:334-338`) instead of `fuzz.WRatio`.
+- `evaluate_and_ensemble` (`evaluate_ensemble.py`) both evaluates and trains stackers + writes production artifacts as side effect.
+- `_resolve_tuned_config_path` (`evaluate_ddi_system.py:64-85`) silently substitutes different config rather than failing.
+- Nested `convert_types` redefined per scenario inside `with` inside loop (`cli.py:37-48`).
+- Package-level `load_dotenv()` + `warnings.filterwarnings('ignore')` + `logging.basicConfig` at import (`__init__.py:7-19`), duplicated in UI — global policy in 3 places.
+- Three "keyword" meanings (`--mode keyword`=Gemini+DB, `outputs/Keyword/`="Gemini Pipeline", "Fuzzy Keyword"=third baseline).
+- `severity.py` defines both `RAW_RANKS` (0–3) and `OUTCOME_LABELS` indices (0–3, different meaning); `rank` vs `class_index` easy to interchange.
+- Stacker logic twice (`evaluate_ensemble.py:131-201`, `tune_severity_search.py`) and bar/heatmap logic duplicated across `plots.py`, `generate_comparative_charts.py`, `plot_search_charts.py`.
+- `tune_severity_search.py` (~29KB) embeds four stages, custom resume logging, duplicated `collate_nosort_fn`, duplicate baseline trials (`:345-347`).
+- `generate_comparative_charts.py` bakes editorial transforms (`100/(1+latency)`, `100-min(90,cost*10000)`) and fabricated fallbacks into chart data.
+- `ConfidenceEstimator` advertises MC-dropout/ensemble/temp but computes `1-std` one-line.
+
+## Documentation inaccuracies
+
+- `extraction.py:799-809` — `_get_original_name` claims "Retrieve case-sensitive name (Fallback to title case)"; only does `lowercase.title()`, looks nothing up.
+- `ddi.py:688-699` — docstring placed after two statements, so `_find_interaction` has no real docstring (no-op expression).
+- `confidence.py:16-21` — advertises "Monte Carlo Dropout, Ensemble, Temperature scaling"; only mean/std/percentiles implemented.
+- `confidence.py:77` — `calibrate_confidence` is not temperature scaling (operates on scores, preserves mean; not distribution).
+- `confidence.py:60-65` — percentiles named `ci_95_lower/upper` are not confidence intervals.
+- `clinical_copilot_ui.py:721` — "Load backend asynchronously" above 200ms deferral that then blocks GUI thread.
+- `clinical_copilot_ui.py:625-627` — "Enable Local LLM Summaries" (Gemini toggle, does nothing); "Local LLM" elsewhere means Ollama.
+- `evaluate_ddi_system.py:168-169` — "Binary task: interaction (Moderate/Severe) vs no interaction" above `s>=1` which includes Mild. `:10` recommends `--tuned-config outputs/.../best_config.json` test-tuned pins `2.5-flash` while `config.yaml:38` uses `3.8-flash`.
+- `pipeline.py:111` — stale "All three main files" (four named, three required). `:144-154` `_try_load_from_cache` says returns `False` "if any cache file missing"; also returns `False` on exceptions (`:213-215`). `:274` Phase 3 logged as `[PHASE 2]`; `[PHASE 3]` never appears (1→2→4). `:260-286` phase announcements don't match log numbers, Phase 2 formatting does nothing.
+- `ddi.py:662` / `pipeline.py:275` — `check_interactions` says "List of generic drug names" but receives title-cased brand/display names. `:66-72` `__init__` omits `config` param. `:739-743` design notes as ordinary comments, readers assume fused path live.
+- `severity.py:63` — `risk_score` "Mild is non-serious" yet `RISK_SCORES["Mild"]=0.25` non-zero used as positive ROC score. `:1-6` presents "No Interaction" as clean outcome while `normalize` silently maps unknowns into it.
+- `tfidf_index.py:158-161` — `should_accept` "lead over different-concept runner-up" — condition always true, comment describes unimplemented behavior. `:174` `max_pieces` implies generality; only 2/3-piece parses exist. `:85,113` "for staleness detection" on hash nothing reads.
+- `embeddings.py:133` — `compute_similarity` promises "(0-1)"; raw cosine can be negative and difflib shares channel.
+- `build_indian_brands.py:18-19` — claims synonyms "self-verified against cache/medicine_data.json"; `:355/:364` verification no-op. `:82` / `eval_retrieval_spike.py:82,235,263` — "5 cases"/"5/5 PASS" for 6 ablation entries.
+- `generate_comparative_charts.py:106` — "100 Prescriptions" when `test_prescriptions.json` has 233 rows. `:190` "No Gemini calls (custom model mode)" fires because of key mismatch, not mode.
+- `evaluate_and_ensemble` name says "evaluate"; trains stackers and writes `cache/ensemble_*.pkl` / `ensemble_temps.json`.
+- `evaluate_ensemble.py:73-84` documents temperature-fit leakage avoidance, but adjacent naive-ensemble weight leak (`:88-92`) undisclosed — in-file caveat (`:145-149`) covers only stacker. `tune_severity_search.py:510-513` labels val report "caveated"; `evaluate_ensemble.py` reports same kind val-picked metrics with no caveat.
+- `_get_gemini_severity(...)->str` and `_get_gemini_reasoning(...)->str` (`ddi.py:510,564`) return `None` on several paths; should be `Optional[str]`. `_custom_classify_severity(...)->tuple` (`:438`) should be `Tuple[str,float]`.
+- `extraction.py:398` — `extract_entities` (main entry) has no docstring. `:369` `_resolve_names(self, entity: str)->list` — bare `list`, body mis-indented one level.
+- `severity.py` — no type hints on `_clean,normalize,rank,class_index,risk_score,max_label`. `plots.py`, `brands.load_brand_lexicon()->dict`, `tfidf_index.segment_glued_token(known_names:set)`, `ConfigLoader.get(*keys,default=None)` — missing/under-specified hints.
+- `data.py:48-56` — `load_json_data` both mutates `self.json_data` and returns it; dual interface undocumented.
+- `clinical_copilot_ui.py:289,358` — `InteractionCard.get(...,"Severe")` covers absent keys only; `None` renders badge "None" with mild styling — default documents intent code doesn't have.
+- `README.md:50` — fuzzy `difflib.get_close_matches` 1–5 grams cutoff 0.75 vs actual RapidFuzz WRatio+SymSpell 1–2 grams (0.75 weak lower bound).
+- `README.md:59,266,269-271` — "rigorous OOF…without inflation/leakage", "~94.5% accuracy", "highly calibrated curves", `AUC 0.9849/0.9932 Sens100% Spec96.88%` vs val reuse, no-op temps, corrupted soft targets, current defaults `94.69/86.69` — docs vs code drift.
+- `README.md:230-259` — `identified_medicines` plain strings and `brand_generic_mappings` with composition vs actual dicts and identity mappings.
+- `README.md:111-112` — Gemini toggle and MedicineTile composition/price/manufacturer/Rx — toggle unwired, fields never populated.
+- `README.md:176-188,130,175-189` — config snippet `E3-JSI/gliner-…` for NER vs `config.yaml:13` `blaze999/Medical-NER` (GLiNER hardcoded `ner.py:68`); omits alias/TF-IDF/brand files, stale snippet.
+- `README.md:167-169` — `full_database.json` required vs cache-first never reads it.
+- `comparative_study.md` — weights "correctly applied validation-set scaling" when fit on reporting val set. Radar normalizations ad-hoc `100/(1+lat)`, `100-min(90,cost*10000)`, privacy `10/100` undocumented on chart.
+- `brands.py:5-6` — claims generated ingredients verified DrugBank generics — empirically false (`becosules→vitamin b complex`, `supradyn→multivitamin`, `econorm→saccharomyces boulardii` absent from 19,830 names).
+- `custom_severity_model.py:79` — comment claims `llm_label` "for validation set" and `label` for training — both sets carry `llm_label`.
+- `eval_retrieval_spike.py` docstring/title claim production parity and "5-case" ablation while running 6 cases omitting alias bypass/cleaning.
+- `tune_severity_search.py:14` — says "mirrors evaluate_ensemble.py", but drifted in stacker artifacts/protocol.
+- `clinical_copilot_backend.py:5-6` — docstring refs `build_cache.py,evaluate_ddi_system.py` consumers stale. `evaluate_ensemble.py:188-192` "searched optimum" XGB with no search in file.

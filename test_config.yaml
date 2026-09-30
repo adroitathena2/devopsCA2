@@ -1,0 +1,75 @@
+test_scenarios:
+  - id: "scenario_1"
+    name: "Simple Prescription with Common Indian Brand"
+    input_text: "Patient prescribed Dolo 650 twice daily for fever"
+    expected_entities:
+      - "Dolo 650"
+    expected_conditions:
+      - "fever"
+    expected_interactions: 0
+    
+  - id: "scenario_2"
+    name: "Multiple Drugs with Potential Drug-Drug Interaction"
+    input_text: |
+      Patient Chart:
+      1. Aspirin 75mg - once daily (cardiovascular protection)
+      2. Clopidogrel 75mg - once daily (antiplatelet)
+      3. Atorvastatin 10mg - bedtime (cholesterol)
+    expected_entities:
+      - "Aspirin"
+      - "Clopidogrel"
+      - "Atorvastatin"
+    expected_interactions: ">0"
+    
+  - id: "scenario_3"
+    name: "OCR Errors - Fuzzy Matching Test"
+    input_text: "Prescribe Dlo 650 and Metfrmn 500mg"
+    expected_entities:
+      - "Dolo 650"
+      - "Metformin"
+    ocr_errors: true
+    
+  - id: "scenario_4"
+    name: "Combination Drug with Multiple Active Ingredients"
+    input_text: "Ramistar-AM 5 Tablet once daily for hypertension"
+    expected_entities:
+      - "Ramistar-AM"
+    expected_conditions:
+      - "hypertension"
+    multi_ingredient: true
+    
+  - id: "scenario_5"
+    name: "Unknown Drug - Error Handling"
+    input_text: "Prescribe XYZ Brand 100mg (hypothetical drug)"
+    expected_entities:
+      - "XYZ Brand"
+    expect_unknown: true
+    
+  - id: "scenario_6"
+    name: "Complex Diabetes Management Prescription"
+    input_text: |
+      Diabetes Management Plan:
+      - Metformin 500mg (twice daily with meals)
+      - Glimepiride 2mg (before breakfast)
+      - Aspirin 75mg (once daily - cardiovascular protection)
+    expected_entities:
+      - "Metformin"
+      - "Glimepiride"
+      - "Aspirin"
+    expected_conditions:
+      - "diabetes"
+    expected_interactions: 0
+
+# Validation Rules
+validation:
+  min_confidence_pass: 0.7
+  require_all_entities_found: false
+  allow_partial_matches: true
+  
+# Test Execution Settings
+execution:
+  run_all_scenarios: true
+  stop_on_failure: false
+  generate_report: true
+  output_path: "test_results/"
+  compare_with_baseline: false

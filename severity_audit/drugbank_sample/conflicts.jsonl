@@ -1,0 +1,73 @@
+{"chunk": "sample_00", "id": 5, "text": "The risk or severity of QTc prolongation can be increased when Bilastine is combined with Fostemsavir.", "agentA": "Moderate", "agentB": "Severe"}
+{"chunk": "sample_00", "id": 51, "text": "The risk or severity of QTc prolongation can be increased when Oxaliplatin is combined with Dexchlorpheniramine maleate.", "agentA": "Moderate", "agentB": "Severe"}
+{"chunk": "sample_00", "id": 96, "text": "Betaxolol may increase the arrhythmogenic activities of Trimebutine.", "agentA": "Moderate", "agentB": "Severe"}
+{"chunk": "sample_00", "id": 99, "text": "The risk or severity of QTc prolongation can be increased when Tetrahydropalmatine is combined with Gemifloxacin.", "agentA": "Moderate", "agentB": "Severe"}
+{"chunk": "sample_01", "id": 112, "text": "The risk or severity of QTc prolongation can be increased when Lofexidine is combined with Abexinostat.", "agentA": "Moderate", "agentB": "Severe"}
+{"chunk": "sample_01", "id": 167, "text": "The risk or severity of hypertension can be decreased when Fludiazepam is combined with Phenylephrine.", "agentA": "Moderate", "agentB": "Mild"}
+{"chunk": "sample_01", "id": 169, "text": "The risk or severity of QTc prolongation can be increased when Tizanidine is combined with Dexverapamil.", "agentA": "Moderate", "agentB": "Severe"}
+{"chunk": "sample_01", "id": 170, "text": "The risk or severity of QTc prolongation can be increased when Hydroxychloroquine is combined with Paliperidone.", "agentA": "Moderate", "agentB": "Severe"}
+{"chunk": "sample_01", "id": 175, "text": "The risk or severity of QTc prolongation can be increased when Encorafenib is combined with Sevoflurane.", "agentA": "Moderate", "agentB": "Severe"}
+{"chunk": "sample_01", "id": 181, "text": "Phentermine may decrease the sedative activities of Astemizole.", "agentA": "Moderate", "agentB": "Mild"}
+{"chunk": "sample_01", "id": 197, "text": "The risk or severity of QTc prolongation can be increased when Granisetron is combined with Bedaquiline.", "agentA": "Moderate", "agentB": "Severe"}
+{"chunk": "sample_02", "id": 207, "text": "The risk or severity of QTc prolongation can be increased when Mocetinostat is combined with Temafloxacin.", "agentA": "Severe", "agentB": "Moderate"}
+{"chunk": "sample_02", "id": 213, "text": "The risk or severity of QTc prolongation can be increased when Fluoxetine is combined with Roxithromycin.", "agentA": "Severe", "agentB": "Moderate"}
+{"chunk": "sample_02", "id": 226, "text": "The risk or severity of QTc prolongation can be increased when Isradipine is combined with Quizartinib.", "agentA": "Severe", "agentB": "Moderate"}
+{"chunk": "sample_02", "id": 232, "text": "The risk or severity of bleeding can be increased when Relcovaptan is combined with Antithrombin Alfa.", "agentA": "Severe", "agentB": "Moderate"}
+{"chunk": "sample_02", "id": 234, "text": "The risk or severity of QTc prolongation can be increased when Loperamide is combined with Oxatomide.", "agentA": "Severe", "agentB": "Moderate"}
+{"chunk": "sample_02", "id": 254, "text": "Epimestrol may increase the thrombogenic activities of Rozrolimupab.", "agentA": "Severe", "agentB": "Moderate"}
+{"chunk": "sample_02", "id": 266, "text": "The risk or severity of QTc prolongation can be increased when Levomenthol is combined with Prulifloxacin.", "agentA": "Severe", "agentB": "Moderate"}
+{"chunk": "sample_02", "id": 277, "text": "The risk or severity of QTc prolongation can be increased when Levofloxacin is combined with Dofetilide.", "agentA": "Severe", "agentB": "Moderate"}
+{"chunk": "sample_02", "id": 287, "text": "The risk or severity of QTc prolongation can be increased when Erythromycin is combined with Ricolinostat.", "agentA": "Severe", "agentB": "Moderate"}
+{"chunk": "sample_03", "id": 346, "text": "The risk or severity of QTc prolongation can be increased when Levacetylmethadol is combined with Selpercatinib.", "agentA": "Moderate", "agentB": "Severe"}
+{"chunk": "sample_03", "id": 351, "text": "The risk or severity of QTc prolongation can be increased when Amodiaquine is combined with Adagrasib.", "agentA": "Moderate", "agentB": "Severe"}
+{"chunk": "sample_04", "id": 404, "text": "The therapeutic efficacy of Castor oil can be decreased when used in combination with Nicardipine.", "agentA": "Mild", "agentB": "Moderate"}
+{"chunk": "sample_04", "id": 405, "text": "The therapeutic efficacy of Plantago ovata seed can be decreased when used in combination with Difemerine.", "agentA": "Mild", "agentB": "Moderate"}
+{"chunk": "sample_04", "id": 407, "text": "The therapeutic efficacy of Emodin can be decreased when used in combination with Diphemanil.", "agentA": "Mild", "agentB": "Moderate"}
+{"chunk": "sample_04", "id": 436, "text": "The therapeutic efficacy of Naluzotan can be increased when used in combination with Lofexidine.", "agentA": "Moderate", "agentB": "Mild"}
+{"chunk": "sample_04", "id": 444, "text": "Carvedilol may increase the arrhythmogenic activities of Azelnidipine.", "agentA": "Moderate", "agentB": "Severe"}
+{"chunk": "sample_04", "id": 473, "text": "Estrone may increase the thrombogenic activities of Depatuxizumab.", "agentA": "Moderate", "agentB": "Severe"}
+{"chunk": "sample_04", "id": 474, "text": "Tertatolol may increase the arrhythmogenic activities of Lomerizine.", "agentA": "Moderate", "agentB": "Severe"}
+{"chunk": "sample_04", "id": 479, "text": "Nitrendipine may increase the arrhythmogenic activities of Tocainide.", "agentA": "Moderate", "agentB": "Severe"}
+{"chunk": "sample_04", "id": 491, "text": "Cyclandelate may increase the arrhythmogenic activities of Cariporide.", "agentA": "Moderate", "agentB": "Severe"}
+{"chunk": "sample_04", "id": 496, "text": "Posiphen may increase the neuromuscular blocking activities of Moxisylyte.", "agentA": "Moderate", "agentB": "Severe"}
+{"chunk": "sample_04", "id": 499, "text": "Atenolol may increase the arrhythmogenic activities of Aprindine.", "agentA": "Moderate", "agentB": "Severe"}
+{"chunk": "sample_06", "id": 615, "text": "Ferumoxytol can cause a decrease in the absorption of Sodium phosphate, monobasic resulting in a reduced serum concentration and potentially a decrease in efficacy.", "agentA": "Mild", "agentB": "Moderate"}
+{"chunk": "sample_06", "id": 663, "text": "The risk of a hypersensitivity reaction to Lolium perenne subsp. multiflorum pollen is increased when it is combined with Bucindolol.", "agentA": "Moderate", "agentB": "Severe"}
+{"chunk": "sample_09", "id": 900, "text": "The risk or severity of bleeding and hemorrhage can be increased when Epirizole is combined with Epoprostenol.", "agentA": "Moderate", "agentB": "Severe"}
+{"chunk": "sample_09", "id": 931, "text": "The risk or severity of bleeding and hemorrhage can be increased when Pargyline is combined with Edoxaban.", "agentA": "Moderate", "agentB": "Severe"}
+{"chunk": "sample_09", "id": 955, "text": "The risk or severity of QTc prolongation can be increased when Primaquine is combined with Valproic acid.", "agentA": "Severe", "agentB": "Moderate"}
+{"chunk": "sample_09", "id": 986, "text": "The risk or severity of QTc prolongation can be increased when Lacidipine is combined with Oxolinic acid.", "agentA": "Severe", "agentB": "Moderate"}
+{"chunk": "sample_09", "id": 988, "text": "The risk or severity of QTc prolongation can be increased when Farnesyl diphosphate is combined with Ondansetron.", "agentA": "Severe", "agentB": "Moderate"}
+{"chunk": "sample_09", "id": 993, "text": "The risk or severity of bleeding and hemorrhage can be increased when Caroxazone is combined with Clopidogrel.", "agentA": "Moderate", "agentB": "Severe"}
+{"chunk": "sample_10", "id": 1086, "text": "The risk or severity of gastrointestinal bleeding can be increased when Desvenlafaxine is combined with SC-236.", "agentA": "Severe", "agentB": "Moderate"}
+{"chunk": "sample_10", "id": 1089, "text": "The risk or severity of bleeding and hemorrhage can be increased when Phenelzine is combined with Ibudilast.", "agentA": "Severe", "agentB": "Moderate"}
+{"chunk": "sample_11", "id": 1115, "text": "The risk or severity of QTc prolongation can be increased when Propofol is combined with Gadobenic acid.", "agentA": "Severe", "agentB": "Moderate"}
+{"chunk": "sample_11", "id": 1135, "text": "The risk or severity of QTc prolongation can be increased when Salmeterol is combined with Dichlorvos.", "agentA": "Severe", "agentB": "Moderate"}
+{"chunk": "sample_11", "id": 1139, "text": "The risk or severity of QTc prolongation can be increased when Chlorcyclizine is combined with Romidepsin.", "agentA": "Severe", "agentB": "Moderate"}
+{"chunk": "sample_11", "id": 1164, "text": "The risk or severity of QTc prolongation can be increased when Aripiprazole is combined with Terodiline.", "agentA": "Severe", "agentB": "Moderate"}
+{"chunk": "sample_12", "id": 1275, "text": "The excretion of Valaciclovir can be decreased when combined with Caprylic acid.", "agentA": "Moderate", "agentB": "Mild"}
+{"chunk": "sample_14", "id": 1402, "text": "The risk or severity of QTc prolongation can be increased when Salbutamol is combined with Terlipressin.", "agentA": "Severe", "agentB": "Moderate"}
+{"chunk": "sample_14", "id": 1427, "text": "The therapeutic efficacy of Castor oil can be decreased when used in combination with Orphenadrine.", "agentA": "Mild", "agentB": "Moderate"}
+{"chunk": "sample_14", "id": 1442, "text": "The risk or severity of QTc prolongation can be increased when Deutetrabenazine is combined with Revumenib.", "agentA": "Severe", "agentB": "Moderate"}
+{"chunk": "sample_14", "id": 1451, "text": "The therapeutic efficacy of Domperidone can be decreased when used in combination with Emetonium iodide.", "agentA": "Mild", "agentB": "Moderate"}
+{"chunk": "sample_14", "id": 1460, "text": "The risk or severity of gastrointestinal bleeding can be increased when Desvenlafaxine is combined with Lornoxicam.", "agentA": "Moderate", "agentB": "Severe"}
+{"chunk": "sample_14", "id": 1462, "text": "The risk or severity of QTc prolongation can be increased when Olodaterol is combined with Methadone.", "agentA": "Severe", "agentB": "Moderate"}
+{"chunk": "sample_14", "id": 1487, "text": "The therapeutic efficacy of Domperidone can be decreased when used in combination with Doxacurium.", "agentA": "Mild", "agentB": "Moderate"}
+{"chunk": "sample_14", "id": 1488, "text": "The risk or severity of QTc prolongation can be increased when Ritonavir is combined with Coumaphos.", "agentA": "Severe", "agentB": "Moderate"}
+{"chunk": "sample_14", "id": 1498, "text": "The risk or severity of QTc prolongation can be increased when Primaquine is combined with Flupentixol.", "agentA": "Severe", "agentB": "Moderate"}
+{"chunk": "sample_15", "id": 1569, "text": "The risk or severity of gastrointestinal bleeding can be increased when Nefazodone is combined with Guacetisal.", "agentA": "Severe", "agentB": "Moderate"}
+{"chunk": "sample_15", "id": 1599, "text": "The therapeutic efficacy of Doxacurium can be increased when used in combination with Quinine.", "agentA": "Severe", "agentB": "Moderate"}
+{"chunk": "sample_17", "id": 1710, "text": "The risk or severity of methemoglobinemia can be increased when Mefloquine is combined with Dyclonine.", "agentA": "Moderate", "agentB": "Severe"}
+{"chunk": "sample_17", "id": 1730, "text": "The therapeutic efficacy of Neosaxitoxin can be increased when used in combination with Magnesium phosphate.", "agentA": "Mild", "agentB": "Moderate"}
+{"chunk": "sample_17", "id": 1732, "text": "The risk or severity of methemoglobinemia can be increased when Felbamate is combined with Bupivacaine.", "agentA": "Moderate", "agentB": "Severe"}
+{"chunk": "sample_17", "id": 1749, "text": "The risk or severity of methemoglobinemia can be increased when Pelitinib is combined with Procaine.", "agentA": "Moderate", "agentB": "Severe"}
+{"chunk": "sample_17", "id": 1780, "text": "Prenylamine may increase the neuromuscular blocking activities of Rocuronium.", "agentA": "Severe", "agentB": "Moderate"}
+{"chunk": "sample_18", "id": 1800, "text": "The risk or severity of gastrointestinal bleeding can be increased when Escitalopram is combined with Flunoxaprofen.", "agentA": "Severe", "agentB": "Moderate"}
+{"chunk": "sample_18", "id": 1824, "text": "Edrophonium may increase the neuromuscular blocking activities of Ephedrine.", "agentA": "Moderate", "agentB": "Severe"}
+{"chunk": "sample_18", "id": 1833, "text": "The risk or severity of gastrointestinal bleeding can be increased when Desvenlafaxine is combined with Menthyl salicylate.", "agentA": "Severe", "agentB": "Moderate"}
+{"chunk": "sample_19", "id": 1920, "text": "The risk or severity of QTc prolongation can be increased when Emedastine is combined with Clarithromycin.", "agentA": "Moderate", "agentB": "Severe"}
+{"chunk": "sample_19", "id": 1926, "text": "The risk or severity of neuromuscular blockade can be increased when Minocycline is combined with Rolitetracycline.", "agentA": "Moderate", "agentB": "Severe"}
+{"chunk": "sample_19", "id": 1957, "text": "The risk or severity of methemoglobinemia can be increased when Vadimezan is combined with Ropivacaine.", "agentA": "Moderate", "agentB": "Severe"}
+{"chunk": "sample_19", "id": 1969, "text": "The risk or severity of gastrointestinal bleeding can be increased when Amoxapine is combined with Ethenzamide.", "agentA": "Moderate", "agentB": "Severe"}
+{"chunk": "sample_19", "id": 1973, "text": "The risk or severity of methemoglobinemia can be increased when Cinoxacin is combined with Phenol.", "agentA": "Moderate", "agentB": "Severe"}
+{"chunk": "sample_19", "id": 1974, "text": "The risk or severity of methemoglobinemia can be increased when Temocillin is combined with Quinisocaine.", "agentA": "Moderate", "agentB": "Severe"}

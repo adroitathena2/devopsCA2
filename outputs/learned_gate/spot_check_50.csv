@@ -1,0 +1,51 @@
+idx,true_label,stacker_argmax,p_sev,p_mod,regex_decision,gate_oof_p,gate_decision,active_cues,text
+1,2,2,0.9212,0.0526,Severe,0.9959,Severe,cue_qtc_torsades,The risk or severity of QTc prolongation can be increased when Mavorixafor is combined with Vorinostat.
+7,2,2,0.9204,0.0532,Severe,0.9959,Severe,cue_qtc_torsades,The risk or severity of QTc prolongation can be increased when Telavancin is combined with Toremifene.
+8,2,2,0.9322,0.0450,Severe,0.9969,Severe,cue_renal_failure,"The risk or severity of renal failure, hyperkalemia, and hypertension can be increased when Valsartan is combined with Tolmetin."
+11,2,1,0.1732,0.7739,Moderate,0.7021,Severe,cue_severe_event,The risk or severity of neuromuscular blockade can be increased when Clomocycline is combined with Colistimethate.
+23,2,2,0.9337,0.0436,Severe,0.9943,Severe,cue_organ_tox,The risk or severity of nephrotoxicity can be increased when Naproxen is combined with Foscarnet.
+27,2,2,0.9200,0.0535,Severe,0.9963,Severe,cue_qtc_torsades,The risk or severity of QTc prolongation can be increased when Dofetilide is combined with Cocaine.
+37,2,2,0.9242,0.0505,Severe,0.9949,Severe,cue_bleed_risk,The risk or severity of bleeding can be increased when Tirofiban is combined with Danaparoid.
+47,2,2,0.9387,0.0402,Severe,0.9960,Severe,cue_bleed_risk,The risk or severity of bleeding and hemorrhage can be increased when Aminophenazone is combined with Ancrod.
+58,2,2,0.9250,0.0504,Severe,0.9964,Severe,cue_renal_failure,"The risk or severity of renal failure, hypotension, and hyperkalemia can be increased when Captopril is combined with Candesartan cilexetil."
+78,2,2,0.9222,0.0520,Severe,0.9963,Severe,cue_qtc_torsades,The risk or severity of QTc prolongation can be increased when Ricolinostat is combined with Givinostat.
+82,2,2,0.9175,0.0554,Severe,0.9961,Severe,cue_qtc_torsades,The risk or severity of QTc prolongation can be increased when Desflurane is combined with Zuclopenthixol.
+85,2,2,0.9350,0.0428,Severe,0.9998,Severe,cue_severe_event,The risk or severity of methemoglobinemia can be increased when Cetuximab is combined with Tetracaine.
+99,2,2,0.9349,0.0428,Severe,0.9998,Severe,cue_severe_event,The risk or severity of methemoglobinemia can be increased when Cefaclor is combined with Tetracaine.
+100,2,2,0.9201,0.0535,Severe,0.9962,Severe,cue_qtc_torsades,The risk or severity of QTc prolongation can be increased when Mirtazapine is combined with Macimorelin.
+104,2,2,0.9129,0.0589,Severe,0.9998,Severe,cue_severe_event,The risk or severity of Thrombosis can be increased when Darbepoetin alfa is combined with Exisulind.
+111,2,2,0.9339,0.0437,Severe,0.9899,Severe,,Diethylstilbestrol may increase the thrombogenic activities of Sirukumab.
+115,2,2,0.9292,0.0470,Severe,0.9959,Severe,cue_bleed_risk,The risk or severity of bleeding can be increased when Chloramphenicol succinate is combined with Ethyl biscoumacetate.
+124,2,2,0.9278,0.0476,Severe,0.9947,Severe,cue_serotonin,The risk or severity of serotonin syndrome can be increased when Amphetamine is combined with Indalpine.
+132,2,2,0.9175,0.0554,Severe,0.9999,Severe,cue_severe_event,The risk of a hypersensitivity reaction to Distichlis spicata pollen is increased when it is combined with Atenolol.
+135,2,2,0.9353,0.0426,Severe,0.9998,Severe,cue_severe_event,The risk or severity of methemoglobinemia can be increased when Exemestane is combined with Dyclonine.
+146,2,2,0.9239,0.0506,Severe,0.9952,Severe,cue_bleed_risk,The risk or severity of bleeding can be increased when Tyrothricin is combined with 4-hydroxycoumarin.
+153,2,2,0.9212,0.0526,Severe,0.9959,Severe,cue_qtc_torsades,The risk or severity of QTc prolongation can be increased when Rupatadine is combined with Tucidinostat.
+160,2,2,0.9300,0.0454,Severe,0.9874,Severe,,Tropisetron may increase the arrhythmogenic activities of Otilonium.
+177,2,1,0.4432,0.4726,Moderate,0.9825,Severe,cue_severe_event,Bekanamycin may increase the neuromuscular blocking activities of DaxibotulinumtoxinA.
+179,2,2,0.9366,0.0418,Severe,0.9898,Severe,,Estradiol acetate may increase the thrombogenic activities of Ligelizumab.
+191,2,2,0.9216,0.0524,Severe,0.9969,Severe,cue_qtc_torsades,The risk or severity of QTc prolongation can be increased when Formoterol is combined with Difloxacin.
+194,2,2,0.9202,0.0535,Severe,0.9966,Severe,cue_qtc_torsades,The risk or severity of QTc prolongation can be increased when Mequitazine is combined with Piromidic acid.
+197,2,2,0.9102,0.0610,Severe,0.9998,Severe,cue_severe_event,The risk or severity of Thrombosis can be increased when Darbepoetin alfa is combined with Carboxyamidotriazole.
+205,2,2,0.9310,0.0457,Severe,0.9885,Severe,,Perhexiline may increase the arrhythmogenic activities of Practolol.
+206,2,2,0.9391,0.0399,Severe,0.9961,Severe,cue_bleed_risk,The risk or severity of bleeding and hemorrhage can be increased when Morniflumate is combined with Phenprocoumon.
+221,2,2,0.9199,0.0536,Severe,0.9963,Severe,cue_qtc_torsades,The risk or severity of QTc prolongation can be increased when Timolol is combined with Mequitazine.
+230,2,2,0.9348,0.0429,Severe,0.9998,Severe,cue_severe_event,The risk or severity of methemoglobinemia can be increased when Ethosuximide is combined with Ropivacaine.
+240,2,2,0.9343,0.0430,Severe,0.9863,Severe,,Formononetin may increase the thrombogenic activities of Bivatuzumab.
+250,2,2,0.9217,0.0523,Severe,0.9963,Severe,cue_qtc_torsades,The risk or severity of QTc prolongation can be increased when Leuprolide is combined with Terodiline.
+267,2,2,0.9329,0.0441,Severe,0.9944,Severe,cue_organ_tox,The risk or severity of nephrotoxicity can be increased when Dihydrostreptomycin is combined with Mofebutazone.
+269,2,2,0.9212,0.0527,Severe,0.9959,Severe,cue_qtc_torsades,The risk or severity of QTc prolongation can be increased when Salbutamol is combined with Orphenadrine.
+278,2,2,0.9360,0.0420,Severe,0.9963,Severe,cue_organ_tox,The risk or severity of nephrotoxicity and hypocalcemia can be increased when Cefonicid is combined with Alendronic acid.
+287,2,2,0.9253,0.0497,Severe,0.9941,Severe,cue_bleed_event,The risk or severity of gastrointestinal bleeding can be increased when SR-123781A is combined with Deferasirox.
+288,2,2,0.9394,0.0398,Severe,0.9965,Severe,cue_bleed_risk,The risk or severity of bleeding and hemorrhage can be increased when Zaltoprofen is combined with Ethyl biscoumacetate.
+290,2,2,0.9324,0.0446,Severe,0.9862,Severe,,Flecainide may increase the arrhythmogenic activities of Lorcainide.
+320,2,2,0.9235,0.0514,Severe,0.9950,Severe,cue_rhabdo,"The risk or severity of myopathy, rhabdomyolysis, and myoglobinuria can be increased when Carbimazole is combined with Saquinavir."
+334,2,2,0.9392,0.0399,Severe,0.9969,Severe,cue_bleed_risk,The risk or severity of bleeding and hemorrhage can be increased when Tenidap is combined with Bivalirudin.
+341,2,2,0.9193,0.0540,Severe,0.9958,Severe,cue_qtc_torsades,The risk or severity of QTc prolongation can be increased when Moxifloxacin is combined with Chlorpromazine.
+349,2,2,0.9349,0.0428,Severe,0.9998,Severe,cue_severe_event,The risk or severity of methemoglobinemia can be increased when Aspoxicillin is combined with Benzocaine.
+354,2,1,0.1731,0.7736,Moderate,0.7156,Severe,cue_severe_event,The risk or severity of neuromuscular blockade can be increased when Rolitetracycline is combined with Sisomicin.
+359,2,2,0.9225,0.0518,Severe,0.9969,Severe,cue_qtc_torsades,The risk or severity of QTc prolongation can be increased when Dosulepin is combined with Romidepsin.
+363,2,2,0.9347,0.0430,Severe,0.9999,Severe,cue_severe_event,The risk or severity of methemoglobinemia can be increased when Cefroxadine is combined with Butacaine.
+367,2,2,0.9226,0.0520,Severe,0.9958,Severe,cue_rhabdo,"The risk or severity of myopathy, rhabdomyolysis, and myoglobinuria can be increased when Ibandronate is combined with Isoniazid."
+369,2,2,0.9376,0.0411,Severe,0.9917,Severe,,Tibolone may increase the thrombogenic activities of Human varicella-zoster immune globulin.
+385,2,2,0.9349,0.0428,Severe,0.9998,Severe,cue_severe_event,The risk or severity of methemoglobinemia can be increased when Plevitrexed is combined with Cocaine.

@@ -1,0 +1,92 @@
+[
+ {
+  "model": "LR",
+  "fold": 0,
+  "n_va": 80,
+  "n_sev_va": 10,
+  "sens_severe": 1.0,
+  "overcalls": 0,
+  "mild_f1": 1.0
+ },
+ {
+  "model": "XGB",
+  "fold": 0,
+  "n_va": 80,
+  "n_sev_va": 10,
+  "sens_severe": 1.0,
+  "overcalls": 0,
+  "mild_f1": 1.0
+ },
+ {
+  "model": "LR",
+  "fold": 1,
+  "n_va": 80,
+  "n_sev_va": 10,
+  "sens_severe": 1.0,
+  "overcalls": 0,
+  "mild_f1": 0.6667
+ },
+ {
+  "model": "XGB",
+  "fold": 1,
+  "n_va": 80,
+  "n_sev_va": 10,
+  "sens_severe": 0.9,
+  "overcalls": 0,
+  "mild_f1": 0.6667
+ },
+ {
+  "model": "LR",
+  "fold": 2,
+  "n_va": 80,
+  "n_sev_va": 11,
+  "sens_severe": 1.0,
+  "overcalls": 0,
+  "mild_f1": 0.0
+ },
+ {
+  "model": "XGB",
+  "fold": 2,
+  "n_va": 80,
+  "n_sev_va": 11,
+  "sens_severe": 1.0,
+  "overcalls": 1,
+  "mild_f1": 0.0
+ },
+ {
+  "model": "LR",
+  "fold": 3,
+  "n_va": 80,
+  "n_sev_va": 11,
+  "sens_severe": 1.0,
+  "overcalls": 0,
+  "mild_f1": 0.0
+ },
+ {
+  "model": "XGB",
+  "fold": 3,
+  "n_va": 80,
+  "n_sev_va": 11,
+  "sens_severe": 1.0,
+  "overcalls": 0,
+  "mild_f1": 0.0
+ },
+ {
+  "model": "LR",
+  "fold": 4,
+  "n_va": 80,
+  "n_sev_va": 11,
+  "sens_severe": 1.0,
+  "overcalls": 0,
+  "mild_f1": 0.0
+ },
+ {
+  "model": "XGB",
+  "fold": 4,
+  "n_va": 80,
+  "n_sev_va": 11,
+  "sens_severe": 1.0,
+  "overcalls": 0,
+  "mild_f1": 0.0
+ }
+]

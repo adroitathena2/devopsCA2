@@ -1,0 +1,106 @@
+{
+    "FastClinicalCNN": [
+        {
+            "trial": "FastClinicalCNN_s069",
+            "params_core": 549891,
+            "oof_f1": 0.9184,
+            "val_f1": 0.8242,
+            "val_acc": 0.985,
+            "val_auc": 0.9425,
+            "seconds": 18.8,
+            "weights": "outputs\\severity_search\\top5_final_FastClinicalCNN_FastClinicalCNN_s069.pt"
+        },
+        {
+            "trial": "FastClinicalCNN_s085",
+            "params_core": 3303427,
+            "oof_f1": 0.9009,
+            "val_f1": 0.8277,
+            "val_acc": 0.9875,
+            "val_auc": 0.9505,
+            "seconds": 13.6,
+            "weights": "outputs\\severity_search\\top5_final_FastClinicalCNN_FastClinicalCNN_s085.pt"
+        },
+        {
+            "trial": "FastClinicalCNN_s042",
+            "params_core": 1049987,
+            "oof_f1": 0.898,
+            "val_f1": 0.8207,
+            "val_acc": 0.9825,
+            "val_auc": 0.9492,
+            "seconds": 18.0,
+            "weights": "outputs\\severity_search\\top5_final_FastClinicalCNN_FastClinicalCNN_s042.pt"
+        },
+        {
+            "trial": "FastClinicalCNN_s080",
+            "params_core": 6615299,
+            "oof_f1": 0.8963,
+            "val_f1": 0.8874,
+            "val_acc": 0.9925,
+            "val_auc": 0.8397,
+            "seconds": 18.5,
+            "weights": "outputs\\severity_search\\top5_final_FastClinicalCNN_FastClinicalCNN_s080.pt"
+        },
+        {
+            "trial": "FastClinicalCNN_s071",
+            "params_core": 163619,
+            "oof_f1": 0.8928,
+            "val_f1": 0.7739,
+            "val_acc": 0.98,
+            "val_auc": 0.9382,
+            "seconds": 15.2,
+            "weights": "outputs\\severity_search\\top5_final_FastClinicalCNN_FastClinicalCNN_s071.pt"
+        }
+    ],
+    "TinyClinicalFormer": [
+        {
+            "trial": "TinyClinicalFormer_s068",
+            "params_core": 6472963,
+            "oof_f1": 0.9005,
+            "val_f1": 0.8314,
+            "val_acc": 0.99,
+            "val_auc": 0.7974,
+            "seconds": 16.9,
+            "weights": "outputs\\severity_search\\top5_final_TinyClinicalFormer_TinyClinicalFormer_s068.pt"
+        },
+        {
+            "trial": "TinyClinicalFormer_s050",
+            "params_core": 20845443,
+            "oof_f1": 0.8902,
+            "val_f1": 0.8097,
+            "val_acc": 0.9875,
+            "val_auc": 0.9471,
+            "seconds": 28.8,
+            "weights": "outputs\\severity_search\\top5_final_TinyClinicalFormer_TinyClinicalFormer_s050.pt"
+        },
+        {
+            "trial": "TinyClinicalFormer_s090",
+            "params_core": 4175491,
+            "oof_f1": 0.8871,
+            "val_f1": 0.8089,
+            "val_acc": 0.9825,
+            "val_auc": 0.8634,
+            "seconds": 26.8,
+            "weights": "outputs\\severity_search\\top5_final_TinyClinicalFormer_TinyClinicalFormer_s090.pt"
+        },
+        {
+            "trial": "TinyClinicalFormer_s085",
+            "params_core": 7760259,
+            "oof_f1": 0.8863,
+            "val_f1": 0.8763,
+            "val_acc": 0.985,
+            "val_auc": 0.9391,
+            "seconds": 22.2,
+            "weights": "outputs\\severity_search\\top5_final_TinyClinicalFormer_TinyClinicalFormer_s085.pt"
+        },
+        {
+            "trial": "TinyClinicalFormer_s043",
+            "params_core": 1630851,
+            "oof_f1": 0.8853,
+            "val_f1": 0.8434,
+            "val_acc": 0.9875,
+            "val_auc": 0.9069,
+            "seconds": 28.6,
+            "weights": "outputs\\severity_search\\top5_final_TinyClinicalFormer_TinyClinicalFormer_s043.pt"
+        }
+    ]
+}

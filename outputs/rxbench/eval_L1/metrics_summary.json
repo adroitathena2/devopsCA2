@@ -1,0 +1,18 @@
+{
+  "split": "L1",
+  "n": 233,
+  "drug_match_rate": 0.7706,
+  "drug_matched": 393,
+  "drug_total": 510,
+  "binary_f1": 0.7382,
+  "auc_roc": 0.7674,
+  "sensitivity_recall": 0.5879,
+  "specificity_tnr": 0.9706,
+  "accuracy_4class": 0.5966,
+  "macro_f1_4class": 0.5769,
+  "severe_recall": 0.3077,
+  "severe_precision": 0.9091,
+  "severe_f1": 0.4598,
+  "severe_support": 65,
+  "avg_latency_s": 0.304
+}

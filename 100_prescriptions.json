@@ -1,0 +1,1777 @@
+[
+  {
+    "prescription_id": 1,
+    "prescription_text": "Cefroxadine 75mg OD\nCefotetan 20mg BD",
+    "drugs": [
+      "Cefroxadine",
+      "Cefotetan"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Cefroxadine",
+        "drug_b": "Cefotetan",
+        "ground_truth_severity": "VERY SEVERE",
+        "drugbank_description": "The risk or severity of nephrotoxicity can be increased when Cefotetan is combined with Cefroxadine.",
+        "drugbank_id": "DB01330"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "typed",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 2,
+    "prescription_text": "Tab. Droperidol 10mg, to be taken orally, twice daily before meals\nTab. Apomorphine 500mg, to be taken orally, once daily after meals",
+    "drugs": [
+      "Droperidol",
+      "Apomorphine"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Droperidol",
+        "drug_b": "Apomorphine",
+        "ground_truth_severity": "Severe",
+        "drugbank_description": "Droperidol may increase the central nervous system depressant (CNS depressant) activities of Apomorphine.",
+        "drugbank_id": "DB00714"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "verbose",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 3,
+    "prescription_text": "1. Loratadine 500mg OD\n2. Omeprazole 50mg TDS",
+    "drugs": [
+      "Loratadine",
+      "Omeprazole"
+    ],
+    "interactions": [],
+    "has_interaction": false,
+    "prescription_format": "list",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 4,
+    "prescription_text": "Tab. Carbamazepine 100mg, to be taken orally, once daily after meals\nTab. Oliceridine 100mg, to be taken orally, three times daily",
+    "drugs": [
+      "Carbamazepine",
+      "Oliceridine"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Carbamazepine",
+        "drug_b": "Oliceridine",
+        "ground_truth_severity": "VERY SEVERE",
+        "drugbank_description": "The risk or severity of hypotension, sedation, death, somnolence, and respiratory depression can be increased when Carbamazepine is combined with Oliceridine.",
+        "drugbank_id": "DB14881"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "verbose",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 5,
+    "prescription_text": "Rx: Abacavir - 50mg od\nRx: Tenofovir disoproxil - 75mg od",
+    "drugs": [
+      "Abacavir",
+      "Tenofovir disoproxil"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Abacavir",
+        "drug_b": "Tenofovir disoproxil",
+        "ground_truth_severity": "Severe",
+        "drugbank_description": "Tenofovir disoproxil may decrease the excretion rate of Abacavir which could result in a higher serum level.",
+        "drugbank_id": "DB00300"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "handwritten",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 6,
+    "prescription_text": "Rx: Loratadine - 500mg od\nRx: Pantoprazole - 50mg bd",
+    "drugs": [
+      "Loratadine",
+      "Pantoprazole"
+    ],
+    "interactions": [],
+    "has_interaction": false,
+    "prescription_format": "handwritten",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 7,
+    "prescription_text": "1. Capreomycin 10mg TDS\n2. Ibandronate 75mg TDS",
+    "drugs": [
+      "Capreomycin",
+      "Ibandronate"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Capreomycin",
+        "drug_b": "Ibandronate",
+        "ground_truth_severity": "VERY SEVERE",
+        "drugbank_description": "The risk or severity of nephrotoxicity and hypocalcemia can be increased when Capreomycin is combined with Ibandronate.",
+        "drugbank_id": "DB00710"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "list",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 8,
+    "prescription_text": "Tab. Loratadine 500mg, to be taken orally, twice daily before meals\nTab. Amoxicillin 50mg, to be taken orally, once daily after meals",
+    "drugs": [
+      "Loratadine",
+      "Amoxicillin"
+    ],
+    "interactions": [],
+    "has_interaction": false,
+    "prescription_format": "verbose",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 9,
+    "prescription_text": "Trilostane 500mg BD\nDutogliptin 50mg BD",
+    "drugs": [
+      "Trilostane",
+      "Dutogliptin"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Trilostane",
+        "drug_b": "Dutogliptin",
+        "ground_truth_severity": "Severe",
+        "drugbank_description": "The risk or severity of hyperglycemia can be increased when Trilostane is combined with Dutogliptin.",
+        "drugbank_id": "DB11723"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "ocr",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 10,
+    "prescription_text": "Loratadine 500mg twice daily\nAmlodipine 50mg OD",
+    "drugs": [
+      "Loratadine",
+      "Amlodipine"
+    ],
+    "interactions": [],
+    "has_interaction": false,
+    "prescription_format": "ocr",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 11,
+    "prescription_text": "Rx: Mitoxantrone - 50mg od\nRx: Ouabain - 20mg tds",
+    "drugs": [
+      "Mitoxantrone",
+      "Ouabain"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Mitoxantrone",
+        "drug_b": "Ouabain",
+        "ground_truth_severity": "VERY SEVERE",
+        "drugbank_description": "Ouabain may decrease the cardiotoxic activities of Mitoxantrone.",
+        "drugbank_id": "DB01092"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "handwritten",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 12,
+    "prescription_text": "Capcitabine 10mg OD\nCefmetazole 100mg once daily",
+    "drugs": [
+      "Capecitabine",
+      "Cefmetazole"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Capecitabine",
+        "drug_b": "Cefmetazole",
+        "ground_truth_severity": "VERY SEVERE",
+        "drugbank_description": "Capecitabine may increase the nephrotoxic activities of Cefmetazole.",
+        "drugbank_id": "DB00274"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "ocr",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 13,
+    "prescription_text": "Azelaic acid 75mg TDS\nIfosfamide 10mg three times daily\nCalcium 20mg three times daily",
+    "drugs": [
+      "Azelaic acid",
+      "Ifosfamide",
+      "Calcium"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Azelaic acid",
+        "drug_b": "Ifosfamide",
+        "ground_truth_severity": "Severe",
+        "drugbank_description": "Azelaic acid may decrease the excretion rate of Ifosfamide which could result in a higher serum level.",
+        "drugbank_id": "DB01181"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "ocr",
+    "complexity": "moderate"
+  },
+  {
+    "prescription_id": 14,
+    "prescription_text": "1. Penfluridol 5mg BD\n2. Amoxapine 75mg OD",
+    "drugs": [
+      "Penfluridol",
+      "Amoxapine"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Penfluridol",
+        "drug_b": "Amoxapine",
+        "ground_truth_severity": "Severe",
+        "drugbank_description": "The risk or severity of adverse effects can be increased when Amoxapine is combined with Penfluridol.",
+        "drugbank_id": "DB00543"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "list",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 15,
+    "prescription_text": "Cefonicid 10mg once daily\nCeftriaxone 10mg OD",
+    "drugs": [
+      "Cefonicid",
+      "Ceftriaxone"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Cefonicid",
+        "drug_b": "Ceftriaxone",
+        "ground_truth_severity": "VERY SEVERE",
+        "drugbank_description": "The risk or severity of nephrotoxicity can be increased when Ceftriaxone is combined with Cefonicid.",
+        "drugbank_id": "DB01212"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "ocr",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 16,
+    "prescription_text": "1. Loratadine 500mg OD\n2. Metoprolol 50mg TDS",
+    "drugs": [
+      "Loratadine",
+      "Metoprolol"
+    ],
+    "interactions": [],
+    "has_interaction": false,
+    "prescription_format": "list",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 17,
+    "prescription_text": "Tab. Cefatrizine 50mg, to be taken orally, three times daily\nTab. Valganciclovir 50mg, to be taken orally, twice daily before meals",
+    "drugs": [
+      "Cefatrizine",
+      "Valganciclovir"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Cefatrizine",
+        "drug_b": "Valganciclovir",
+        "ground_truth_severity": "Severe",
+        "drugbank_description": "Cefatrizine may decrease the excretion rate of Valganciclovir which could result in a higher serum level.",
+        "drugbank_id": "DB01610"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "verbose",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 18,
+    "prescription_text": "Loratadine 500mg twice daily\nLevothyroxine 50mg OD",
+    "drugs": [
+      "Loratadine",
+      "Levothyroxine"
+    ],
+    "interactions": [],
+    "has_interaction": false,
+    "prescription_format": "typed",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 19,
+    "prescription_text": "Rx: Olsalazine - 50mg od\nRx: Carboplatin - 100mg tds",
+    "drugs": [
+      "Olsalazine",
+      "Carboplatin"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Olsalazine",
+        "drug_b": "Carboplatin",
+        "ground_truth_severity": "VERY SEVERE",
+        "drugbank_description": "The risk or severity of nephrotoxicity can be increased when Carboplatin is combined with Olsalazine.",
+        "drugbank_id": "DB00958"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "handwritten",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 20,
+    "prescription_text": "Rx: Tocilizumab - 20mg bd\nRx: Repinotan - 5mg bd\nRx: Calcium - 5mg tds",
+    "drugs": [
+      "Tocilizumab",
+      "Repinotan",
+      "Calcium"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Tocilizumab",
+        "drug_b": "Repinotan",
+        "ground_truth_severity": "Severe",
+        "drugbank_description": "The metabolism of Repinotan can be increased when combined with Tocilizumab.",
+        "drugbank_id": "DB06506"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "handwritten",
+    "complexity": "moderate"
+  },
+  {
+    "prescription_id": 21,
+    "prescription_text": "Rx: Bupivacaine - 500mg od\nRx: Tofisopam - 500mg od",
+    "drugs": [
+      "Bupivacaine",
+      "Tofisopam"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Bupivacaine",
+        "drug_b": "Tofisopam",
+        "ground_truth_severity": "Severe",
+        "drugbank_description": "The risk or severity of CNS depression can be increased when Bupivacaine is combined with Tofisopam.",
+        "drugbank_id": "DB08811"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "handwritten",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 22,
+    "prescription_text": "Rx: Loratadine - 500mg od\nRx: Lisinopril - 50mg bd",
+    "drugs": [
+      "Loratadine",
+      "Lisinopril"
+    ],
+    "interactions": [],
+    "has_interaction": false,
+    "prescription_format": "handwritten",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 23,
+    "prescription_text": "Loratadine 500mg twice daily\nGabapentin 50mg OD",
+    "drugs": [
+      "Loratadine",
+      "Gabapentin"
+    ],
+    "interactions": [],
+    "has_interaction": false,
+    "prescription_format": "ocr",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 24,
+    "prescription_text": "Tab. Piroxicam 5mg, to be taken orally, three times daily\nTab. Anastrozole 20mg, to be taken orally, three times daily",
+    "drugs": [
+      "Piroxicam",
+      "Anastrozole"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Piroxicam",
+        "drug_b": "Anastrozole",
+        "ground_truth_severity": "Severe",
+        "drugbank_description": "The metabolism of Anastrozole can be decreased when combined with Piroxicam.",
+        "drugbank_id": "DB01217"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "verbose",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 25,
+    "prescription_text": "Loratadine 500mg twice daily\nLosartan 50mg OD",
+    "drugs": [
+      "Loratadine",
+      "Losartan"
+    ],
+    "interactions": [],
+    "has_interaction": false,
+    "prescription_format": "typed",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 26,
+    "prescription_text": "Tab. Piracetam 5mg, to be taken orally, three times daily\nTab. Buthiazide 500mg, to be taken orally, three times daily",
+    "drugs": [
+      "Piracetam",
+      "Buthiazide"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Piracetam",
+        "drug_b": "Buthiazide",
+        "ground_truth_severity": "Severe",
+        "drugbank_description": "Buthiazide may increase the excretion rate of Piracetam which could result in a lower serum level and potentially a reduction in efficacy.",
+        "drugbank_id": "DB15861"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "verbose",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 27,
+    "prescription_text": "Cefpodoxim 100mg TDS\nLumiracoxib 10mg TDS",
+    "drugs": [
+      "Cefpodoxime",
+      "Lumiracoxib"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Cefpodoxime",
+        "drug_b": "Lumiracoxib",
+        "ground_truth_severity": "VERY SEVERE",
+        "drugbank_description": "The risk or severity of nephrotoxicity can be increased when Lumiracoxib is combined with Cefpodoxime.",
+        "drugbank_id": "DB01283"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "ocr",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 28,
+    "prescription_text": "Tenofovir 75mg three times daily\nZaltoprofen 500mg TDS",
+    "drugs": [
+      "Tenofovir",
+      "Zaltoprofen"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Tenofovir",
+        "drug_b": "Zaltoprofen",
+        "ground_truth_severity": "VERY SEVERE",
+        "drugbank_description": "Zaltoprofen may increase the nephrotoxic activities of Tenofovir.",
+        "drugbank_id": "DB06737"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "ocr",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 29,
+    "prescription_text": "1. Ceftibuten 20mg BD\n2. Loracarbef 50mg TDS",
+    "drugs": [
+      "Ceftibuten",
+      "Loracarbef"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Ceftibuten",
+        "drug_b": "Loracarbef",
+        "ground_truth_severity": "VERY SEVERE",
+        "drugbank_description": "The risk or severity of nephrotoxicity can be increased when Loracarbef is combined with Ceftibuten.",
+        "drugbank_id": "DB00447"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "list",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 30,
+    "prescription_text": "Tab. Diclofenac 75mg, to be taken orally, twice daily before meals\nTab. Cidofovir 5mg, to be taken orally, once daily after meals",
+    "drugs": [
+      "Diclofenac",
+      "Cidofovir"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Diclofenac",
+        "drug_b": "Cidofovir",
+        "ground_truth_severity": "VERY SEVERE",
+        "drugbank_description": "The risk or severity of nephrotoxicity can be increased when Cidofovir is combined with Diclofenac.",
+        "drugbank_id": "DB00369"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "verbose",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 31,
+    "prescription_text": "Erlotinib 50mg twice daily\nSeladelpar 75mg TDS\nCalcium 75mg three times daily",
+    "drugs": [
+      "Erlotinib",
+      "Seladelpar",
+      "Calcium"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Erlotinib",
+        "drug_b": "Seladelpar",
+        "ground_truth_severity": "Severe",
+        "drugbank_description": "The metabolism of Seladelpar can be decreased when combined with Erlotinib.",
+        "drugbank_id": "DB12390"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "typed",
+    "complexity": "moderate"
+  },
+  {
+    "prescription_id": 32,
+    "prescription_text": "Tab. Stavudine 100mg, to be taken orally, once daily after meals\nTab. Methylene blue 10mg, to be taken orally, twice daily before meals",
+    "drugs": [
+      "Stavudine",
+      "Methylene blue"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Stavudine",
+        "drug_b": "Methylene blue",
+        "ground_truth_severity": "VERY SEVERE",
+        "drugbank_description": "Stavudine may increase the neurotoxic activities of Methylene blue.",
+        "drugbank_id": "DB09241"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "verbose",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 33,
+    "prescription_text": "Tridihexethil 100mg twice daily\nEmetonium iodide 75mg TDS",
+    "drugs": [
+      "Tridihexethyl",
+      "Emetonium iodide"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Tridihexethyl",
+        "drug_b": "Emetonium iodide",
+        "ground_truth_severity": "Severe",
+        "drugbank_description": "The risk or severity of adverse effects can be increased when Tridihexethyl is combined with Emetonium iodide.",
+        "drugbank_id": "DB13769"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "ocr",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 34,
+    "prescription_text": "Omeprazole 500mg twice daily\nAzithromycin 50mg OD",
+    "drugs": [
+      "Omeprazole",
+      "Azithromycin"
+    ],
+    "interactions": [],
+    "has_interaction": false,
+    "prescription_format": "ocr",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 35,
+    "prescription_text": "Omeprazole 500mg twice daily\nIbuprofen 50mg OD",
+    "drugs": [
+      "Omeprazole",
+      "Ibuprofen"
+    ],
+    "interactions": [],
+    "has_interaction": false,
+    "prescription_format": "ocr",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 36,
+    "prescription_text": "1. Pamidronic acid 10mg TDS\n2. Atazanavir 20mg BD",
+    "drugs": [
+      "Pamidronic acid",
+      "Atazanavir"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Pamidronic acid",
+        "drug_b": "Atazanavir",
+        "ground_truth_severity": "VERY SEVERE",
+        "drugbank_description": "The risk or severity of nephrotoxicity can be increased when Pamidronic acid is combined with Atazanavir.",
+        "drugbank_id": "DB01072"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "list",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 37,
+    "prescription_text": "1. Phenylbutazone 20mg BD\n2. Ibutilide 500mg TDS\n3. Vitamin D 20mg TDS",
+    "drugs": [
+      "Phenylbutazone",
+      "Ibutilide",
+      "Vitamin D"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Phenylbutazone",
+        "drug_b": "Ibutilide",
+        "ground_truth_severity": "Severe",
+        "drugbank_description": "Phenylbutazone may decrease the excretion rate of Ibutilide which could result in a higher serum level.",
+        "drugbank_id": "DB00308"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "list",
+    "complexity": "moderate"
+  },
+  {
+    "prescription_id": 38,
+    "prescription_text": "Omeprazole 500mg twice daily\nParacetamol 50mg OD",
+    "drugs": [
+      "Omeprazole",
+      "Paracetamol"
+    ],
+    "interactions": [],
+    "has_interaction": false,
+    "prescription_format": "ocr",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 39,
+    "prescription_text": "Tab. Efonidipine 500mg, to be taken orally, once daily after meals\nTab. Pidotimod 5mg, to be taken orally, three times daily",
+    "drugs": [
+      "Efonidipine",
+      "Pidotimod"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Efonidipine",
+        "drug_b": "Pidotimod",
+        "ground_truth_severity": "Severe",
+        "drugbank_description": "Efonidipine may increase the excretion rate of Pidotimod which could result in a lower serum level and potentially a reduction in efficacy.",
+        "drugbank_id": "DB11364"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "verbose",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 40,
+    "prescription_text": "Tab. Tenofovir disoproxil 5mg, to be taken orally, once daily after meals\nTab. Talniflumate 75mg, to be taken orally, twice daily before meals",
+    "drugs": [
+      "Tenofovir disoproxil",
+      "Talniflumate"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Tenofovir disoproxil",
+        "drug_b": "Talniflumate",
+        "ground_truth_severity": "VERY SEVERE",
+        "drugbank_description": "Talniflumate may increase the nephrotoxic activities of Tenofovir disoproxil.",
+        "drugbank_id": "DB09295"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "verbose",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 41,
+    "prescription_text": "Rx: Glutethimide - 500mg od\nRx: Imagabalin - 75mg bd",
+    "drugs": [
+      "Glutethimide",
+      "Imagabalin"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Glutethimide",
+        "drug_b": "Imagabalin",
+        "ground_truth_severity": "Severe",
+        "drugbank_description": "The risk or severity of CNS depression can be increased when Glutethimide is combined with Imagabalin.",
+        "drugbank_id": "DB12105"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "handwritten",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 42,
+    "prescription_text": "Tab. Omeprazole 500mg, to be taken orally, twice daily before meals\nTab. Cetirizine 50mg, to be taken orally, once daily after meals",
+    "drugs": [
+      "Omeprazole",
+      "Cetirizine"
+    ],
+    "interactions": [],
+    "has_interaction": false,
+    "prescription_format": "verbose",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 43,
+    "prescription_text": "1. Omeprazole 500mg OD\n2. Amoxicillin 50mg TDS",
+    "drugs": [
+      "Omeprazole",
+      "Amoxicillin"
+    ],
+    "interactions": [],
+    "has_interaction": false,
+    "prescription_format": "list",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 44,
+    "prescription_text": "1. Ifosfamide 75mg BD\n2. Pertuzumab 50mg OD",
+    "drugs": [
+      "Ifosfamide",
+      "Pertuzumab"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Ifosfamide",
+        "drug_b": "Pertuzumab",
+        "ground_truth_severity": "VERY SEVERE",
+        "drugbank_description": "The risk or severity of cardiotoxicity can be increased when Ifosfamide is combined with Pertuzumab.",
+        "drugbank_id": "DB06366"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "list",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 45,
+    "prescription_text": "Icosopent 50mg OD\nCefotiam 75mg three times daily",
+    "drugs": [
+      "Icosapent",
+      "Cefotiam"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Icosapent",
+        "drug_b": "Cefotiam",
+        "ground_truth_severity": "VERY SEVERE",
+        "drugbank_description": "The risk or severity of nephrotoxicity can be increased when Icosapent is combined with Cefotiam.",
+        "drugbank_id": "DB00229"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "ocr",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 46,
+    "prescription_text": "Rx: Gepirone - 50mg tds\nRx: Eprinomectin - 10mg od",
+    "drugs": [
+      "Gepirone",
+      "Eprinomectin"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Gepirone",
+        "drug_b": "Eprinomectin",
+        "ground_truth_severity": "Severe",
+        "drugbank_description": "The serum concentration of Gepirone can be increased when it is combined with Eprinomectin.",
+        "drugbank_id": "DB11405"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "handwritten",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 47,
+    "prescription_text": "Sunitinib 75mg OD\nMuromonab 10mg TDS\nVitamin D 75mg once daily",
+    "drugs": [
+      "Sunitinib",
+      "Muromonab",
+      "Vitamin D"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Sunitinib",
+        "drug_b": "Muromonab",
+        "ground_truth_severity": "Severe",
+        "drugbank_description": "The risk or severity of adverse effects can be increased when Muromonab is combined with Sunitinib.",
+        "drugbank_id": "DB00075"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "typed",
+    "complexity": "moderate"
+  },
+  {
+    "prescription_id": 48,
+    "prescription_text": "Atrasentan 75mg TDS\nDarolutamide 10mg once daily",
+    "drugs": [
+      "Atrasentan",
+      "Darolutamide"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Atrasentan",
+        "drug_b": "Darolutamide",
+        "ground_truth_severity": "Severe",
+        "drugbank_description": "The serum concentration of Atrasentan can be increased when it is combined with Darolutamide.",
+        "drugbank_id": "DB12941"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "ocr",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 49,
+    "prescription_text": "Tacrolimus 5mg TDS\nCefpirome 75mg once daily",
+    "drugs": [
+      "Tacrolimus",
+      "Cefpirome"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Tacrolimus",
+        "drug_b": "Cefpirome",
+        "ground_truth_severity": "VERY SEVERE",
+        "drugbank_description": "The risk or severity of nephrotoxicity can be increased when Tacrolimus is combined with Cefpirome.",
+        "drugbank_id": "DB13682"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "typed",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 50,
+    "prescription_text": "Rx: Omeprazole - 500mg od\nRx: Metoprolol - 50mg bd",
+    "drugs": [
+      "Omeprazole",
+      "Metoprolol"
+    ],
+    "interactions": [],
+    "has_interaction": false,
+    "prescription_format": "handwritten",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 51,
+    "prescription_text": "Oxymetholone 50mg twice daily\nAMG-222 20mg BD",
+    "drugs": [
+      "Oxymetholone",
+      "AMG-222"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Oxymetholone",
+        "drug_b": "AMG-222",
+        "ground_truth_severity": "Severe",
+        "drugbank_description": "Oxymetholone may increase the hypoglycemic activities of AMG-222.",
+        "drugbank_id": "DB06011"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "typed",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 52,
+    "prescription_text": "Cefpodoxim 100mg OD\nAdefovir dipivoxil 5mg twice daily",
+    "drugs": [
+      "Cefpodoxime",
+      "Adefovir dipivoxil"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Cefpodoxime",
+        "drug_b": "Adefovir dipivoxil",
+        "ground_truth_severity": "VERY SEVERE",
+        "drugbank_description": "The risk or severity of nephrotoxicity can be increased when Adefovir dipivoxil is combined with Cefpodoxime.",
+        "drugbank_id": "DB00718"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "ocr",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 53,
+    "prescription_text": "Rx: Felodipine - 100mg tds\nRx: Doxylamine - 20mg bd",
+    "drugs": [
+      "Felodipine",
+      "Doxylamine"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Felodipine",
+        "drug_b": "Doxylamine",
+        "ground_truth_severity": "Severe",
+        "drugbank_description": "The risk or severity of QTc prolongation can be increased when Doxylamine is combined with Felodipine.",
+        "drugbank_id": "DB00366"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "handwritten",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 54,
+    "prescription_text": "Omeprazole 500mg twice daily\nSimvastatin 50mg OD",
+    "drugs": [
+      "Omeprazole",
+      "Simvastatin"
+    ],
+    "interactions": [],
+    "has_interaction": false,
+    "prescription_format": "ocr",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 55,
+    "prescription_text": "Rx: Omeprazole - 500mg od\nRx: Lisinopril - 50mg bd",
+    "drugs": [
+      "Omeprazole",
+      "Lisinopril"
+    ],
+    "interactions": [],
+    "has_interaction": false,
+    "prescription_format": "handwritten",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 56,
+    "prescription_text": "Omeprazole 500mg twice daily\nGabapentin 50mg OD",
+    "drugs": [
+      "Omeprazole",
+      "Gabapentin"
+    ],
+    "interactions": [],
+    "has_interaction": false,
+    "prescription_format": "ocr",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 57,
+    "prescription_text": "Rx: Omeprazole - 500mg od\nRx: Losartan - 50mg bd",
+    "drugs": [
+      "Omeprazole",
+      "Losartan"
+    ],
+    "interactions": [],
+    "has_interaction": false,
+    "prescription_format": "handwritten",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 58,
+    "prescription_text": "Bismuth subcarbonate 75mg three times daily\nTubocurarine 20mg once daily",
+    "drugs": [
+      "Bismuth subcarbonate",
+      "Tubocurarine"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Bismuth subcarbonate",
+        "drug_b": "Tubocurarine",
+        "ground_truth_severity": "VERY SEVERE",
+        "drugbank_description": "Tubocurarine may increase the neurotoxic activities of Bismuth subcarbonate.",
+        "drugbank_id": "DB01199"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "typed",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 59,
+    "prescription_text": "Tab. Polymyxin B 5mg, to be taken orally, three times daily\nTab. Melperone 20mg, to be taken orally, twice daily before meals",
+    "drugs": [
+      "Polymyxin B",
+      "Melperone"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Polymyxin B",
+        "drug_b": "Melperone",
+        "ground_truth_severity": "VERY SEVERE",
+        "drugbank_description": "Melperone may increase the neurotoxic activities of Polymyxin B.",
+        "drugbank_id": "DB09224"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "verbose",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 60,
+    "prescription_text": "Rx: Cobimetinib - 10mg tds\nRx: Ritonavir - 500mg bd",
+    "drugs": [
+      "Cobimetinib",
+      "Ritonavir"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Cobimetinib",
+        "drug_b": "Ritonavir",
+        "ground_truth_severity": "Severe",
+        "drugbank_description": "The serum concentration of Cobimetinib can be increased when it is combined with Ritonavir.",
+        "drugbank_id": "DB00503"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "handwritten",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 61,
+    "prescription_text": "Azithromycin 500mg twice daily\nLoratadine 50mg OD",
+    "drugs": [
+      "Azithromycin",
+      "Loratadine"
+    ],
+    "interactions": [],
+    "has_interaction": false,
+    "prescription_format": "ocr",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 62,
+    "prescription_text": "1. Felbamate 100mg BD\n2. Lorazepam 50mg BD",
+    "drugs": [
+      "Felbamate",
+      "Lorazepam"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Felbamate",
+        "drug_b": "Lorazepam",
+        "ground_truth_severity": "Severe",
+        "drugbank_description": "The risk or severity of CNS depression can be increased when Lorazepam is combined with Felbamate.",
+        "drugbank_id": "DB00186"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "list",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 63,
+    "prescription_text": "Cimicoxib 100mg twice daily\nCefazolin 100mg TDS",
+    "drugs": [
+      "Cimicoxib",
+      "Cefazolin"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Cimicoxib",
+        "drug_b": "Cefazolin",
+        "ground_truth_severity": "VERY SEVERE",
+        "drugbank_description": "The risk or severity of nephrotoxicity can be increased when Cefazolin is combined with Cimicoxib.",
+        "drugbank_id": "DB01327"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "typed",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 64,
+    "prescription_text": "Rx: Doxacurium - 75mg bd\nRx: Neamine - 10mg od",
+    "drugs": [
+      "Doxacurium",
+      "Neamine"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Doxacurium",
+        "drug_b": "Neamine",
+        "ground_truth_severity": "Severe",
+        "drugbank_description": "The therapeutic efficacy of Doxacurium can be increased when used in combination with Neamine.",
+        "drugbank_id": "DB04808"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "handwritten",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 65,
+    "prescription_text": "Saredutant 20mg BD\nSultopride 10mg BD",
+    "drugs": [
+      "Saredutant",
+      "Sultopride"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Saredutant",
+        "drug_b": "Sultopride",
+        "ground_truth_severity": "Severe",
+        "drugbank_description": "The risk or severity of CNS depression can be increased when Saredutant is combined with Sultopride.",
+        "drugbank_id": "DB13273"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "typed",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 66,
+    "prescription_text": "Liraglutide 75mg TDS\nClofenamide 5mg TDS\nVitamin D 50mg TDS",
+    "drugs": [
+      "Liraglutide",
+      "Clofenamide",
+      "Vitamin D"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Liraglutide",
+        "drug_b": "Clofenamide",
+        "ground_truth_severity": "Severe",
+        "drugbank_description": "The therapeutic efficacy of Liraglutide can be increased when used in combination with Clofenamide.",
+        "drugbank_id": "DB13663"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "typed",
+    "complexity": "moderate"
+  },
+  {
+    "prescription_id": 67,
+    "prescription_text": "Oleandrin 10mg twice daily\nCladribine 500mg three times daily",
+    "drugs": [
+      "Oleandrin",
+      "Cladribine"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Oleandrin",
+        "drug_b": "Cladribine",
+        "ground_truth_severity": "VERY SEVERE",
+        "drugbank_description": "Oleandrin may decrease the cardiotoxic activities of Cladribine.",
+        "drugbank_id": "DB00242"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "typed",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 68,
+    "prescription_text": "Azithromycin 500mg twice daily\nPantoprazole 50mg OD",
+    "drugs": [
+      "Azithromycin",
+      "Pantoprazole"
+    ],
+    "interactions": [],
+    "has_interaction": false,
+    "prescription_format": "ocr",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 69,
+    "prescription_text": "Rx: Tenofovir - 10mg od\nRx: Cefacetrile - 10mg od",
+    "drugs": [
+      "Tenofovir",
+      "Cefacetrile"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Tenofovir",
+        "drug_b": "Cefacetrile",
+        "ground_truth_severity": "VERY SEVERE",
+        "drugbank_description": "Cefacetrile may increase the nephrotoxic activities of Tenofovir.",
+        "drugbank_id": "DB01414"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "handwritten",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 70,
+    "prescription_text": "Meperidine 75mg TDS\nBumetanide 5mg BD\nVitamin D 20mg BD",
+    "drugs": [
+      "Meperidine",
+      "Bumetanide",
+      "Vitamin D"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Meperidine",
+        "drug_b": "Bumetanide",
+        "ground_truth_severity": "Severe",
+        "drugbank_description": "The therapeutic efficacy of Bumetanide can be decreased when used in combination with Meperidine.",
+        "drugbank_id": "DB00887"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "typed",
+    "complexity": "moderate"
+  },
+  {
+    "prescription_id": 71,
+    "prescription_text": "Tab. Dacetuzumab 75mg, to be taken orally, once daily after meals\nTab. Fasinumab 500mg, to be taken orally, once daily after meals\nTab. Vitamin D 20mg, to be taken orally, twice daily before meals",
+    "drugs": [
+      "Dacetuzumab",
+      "Fasinumab",
+      "Vitamin D"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Dacetuzumab",
+        "drug_b": "Fasinumab",
+        "ground_truth_severity": "Severe",
+        "drugbank_description": "The risk or severity of adverse effects can be increased when Fasinumab is combined with Dacetuzumab.",
+        "drugbank_id": "DB12157"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "verbose",
+    "complexity": "moderate"
+  },
+  {
+    "prescription_id": 72,
+    "prescription_text": "Upadacitinib 100mg twice daily\nTipranavir 5mg BD\nV1tam1n C 50mg twice daily",
+    "drugs": [
+      "Upadacitinib",
+      "Tipranavir",
+      "Vitamin C"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Upadacitinib",
+        "drug_b": "Tipranavir",
+        "ground_truth_severity": "Severe",
+        "drugbank_description": "The metabolism of Upadacitinib can be decreased when combined with Tipranavir.",
+        "drugbank_id": "DB00932"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "ocr",
+    "complexity": "moderate"
+  },
+  {
+    "prescription_id": 73,
+    "prescription_text": "Tab. Loratadine 500mg, to be taken orally, twice daily before meals\nTab. Omeprazole 50mg, to be taken orally, once daily after meals",
+    "drugs": [
+      "Loratadine",
+      "Omeprazole"
+    ],
+    "interactions": [],
+    "has_interaction": false,
+    "prescription_format": "verbose",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 74,
+    "prescription_text": "Mephentermine 20mg BD\nAngiotensin 1-7 10mg BD",
+    "drugs": [
+      "Mephentermine",
+      "Angiotensin 1-7"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Mephentermine",
+        "drug_b": "Angiotensin 1-7",
+        "ground_truth_severity": "Severe",
+        "drugbank_description": "Mephentermine may decrease the antihypertensive activities of Angiotensin 1-7.",
+        "drugbank_id": "DB11720"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "typed",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 75,
+    "prescription_text": "Dexbrompheniramine 100mg three times daily\nRicolinostat 500mg OD",
+    "drugs": [
+      "Dexbrompheniramine",
+      "Ricolinostat"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Dexbrompheniramine",
+        "drug_b": "Ricolinostat",
+        "ground_truth_severity": "Severe",
+        "drugbank_description": "The risk or severity of QTc prolongation can be increased when Dexbrompheniramine is combined with Ricolinostat.",
+        "drugbank_id": "DB12376"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "typed",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 76,
+    "prescription_text": "Cefmetazole 50mg once daily\nDihydrostreptomycin 50mg once daily",
+    "drugs": [
+      "Cefmetazole",
+      "Dihydrostreptomycin"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Cefmetazole",
+        "drug_b": "Dihydrostreptomycin",
+        "ground_truth_severity": "VERY SEVERE",
+        "drugbank_description": "The risk or severity of nephrotoxicity can be increased when Cefmetazole is combined with Dihydrostreptomycin.",
+        "drugbank_id": "DB11512"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "typed",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 77,
+    "prescription_text": "Rx: Mitotane - 500mg tds\nRx: Abiraterone - 75mg od",
+    "drugs": [
+      "Mitotane",
+      "Abiraterone"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Mitotane",
+        "drug_b": "Abiraterone",
+        "ground_truth_severity": "Severe",
+        "drugbank_description": "The metabolism of Abiraterone can be increased when combined with Mitotane.",
+        "drugbank_id": "DB05812"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "handwritten",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 78,
+    "prescription_text": "Fremanezumab 20mg three times daily\nNivolumab 10mg TDS\nVitamin D 10mg once daily",
+    "drugs": [
+      "Fremanezumab",
+      "Nivolumab",
+      "Vitamin D"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Fremanezumab",
+        "drug_b": "Nivolumab",
+        "ground_truth_severity": "Severe",
+        "drugbank_description": "The risk or severity of adverse effects can be increased when Nivolumab is combined with Fremanezumab.",
+        "drugbank_id": "DB09035"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "ocr",
+    "complexity": "moderate"
+  },
+  {
+    "prescription_id": 79,
+    "prescription_text": "Rx: Rofecoxib - 75mg tds\nRx: Cephalothin Group - 500mg tds",
+    "drugs": [
+      "Rofecoxib",
+      "Cephalothin Group"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Rofecoxib",
+        "drug_b": "Cephalothin Group",
+        "ground_truth_severity": "VERY SEVERE",
+        "drugbank_description": "The risk or severity of nephrotoxicity can be increased when Rofecoxib is combined with Cephalothin Group.",
+        "drugbank_id": "DB03450"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "handwritten",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 80,
+    "prescription_text": "Rx: Dimethyltryptamine - 20mg bd\nRx: Mosapramine - 10mg od\nRx: Vitamin D - 75mg od",
+    "drugs": [
+      "Dimethyltryptamine",
+      "Mosapramine",
+      "Vitamin D"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Dimethyltryptamine",
+        "drug_b": "Mosapramine",
+        "ground_truth_severity": "Severe",
+        "drugbank_description": "The risk or severity of CNS depression can be increased when Dimethyltryptamine is combined with Mosapramine.",
+        "drugbank_id": "DB13676"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "handwritten",
+    "complexity": "moderate"
+  },
+  {
+    "prescription_id": 81,
+    "prescription_text": "1. Chlorthalidone 500mg BD\n2. Treprostinil 50mg TDS",
+    "drugs": [
+      "Chlorthalidone",
+      "Treprostinil"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Chlorthalidone",
+        "drug_b": "Treprostinil",
+        "ground_truth_severity": "Severe",
+        "drugbank_description": "Treprostinil may increase the hypotensive activities of Chlorthalidone.",
+        "drugbank_id": "DB00374"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "list",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 82,
+    "prescription_text": "1. Bisegliptin 75mg BD\n2. Methazolamide 100mg OD\n3. Vitamin C 10mg BD",
+    "drugs": [
+      "Bisegliptin",
+      "Methazolamide",
+      "Vitamin C"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Bisegliptin",
+        "drug_b": "Methazolamide",
+        "ground_truth_severity": "Severe",
+        "drugbank_description": "The therapeutic efficacy of Bisegliptin can be increased when used in combination with Methazolamide.",
+        "drugbank_id": "DB00703"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "list",
+    "complexity": "moderate"
+  },
+  {
+    "prescription_id": 83,
+    "prescription_text": "Rx: Isavuconazonium - 100mg bd\nRx: Niludipine - 500mg tds\nRx: Vitamin C - 100mg tds",
+    "drugs": [
+      "Isavuconazonium",
+      "Niludipine",
+      "Vitamin C"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Isavuconazonium",
+        "drug_b": "Niludipine",
+        "ground_truth_severity": "Severe",
+        "drugbank_description": "The metabolism of Niludipine can be decreased when combined with Isavuconazonium.",
+        "drugbank_id": "DB09240"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "handwritten",
+    "complexity": "moderate"
+  },
+  {
+    "prescription_id": 84,
+    "prescription_text": "Mefenamic acid 20mg TDS\nMannitol 50mg BD",
+    "drugs": [
+      "Mefenamic acid",
+      "Mannitol"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Mefenamic acid",
+        "drug_b": "Mannitol",
+        "ground_truth_severity": "VERY SEVERE",
+        "drugbank_description": "The risk or severity of nephrotoxicity can be increased when Mannitol is combined with Mefenamic acid.",
+        "drugbank_id": "DB00742"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "typed",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 85,
+    "prescription_text": "Rx: Loratadine - 500mg od\nRx: Pantoprazole - 50mg bd",
+    "drugs": [
+      "Loratadine",
+      "Pantoprazole"
+    ],
+    "interactions": [],
+    "has_interaction": false,
+    "prescription_format": "handwritten",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 86,
+    "prescription_text": "Mofebutasone 10mg twice daily\nLoracarbef 50mg TDS",
+    "drugs": [
+      "Mofebutazone",
+      "Loracarbef"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Mofebutazone",
+        "drug_b": "Loracarbef",
+        "ground_truth_severity": "VERY SEVERE",
+        "drugbank_description": "The risk or severity of nephrotoxicity can be increased when Loracarbef is combined with Mofebutazone.",
+        "drugbank_id": "DB00447"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "ocr",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 87,
+    "prescription_text": "Rx: Loratadine - 500mg od\nRx: Amoxicillin - 50mg bd",
+    "drugs": [
+      "Loratadine",
+      "Amoxicillin"
+    ],
+    "interactions": [],
+    "has_interaction": false,
+    "prescription_format": "handwritten",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 88,
+    "prescription_text": "Loratadine 500mg twice daily\nAmlodipine 50mg OD",
+    "drugs": [
+      "Loratadine",
+      "Amlodipine"
+    ],
+    "interactions": [],
+    "has_interaction": false,
+    "prescription_format": "ocr",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 89,
+    "prescription_text": "Tab. Diethyl ether 100mg, to be taken orally, twice daily before meals\nTab. Nicergoline 5mg, to be taken orally, once daily after meals\nTab. Calcium 20mg, to be taken orally, three times daily",
+    "drugs": [
+      "Diethyl ether",
+      "Nicergoline",
+      "Calcium"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Diethyl ether",
+        "drug_b": "Nicergoline",
+        "ground_truth_severity": "Severe",
+        "drugbank_description": "The risk or severity of hypertension can be increased when Nicergoline is combined with Diethyl ether.",
+        "drugbank_id": "DB00699"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "verbose",
+    "complexity": "moderate"
+  },
+  {
+    "prescription_id": 90,
+    "prescription_text": "Loratadine 500mg twice daily\nMetoprolol 50mg OD",
+    "drugs": [
+      "Loratadine",
+      "Metoprolol"
+    ],
+    "interactions": [],
+    "has_interaction": false,
+    "prescription_format": "ocr",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 91,
+    "prescription_text": "Desipramine 75mg three times daily\nOliceridine 5mg once daily",
+    "drugs": [
+      "Desipramine",
+      "Oliceridine"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Desipramine",
+        "drug_b": "Oliceridine",
+        "ground_truth_severity": "VERY SEVERE",
+        "drugbank_description": "The risk or severity of hypotension, sedation, death, somnolence, and respiratory depression can be increased when Desipramine is combined with Oliceridine.",
+        "drugbank_id": "DB14881"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "typed",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 92,
+    "prescription_text": "Defibrotide 100mg OD\nTrastuzumab emtansine 100mg OD\nVitamin D 5mg BD",
+    "drugs": [
+      "Defibrotide",
+      "Trastuzumab emtansine",
+      "Vitamin D"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Defibrotide",
+        "drug_b": "Trastuzumab emtansine",
+        "ground_truth_severity": "Severe",
+        "drugbank_description": "The risk or severity of bleeding can be increased when Defibrotide is combined with Trastuzumab emtansine.",
+        "drugbank_id": "DB05773"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "ocr",
+    "complexity": "moderate"
+  },
+  {
+    "prescription_id": 93,
+    "prescription_text": "Rx: Loratadine - 500mg od\nRx: Levothyroxine - 50mg bd",
+    "drugs": [
+      "Loratadine",
+      "Levothyroxine"
+    ],
+    "interactions": [],
+    "has_interaction": false,
+    "prescription_format": "handwritten",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 94,
+    "prescription_text": "Loratadine 500mg twice daily\nLisinopril 50mg OD",
+    "drugs": [
+      "Loratadine",
+      "Lisinopril"
+    ],
+    "interactions": [],
+    "has_interaction": false,
+    "prescription_format": "ocr",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 95,
+    "prescription_text": "Rx: Loratadine - 500mg od\nRx: Gabapentin - 50mg bd",
+    "drugs": [
+      "Loratadine",
+      "Gabapentin"
+    ],
+    "interactions": [],
+    "has_interaction": false,
+    "prescription_format": "handwritten",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 96,
+    "prescription_text": "Rx: Cefroxadine - 10mg od\nRx: Fenoprofen - 100mg bd",
+    "drugs": [
+      "Cefroxadine",
+      "Fenoprofen"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Cefroxadine",
+        "drug_b": "Fenoprofen",
+        "ground_truth_severity": "VERY SEVERE",
+        "drugbank_description": "The risk or severity of nephrotoxicity can be increased when Fenoprofen is combined with Cefroxadine.",
+        "drugbank_id": "DB00573"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "handwritten",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 97,
+    "prescription_text": "Mechlorethamine 5mg OD\nPeruvoside 75mg three times daily",
+    "drugs": [
+      "Mechlorethamine",
+      "Peruvoside"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Mechlorethamine",
+        "drug_b": "Peruvoside",
+        "ground_truth_severity": "VERY SEVERE",
+        "drugbank_description": "Peruvoside may decrease the cardiotoxic activities of Mechlorethamine.",
+        "drugbank_id": "DB13756"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "ocr",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 98,
+    "prescription_text": "Tab. Loratadine 500mg, to be taken orally, twice daily before meals\nTab. Losartan 50mg, to be taken orally, once daily after meals",
+    "drugs": [
+      "Loratadine",
+      "Losartan"
+    ],
+    "interactions": [],
+    "has_interaction": false,
+    "prescription_format": "verbose",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 99,
+    "prescription_text": "Vernakalant 500mg twice daily\nPractolol 20mg twice daily",
+    "drugs": [
+      "Vernakalant",
+      "Practolol"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Vernakalant",
+        "drug_b": "Practolol",
+        "ground_truth_severity": "Severe",
+        "drugbank_description": "Practolol may increase the arrhythmogenic activities of Vernakalant.",
+        "drugbank_id": "DB01297"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "typed",
+    "complexity": "simple"
+  },
+  {
+    "prescription_id": 100,
+    "prescription_text": "1. Estradiol acetate 10mg BD\n2. Coumarin 50mg OD",
+    "drugs": [
+      "Estradiol acetate",
+      "Coumarin"
+    ],
+    "interactions": [
+      {
+        "drug_a": "Estradiol acetate",
+        "drug_b": "Coumarin",
+        "ground_truth_severity": "Severe",
+        "drugbank_description": "Estradiol acetate may decrease the anticoagulant activities of Coumarin.",
+        "drugbank_id": "DB04665"
+      }
+    ],
+    "has_interaction": true,
+    "prescription_format": "list",
+    "complexity": "simple"
+  }
+]

@@ -1,0 +1,56 @@
+data:
+  json_path: full_database.json
+cache:
+  directory: cache/
+  embeddings_file: medicine_embeddings.safetensors
+  medicine_data_file: medicine_data.json
+  drugbank_index_file: drugbank_index.json.gz
+models:
+  custom_severity:
+    enabled: true
+    vocab_path: cache/severity_vocab.json
+    severity_gate: learned
+  ner:
+    model_name: blaze999/Medical-NER
+    fallback_model_name: d4data/biomedical-ner-all
+    device: cpu
+    confidence_threshold: 0.6
+  embeddings:
+    model_name: ibm-granite/granite-embedding-278m-multilingual
+    device: cpu
+    trust_remote_code: false
+    dtype: auto
+    batch_size: 64
+    similarity_threshold: 0.85
+entity_extraction:
+  fuzzy_matching:
+    threshold: 0.75
+uncertainty:
+  method: ensemble
+  n_iterations: 10
+  confidence_intervals:
+  - 0.95
+  - 0.99
+pipeline:
+  use_ml_ner: true
+  use_embeddings: true
+gemini:
+  enabled: true
+  severity_model: gemini-3.8-flash
+  reasoning_model: gemini-3.8-flash
+  severity_temperature: 0.0
+  severity_top_p: 0.9
+  reasoning_temperature: 0.2
+  reasoning_top_p: 0.9
+  severity_thinking_level: low
+  reasoning_thinking_level: medium
+  # Layman-rewrite call per pair; disable to run severity-only (cheaper).
+  reasoning_enabled: false
+  min_request_interval_seconds: 2.0
+  max_retries: 3
+  backoff_base_seconds: 1.5
+  backoff_max_seconds: 30.0
+  # Per-1M-token list pricing (USD); update when the model changes.
+  pricing_input_per_1m_usd: 1.5
+  pricing_output_per_1m_usd: 7.5
+  tuning_config_path: ''

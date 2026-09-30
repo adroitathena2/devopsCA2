@@ -1,0 +1,18 @@
+{
+  "split": "brand",
+  "n": 233,
+  "drug_match_rate": 0.9941,
+  "drug_matched": 507,
+  "drug_total": 510,
+  "binary_f1": 0.9975,
+  "auc_roc": 0.9746,
+  "sensitivity_recall": 1.0,
+  "specificity_tnr": 0.9706,
+  "accuracy_4class": 0.9313,
+  "macro_f1_4class": 0.9514,
+  "severe_recall": 0.8462,
+  "severe_precision": 0.9167,
+  "severe_f1": 0.88,
+  "severe_support": 65,
+  "avg_latency_s": 0.3478
+}

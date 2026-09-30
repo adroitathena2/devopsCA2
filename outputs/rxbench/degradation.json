@@ -1,0 +1,182 @@
+[
+  {
+    "split": "clean",
+    "metric": "drug_match_rate",
+    "value": 0.9941,
+    "delta_vs_clean": 0.0
+  },
+  {
+    "split": "clean",
+    "metric": "binary_f1",
+    "value": 0.9975,
+    "delta_vs_clean": 0.0
+  },
+  {
+    "split": "clean",
+    "metric": "severe_recall",
+    "value": 0.8462,
+    "delta_vs_clean": 0.0
+  },
+  {
+    "split": "clean",
+    "metric": "auc_roc",
+    "value": 0.9746,
+    "delta_vs_clean": 0.0
+  },
+  {
+    "split": "clean",
+    "metric": "accuracy_4class",
+    "value": 0.9313,
+    "delta_vs_clean": 0.0
+  },
+  {
+    "split": "clean",
+    "metric": "macro_f1_4class",
+    "value": 0.9514,
+    "delta_vs_clean": 0.0
+  },
+  {
+    "split": "brand",
+    "metric": "drug_match_rate",
+    "value": 0.9941,
+    "delta_vs_clean": 0.0
+  },
+  {
+    "split": "brand",
+    "metric": "binary_f1",
+    "value": 0.9975,
+    "delta_vs_clean": 0.0
+  },
+  {
+    "split": "brand",
+    "metric": "severe_recall",
+    "value": 0.8462,
+    "delta_vs_clean": 0.0
+  },
+  {
+    "split": "brand",
+    "metric": "auc_roc",
+    "value": 0.9746,
+    "delta_vs_clean": 0.0
+  },
+  {
+    "split": "brand",
+    "metric": "accuracy_4class",
+    "value": 0.9313,
+    "delta_vs_clean": 0.0
+  },
+  {
+    "split": "brand",
+    "metric": "macro_f1_4class",
+    "value": 0.9514,
+    "delta_vs_clean": 0.0
+  },
+  {
+    "split": "L1",
+    "metric": "drug_match_rate",
+    "value": 0.7706,
+    "delta_vs_clean": -0.2235
+  },
+  {
+    "split": "L1",
+    "metric": "binary_f1",
+    "value": 0.7382,
+    "delta_vs_clean": -0.2593
+  },
+  {
+    "split": "L1",
+    "metric": "severe_recall",
+    "value": 0.3077,
+    "delta_vs_clean": -0.5385
+  },
+  {
+    "split": "L1",
+    "metric": "auc_roc",
+    "value": 0.7674,
+    "delta_vs_clean": -0.2072
+  },
+  {
+    "split": "L1",
+    "metric": "accuracy_4class",
+    "value": 0.5966,
+    "delta_vs_clean": -0.3347
+  },
+  {
+    "split": "L1",
+    "metric": "macro_f1_4class",
+    "value": 0.5769,
+    "delta_vs_clean": -0.3745
+  },
+  {
+    "split": "L2",
+    "metric": "drug_match_rate",
+    "value": 0.9627,
+    "delta_vs_clean": -0.0314
+  },
+  {
+    "split": "L2",
+    "metric": "binary_f1",
+    "value": 0.995,
+    "delta_vs_clean": -0.0025
+  },
+  {
+    "split": "L2",
+    "metric": "severe_recall",
+    "value": 0.8462,
+    "delta_vs_clean": 0.0
+  },
+  {
+    "split": "L2",
+    "metric": "auc_roc",
+    "value": 0.9717,
+    "delta_vs_clean": -0.0029
+  },
+  {
+    "split": "L2",
+    "metric": "accuracy_4class",
+    "value": 0.927,
+    "delta_vs_clean": -0.0043
+  },
+  {
+    "split": "L2",
+    "metric": "macro_f1_4class",
+    "value": 0.9466,
+    "delta_vs_clean": -0.0048
+  },
+  {
+    "split": "L3",
+    "metric": "drug_match_rate",
+    "value": 0.9941,
+    "delta_vs_clean": 0.0
+  },
+  {
+    "split": "L3",
+    "metric": "binary_f1",
+    "value": 0.9975,
+    "delta_vs_clean": 0.0
+  },
+  {
+    "split": "L3",
+    "metric": "severe_recall",
+    "value": 0.8462,
+    "delta_vs_clean": 0.0
+  },
+  {
+    "split": "L3",
+    "metric": "auc_roc",
+    "value": 0.9746,
+    "delta_vs_clean": 0.0
+  },
+  {
+    "split": "L3",
+    "metric": "accuracy_4class",
+    "value": 0.9313,
+    "delta_vs_clean": 0.0
+  },
+  {
+    "split": "L3",
+    "metric": "macro_f1_4class",
+    "value": 0.9514,
+    "delta_vs_clean": 0.0
+  }
+]

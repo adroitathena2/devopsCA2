@@ -1,0 +1,36 @@
+{
+ "git_sha": "f674da0",
+ "artifacts": {
+  "cache/ensemble_FastClinicalCNN.pt": "09ed095e78ad6242",
+  "cache/ensemble_TinyClinicalFormer.pt": "445342181ebebe86",
+  "cache/ensemble_stacker.pkl": "2db9e8bf4909fe6f",
+  "cache/ensemble_temps.json": "68d821cf5ac8e51f",
+  "cache/severity_vocab.json": "dafd4577fbcfade8"
+ },
+ "train_dist": {
+  "1": 1345,
+  "2": 225,
+  "0": 30
+ },
+ "val_dist": {
+  "0": 6,
+  "2": 53,
+  "1": 341
+ },
+ "codebook": "severity_audit/ (physician rulings: QTc/bleed/methemoglobinemia/blockade/thrombosis/organ Severe; no-consequence PK Mild)",
+ "ensemble": "FastClinicalCNN_s080 + TinyClinicalFormer_s085 (top-5 shootout winners); LogReg C=0.1 stacker; temps 1.5 evidence-backed",
+ "production": {
+  "severity_gate": "learned",
+  "gate_artifact": "outputs/learned_gate/gate.pkl",
+  "gate_sha": "452256617368"
+ },
+ "test_eval": {
+  "acc": 0.9356,
+  "macro_f1": 0.9549,
+  "severe_f1": 0.8906,
+  "mild_f1": 1.0,
+  "mod_f1": 0.9446,
+  "binary_f1": 0.9975,
+  "auc": 0.9746
+ }
+}

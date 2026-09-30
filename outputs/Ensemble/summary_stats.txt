@@ -1,0 +1,36 @@
+Mode: ensemble
+Samples: 233
+
+Required Metrics
+------------------------------------------------------------
+AUC-ROC: 0.9746
+Sensitivity (Recall): 1.0000
+Specificity (TNR): 0.9706
+F1-Score (binary): 0.9975
+Accuracy (4-class): 0.9356
+Macro F1 (4-class): 0.9549
+Weighted F1 (4-class): 0.9355
+F1 No Interaction: 0.9841
+F1 Mild: 1.0000
+F1 Moderate: 0.9446
+F1 Severe: 0.8906
+Drug Name Match Rate: 0.9941 (507/510)
+Pair-Level (strict name match)
+  detection P/R/F1: 0.9600 / 0.9877 / 0.9736 (tp=240 fp=10 fn=3)
+  severity exact on matched: 0.9333
+Bootstrap 95% CIs (paired rows, 2000 resamples)
+  accuracy: 0.9355 [0.9013, 0.9657]
+  macro_f1: 0.9523 [0.9225, 0.9745]
+  binary_f1: 0.9975 [0.9922, 1.0000]
+Decontamination (verbatim description overlap)
+  test pairs: 243, in train: 0, in val: 0
+Net Benefit
+  threshold=0.1: 0.8526
+  threshold=0.2: 0.8509
+  threshold=0.3: 0.8486
+  threshold=0.4: 0.8455
+  threshold=0.5: 0.8498
+  threshold=0.6: 0.8476
+  threshold=0.7: 0.8398
+  threshold=0.8: 0.8326
+  threshold=0.9: 0.8112

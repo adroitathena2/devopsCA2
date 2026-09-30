@@ -1,0 +1,38 @@
+[
+  {
+    "gate": "learned",
+    "split": "L1",
+    "n": 233,
+    "drug_match_rate": 0.7706,
+    "binary_f1": 0.7382,
+    "auc_roc": 0.7674,
+    "accuracy_4class": 0.6009,
+    "macro_f1_4class": 0.5821,
+    "severe_recall": 0.3231,
+    "severe_f1": 0.4773
+  },
+  {
+    "gate": "learned",
+    "split": "L2",
+    "n": 233,
+    "drug_match_rate": 0.9627,
+    "binary_f1": 0.995,
+    "auc_roc": 0.9717,
+    "accuracy_4class": 0.9313,
+    "macro_f1_4class": 0.95,
+    "severe_recall": 0.8769,
+    "severe_f1": 0.8906
+  },
+  {
+    "gate": "learned",
+    "split": "L3",
+    "n": 233,
+    "drug_match_rate": 0.9941,
+    "binary_f1": 0.9975,
+    "auc_roc": 0.9746,
+    "accuracy_4class": 0.9356,
+    "macro_f1_4class": 0.9549,
+    "severe_recall": 0.8769,
+    "severe_f1": 0.8906
+  }
+]

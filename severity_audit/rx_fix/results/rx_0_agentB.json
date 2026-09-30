@@ -1,0 +1,699 @@
+[
+ {
+  "prescription_id": 2,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 3,
+  "severities": []
+ },
+ {
+  "prescription_id": 4,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 5,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 7,
+  "severities": [
+   "Severe"
+  ]
+ },
+ {
+  "prescription_id": 10,
+  "severities": []
+ },
+ {
+  "prescription_id": 12,
+  "severities": [
+   "Severe"
+  ]
+ },
+ {
+  "prescription_id": 13,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 14,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 17,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 19,
+  "severities": [
+   "Severe"
+  ]
+ },
+ {
+  "prescription_id": 24,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 26,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 27,
+  "severities": [
+   "Severe"
+  ]
+ },
+ {
+  "prescription_id": 28,
+  "severities": [
+   "Severe"
+  ]
+ },
+ {
+  "prescription_id": 30,
+  "severities": [
+   "Severe"
+  ]
+ },
+ {
+  "prescription_id": 31,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 32,
+  "severities": [
+   "Severe"
+  ]
+ },
+ {
+  "prescription_id": 33,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 34,
+  "severities": []
+ },
+ {
+  "prescription_id": 36,
+  "severities": [
+   "Severe"
+  ]
+ },
+ {
+  "prescription_id": 39,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 40,
+  "severities": [
+   "Severe"
+  ]
+ },
+ {
+  "prescription_id": 42,
+  "severities": []
+ },
+ {
+  "prescription_id": 43,
+  "severities": []
+ },
+ {
+  "prescription_id": 44,
+  "severities": [
+   "Severe"
+  ]
+ },
+ {
+  "prescription_id": 45,
+  "severities": [
+   "Severe"
+  ]
+ },
+ {
+  "prescription_id": 49,
+  "severities": [
+   "Severe"
+  ]
+ },
+ {
+  "prescription_id": 52,
+  "severities": [
+   "Severe"
+  ]
+ },
+ {
+  "prescription_id": 53,
+  "severities": [
+   "Severe"
+  ]
+ },
+ {
+  "prescription_id": 60,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 61,
+  "severities": [
+   "Severe"
+  ]
+ },
+ {
+  "prescription_id": 62,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 66,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 68,
+  "severities": []
+ },
+ {
+  "prescription_id": 69,
+  "severities": [
+   "Severe"
+  ]
+ },
+ {
+  "prescription_id": 70,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 72,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 76,
+  "severities": [
+   "Severe"
+  ]
+ },
+ {
+  "prescription_id": 77,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 81,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 84,
+  "severities": [
+   "Severe"
+  ]
+ },
+ {
+  "prescription_id": 86,
+  "severities": [
+   "Severe"
+  ]
+ },
+ {
+  "prescription_id": 91,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 96,
+  "severities": [
+   "Severe"
+  ]
+ },
+ {
+  "prescription_id": 101,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 102,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 103,
+  "severities": []
+ },
+ {
+  "prescription_id": 104,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 105,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 106,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 107,
+  "severities": [
+   "Moderate",
+   "Severe"
+  ]
+ },
+ {
+  "prescription_id": 108,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 109,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 110,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 111,
+  "severities": [
+   "Moderate",
+   "Moderate",
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 112,
+  "severities": []
+ },
+ {
+  "prescription_id": 113,
+  "severities": [
+   "Moderate",
+   "Moderate",
+   "Moderate",
+   "Moderate",
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 114,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 115,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 116,
+  "severities": [
+   "Severe"
+  ]
+ },
+ {
+  "prescription_id": 117,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 118,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 119,
+  "severities": [
+   "Moderate",
+   "Moderate",
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 120,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 121,
+  "severities": [
+   "Severe"
+  ]
+ },
+ {
+  "prescription_id": 122,
+  "severities": []
+ },
+ {
+  "prescription_id": 123,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 124,
+  "severities": []
+ },
+ {
+  "prescription_id": 125,
+  "severities": [
+   "Moderate",
+   "Severe"
+  ]
+ },
+ {
+  "prescription_id": 126,
+  "severities": [
+   "Severe"
+  ]
+ },
+ {
+  "prescription_id": 127,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 128,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 129,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 130,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 131,
+  "severities": [
+   "Severe"
+  ]
+ },
+ {
+  "prescription_id": 132,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 133,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 134,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 135,
+  "severities": [
+   "Moderate",
+   "Moderate",
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 136,
+  "severities": []
+ },
+ {
+  "prescription_id": 137,
+  "severities": [
+   "Moderate",
+   "Moderate",
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 138,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 139,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 140,
+  "severities": []
+ },
+ {
+  "prescription_id": 141,
+  "severities": [
+   "Moderate",
+   "Moderate",
+   "Moderate",
+   "Severe"
+  ]
+ },
+ {
+  "prescription_id": 142,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 143,
+  "severities": [
+   "Moderate",
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 144,
+  "severities": [
+   "Severe"
+  ]
+ },
+ {
+  "prescription_id": 145,
+  "severities": []
+ },
+ {
+  "prescription_id": 146,
+  "severities": []
+ },
+ {
+  "prescription_id": 147,
+  "severities": [
+   "Severe"
+  ]
+ },
+ {
+  "prescription_id": 148,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 149,
+  "severities": [
+   "Moderate",
+   "Moderate",
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 150,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 201,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 202,
+  "severities": [
+   "Severe"
+  ]
+ },
+ {
+  "prescription_id": 203,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 204,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 206,
+  "severities": [
+   "Severe"
+  ]
+ },
+ {
+  "prescription_id": 207,
+  "severities": [
+   "Moderate",
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 208,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 209,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 210,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 212,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 213,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 214,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 215,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 218,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 219,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 220,
+  "severities": [
+   "Moderate",
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 221,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 223,
+  "severities": [
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 224,
+  "severities": [
+   "Moderate",
+   "Moderate"
+  ]
+ },
+ {
+  "prescription_id": 225,
+  "severities": [
+   "Severe"
+  ]
+ },
+ {
+  "prescription_id": 226,
+  "severities": [
+   "Severe"
+  ]
+ },
+ {
+  "prescription_id": 228,
+  "severities": [
+   "Moderate"
+  ]
+ }
+]

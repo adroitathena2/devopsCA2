@@ -1,0 +1,32 @@
+Mode: keyword
+Samples: 233
+
+Required Metrics
+------------------------------------------------------------
+AUC-ROC: 0.9712
+Sensitivity (Recall): 1.0000
+Specificity (TNR): 0.9118
+F1-Score (binary): 0.9925
+Accuracy (4-class): 0.9013
+Macro F1 (4-class): 0.6872
+Weighted F1 (4-class): 0.8981
+F1 No Interaction: 0.9841
+F1 Mild: 0.0000
+F1 Moderate: 0.9139
+F1 Severe: 0.8507
+Drug Name Match Rate: 0.9941 (507/510)
+Net Benefit
+  threshold=0.1: 0.8526
+  threshold=0.2: 0.8509
+  threshold=0.3: 0.8486
+  threshold=0.4: 0.8455
+  threshold=0.5: 0.8412
+  threshold=0.6: 0.8348
+  threshold=0.7: 0.8240
+  threshold=0.8: 0.2961
+  threshold=0.9: 0.2961
+
+Gemini API Usage
+  calls: 250 (errors: 0)
+  tokens: 111144 in / 237 out / 34134 thinking
+  est. cost: $0.4245

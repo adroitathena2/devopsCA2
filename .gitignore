@@ -1,0 +1,71 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Temporary & Cache Directories
+cache/
+chunks/
+extracted/
+outputs/tuning_results/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Generated comparison/eval logs
+test_log_*.txt
+build_log_*.txt
+run_embedding_comparison*.log
+new_eval_*.txt
+
+# Search/model binaries (large, regenerable via tune_severity_search.py)
+outputs/severity_search/*.pt
+outputs/severity_search/oof_*.npz
+outputs/severity_search/top5_*.pt
+
+# Eval resume checkpoints (runtime state, regenerable)
+outputs/*/eval_checkpoint.json
+outputs/*/eval_checkpoint.json.tmp
+outputs/**/eval_checkpoint.json
+outputs/**/eval_checkpoint.json.tmp
+
+# IDEs
+.idea/
+.vscode/
+.claude/
+*.swp
+*.swo
+
+# Datasets
+*.rar
+*.zip
+India Medicines and Drug Info Dataset.csv
+data/raw/

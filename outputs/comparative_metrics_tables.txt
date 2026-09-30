@@ -1,0 +1,35 @@
+================================================================================
+                    DDI SEVERITY CLASSIFICATION: COMPARATIVE METRICS
+================================================================================
+
+TABLE 1: Core Predictive Performance (Validation Set, N=400)
+-----------------------------------------------------------------
+Model Architecture             | Accuracy (%)    | Macro F1 (%)
+-----------------------------------------------------------------
+MedSeverityNet                 | 77.00           | 73.24
+FastClinicalCNN                | 93.75           | 93.95
+TinyClinicalFormer             | 94.00           | 94.23
+Naive Weighted Ensemble        | 94.25           | 94.42
+XGBoost Stacker                | 94.50           | 94.90
+Logistic Regression Stacker    | 94.50           | 94.71
+-----------------------------------------------------------------
+
+TABLE 2: Computational Efficiency & Inference Latency
+--------------------------------------------------------------------------------
+Model Architecture             | Latency (ms/req)   | Parameters (Millions)
+--------------------------------------------------------------------------------
+MedSeverityNet                 | 4.30   (Baseline)  | 4.40                
+FastClinicalCNN                | 2.48   (1.7x speed) | 2.07                
+TinyClinicalFormer             | 3.79   (1.1x speed) | 2.94                
+Stacked Ensemble (All 3)       | 10.57              | 9.41
+--------------------------------------------------------------------------------
+
+TABLE 3: Architectural Trade-offs
+--------------------------------------------------------------------------------
+Model                | Strengths                 | Weaknesses               
+--------------------------------------------------------------------------------
+MedSeverityNet       | Captures complex context  | Slowest execution (RNN)  
+FastClinicalCNN      | Fastest, great at n-grams | Poor long-range context  
+TinyClinicalFormer   | Modern self-attention     | Needs pre-training data  
+LogReg Stacker       | Meta-learns optimal trust | Requires full ensemble run
+--------------------------------------------------------------------------------

@@ -1,0 +1,14 @@
+{
+  "gate": "learned",
+  "n": 233,
+  "accuracy": 0.9356,
+  "macro_f1": 0.9549,
+  "binary_f1": 0.9975,
+  "auc_roc": 0.9746,
+  "sens_recall": 1.0,
+  "mild_f1": 1.0,
+  "mod_f1": 0.9446,
+  "severe_f1": 0.8906,
+  "severe_recall": 0.8769,
+  "severe_precision": 0.9048
+}

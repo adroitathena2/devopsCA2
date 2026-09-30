@@ -1,0 +1,179 @@
+[
+ {
+  "prescription_id": 96,
+  "prescription_text": "Rx: Cefroxadine - 10mg od\nRx: Fenoprofen - 100mg bd",
+  "drugs": [
+   "Cefroxadine",
+   "Fenoprofen"
+  ],
+  "interactions": [
+   {
+    "drug_a": "Cefroxadine",
+    "drug_b": "Fenoprofen",
+    "ground_truth_severity": "Severe",
+    "drugbank_description": "The risk or severity of nephrotoxicity can be increased when Fenoprofen is combined with Cefroxadine.",
+    "drugbank_id": "DB00573"
+   }
+  ],
+  "has_interaction": true,
+  "prescription_format": "handwritten",
+  "complexity": "simple"
+ },
+ {
+  "prescription_id": 226,
+  "prescription_text": "Levofloxacin200mg three times daily\nAmiodarone OD",
+  "drugs": [
+   "Levofloxacin",
+   "Amiodarone"
+  ],
+  "interactions": [
+   {
+    "drug_a": "Amiodarone",
+    "drug_b": "Levofloxacin",
+    "ground_truth_severity": "Severe",
+    "drugbank_description": "The risk or severity of QTc prolongation can be increased when Levofloxacin is combined with Amiodarone.",
+    "drugbank_id": "DB01137"
+   }
+  ],
+  "has_interaction": true,
+  "prescription_format": "ocr",
+  "complexity": "simple"
+ },
+ {
+  "prescription_id": 28,
+  "prescription_text": "Tenofovir 75mg three times daily\nZaltoprofen 500mg TDS",
+  "drugs": [
+   "Tenofovir",
+   "Zaltoprofen"
+  ],
+  "interactions": [
+   {
+    "drug_a": "Tenofovir",
+    "drug_b": "Zaltoprofen",
+    "ground_truth_severity": "Severe",
+    "drugbank_description": "Zaltoprofen may increase the nephrotoxic activities of Tenofovir.",
+    "drugbank_id": "DB06737"
+   }
+  ],
+  "has_interaction": true,
+  "prescription_format": "ocr",
+  "complexity": "simple"
+ },
+ {
+  "prescription_id": 322,
+  "prescription_text": "1. Morphine 10mg BD\n2. Lorazepam 1mg TDS",
+  "drugs": [
+   "Morphine",
+   "Lorazepam"
+  ],
+  "interactions": [
+   {
+    "drug_a": "Lorazepam",
+    "drug_b": "Morphine",
+    "ground_truth_severity": "Moderate",
+    "drugbank_description": "The risk or severity of adverse effects can be increased when Morphine is combined with Lorazepam.",
+    "drugbank_id": "DB00295"
+   }
+  ],
+  "has_interaction": true,
+  "prescription_format": "list",
+  "complexity": "simple"
+ },
+ {
+  "prescription_id": 39,
+  "prescription_text": "Tab. Efonidipine 500mg, to be taken orally, once daily after meals\nTab. Pidotimod 5mg, to be taken orally, three times daily",
+  "drugs": [
+   "Efonidipine",
+   "Pidotimod"
+  ],
+  "interactions": [
+   {
+    "drug_a": "Efonidipine",
+    "drug_b": "Pidotimod",
+    "ground_truth_severity": "Moderate",
+    "drugbank_description": "Efonidipine may increase the excretion rate of Pidotimod which could result in a lower serum level and potentially a reduction in efficacy.",
+    "drugbank_id": "DB11364"
+   }
+  ],
+  "has_interaction": true,
+  "prescription_format": "verbose",
+  "complexity": "simple"
+ },
+ {
+  "prescription_id": 42,
+  "prescription_text": "Tab. Omeprazole 20mg, to be taken orally, once daily before meals\nTab. Cetirizine 10mg, to be taken orally, once daily after meals",
+  "drugs": [
+   "Omeprazole",
+   "Cetirizine"
+  ],
+  "interactions": [],
+  "has_interaction": false,
+  "prescription_format": "verbose",
+  "complexity": "simple"
+ },
+ {
+  "complexity": "simple",
+  "drugs": [
+   "Metformin",
+   "Sitagliptin"
+  ],
+  "has_interaction": false,
+  "interactions": [],
+  "prescription_format": "list",
+  "prescription_id": 103,
+  "prescription_text": "1. Metformin 500mg BD\n2. Sitagliptin 100mg OD"
+ },
+ {
+  "prescription_id": 202,
+  "prescription_text": "1. Isoniazid 100mg BD\n2. Acetaminophen 10mg TDS\n3. Zinc 500mg QID",
+  "drugs": [
+   "Isoniazid",
+   "Acetaminophen",
+   "Zinc"
+  ],
+  "interactions": [
+   {
+    "drug_a": "Acetaminophen",
+    "drug_b": "Isoniazid",
+    "ground_truth_severity": "Severe",
+    "drugbank_description": "Isoniazid may increase the hepatotoxic activities of Acetaminophen.",
+    "drugbank_id": "DB00951"
+   }
+  ],
+  "has_interaction": true,
+  "prescription_format": "list",
+  "complexity": "moderate"
+ },
+ {
+  "prescription_id": 407,
+  "prescription_text": "Tab. Azithral 500mg, to be taken orally, once daily for three days\nTab. Ondem 4mg, to be taken orally, twice daily before meals",
+  "drugs": [
+   "Azithral",
+   "Ondem"
+  ],
+  "interactions": [
+   {
+    "drug_a": "Azithromycin",
+    "drug_b": "Ondansetron",
+    "ground_truth_severity": "Severe",
+    "drugbank_description": "The risk or severity of QTc prolongation can be increased when Azithromycin is combined with Ondansetron.",
+    "drugbank_id": "DB00904"
+   }
+  ],
+  "has_interaction": true,
+  "prescription_format": "verbose",
+  "complexity": "simple"
+ },
+ {
+  "prescription_id": 406,
+  "prescription_text": "Thyronorm 75mcg OD\nDexorange 10ml BD",
+  "drugs": [
+   "Thyronorm",
+   "Dexorange"
+  ],
+  "interactions": [],
+  "has_interaction": false,
+  "prescription_format": "typed",
+  "complexity": "simple"
+ }
+]
