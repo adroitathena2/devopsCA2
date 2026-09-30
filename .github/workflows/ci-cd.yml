@@ -13,7 +13,6 @@ on:
 
 env:
   REGISTRY: docker.io
-  IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/clinical-copilot
 
 jobs:
   test:
@@ -40,6 +39,9 @@ jobs:
     needs: test
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
+    env:
+      # Falls back to local/ prefix when the secret is absent so build-only runs still tag validly.
+      IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME != '' && secrets.DOCKERHUB_USERNAME || 'local' }}/clinical-copilot
     steps:
       - uses: actions/checkout@v4
       - name: Check Docker Hub secrets present
@@ -79,6 +81,8 @@ jobs:
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     environment: staging
+    env:
+      IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/clinical-copilot
     steps:
       - uses: actions/checkout@v4
       - name: Check kubeconfig secret present
