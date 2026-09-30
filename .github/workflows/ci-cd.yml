@@ -26,7 +26,7 @@ jobs:
           python-version: "3.11"
       - name: Install service deps
         run: |
-          pip install -r requirements-service.txt
+          pip install -r requirements-service.txt pyyaml
       - name: Run pytest (service contract tests only; ML tests need GPU + DrugBank cache)
         run: |
           pytest test_service.py -v
