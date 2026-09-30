@@ -30,11 +30,10 @@ jobs:
       - name: Run pytest (service contract tests only; ML tests need GPU + DrugBank cache)
         run: |
           pytest test_service.py -v
-      - name: Validate K8s manifests
+      - name: Validate K8s manifests (no cluster needed)
         run: |
           kubectl version --client
-          kubectl apply --dry-run=client --validate=false -f k8s/deployment.yaml -f k8s/service.yaml
-          python -c "import yaml; [yaml.safe_load(open(f)) for f in ['k8s/deployment.yaml','k8s/service.yaml','monitoring/servicemonitor.yaml']]; print('YAML OK')"
+          python devops/validate_manifests.py
 
   build-and-push:
     name: Build & push Docker image
